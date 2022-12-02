@@ -1,0 +1,15 @@
+## inputtest1 points
+## manually calculated for testing
+
+A Y - rock vs paper - win = 6 + 2 = 8
+A Z - rock vs scis - loss = 0 + 3 = 3
+A X - rock vs rock - draw = 3 + 1 = 4
+B X - paper vs rock - loss = 0 + 1 = 1
+A Y - rock vs paper - win = 6 + 2 = 8
+B Y - paper vs paper - draw = 3 + 2 = 5
+B Y - paper vs paper - draw = 3 + 2 = 5
+A X - rock vs rock - draw = 3 + 1 = 4
+A Z - rock vs scis - loss = 0 + 3 = 3
+A X - rock vs rock - draw = 3 + 1 = 4
+
+= 45
