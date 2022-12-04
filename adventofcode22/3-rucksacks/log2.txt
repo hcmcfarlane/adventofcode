@@ -1,12 +1,13 @@
-[
-  [
-    'vJrwpWtwJgWrhcsFMMfFFhFp',
-    'jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL',
-    'PmmdzqPrVvPwwTWBwg'
-  ],
-  [
-    'wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn',
-    'ttgJtRGJQctTZtZT',
-    'CrZsJsPPZsGzwwsLwLmpwMDw'
-  ]
+***This is a test version***
+priority for rucksacks [
+   4, 48, 33, 16, 10, 32, 28,  2,  4, 40, 30,  6,
+  18, 12, 52,  3, 22,  8, 40, 40, 44, 26,  7,  8,
+  13, 16, 20, 34, 22, 13, 20, 13, 30, 14, 43, 39,
+  45, 49, 29, 40, 12, 18, 45, 23, 28,  6, 20, 28,
+  26, 17, 13, 34, 33, 23, 33,  4, 22, 10, 36,  3,
+  39, 49, 19,  4, 38, 14,  2, 30, 13, 49, 52, 30,
+  43,  4, 49, 12, 49, 49, 52, 48, 40, 12, 39, 20,
+  20, 38, 26, 40, 52, 18, 52, 32, 17, 22,  3, 39,
+   6, 36,  2, 19
 ]
+The sum of badge priorities is:  2585

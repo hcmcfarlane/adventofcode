@@ -2,7 +2,7 @@
 
 import fs from "node:fs";
 
-// console.log("***This is the test version***");
+// console.log("***This is a test version***");
 
 /**
     Format the input file into an array of arrays of three strings
@@ -68,6 +68,7 @@ function findDupesByGroup(groupOfRucksacks) {
 
 function calculatePriorities() {
     let prioritiesArray = [];
+    // const reducedRucksacks = rucksacks.slice(0, 3);
     rucksacks.forEach((group) => {
         let badge = findDupesByGroup(group);
         // console.log("badge", badge);
@@ -84,7 +85,7 @@ function calculatePriorities() {
 
 // get array of priorities
 let arrOfPriorities = calculatePriorities()
-// console.log("priority for rucksacks", arrOfPriorities)
+console.log("priority for rucksacks", arrOfPriorities)
 
 //sum the array of priorities
 console.log("The sum of badge priorities is: ", arrOfPriorities.reduce((a,b) => a+b, 0))
