@@ -1,6 +1,6 @@
 import fs from "node:fs";
 
-console.log("***This is the test version***");
+// console.log("***This is the test version***");
 
 /**
     Format the input file into an array of strings
@@ -26,7 +26,7 @@ function formatAlphabet() {
     return alphaArr
 }
 formatAlphabet();
-console.log("alphaArr", alphaArr)
+// console.log("alphaArr", alphaArr)
 
 
 /**
@@ -43,7 +43,7 @@ function findDupes(rucksack) {
         duplicateItems.includes(j) ? duplicateItems : comp1.includes(j) ? duplicateItems.push(j) : duplicateItems
     });
 
-    console.log("duplicateItems", duplicateItems)
+    // console.log("duplicateItems", duplicateItems)
     return duplicateItems
 }
 
@@ -57,18 +57,27 @@ function findPriority(letter) {
 }
 
 const rucksacks = formatInput(input)
-console.log("rucksacks", rucksacks);
+// console.log("rucksacks", rucksacks);
 
 let sumOfPrioritiesArr = [];
 let dupes = [];
-rucksacks.forEach(rucksack => {
-    dupes = findDupes(rucksack);
-    sumOfPrioritiesArr.push(dupes.forEach((d) => {
-        findPriority(d);
-    }))
-})
 
-console.log("sum", sumOfPrioritiesArr)
+function sumPriorities() {
+    // for each rucksack in 'rucksacks'
+    // - find the duplicate items as an array
+    // - find the priority for each item
+    // - return the sum of the priorities
 
+    rucksacks.forEach(rucksack => {
+        dupes.push(...findDupes(rucksack));
+    })
+    dupes.forEach((d) => {
+        sumOfPrioritiesArr.push(findPriority(d));
+    })
 
+    console.log("sum array", sumOfPrioritiesArr)
+return sumOfPrioritiesArr.reduce((a, b) => a + b, 0)
+}
+
+console.log("sum of array:", sumPriorities())
 
