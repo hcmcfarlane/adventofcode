@@ -18,7 +18,7 @@
 
 import fs from "node:fs";
 
-const input = fs.readFileSync("inputtest.txt", "utf8", (err, data) => {
+const input = fs.readFileSync("input.txt", "utf8", (err, data) => {
     if (err) throw err;
   });
 function formatInput(string) {

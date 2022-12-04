@@ -1,2 +1,2 @@
-count (number of fully contained pairs): 4
-count (number of any overlap pairs): 6
+count (number of fully contained pairs): 464
+count (number of any overlap pairs): 770
