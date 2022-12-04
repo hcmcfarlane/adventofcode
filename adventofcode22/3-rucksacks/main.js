@@ -8,7 +8,7 @@ import fs from "node:fs";
     Format the input file into an array of strings
 **/
 // const input = fs.readFileSync("inputtest.txt", "utf8", (err, data) => {
-  const input = fs.readFileSync("input.txt", "utf8", (err, data) => {
+const input = fs.readFileSync("input.txt", "utf8", (err, data) => {
   if (err) throw err;
 });
 function formatInput(string) {
