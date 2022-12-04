@@ -61,15 +61,14 @@ console.log("rucksacks", rucksacks);
 
 let sumOfPrioritiesArr = [];
 let dupes = [];
-// rucksacks.forEach(rucksack => {
-//     dupes = findDupes(rucksack);
-//     sumOfPrioritiesArr.push(dupes.forEach((d) => {
-//         findPriority(d);
-//     }))
-// })
+rucksacks.forEach(rucksack => {
+    dupes = findDupes(rucksack);
+    sumOfPrioritiesArr.push(dupes.forEach((d) => {
+        findPriority(d);
+    }))
+})
 
 console.log("sum", sumOfPrioritiesArr)
 
-console.log("find priority output", findPriority("p"))
 
 
