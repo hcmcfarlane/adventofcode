@@ -1,3 +1,5 @@
+//run as node.exe main.js > log.txt to see full log
+
 import fs from "node:fs";
 
 // console.log("***This is the test version***");
@@ -6,7 +8,7 @@ import fs from "node:fs";
     Format the input file into an array of strings
 **/
 // const input = fs.readFileSync("inputtest.txt", "utf8", (err, data) => {
-  const str = fs.readFileSync("input.txt", "utf8", (err, data) => {
+  const input = fs.readFileSync("input.txt", "utf8", (err, data) => {
   if (err) throw err;
 });
 function formatInput(string) {
@@ -75,9 +77,9 @@ function sumPriorities() {
         sumOfPrioritiesArr.push(findPriority(d));
     })
 
-    console.log("sum array", sumOfPrioritiesArr)
+    console.log("array of priorities:")
+    console.dir(sumOfPrioritiesArr, { maxArrayLength: null })
 return sumOfPrioritiesArr.reduce((a, b) => a + b, 0)
 }
 
 console.log("sum of array:", sumPriorities())
-
