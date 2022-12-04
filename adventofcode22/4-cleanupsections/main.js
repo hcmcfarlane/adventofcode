@@ -18,7 +18,7 @@
 
 import fs from "node:fs";
 
-const input = fs.readFileSync("input.txt", "utf8", (err, data) => {
+const input = fs.readFileSync("inputtest.txt", "utf8", (err, data) => {
     if (err) throw err;
   });
 function formatInput(string) {
@@ -47,8 +47,19 @@ function findFullyContained (set) {
     return returnVal;
 }
 
+// function findAnyOverlap(set) {
+//     // [a, b, c, d]
+//     // if c <= b && d >= b then there is an overlap
+//     let isOverlap = true;
+//     set[2] <= set[1] && set[3] >= set[1] ? isOverlap : isOverlap = false;
+//     return isOverlap
+// }
+
 let count = 0;
-let shortList = list.slice(0,5);
-shortList.map(l => findFullyContained(l) ? count++ : count)
+// let shortList = list.slice(0,5);
+// shortList.map(l => findFullyContained(l) ? count++ : count)
+list.map(l => findFullyContained(l) ? count++ : count)
 
 console.log("count (number of overlapping pairs):", count)
+
+// list.map(l => console.log("is there overlap", findAnyOverlap(l)))
