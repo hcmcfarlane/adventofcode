@@ -1,0 +1,10 @@
+count (number of overlapping pairs): 4
+is there overlap false
+is there overlap false
+is there overlap true
+is there overlap false
+is there overlap true
+is there overlap true
+is there overlap false
+is there overlap true
+is there overlap false
