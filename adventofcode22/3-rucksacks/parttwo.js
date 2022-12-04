@@ -2,12 +2,12 @@
 
 import fs from "node:fs";
 
-console.log("***This is the test version***");
+// console.log("***This is the test version***");
 
 /**
     Format the input file into an array of arrays of three strings
 **/
-const input = fs.readFileSync("inputtest.txt", "utf8", (err, data) => {
+const input = fs.readFileSync("input.txt", "utf8", (err, data) => {
   if (err) throw err;
 });
 function formatInput(string) {
