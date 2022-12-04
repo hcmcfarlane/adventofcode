@@ -55,11 +55,14 @@ function findAnyOverlap(set) {
     return isOverlap
 }
 
-let count = 0;
+let fullyContainedCount = 0;
+let overlapCount = 0;
 // let shortList = list.slice(0,5);
 // shortList.map(l => findFullyContained(l) ? count++ : count)
-list.map(l => findFullyContained(l) ? count++ : count)
+list.map(l => findFullyContained(l) ? fullyContainedCount++ : fullyContainedCount)
 
-console.log("count (number of overlapping pairs):", count)
+console.log("count (number of fully contained pairs):", fullyContainedCount)
 
-list.map(l => console.log("is there overlap", findAnyOverlap(l)))
+// list.map(l => console.log("is there overlap", findAnyOverlap(l)))
+list.map(l => findAnyOverlap(l) ? overlapCount++ : overlapCount)
+console.log("count (number of any overlap pairs):", overlapCount)

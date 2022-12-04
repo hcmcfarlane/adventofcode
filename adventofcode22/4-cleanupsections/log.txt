@@ -1,10 +1,2 @@
-count (number of overlapping pairs): 4
-is there overlap false
-is there overlap false
-is there overlap true
-is there overlap false
-is there overlap true
-is there overlap true
-is there overlap false
-is there overlap true
-is there overlap false
+count (number of fully contained pairs): 4
+count (number of any overlap pairs): 6
