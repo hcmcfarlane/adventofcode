@@ -47,13 +47,13 @@ function findFullyContained (set) {
     return returnVal;
 }
 
-// function findAnyOverlap(set) {
-//     // [a, b, c, d]
-//     // if c <= b && d >= b then there is an overlap
-//     let isOverlap = true;
-//     set[2] <= set[1] && set[3] >= set[1] ? isOverlap : isOverlap = false;
-//     return isOverlap
-// }
+function findAnyOverlap(set) {
+    // [a, b, c, d]
+    // if c <= b && d >= b then there is an overlap
+    let isOverlap = true;
+    set[2] <= set[1] && set[3] >= set[0] ? isOverlap : isOverlap = false;
+    return isOverlap
+}
 
 let count = 0;
 // let shortList = list.slice(0,5);
@@ -62,4 +62,4 @@ list.map(l => findFullyContained(l) ? count++ : count)
 
 console.log("count (number of overlapping pairs):", count)
 
-// list.map(l => console.log("is there overlap", findAnyOverlap(l)))
+list.map(l => console.log("is there overlap", findAnyOverlap(l)))
