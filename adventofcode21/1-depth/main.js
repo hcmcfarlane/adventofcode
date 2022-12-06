@@ -1,6 +1,6 @@
 import fs from "node:fs";
 
-const input = fs.readFileSync("inputtest.txt", "utf8", (err, data) => {
+const input = fs.readFileSync("input.txt", "utf8", (err, data) => {
   if (err) throw err;
 });
 
@@ -11,8 +11,9 @@ function formatInput(string) {
 }
 
 let readings = formatInput(input);
-console.dir(readings, { maxArrayLength: null });
-console.log(readings.length);
+// console.dir(readings, { maxArrayLength: null });
+console.log("readings", readings);
+// console.log(readings.length);
 
 let count = 0;
 
@@ -23,21 +24,42 @@ function findIncrease(reading1, reading2) {
   return;
 }
 
-function countIncreases(readings) {
-  let window = 3;
-  for (let i = window * 2 - 1; i < readings.length; i++) {
+function countIncreases(readings, window) {
+  //   let window = 1;
+  for (let i = window; i < readings.length; i++) {
     //for part 1:
     // findIncrease(readings[i - 1], readings[i]);
+
     //for part 2:
-    findIncrease(
-      readings[i - 5] + readings[i - 4] + readings[i - 3],
-      readings[i - 2] + readings[i - 1] + readings[i]
-    );
+    // let sliding1 = readings[i - 3] + readings[i - 2] + readings[i - 1];
+    // let sliding2 = readings[i - 2] + readings[i - 1] + readings[i];
+
     //for arbitrary sliding window
-    // let sliding1 = 0;
-    // let sliding2 = 0;
+    let sliding1 = 0;
+    let sliding2 = 0;
+    // console.log("before j loop");
+    for (let j = 0; j < window; j++) {
+      //   console.log("inside j loop");
+      //   console.log(`**** ${j} ****`);
+      //   console.log(readings[i - j]);
+      //   console.log(readings[i - j - 1]);
+      if (!(readings[i - j] === undefined)) {
+        sliding2 = sliding2 + readings[i - j];
+      } else {
+        sliding2 = sliding2;
+      }
+      if (!(readings[i - j - 1] === undefined)) {
+        sliding1 = sliding1 + readings[i - j - 1];
+      } else {
+        sliding1 = sliding1;
+      }
+    }
+    // console.log("sliding1", sliding1);
+    // console.log("sliding2", sliding2);
+    // console.log("after j loop");
+    findIncrease(sliding1, sliding2);
   }
   return count;
 }
 
-console.log("number of increases", countIncreases(readings));
+console.log("number of increases", countIncreases(readings, 3));
