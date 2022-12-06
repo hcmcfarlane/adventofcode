@@ -1,7 +1,7 @@
 import { input } from "./input.js";
 import fs from "node:fs";
 
-const testInput = fs.readFileSync("inputtest1.txt", "utf-8", (err, data) => {
+const testInput = fs.readFileSync("inputtest.txt", "utf-8", (err, data) => {
   if (err) throw err;
 });
 
@@ -10,163 +10,100 @@ function formatTestInput(input) {
   return arr;
 }
 let streams = formatTestInput(testInput);
-// console.log("streams", streams);
 
-function checkFour(position, four) {
+function checkDuplicates(position, arr) {
+  if (arr.length === 1) {
+    return [false, arr.length];
+  }
   let i = position - 1;
-  let three = four.slice(0, i).concat([""].concat(four.slice(i + 1, 4)));
-  let duplicate = three.includes(four[i]);
-  let dupeIndex = three.findIndex((n) => n === four[i]);
-  //   console.log("\n***i = ", i, "***");
-  //   console.log("three", three);
-  //   console.log("four", four);
-  //   console.log("duplicate", duplicate);
-  //   console.log("dupeIndex", dupeIndex);
+  if (arr.length < 4) {
+    i = arr.length - 1;
+  }
+  let arrWithBlank = arr
+    .slice(0, i)
+    .concat([""].concat(arr.slice(i + 1, arr.length)));
+
+  //   console.log("arr", arr);
+  //   console.log("arrWithBlank", arrWithBlank);
+  let duplicate = arrWithBlank.includes(arr[i]);
+  let dupeIndex = arrWithBlank.findIndex((n) => n === arr[i]);
 
   return [duplicate, dupeIndex];
 }
 
-// checkFirstFour(0, ["m", "j", "q", "j"]);
-// checkFirstFour(1, ["m", "j", "q", "j"]);
-// checkFirstFour(2, ["m", "j", "q", "j"]);
-// checkFirstFour(3, ["m", "j", "q", "j"]);
-
 function findMarker(datastream) {
-  //   let firstFour = datastream.split("").slice(0, 4);
-  //   console.log(datastream);
-  //   console.log(firstFour);
-
-  //   if (checkFirstFour(0, firstFour)) {
-  //   }
   let marker = 0;
   let streamArray = datastream.split("");
+  let noDuplicates = [];
+  let [duplicate, dupeIndex] = [false, 0];
 
-  forLoop: for (let i = 3; i < datastream.length; i++) {
-    checkfirstThree: if (i === 3) {
-      let firstFour = streamArray.slice(0, 4);
-      for (let j = 3; j > 0; j--) {
-        let [duplicate, dupeIndex] = checkFour(j, firstFour);
-        if (duplicate) {
-          if ((j = 2)) {
-            if (dupeIndex === 0) {
-              continue forLoop;
-            }
-            if (dupeIndex === 1) {
-              i++;
-              continue forLoop;
-            }
-          }
-          if ((j = 1)) {
-            if (dupeIndex === 0) {
-              i++;
-              continue forLoop;
-            }
-          }
-        }
+  checkEach: for (
+    let i = markerIndicatorLength - 1;
+    i < datastream.length;
+    i++
+  ) {
+    let endOfSlice = i + 1;
+    let startOfSlice = i;
+    i <= 3
+      ? (startOfSlice = 0)
+      : (startOfSlice = i + 1 - markerIndicatorLength);
+
+    let currentArray = streamArray.slice(startOfSlice, endOfSlice);
+
+    // console.log(`i = ${i}\ncurrentArray`, currentArray);
+
+    for (let j = 1; j <= markerIndicatorLength; j++) {
+      [duplicate, dupeIndex] = checkDuplicates(j, currentArray);
+      if (duplicate) {
+        continue checkEach;
+      } else {
+        noDuplicates.push(true);
       }
     }
-
-    let currentFour = streamArray.slice(i - 3, i + 1);
-    console.log(`i = ${i}\ncurrentFour`, currentFour);
-
-    let [duplicate, dupeIndex] = checkFour(4, currentFour);
-    if (duplicate) {
-      if (dupeIndex === 0) {
-        continue forLoop;
-      }
-      if (dupeIndex === 1) {
-        i++;
-        continue forLoop;
-      }
-      if (dupeIndex === 2) {
-        i += 2;
-        continue forLoop;
-      }
-      //   continue;
-    } else {
+    if (!noDuplicates.includes(false)) {
       marker = i + 1;
-      break forLoop;
+      return marker;
     }
   }
+
   return marker;
 }
 
-const correctAnswers = [7, 5, 6, 10, 11, 7, 6, 5, 6, 5, 5];
+let markerIndicatorLength = 14;
+
+let mark = findMarker(input);
+console.log("INPUT FILE \nmark", mark, "\n***********\n");
+
+// streams.forEach((stream, index) => {
+//   console.log(stream);
+//   let mark = findMarker(stream);
+//   console.log("mark", mark);
+// });
+// console.log(streams[0]);
+// let mark = findMarker(streams[0]);
+// console.log("mark", mark);
+
+// console.log(streams[3]);
+// let mark = findMarker(streams[3]);
+// console.log("mark", mark);
+
+// const correctAnswers = [7, 5, 6, 10, 11, 7, 6, 5, 6, 5, 5];
+const correctAnswers = [19, 23, 23, 29, 26];
 let trues = [];
 streams.forEach((stream, index) => {
-  let marker = findMarker(stream);
-  trues.push(marker === correctAnswers[index]);
+  let mark = findMarker(stream);
+  trues.push(mark === correctAnswers[index]);
   //   console.log("marker", marker, "\n");
   console.log(
-    "marker",
-    marker,
-    `\nShould be: ${correctAnswers[index]}\n ${(
-      marker === correctAnswers[index]
-    )
+    stream,
+    "\nmark",
+    mark,
+    `| should be: ${correctAnswers[index]}\n ${(mark === correctAnswers[index])
       .toString()
       .toUpperCase()}`,
     "\n----------------\n"
   );
 });
-console.log(trues);
 
-// let marker = findMarker(streams[0]);
-// console.log("marker", marker, "\n----------------\n");
-
-// let marker = findMarker(input);
-// console.log("marker", marker, "\n");
-
-/***********************/
-/**OLD CODE BELOW HERE**/
-/***********************/
-//   if (
-//     datastream[0] === datastream[1] ||
-//     datastream[0] === datastream[2] ||
-//     datastream[0] === datastream[3] ||
-//     datastream[1] === datastream[2] ||
-//     datastream[1] === datastream[3] ||
-//     datastream[2] === datastream[3]
-//   ) {
-//     continue;
-//   }
-
-// while (i === 3) {
-//     if (checkFirstFour(0, firstFour)) {
-//         i++
-//     } else if (checkFirstFour(1, firstFour)) {
-//         i++
-//         continue;
-//     } else if (checkFirstFour(2, firstFour)) {
-//         i++
-//         continue;
-//     }
-// }
-
-// ***BUGGY IF LOOP***
-// if (datastream[i] === datastream[i - 1]) {
-//   i += 2;
-// } else if (datastream[i] === datastream[i - 2]) {
-//   i += 1;
-// } else if (datastream[i] === datastream[i - 3]) {
-// } else if (i === 3) {
-//   loop2: if (firstFour.includes(datastream[i - 3])) {
-//     // i += 2;
-//     console.log("triggered i - 3");
-//     break loop2;
-//   } else if (firstFour.includes(datastream[i - 2])) {
-//     // i++;
-//     console.log("triggered i - 2");
-//     break loop2;
-//   } else if (firstFour.includes(datastream[i - 1])) {
-//     // i++;
-//     console.log("triggered i - 1");
-//     break loop2;
-//   } else {
-//     console.log("triggered else inside loop `loop`");
-//     break loop2;
-//   }
-// } else {
-//   console.log("triggered marker");
-//   marker = i + 1;
-//   return marker;
-// }
+let truth = !trues.includes(false);
+console.log("ALL TRUE??", truth);
