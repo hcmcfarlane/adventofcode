@@ -12,13 +12,7 @@ function formatTestInput(input) {
 let streams = formatTestInput(testInput);
 
 function checkDuplicates(position, arr) {
-  if (arr.length === 1) {
-    return [false, arr.length];
-  }
   let i = position - 1;
-  if (arr.length < 4) {
-    i = arr.length - 1;
-  }
   let arrWithBlank = arr
     .slice(0, i)
     .concat([""].concat(arr.slice(i + 1, arr.length)));
@@ -69,7 +63,7 @@ function findMarker(datastream) {
   return marker;
 }
 
-let markerIndicatorLength = 14;
+let markerIndicatorLength = 4;
 
 let mark = findMarker(input);
 console.log("INPUT FILE \nmark", mark, "\n***********\n");
