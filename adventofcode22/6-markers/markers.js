@@ -92,6 +92,6 @@ let markerIndicatorLength = 4;
 // let mark = findMarker(streams[0]);
 // console.log("mark", mark);
 
-console.log(streams[3]);
-let mark = findMarker(streams[3]);
+console.log(streams[0]);
+let mark = findMarker(streams[0]);
 console.log("mark", mark);
