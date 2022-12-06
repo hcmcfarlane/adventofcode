@@ -1,0 +1,197 @@
+duplicate false
+dupeIndex -1
+duplicate true
+dupeIndex 3
+i = 3
+currentFour [ 'm', 'j', 'q', 'j' ]
+duplicate true
+dupeIndex 1
+i = 5
+currentFour [ 'q', 'j', 'p', 'q' ]
+duplicate true
+dupeIndex 0
+i = 6
+currentFour [ 'j', 'p', 'q', 'm' ]
+duplicate false
+dupeIndex -1
+marker 7 
+Should be: 7
+ TRUE 
+----------------
+
+duplicate false
+dupeIndex -1
+duplicate false
+dupeIndex -1
+duplicate true
+dupeIndex 3
+i = 3
+currentFour [ 'b', 'v', 'w', 'b' ]
+duplicate true
+dupeIndex 0
+i = 4
+currentFour [ 'v', 'w', 'b', 'j' ]
+duplicate false
+dupeIndex -1
+marker 5 
+Should be: 5
+ TRUE 
+----------------
+
+duplicate true
+dupeIndex 1
+i = 5
+currentFour [ 'p', 'd', 'v', 'j' ]
+duplicate false
+dupeIndex -1
+marker 6 
+Should be: 6
+ TRUE 
+----------------
+
+duplicate true
+dupeIndex 0
+i = 4
+currentFour [ 'z', 'n', 'r', 'n' ]
+duplicate true
+dupeIndex 1
+i = 6
+currentFour [ 'r', 'n', 'f', 'r' ]
+duplicate true
+dupeIndex 0
+i = 7
+currentFour [ 'n', 'f', 'r', 'f' ]
+duplicate true
+dupeIndex 1
+i = 9
+currentFour [ 'r', 'f', 'n', 't' ]
+duplicate false
+dupeIndex -1
+marker 10 
+Should be: 10
+ TRUE 
+----------------
+
+duplicate false
+dupeIndex -1
+duplicate false
+dupeIndex -1
+duplicate true
+dupeIndex 3
+i = 3
+currentFour [ 'z', 'c', 'f', 'z' ]
+duplicate true
+dupeIndex 0
+i = 4
+currentFour [ 'c', 'f', 'z', 'f' ]
+duplicate true
+dupeIndex 1
+i = 6
+currentFour [ 'z', 'f', 'w', 'z' ]
+duplicate true
+dupeIndex 0
+i = 7
+currentFour [ 'f', 'w', 'z', 'z' ]
+duplicate true
+dupeIndex 2
+i = 10
+currentFour [ 'z', 'q', 'f', 'r' ]
+duplicate false
+dupeIndex -1
+marker 11 
+Should be: 11
+ TRUE 
+----------------
+
+duplicate true
+dupeIndex 3
+i = 3
+currentFour [ 'x', 'y', 'z', 'z' ]
+duplicate true
+dupeIndex 2
+i = 6
+currentFour [ 'z', 'a', 'b', 'c' ]
+duplicate false
+dupeIndex -1
+marker 7 
+Should be: 7
+ TRUE 
+----------------
+
+duplicate false
+dupeIndex -1
+duplicate true
+dupeIndex 3
+i = 3
+currentFour [ 'x', 'z', 'y', 'z' ]
+duplicate true
+dupeIndex 1
+i = 5
+currentFour [ 'y', 'z', 'a', 'b' ]
+duplicate false
+dupeIndex -1
+marker 6 
+Should be: 6
+ TRUE 
+----------------
+
+duplicate false
+dupeIndex -1
+duplicate false
+dupeIndex -1
+duplicate true
+dupeIndex 3
+i = 3
+currentFour [ 'z', 'y', 'x', 'z' ]
+duplicate true
+dupeIndex 0
+i = 4
+currentFour [ 'y', 'x', 'z', 'a' ]
+duplicate false
+dupeIndex -1
+marker 5 
+Should be: 5
+ TRUE 
+----------------
+
+duplicate true
+dupeIndex 1
+i = 5
+currentFour [ 'z', 'y', 'a', 'b' ]
+duplicate false
+dupeIndex -1
+marker 6 
+Should be: 6
+ TRUE 
+----------------
+
+duplicate true
+dupeIndex 0
+i = 4
+currentFour [ 'x', 'z', 'y', 'a' ]
+duplicate false
+dupeIndex -1
+marker 5 
+Should be: 5
+ TRUE 
+----------------
+
+duplicate false
+dupeIndex -1
+duplicate true
+dupeIndex 0
+i = 4
+currentFour [ 'z', 'x', 'y', 'a' ]
+duplicate false
+dupeIndex -1
+marker 5 
+Should be: 5
+ TRUE 
+----------------
+
+[
+  true, true, true,
+  true, true, true,
+  true, true, true,
+  true, true
+]
