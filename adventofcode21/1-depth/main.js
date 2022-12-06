@@ -25,7 +25,6 @@ function findIncrease(reading1, reading2) {
 }
 
 function countIncreases(readings, window) {
-  //   let window = 1;
   for (let i = window; i < readings.length; i++) {
     //for part 1:
     // findIncrease(readings[i - 1], readings[i]);
@@ -37,23 +36,11 @@ function countIncreases(readings, window) {
     //for arbitrary sliding window
     let sliding1 = 0;
     let sliding2 = 0;
-    // console.log("before j loop");
     for (let j = 0; j < window; j++) {
-      //   console.log("inside j loop");
-      //   console.log(`**** ${j} ****`);
-      //   console.log(readings[i - j]);
-      //   console.log(readings[i - j - 1]);
-      if (!(readings[i - j] === undefined)) {
-        sliding2 = sliding2 + readings[i - j];
-      } else {
-        sliding2 = sliding2;
-      }
-      if (!(readings[i - j - 1] === undefined)) {
-        sliding1 = sliding1 + readings[i - j - 1];
-      } else {
-        sliding1 = sliding1;
-      }
+      sliding2 = sliding2 + readings[i - j];
+      sliding1 = sliding1 + readings[i - j - 1];
     }
+
     // console.log("sliding1", sliding1);
     // console.log("sliding2", sliding2);
     // console.log("after j loop");
