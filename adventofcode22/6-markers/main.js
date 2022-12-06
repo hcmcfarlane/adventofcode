@@ -1,6 +1,5 @@
 import { input } from "./input.js";
 import fs from "node:fs";
-// console.log(crates);
 
 const testInput = fs.readFileSync("inputtest1.txt", "utf-8", (err, data) => {
   if (err) throw err;
