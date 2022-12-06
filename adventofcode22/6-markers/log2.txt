@@ -1,30 +1,30 @@
 INPUT FILE 
-mark 5 
+mark 2803 
 ***********
 
 mjqjpqmgbljsphdztnvjfqwrcgsmlb 
-mark 5 | should be: 7
- FALSE 
+mark 19 | should be: 19
+ TRUE 
 ----------------
 
 bvwbjplbgvbhsrlpgdmjqwftvncz 
-mark 5 | should be: 5
+mark 23 | should be: 23
  TRUE 
 ----------------
 
 nppdvjthqldpwncqszvftbrmjlhg 
-mark 5 | should be: 6
- FALSE 
+mark 23 | should be: 23
+ TRUE 
 ----------------
 
 nznrnfrfntjfmvfwmzdfjlvtqnbhcprsg 
-mark 5 | should be: 10
- FALSE 
+mark 29 | should be: 29
+ TRUE 
 ----------------
 
 zcfzfwzzqfrljwzlrfnpqdbhtmscgvjw 
-mark 5 | should be: 11
- FALSE 
+mark 26 | should be: 26
+ TRUE 
 ----------------
 
-ALL TRUE?? false
+ALL TRUE?? true

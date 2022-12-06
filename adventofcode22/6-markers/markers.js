@@ -1,7 +1,7 @@
 import { input } from "./input.js";
 import fs from "node:fs";
 
-const testInput = fs.readFileSync("inputtest1.txt", "utf-8", (err, data) => {
+const testInput = fs.readFileSync("inputtest.txt", "utf-8", (err, data) => {
   if (err) throw err;
 });
 
@@ -37,8 +37,11 @@ function findMarker(datastream) {
   let noDuplicates = [];
   let [duplicate, dupeIndex] = [false, 0];
 
-  checkEach: for (let i = 3; i < datastream.length; i++) {
-    // let lengthOfSlice = 4;
+  checkEach: for (
+    let i = markerIndicatorLength - 1;
+    i < datastream.length;
+    i++
+  ) {
     let endOfSlice = i + 1;
     let startOfSlice = i;
     i <= 3
@@ -49,39 +52,24 @@ function findMarker(datastream) {
 
     // console.log(`i = ${i}\ncurrentArray`, currentArray);
 
-    for (
-      let j = 1;
-      j <= markerIndicatorLength; //|| j < currentArray.length;
-      j++
-    ) {
+    for (let j = 1; j <= markerIndicatorLength; j++) {
       [duplicate, dupeIndex] = checkDuplicates(j, currentArray);
       if (duplicate) {
         continue checkEach;
       } else {
         noDuplicates.push(true);
-        // break;
       }
     }
     if (!noDuplicates.includes(false)) {
       marker = i + 1;
       return marker;
     }
-
-    // let [duplicate, dupeIndex] = checkDuplicates(
-    //   markerIndicatorLength,
-    //   currentArray
-    // );
-
-    // if (noDuplicates && i > 3) {
-    //   marker = i + 1;
-    //   break;
-    // }
   }
 
   return marker;
 }
 
-let markerIndicatorLength = 4;
+let markerIndicatorLength = 14;
 
 let mark = findMarker(input);
 console.log("INPUT FILE \nmark", mark, "\n***********\n");
@@ -99,8 +87,8 @@ console.log("INPUT FILE \nmark", mark, "\n***********\n");
 // let mark = findMarker(streams[3]);
 // console.log("mark", mark);
 
-const correctAnswers = [7, 5, 6, 10, 11, 7, 6, 5, 6, 5, 5];
-// const correctAnswers = [19, 23, 23, 29, 26];
+// const correctAnswers = [7, 5, 6, 10, 11, 7, 6, 5, 6, 5, 5];
+const correctAnswers = [19, 23, 23, 29, 26];
 let trues = [];
 streams.forEach((stream, index) => {
   let mark = findMarker(stream);
