@@ -23,8 +23,8 @@ function checkDuplicates(position, arr) {
     .slice(0, i)
     .concat([""].concat(arr.slice(i + 1, arr.length)));
 
-  console.log("arr", arr);
-  console.log("arrWithBlank", arrWithBlank);
+  //   console.log("arr", arr);
+  //   console.log("arrWithBlank", arrWithBlank);
   let duplicate = arrWithBlank.includes(arr[i]);
   let dupeIndex = arrWithBlank.findIndex((n) => n === arr[i]);
 
@@ -47,7 +47,7 @@ function findMarker(datastream) {
 
     let currentArray = streamArray.slice(startOfSlice, endOfSlice);
 
-    console.log(`------------\ni = ${i}\ncurrentArray`, currentArray);
+    // console.log(`i = ${i}\ncurrentArray`, currentArray);
 
     for (
       let j = 1;
@@ -61,10 +61,10 @@ function findMarker(datastream) {
         noDuplicates.push(true);
         // break;
       }
-      if (!noDuplicates.includes(false)) {
-        marker = i + 1;
-        return marker;
-      }
+    }
+    if (!noDuplicates.includes(false)) {
+      marker = i + 1;
+      return marker;
     }
 
     // let [duplicate, dupeIndex] = checkDuplicates(
@@ -83,6 +83,9 @@ function findMarker(datastream) {
 
 let markerIndicatorLength = 4;
 
+let mark = findMarker(input);
+console.log("INPUT FILE \nmark", mark, "\n***********\n");
+
 // streams.forEach((stream, index) => {
 //   console.log(stream);
 //   let mark = findMarker(stream);
@@ -92,6 +95,27 @@ let markerIndicatorLength = 4;
 // let mark = findMarker(streams[0]);
 // console.log("mark", mark);
 
-console.log(streams[0]);
-let mark = findMarker(streams[0]);
-console.log("mark", mark);
+// console.log(streams[3]);
+// let mark = findMarker(streams[3]);
+// console.log("mark", mark);
+
+const correctAnswers = [7, 5, 6, 10, 11, 7, 6, 5, 6, 5, 5];
+// const correctAnswers = [19, 23, 23, 29, 26];
+let trues = [];
+streams.forEach((stream, index) => {
+  let mark = findMarker(stream);
+  trues.push(mark === correctAnswers[index]);
+  //   console.log("marker", marker, "\n");
+  console.log(
+    stream,
+    "\nmark",
+    mark,
+    `| should be: ${correctAnswers[index]}\n ${(mark === correctAnswers[index])
+      .toString()
+      .toUpperCase()}`,
+    "\n----------------\n"
+  );
+});
+
+let truth = !trues.includes(false);
+console.log("ALL TRUE??", truth);

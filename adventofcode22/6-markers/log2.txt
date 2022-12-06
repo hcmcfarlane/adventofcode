@@ -1,0 +1,30 @@
+INPUT FILE 
+mark 5 
+***********
+
+mjqjpqmgbljsphdztnvjfqwrcgsmlb 
+mark 5 | should be: 7
+ FALSE 
+----------------
+
+bvwbjplbgvbhsrlpgdmjqwftvncz 
+mark 5 | should be: 5
+ TRUE 
+----------------
+
+nppdvjthqldpwncqszvftbrmjlhg 
+mark 5 | should be: 6
+ FALSE 
+----------------
+
+nznrnfrfntjfmvfwmzdfjlvtqnbhcprsg 
+mark 5 | should be: 10
+ FALSE 
+----------------
+
+zcfzfwzzqfrljwzlrfnpqdbhtmscgvjw 
+mark 5 | should be: 11
+ FALSE 
+----------------
+
+ALL TRUE?? false

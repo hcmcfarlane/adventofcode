@@ -1,12 +1,60 @@
-nznrnfrfntjfmvfwmzdfjlvtqnbhcprsg
-------------
-i = 3
-currentArray [ 'n', 'z', 'n', 'r' ]
-arr [ 'n', 'z', 'n', 'r' ]
-arrWithBlank [ '', 'z', 'n', 'r' ]
-------------
-i = 4
-currentArray [ 'z', 'n', 'r', 'n' ]
-arr [ 'z', 'n', 'r', 'n' ]
-arrWithBlank [ '', 'n', 'r', 'n' ]
-mark 5
+INPUT FILE 
+mark 1142 
+***********
+
+mjqjpqmgbljsphdztnvjfqwrcgsmlb 
+mark 7 | should be: 7
+ TRUE 
+----------------
+
+bvwbjplbgvbhsrlpgdmjqwftvncz 
+mark 5 | should be: 5
+ TRUE 
+----------------
+
+nppdvjthqldpwncqszvftbrmjlhg 
+mark 6 | should be: 6
+ TRUE 
+----------------
+
+nznrnfrfntjfmvfwmzdfjlvtqnbhcprsg 
+mark 10 | should be: 10
+ TRUE 
+----------------
+
+zcfzfwzzqfrljwzlrfnpqdbhtmscgvjw 
+mark 11 | should be: 11
+ TRUE 
+----------------
+
+xyzzabcd 
+mark 7 | should be: 7
+ TRUE 
+----------------
+
+xzyzabcd 
+mark 6 | should be: 6
+ TRUE 
+----------------
+
+zyxzabcd 
+mark 5 | should be: 5
+ TRUE 
+----------------
+
+xzzyabcd 
+mark 6 | should be: 6
+ TRUE 
+----------------
+
+zxzyabcd 
+mark 5 | should be: 5
+ TRUE 
+----------------
+
+zzxyabcd 
+mark 5 | should be: 5
+ TRUE 
+----------------
+
+ALL TRUE?? true
