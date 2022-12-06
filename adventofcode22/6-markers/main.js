@@ -21,8 +21,8 @@ function checkFour(position, four) {
   //   console.log("\n***i = ", i, "***");
   //   console.log("three", three);
   //   console.log("four", four);
-  console.log("duplicate", duplicate);
-  console.log("dupeIndex", dupeIndex);
+  //   console.log("duplicate", duplicate);
+  //   console.log("dupeIndex", dupeIndex);
 
   return [duplicate, dupeIndex];
 }
@@ -83,6 +83,7 @@ function findMarker(datastream) {
         i += 2;
         continue forLoop;
       }
+      //   continue;
     } else {
       marker = i + 1;
       break forLoop;
@@ -108,7 +109,6 @@ streams.forEach((stream, index) => {
     "\n----------------\n"
   );
 });
-
 console.log(trues);
 
 // let marker = findMarker(streams[0]);
@@ -117,6 +117,9 @@ console.log(trues);
 // let marker = findMarker(input);
 // console.log("marker", marker, "\n");
 
+/***********************/
+/**OLD CODE BELOW HERE**/
+/***********************/
 //   if (
 //     datastream[0] === datastream[1] ||
 //     datastream[0] === datastream[2] ||
