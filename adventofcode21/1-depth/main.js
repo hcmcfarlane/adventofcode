@@ -24,15 +24,15 @@ function findIncrease(reading1, reading2) {
 }
 
 function countIncreases(readings) {
-  let window = 1;
+  let window = 3;
   for (let i = window * 2 - 1; i < readings.length; i++) {
     //for part 1:
-    findIncrease(readings[i - 1], readings[i]);
+    // findIncrease(readings[i - 1], readings[i]);
     //for part 2:
-    // findIncrease(
-    //   readings[i - 5] + readings[i - 4] + readings[i - 3],
-    //   readings[i - 2] + readings[i - 1] + readings[i]
-    // );
+    findIncrease(
+      readings[i - 5] + readings[i - 4] + readings[i - 3],
+      readings[i - 2] + readings[i - 1] + readings[i]
+    );
     //for arbitrary sliding window
     // let sliding1 = 0;
     // let sliding2 = 0;

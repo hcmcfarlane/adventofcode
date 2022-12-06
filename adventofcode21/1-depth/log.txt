@@ -4,4 +4,4 @@
   260, 263
 ]
 10
-number of increases 7
+number of increases 5
