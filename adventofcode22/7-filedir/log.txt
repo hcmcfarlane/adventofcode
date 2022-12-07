@@ -13,23 +13,23 @@ code [
   '7214296 k'
 ]
 currDir after calling changeDirectory fileStructure.home.dir.a
-inside if
 value 29116 key f
 value 2557 key g
 value 62596 key h.lst
 currFileSize 94269
-totalFileSize - incorrect 94269
+totalFileSize 94269
 sumOfSmallDirs 94269
+inside if
 value { files: { i: 584 } } key e
 currDir after calling changeDirectory fileStructure.home.dir.a.dir.e
 value 584 key i
 currFileSize 584
-totalFileSize - incorrect 94853
+totalFileSize 94853
 sumOfSmallDirs 94853
 inside else
 value 584 key i
 currFileSize 584
-totalFileSize - incorrect 94853
+totalFileSize 94853
 sumOfSmallDirs 95437
 currDir after calling changeDirectory fileStructure.home.dir.a
 currDir after calling changeDirectory fileStructure.home

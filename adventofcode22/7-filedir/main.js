@@ -85,19 +85,20 @@ let totalFileSize = 0;
 function loopThroughDirectories(directory) {
 	// console.log("directory", directory);
 	// console.log(Object.hasOwn(eval(directory), "dir"));
+	calcFileSize(directory, true);
 	if (Object.hasOwn(eval(directory), "dir")) {
 		//TODO:
 		// for (LOOP OVER EACH KEY IN currDir.dir) {
 		console.log("inside if");
 		// console.log(eval(directory + ".dir"));
 		for (const [key, value] of Object.entries(eval(directory + ".dir"))) {
-			calcFileSize(directory, true);
+			// calcFileSize(directory, true);
 			console.log("value", value, "key", key);
 			changeDirectory(`cd ${key}`);
 
 			//TODO:
 			//to count nested directories more than once???
-			calcFileSize(currDir, true);
+			// calcFileSize(currDir, true);
 
 			loopThroughDirectories(currDir);
 		}
@@ -137,7 +138,7 @@ function calcFileSize(directory, addToTotal) {
 	return [currFileSize, totalFileSize, sumOfSmallDirs];
 }
 
-changeDirectory("cd a");
+changeDirectory("cd /");
 loopThroughDirectories(currDir);
 // changeDirectory("cd e");
 
