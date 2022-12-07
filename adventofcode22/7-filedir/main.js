@@ -24,15 +24,20 @@ let fileStructure = {
 			a: {
 				dir: {
 					e: {
-						dir: {},
-						files: { i: 58 },
+						// dir: {},
+						files: { i: 584 },
 					},
 				},
 				files: { f: 29116, g: 2557, "h.lst": 62596 },
 			},
 			d: {
-				dir: {},
-				files: { j: 4060174, "d.log": 8033020, k: 7214296 },
+				// dir: {},
+				files: {
+					j: 4060174,
+					"d.log": 8033020,
+					"d.ext": 5626152,
+					k: 7214296,
+				},
 			},
 		},
 		files: { "b.txt": 14848514, "c.dat": 8504156 },
@@ -44,33 +49,84 @@ let currDir = "fileStructure.home";
 function changeDirectory(code) {
 	if (code === "cd /") {
 		currDir = "fileStructure.home";
-		return;
-	}
-	if (code === "cd ..") {
-		if ((currDir = "fileStructure.home")) {
-			return;
+	} else if (code === "cd ..") {
+		if (currDir === "fileStructure.home") {
+			currDir;
 		} else {
-			dirArray = currDir.split(".");
-			console.log("dirArray", dirArray);
-			currDir = dirArray.pop().join(".");
-			console.log("currDir", currDir);
+			let newDirArray = currDir.split(".");
+			// console.log("newDirArray", newDirArray);
+			newDirArray.pop();
+			newDirArray.pop();
+
+			currDir = newDirArray.join(".");
+			// console.log("newDirArray", newDirArray);
+			// console.log("currDir", currDir);
 			// currDir =
 		}
+	} else {
+		let [action, newDir] = code.split(" ");
+
+		currDir = currDir + ".dir." + `${newDir}`;
 	}
-
-	let [action, newDir] = code.split(" ");
-
-	currDir = currDir + ".dir." + `${newDir}`;
-	console.log("currDir", currDir);
+	console.log("currDir after calling changeDirectory", currDir);
 	return;
 }
 
-changeDirectory("cd a");
+// const object1 = {
+//     a: 'somestring',
+//     b: 42
+//   };
 
-console.log(`${currDir}`); //fileStructure.home.dir.a
-console.log(`${currDir}[files]`); //fileStructure.home.dir.a[files]
+//   for (const [key, value] of Object.entries(object1)) {
+//     console.log(`${key}: ${value}`);
+//   }
+
+let fileSizes = 0;
+function loopThroughDirectories(directory) {
+	// console.log("directory", directory);
+	// console.log(Object.hasOwn(eval(directory), "dir"));
+	if (Object.hasOwn(eval(directory), "dir")) {
+		//TODO:
+		// for (LOOP OVER EACH KEY IN currDir.dir) {
+		console.log("inside if");
+		// console.log(eval(directory + ".dir"));
+		calcFileSize(directory);
+		for (const [key, value] of Object.entries(eval(directory + ".dir"))) {
+			console.log("value", value, "key", key);
+			changeDirectory(`cd ${key}`);
+			loopThroughDirectories(currDir);
+		}
+		// changeDirectory(`cd ..`);
+		// calcFileSize(currDir);
+	} else {
+		console.log("inside else");
+		calcFileSize(directory);
+	}
+	changeDirectory(`cd ..`);
+
+	return;
+}
+
+function calcFileSize(directory) {
+	for (const [key, value] of Object.entries(eval(directory + ".files"))) {
+		console.log("value", value, "key", key);
+		fileSizes += value;
+	}
+	console.log("fileSizes", fileSizes);
+	return fileSizes;
+}
+
+// changeDirectory("cd a");
+loopThroughDirectories(currDir);
+// changeDirectory("cd e");
+
+// console.log(`${currDir}`); //fileStructure.home.dir.a
+// console.log(`${currDir}[files]`); //fileStructure.home.dir.a[files]
 /////////////////////////////////////
-// ⛔ WARNING THIS IS BAD CODE ⛔ //
-console.log(eval(currDir + ".files")); //{ f: 29116, g: 2557, 'h.lst': 62596 }
+// ⛔ WARNING eval() IS BAD CODE ⛔ //
+// console.log(eval(currDir + ".files")); //{ f: 29116, g: 2557, 'h.lst': 62596 }
 
-changeDirectory("cd ..");
+// changeDirectory("cd ..");
+// changeDirectory("cd ..");
+
+// console.log(currDir.entries(eval(currDir.dir)));
