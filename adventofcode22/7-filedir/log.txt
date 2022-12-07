@@ -1,50 +1,697 @@
-inputFileStruct { home: {} }
-current command: $ cd /
-inputDir inputFileStructure.home 
-------------
-
-current command: $ ls
-Do some stuff with ls here
-inputDir inputFileStructure.home 
-------------
-
-current command: dir a
-newDir a
-inputDir inputFileStructure.home
-check whether dir exists false
-object after creating .dir { home: { dir: {} } }
-{ home: { dir: { a: {} } } }
-inputDir inputFileStructure.home 
-------------
-
-current command: 14848514 b.txt
-Will deal with files in the ls section, so ignore for now
-inputDir inputFileStructure.home 
-------------
-
-current command: 8504156 c.dat
-Will deal with files in the ls section, so ignore for now
-inputDir inputFileStructure.home 
-------------
-
-current command: dir d
-newDir d
-inputDir inputFileStructure.home
-check whether dir exists true
-object after creating .dir { home: { dir: {} } }
-{ home: { dir: { d: {} } } }
-inputDir inputFileStructure.home 
-------------
-
-current command: $ cd a
-inputDir inputFileStructure.home.dir.a 
-------------
-
-current command: $ ls
-Do some stuff with ls here
-inputDir inputFileStructure.home.dir.a 
-------------
-
-current command: dir e
-newDir e
-inputDir inputFileStructure.home.dir.a
+{
+  home: {
+    files: {
+      bqpslnv: 113975,
+      'btttmt.nmb': 50243,
+      lblt: 43500,
+      'zmllsrzc.qqq': 268766
+    },
+    dir: {
+      gbjh: {
+        files: { 'dhmprc.qpl': 64971 },
+        dir: {
+          jtgbg: {
+            files: {
+              fbfmm: 243089,
+              ljgwgqg: 7952,
+              'lzwrpqvq.tfq': 51001,
+              'qbn.gbr': 139239,
+              zhvgcc: 15541
+            },
+            dir: {
+              hzjcc: { files: { zmllsrzc: 262498 } },
+              jgpnm: {
+                files: {},
+                dir: {
+                  php: { files: { lqdsjjm: 289068 } },
+                  rlp: {
+                    files: {},
+                    dir: {
+                      dhlspmh: { files: { 'gtbp.ttr': 249350 } },
+                      mlsqrz: { files: { 'scwj.cjv': 31876 } },
+                      slwhsqw: { files: { 'vbpwn.qjn': 2424 } }
+                    }
+                  }
+                }
+              },
+              smb: { files: { 'jgpnm.qrq': 29124 } },
+              vvhmmn: { files: { fbfmm: 40455 } }
+            }
+          },
+          pzdn: {
+            files: {},
+            dir: {
+              bpdbclp: { files: { 'gdrj.qfs': 65147 } },
+              gvvgncqh: {
+                files: { lblt: 52531 },
+                dir: {
+                  fdcdh: { files: { 'vrbhb.fqr': 285507 } },
+                  jnfhsqrl: {
+                    files: {
+                      'fdcdh.dhj': 189748,
+                      'rpfw.wtt': 217915,
+                      zctzcb: 122077
+                    },
+                    dir: {
+                      ddzqtsvf: {
+                        files: {},
+                        dir: {
+                          fdcdh: {
+                            files: { pqq: 193340, 'scwj.cjv': 267704 },
+                            dir: {
+                              fhmpzq: {
+                                files: { 'thddfc.mlv': 198001 },
+                                dir: {
+                                  ghzrhzs: { files: { 'rjclmm.wcp': 82916 } }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      wwrrtc: { files: { fdcdh: 291755 } }
+                    }
+                  },
+                  lprd: { files: { czqmpt: 247564 } },
+                  qzmcfrhq: { files: { bqpslnv: 102306 } },
+                  rmbmpjc: {
+                    files: { ddvhnf: 282221, 'qcbsqcp.hsp': 50544 },
+                    dir: { tshl: { files: { fdcdh: 592 } } }
+                  }
+                }
+              },
+              jfzw: {
+                files: { 'qblnjwmq.mgl': 52762, 'zmllsrzc.jcv': 45621 },
+                dir: {
+                  fcwsrnjg: { files: { mbvcdgvl: 81276 } },
+                  ftnlwhpn: { files: { fbfmm: 78460 } },
+                  ghqt: {
+                    files: { 'dvtl.nbw': 110015, 'rlblp.zcw': 102205 }
+                  }
+                }
+              },
+              nlwnv: {
+                files: { 'scwj.cjv': 226628 },
+                dir: {
+                  cvbq: {
+                    files: {
+                      'fvrh.fcp': 224362,
+                      'pphz.tmm': 93098,
+                      'qdsgm.hjr': 30583
+                    },
+                    dir: {
+                      ndjlpwpw: { files: { 'ndl.cml': 17383 } },
+                      qmqlf: {
+                        files: {
+                          'fdcdh.bwr': 296208,
+                          lblt: 246624,
+                          'slwhsqw.jhl': 194615,
+                          'zmllsrzc.scg': 31676
+                        },
+                        dir: {
+                          tsrgs: {
+                            files: {
+                              'jnhfrb.mzm': 164026,
+                              lblt: 109383,
+                              zctzcb: 138073
+                            },
+                            dir: {
+                              fdcdh: {
+                                files: { lblt: 128762, zmllsrzc: 264881 }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  jgpnm: {
+                    files: { wmp: 49488 },
+                    dir: {
+                      bgv: {
+                        files: { 'rdng.ngn': 296599, 'vqvbq.tzz': 59418 },
+                        dir: {
+                          fpvvw: {
+                            files: {
+                              'gts.znn': 215634,
+                              lblt: 12520,
+                              'nvd.tlj': 304330,
+                              'qcgqj.mwg': 84828
+                            }
+                          },
+                          wvdqjn: { files: { zmllsrzc: 142231 } },
+                          zlwvlpw: {
+                            files: {},
+                            dir: {
+                              slllz: { files: { 'scwj.cjv': 201551 } }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  zmllsrzc: {
+                    files: { 'dwcvsn.lgf': 262704, 'rjclmm.wcp': 277851 },
+                    dir: {
+                      dgdgccc: { files: { 'bqpslnv.mcr': 276609 } },
+                      fqrcw: {
+                        files: { 'rjclmm.wcp': 320352 },
+                        dir: {
+                          fghsd: {
+                            files: { fbfmm: 207271, 'gwvhh.nsv': 236098 }
+                          }
+                        }
+                      },
+                      zmllsrzc: { files: { 'rjclmm.wcp': 58596 } }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          slwhsqw: {
+            files: { 'bqpslnv.zjg': 206029 },
+            dir: { jfp: { files: { zmllsrzc: 51699 } } }
+          }
+        }
+      },
+      hlpzbht: {
+        files: {
+          bqpslnv: 302660,
+          lblt: 221877,
+          'vpdfdb.vsr': 148517,
+          zmllsrzc: 54658
+        }
+      },
+      phpmmtvc: {
+        files: { fbfmm: 311157, 'gpvnh.tnb': 162934, 'rjclmm.wcp': 116676 },
+        dir: {
+          bqpslnv: {
+            files: { fbfmm: 296450, 'qpt.jsl': 49347 },
+            dir: {
+              cwbdcvgv: { files: { 'gqztffsq.vst': 103874, sjjstn: 116399 } },
+              dtbbbgw: {
+                files: { fbfmm: 17883 },
+                dir: {
+                  dptrzvz: {
+                    files: { 'nplcdq.ltn': 287625, wlz: 323499 },
+                    dir: {
+                      gfzfhjn: {
+                        files: {
+                          fbfmm: 217616,
+                          lblt: 18148,
+                          'rbtvqtrr.dqp': 79165
+                        }
+                      },
+                      vssdlrp: { files: { lblt: 86305 } }
+                    }
+                  },
+                  jgrdzbbh: {
+                    files: {},
+                    dir: {
+                      fdcdh: { files: { lblt: 242121 } },
+                      fttv: { files: { zctzcb: 67997 } },
+                      wzwndq: { files: { 'bqpslnv.rfj': 16310 } }
+                    }
+                  }
+                }
+              },
+              jnfvpnm: { files: { lblt: 17107 } },
+              lmqtmbh: {
+                files: { bqpslnv: 200855, 'rlnf.dfw': 304568 },
+                dir: {
+                  cpdt: {
+                    files: {
+                      'fdcdh.jrc': 56206,
+                      jgpnm: 138559,
+                      'rgclnp.vtg': 123081
+                    }
+                  }
+                }
+              },
+              lqb: {
+                files: {},
+                dir: {
+                  sbrzrb: {
+                    files: {},
+                    dir: { mglsdblq: { files: { 'rjclmm.wcp': 172704 } } }
+                  }
+                }
+              },
+              srq: {
+                files: {
+                  cqslbqml: 193258,
+                  fbfmm: 123266,
+                  'pqprb.chw': 27362,
+                  'rjclmm.wcp': 47189,
+                  slwhsqw: 288989
+                },
+                dir: {
+                  bqpslnv: { files: { 'qqm.jvh': 66777 } },
+                  hmhbtnp: {
+                    files: {
+                      'dzm.chg': 296063,
+                      fbfmm: 204474,
+                      'rjclmm.wcp': 146902
+                    }
+                  },
+                  pcrmfr: { files: { 'bqpslnv.wtm': 94907 } }
+                }
+              },
+              vtnptsl: {
+                files: {
+                  djczcg: 12048,
+                  fdcdh: 97998,
+                  'jgpnm.vwr': 171153,
+                  'pzftw.ccl': 169093,
+                  'slwhsqw.ntc': 241263
+                },
+                dir: {
+                  bwrbw: {
+                    files: {
+                      'fdcdh.qzw': 226255,
+                      'pjwv.mql': 283525,
+                      'slwhsqw.gbr': 131501,
+                      wqfbq: 257703,
+                      zmllsrzc: 87789
+                    }
+                  },
+                  drhf: {
+                    files: { 'ffgv.jzr': 297259, 'zvgmpdnn.psr': 12806 },
+                    dir: {
+                      rszprww: {
+                        files: { 'scwj.cjv': 251007 },
+                        dir: {
+                          bgsnrdqv: { files: { 'jdbbfgj.fpw': 56538 } },
+                          grvmtw: { files: { 'trbfdqbz.gdw': 68025 } }
+                        }
+                      }
+                    }
+                  },
+                  hjljrm: {
+                    files: {},
+                    dir: {
+                      dzjwf: {
+                        files: { jgpnm: 230855 },
+                        dir: {
+                          jvd: { files: { fztmh: 280910 } },
+                          nnwc: {
+                            files: { 'jgpnm.wbq': 110991 },
+                            dir: {
+                              bffsm: {
+                                files: {},
+                                dir: {
+                                  dwgp: { files: { 'bnlvzmbr.tqc': 5659 } }
+                                }
+                              },
+                              ttfh: { files: { 'zpqgfp.qmm': 147196 } }
+                            }
+                          },
+                          zmllsrzc: {
+                            files: {},
+                            dir: {
+                              gzmjpctz: { files: { 'cffjfsl.mhf': 72856 } }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  thjbhrzj: {
+                    files: { lblt: 260378, 'zmllsrzc.pjd': 264613 },
+                    dir: {
+                      fdcdh: {
+                        files: {
+                          'fhfgv.wjn': 225223,
+                          whs: 313245,
+                          zctzcb: 197514
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          dptzbgc: {
+            files: { 'plq.mns': 148224, 'scwj.cjv': 101844 },
+            dir: {
+              nmsdfhfc: {
+                files: {},
+                dir: { crfw: { files: { vpjd: 90593 } } }
+              },
+              nmvpwnmh: {
+                files: {
+                  fbfmm: 265813,
+                  'fdcdh.gcj': 267289,
+                  'pbfz.zcb': 168680,
+                  zdlbf: 198084
+                },
+                dir: {
+                  fdcdh: { files: { 'fdcdh.pll': 141722 } },
+                  hnttb: {
+                    files: {},
+                    dir: {
+                      gbfvsg: {
+                        files: {
+                          'rjclmm.wcp': 84991,
+                          'slwhsqw.gtl': 55681,
+                          'vtvlz.rws': 219041,
+                          'zmllsrzc.lzr': 2947
+                        }
+                      },
+                      jngrjqm: {
+                        files: { fbfmm: 125321, gjpt: 222370 },
+                        dir: {
+                          bqpslnv: { files: { 'rhzrhrh.mdh': 47973 } }
+                        }
+                      },
+                      slwhsqw: {
+                        files: {
+                          hwp: 126807,
+                          sjgzj: 169701,
+                          'wnfjnp.lst': 286591,
+                          'zbrwg.ljs': 172105,
+                          'zmllsrzc.vmj': 111461
+                        },
+                        dir: {
+                          tgpnwrn: {
+                            files: { lblt: 298873, 'wjzpj.qzj': 92666 }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  jgpnm: {
+                    files: { 'fdcdh.fgg': 135042, 'rjclmm.wcp': 240749 }
+                  }
+                }
+              },
+              nsqv: { files: { 'pfnvqv.qdn': 233412 } },
+              slwhsqw: {
+                files: {},
+                dir: {
+                  nrt: { files: { 'sffpw.gwb': 210674 } },
+                  spsjgzfr: {
+                    files: {
+                      fbfmm: 272099,
+                      'vvtlvcz.qhp': 312467,
+                      wcmdmqh: 2119
+                    }
+                  },
+                  zmllsrzc: {
+                    files: {
+                      fbfmm: 242647,
+                      lblt: 307133,
+                      'mngdrg.qlq': 279148,
+                      'sgprzhv.vlj': 63394
+                    }
+                  }
+                }
+              },
+              wmm: {
+                files: {},
+                dir: {
+                  bcndl: {
+                    files: {},
+                    dir: {
+                      cqgjzqt: { files: { 'cfvmd.qnv': 91704 } },
+                      hrsdjfv: {
+                        files: {
+                          'bqpslnv.tvl': 240036,
+                          fbfmm: 63562,
+                          pnvrr: 308727,
+                          zctzcb: 133855
+                        }
+                      },
+                      zmllsrzc: { files: { bqpslnv: 177997 } }
+                    }
+                  },
+                  cnlsb: {
+                    files: {},
+                    dir: { vprqjr: { files: { 'slwhsqw.vbt': 128434 } } }
+                  }
+                }
+              }
+            }
+          },
+          ldcqq: {
+            files: {
+              bqpslnv: 230118,
+              'hdbnpq.mfb': 18831,
+              'rjclmm.wcp': 40981,
+              zctzcb: 147598
+            },
+            dir: { nqmwqb: { files: { 'dhcphcg.pgp': 313907 } } }
+          },
+          nld: {
+            files: { fdcdh: 317665, 'slwhsqw.tjb': 321737, 'wvv.swg': 79938 },
+            dir: {
+              bqpslnv: {
+                files: {},
+                dir: {
+                  tvsv: {
+                    files: {
+                      fbfmm: 271095,
+                      'ncgzcg.scr': 208219,
+                      'scwj.cjv': 41278,
+                      'tcsjntm.tmr': 10197,
+                      zctzcb: 255687
+                    },
+                    dir: {
+                      fdcdh: {
+                        files: {},
+                        dir: { jvcwgbfn: { files: { lwnnjz: 255839 } } }
+                      },
+                      jgpnm: { files: { 'rjclmm.wcp': 66446 } }
+                    }
+                  }
+                }
+              },
+              chw: { files: { 'bqpslnv.cnb': 163229, fbfmm: 261637 } },
+              twbt: { files: { 'sbg.qtm': 180495 } },
+              vmvj: {
+                files: {},
+                dir: {
+                  bqpslnv: {
+                    files: {
+                      fbfmm: 189635,
+                      'hgvh.gbq': 87919,
+                      'pht.pjs': 75372,
+                      rhvqbnc: 198496,
+                      zmllsrzc: 146711
+                    },
+                    dir: {
+                      sgjszb: {
+                        files: { tsvzdnwb: 177552 },
+                        dir: { jlr: { files: { zctzcb: 244272 } } }
+                      }
+                    }
+                  },
+                  lcjjc: {
+                    files: {},
+                    dir: { cmwm: { files: { lblt: 48565 } } }
+                  },
+                  wsw: {
+                    files: {},
+                    dir: { nccwbcj: { files: { 'djcvsqs.njh': 203613 } } }
+                  }
+                }
+              }
+            }
+          },
+          vnswqbm: {
+            files: {
+              'dnj.bdf': 17334,
+              fbfmm: 244204,
+              'fdcdh.qjd': 238971,
+              'sqsrsph.vwv': 106110,
+              zctzcb: 230599
+            },
+            dir: {
+              bmsqrg: {
+                files: { mcs: 289739, 'vwrrbpr.mzv': 195219, zctzcb: 144639 },
+                dir: {
+                  vvph: {
+                    files: {},
+                    dir: { rqpzdtwl: { files: { gqzpsbtj: 208410 } } }
+                  }
+                }
+              },
+              bqpslnv: {
+                files: {},
+                dir: {
+                  bsrgvwfd: {
+                    files: { zhmsfq: 236101 },
+                    dir: { tlrgw: { files: { zctzcb: 18732 } } }
+                  }
+                }
+              },
+              glb: {
+                files: {
+                  'fdcdh.ddb': 227141,
+                  'gwvf.thb': 124010,
+                  'lnjwndc.pbf': 31007,
+                  zctzcb: 316521
+                },
+                dir: {
+                  fdcdh: { files: { 'scwj.cjv': 98547 } },
+                  slwhsqw: {
+                    files: {},
+                    dir: {
+                      hcqtzl: { files: { 'lsvr.ccj': 299368, zctzcb: 141718 } }
+                    }
+                  },
+                  wmp: {
+                    files: {
+                      fbfmm: 84719,
+                      zctzcb: 18295,
+                      'zmllsrzc.spj': 66949
+                    },
+                    dir: {
+                      hwwlqrh: {
+                        files: {},
+                        dir: {
+                          bvfsgfm: { files: { 'nbnbbf.rbj': 105325 } },
+                          jbttmc: {
+                            files: {},
+                            dir: { tpdnt: { files: { cwbwzq: 256828 } } }
+                          }
+                        }
+                      },
+                      nfbrq: { files: { 'bqpslnv.bzm': 277164 } },
+                      slwhsqw: { files: { 'hwwng.hsr': 56736 } }
+                    }
+                  }
+                }
+              },
+              pzrvbvcn: {
+                files: {
+                  'bvwv.gdg': 177454,
+                  'scwj.cjv': 260924,
+                  slwhsqw: 190128
+                },
+                dir: {
+                  fdcdh: {
+                    files: { 'dstdsnr.jrm': 15882, lblt: 62377 },
+                    dir: { wnvgtp: { files: { wrzrp: 8890 } } }
+                  },
+                  mzzgvjs: {
+                    files: {
+                      dhlgfwcv: 324487,
+                      'dqm.rws': 141946,
+                      'rjclmm.wcp': 2675
+                    },
+                    dir: {
+                      mhr: { files: { 'sdwmpzg.mcq': 287618 } },
+                      pdjn: {
+                        files: {},
+                        dir: {
+                          gfhzg: {
+                            files: {},
+                            dir: {
+                              bqpslnv: {
+                                files: { 'rjclmm.wcp': 204588 },
+                                dir: {
+                                  ztbmb: { files: { 'zmllsrzc.mbd': 180817 } }
+                                }
+                              },
+                              pqrbn: {
+                                files: {
+                                  'scwj.cjv': 254533,
+                                  'zmllsrzc.hlm': 78174
+                                }
+                              }
+                            }
+                          },
+                          mcpzqvgn: { files: { 'hwtps.twz': 117203 } }
+                        }
+                      },
+                      scdlp: {
+                        files: { 'nvb.plr': 37561 },
+                        dir: {
+                          mgqdbgm: {
+                            files: {},
+                            dir: {
+                              fhnz: { files: { 'jgpnm.pmw': 217104 } }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  qsdmzl: { files: { jgpnm: 249206 } },
+                  sfhpt: { files: { lblt: 95502, 'qqtvgcdm.wjf': 148395 } }
+                }
+              },
+              qjmtppt: { files: { 'drtgpjh.dzn': 201654, hpmp: 36730 } },
+              rtshvzr: { files: { 'tztfqcl.msd': 261331 } },
+              wtdq: { files: { jwfdct: 176817 } },
+              zmllsrzc: {
+                files: { lblt: 99444, 'qjwdwfdg.vzh': 72341 },
+                dir: {
+                  bvqwrs: {
+                    files: { 'bjvgfmq.twd': 259109 },
+                    dir: {
+                      rclm: {
+                        files: {
+                          'cgdtzs.plp': 157704,
+                          'cvh.vms': 224325,
+                          slwhsqw: 9088
+                        },
+                        dir: {
+                          nhflts: {
+                            files: {},
+                            dir: { vmmbsfw: { files: { slwhsqw: 22078 } } }
+                          }
+                        }
+                      },
+                      zmllsrzc: {
+                        files: { 'cmglvt.cmr': 199587, fdcdh: 216785 },
+                        dir: { gccwrq: { files: { 'ffdd.tsp': 68584 } } }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          zmllsrzc: { files: { 'bclj.nnv': 213942 } }
+        }
+      },
+      plbjmdl: {
+        files: { 'jgpnm.pdj': 159730, 'slwhsqw.hdf': 145186, vdp: 226459 },
+        dir: {
+          bqpslnv: { files: { 'cbj.lpr': 177530, 'mtbwq.gjs': 303777 } },
+          gbs: { files: { dfdg: 228129 } },
+          qdbsj: { files: { bqpslnv: 137655 } },
+          tlptvz: {
+            files: {
+              ddg: 303007,
+              'fzqdhn.qsn': 70932,
+              'qwvhc.qwj': 226788,
+              zctzcb: 160118,
+              'zmllsrzc.vdm': 138524
+            },
+            dir: {
+              brssb: { files: { 'fdcdh.lgm': 222065 } },
+              hhmq: { files: { 'rjclmm.wcp': 23600 } }
+            }
+          }
+        }
+      },
+      tggr: { files: { 'lnwhpd.wnl': 223836 } }
+    }
+  }
+}
+directory inputFileStructure.home
+directory inputFileStructure.home.dir.gbjh
+directory inputFileStructure.home.dir.gbjh.dir.jtgbg
+directory inputFileStructure.home.dir.gbjh.dir.jtgbg.dir.hzjcc
+directory inputFileStructure.home.dir.gbjh.dir.jtgbg.dir.jgpnm
+directory inputFileStructure.home.dir.gbjh.dir.jtgbg.dir.jgpnm.dir.php
+directory inputFileStructure.home.dir.gbjh.dir.jtgbg.dir.jgpnm.dir.rlp
+directory inputFileStructure.home.dir.gbjh.dir.jtgbg.dir.jgpnm.dir.rlp.dir.dhlspmh
+directory inputFileStructure.home.dir.gbjh.dir.jtgbg.dir.jgpnm.dir.rlp.dir.mlsqrz
+directory inputFileStructure.home.dir.gbjh.dir.jtgbg.dir.jgpnm.dir.rlp.dir.slwhsqw
+directory inputFileStructure.home.dir.smb
