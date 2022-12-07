@@ -12,36 +12,25 @@ code [
   '8033020 d.log', '5626152 d.ext',
   '7214296 k'
 ]
-inside if
-value 14848514 key b.txt
-value 8504156 key c.dat
-fileSizes 23352670
-value {
-  dir: { e: { files: [Object] } },
-  files: { f: 29116, g: 2557, 'h.lst': 62596 }
-} key a
 currDir after calling changeDirectory fileStructure.home.dir.a
 inside if
 value 29116 key f
 value 2557 key g
 value 62596 key h.lst
-fileSizes 23446939
+currFileSize 94269
+totalFileSize - incorrect 94269
+sumOfSmallDirs 94269
 value { files: { i: 584 } } key e
 currDir after calling changeDirectory fileStructure.home.dir.a.dir.e
+value 584 key i
+currFileSize 584
+totalFileSize - incorrect 94853
+sumOfSmallDirs 94853
 inside else
 value 584 key i
-fileSizes 23447523
+currFileSize 584
+totalFileSize - incorrect 94853
+sumOfSmallDirs 95437
 currDir after calling changeDirectory fileStructure.home.dir.a
-currDir after calling changeDirectory fileStructure.home
-value {
-  files: { j: 4060174, 'd.log': 8033020, 'd.ext': 5626152, k: 7214296 }
-} key d
-currDir after calling changeDirectory fileStructure.home.dir.d
-inside else
-value 4060174 key j
-value 8033020 key d.log
-value 5626152 key d.ext
-value 7214296 key k
-fileSizes 48381165
 currDir after calling changeDirectory fileStructure.home
 currDir after calling changeDirectory fileStructure.home

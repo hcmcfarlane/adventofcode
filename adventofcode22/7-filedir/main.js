@@ -81,7 +81,7 @@ function changeDirectory(code) {
 //     console.log(`${key}: ${value}`);
 //   }
 
-let fileSizes = 0;
+let totalFileSize = 0;
 function loopThroughDirectories(directory) {
 	// console.log("directory", directory);
 	// console.log(Object.hasOwn(eval(directory), "dir"));
@@ -90,33 +90,54 @@ function loopThroughDirectories(directory) {
 		// for (LOOP OVER EACH KEY IN currDir.dir) {
 		console.log("inside if");
 		// console.log(eval(directory + ".dir"));
-		calcFileSize(directory);
 		for (const [key, value] of Object.entries(eval(directory + ".dir"))) {
+			calcFileSize(directory, true);
 			console.log("value", value, "key", key);
 			changeDirectory(`cd ${key}`);
+
+			//TODO:
+			//to count nested directories more than once???
+			calcFileSize(currDir, true);
+
 			loopThroughDirectories(currDir);
 		}
-		// changeDirectory(`cd ..`);
 		// calcFileSize(currDir);
+		changeDirectory(`cd ..`);
 	} else {
 		console.log("inside else");
-		calcFileSize(directory);
+		// if ((currDir = directory)) {
+		// 	calcFileSize(directory);
+		// } else {
+		// 	calcFileSize(currDir);
+		// 	calcFileSize(directory);
+		// }
+		calcFileSize(directory, false);
 	}
 	changeDirectory(`cd ..`);
 
 	return;
 }
 
-function calcFileSize(directory) {
+let fileSizeLimit = 100000;
+let sumOfSmallDirs = 0;
+function calcFileSize(directory, addToTotal) {
+	let currFileSize = 0;
 	for (const [key, value] of Object.entries(eval(directory + ".files"))) {
 		console.log("value", value, "key", key);
-		fileSizes += value;
+		addToTotal ? (totalFileSize += value) : totalFileSize;
+		currFileSize += value;
 	}
-	console.log("fileSizes", fileSizes);
-	return fileSizes;
+	currFileSize <= fileSizeLimit
+		? (sumOfSmallDirs += currFileSize)
+		: sumOfSmallDirs;
+	console.log("currFileSize", currFileSize);
+	console.log("totalFileSize", totalFileSize);
+	console.log("sumOfSmallDirs", sumOfSmallDirs);
+
+	return [currFileSize, totalFileSize, sumOfSmallDirs];
 }
 
-// changeDirectory("cd a");
+changeDirectory("cd a");
 loopThroughDirectories(currDir);
 // changeDirectory("cd e");
 
