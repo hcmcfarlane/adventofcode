@@ -50,6 +50,10 @@ function changeDirectory(code) {
 		if ((currDir = "fileStructure.home")) {
 			return;
 		} else {
+			dirArray = currDir.split(".");
+			console.log("dirArray", dirArray);
+			currDir = dirArray.pop().join(".");
+			console.log("currDir", currDir);
 			// currDir =
 		}
 	}
@@ -68,3 +72,5 @@ console.log(`${currDir}[files]`); //fileStructure.home.dir.a[files]
 /////////////////////////////////////
 // ⛔ WARNING THIS IS BAD CODE ⛔ //
 console.log(eval(currDir + ".files")); //{ f: 29116, g: 2557, 'h.lst': 62596 }
+
+changeDirectory("cd ..");
