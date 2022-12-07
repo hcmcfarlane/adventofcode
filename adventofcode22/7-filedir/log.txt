@@ -1,36 +1,50 @@
-code [
-  '$ cd /',        '$ ls',
-  'dir a',         '14848514 b.txt',
-  '8504156 c.dat', 'dir d',
-  '$ cd a',        '$ ls',
-  'dir e',         '29116 f',
-  '2557 g',        '62596 h.lst',
-  '$ cd e',        '$ ls',
-  '584 i',         '$ cd ..',
-  '$ cd ..',       '$ cd d',
-  '$ ls',          '4060174 j',
-  '8033020 d.log', '5626152 d.ext',
-  '7214296 k'
-]
-currDir after calling changeDirectory fileStructure.home.dir.a
-value 29116 key f
-value 2557 key g
-value 62596 key h.lst
-currFileSize 94269
-totalFileSize 94269
-sumOfSmallDirs 94269
-inside if
-value { files: { i: 584 } } key e
-currDir after calling changeDirectory fileStructure.home.dir.a.dir.e
-value 584 key i
-currFileSize 584
-totalFileSize 94853
-sumOfSmallDirs 94853
-inside else
-value 584 key i
-currFileSize 584
-totalFileSize 94853
-sumOfSmallDirs 95437
-currDir after calling changeDirectory fileStructure.home.dir.a
-currDir after calling changeDirectory fileStructure.home
-currDir after calling changeDirectory fileStructure.home
+inputFileStruct { home: {} }
+current command: $ cd /
+inputDir inputFileStructure.home 
+------------
+
+current command: $ ls
+Do some stuff with ls here
+inputDir inputFileStructure.home 
+------------
+
+current command: dir a
+newDir a
+inputDir inputFileStructure.home
+check whether dir exists false
+object after creating .dir { home: { dir: {} } }
+{ home: { dir: { a: {} } } }
+inputDir inputFileStructure.home 
+------------
+
+current command: 14848514 b.txt
+Will deal with files in the ls section, so ignore for now
+inputDir inputFileStructure.home 
+------------
+
+current command: 8504156 c.dat
+Will deal with files in the ls section, so ignore for now
+inputDir inputFileStructure.home 
+------------
+
+current command: dir d
+newDir d
+inputDir inputFileStructure.home
+check whether dir exists true
+object after creating .dir { home: { dir: {} } }
+{ home: { dir: { d: {} } } }
+inputDir inputFileStructure.home 
+------------
+
+current command: $ cd a
+inputDir inputFileStructure.home.dir.a 
+------------
+
+current command: $ ls
+Do some stuff with ls here
+inputDir inputFileStructure.home.dir.a 
+------------
+
+current command: dir e
+newDir e
+inputDir inputFileStructure.home.dir.a
