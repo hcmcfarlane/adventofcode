@@ -200,12 +200,12 @@ function changeDirectory(code) {
 
 		currDir = currDir + ".dir." + `${newDir}`;
 	}
-	// console.log("currDir after calling changeDirectory", currDir);
+	// console.log(`currDir after calling changeDirectory ${code}\n`, currDir);
 	return;
 }
 
 function loopThroughDirectories(directory) {
-	console.log("directory", directory);
+	// console.log("directory", directory, "\n");
 	// console.log(Object.hasOwn(eval(directory), "dir"));
 	// console.log("current directory for loop:", directory);
 	calcFileSize(directory, true);
@@ -233,7 +233,7 @@ function loopThroughDirectories(directory) {
 			changeDirectory(`cd ${key}`);
 			loopThroughDirectories(currDir);
 		}
-		changeDirectory(`cd ..`);
+		// changeDirectory(`cd ..`);
 	} else {
 		// console.log("inside else");
 		calcFileSize(directory, false);

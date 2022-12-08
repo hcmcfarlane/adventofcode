@@ -684,14 +684,6 @@
     }
   }
 }
-directory inputFileStructure.home
-directory inputFileStructure.home.dir.gbjh
-directory inputFileStructure.home.dir.gbjh.dir.jtgbg
-directory inputFileStructure.home.dir.gbjh.dir.jtgbg.dir.hzjcc
-directory inputFileStructure.home.dir.gbjh.dir.jtgbg.dir.jgpnm
-directory inputFileStructure.home.dir.gbjh.dir.jtgbg.dir.jgpnm.dir.php
-directory inputFileStructure.home.dir.gbjh.dir.jtgbg.dir.jgpnm.dir.rlp
-directory inputFileStructure.home.dir.gbjh.dir.jtgbg.dir.jgpnm.dir.rlp.dir.dhlspmh
-directory inputFileStructure.home.dir.gbjh.dir.jtgbg.dir.jgpnm.dir.rlp.dir.mlsqrz
-directory inputFileStructure.home.dir.gbjh.dir.jtgbg.dir.jgpnm.dir.rlp.dir.slwhsqw
-directory inputFileStructure.home.dir.smb
+currDir inputFileStructure.home
+totalFileSize 44125990
+sumOfSmallDirs 4202935
