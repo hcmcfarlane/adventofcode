@@ -70,8 +70,12 @@ function trackPositionOfTail(xh, yh, xt, yt) {
 	//follows it up or down wards
 	if (yh === yt) {
 		if (xh > xt) {
-			xt = xh - 1;
+			xt -= 1;
+		} else {
+			xt += 1;
 		}
+	} else {
+		xh > xt ? (xt -= 1) : (xt += 1);
 	}
 
 	console.log([xh, yh], [xt, yt]);
