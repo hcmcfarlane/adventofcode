@@ -1,1 +1,10001 @@
-[ 0, 0 ]
+U 1
+Head [ 0, 1 ]
+knot1 position [ 0, 0 ]
+final knot position [ 0, 0 ] 
+
+L 1
+Head [ -1, 1 ]
+knot1 position [ 0, 0 ]
+final knot position [ 0, 0 ] 
+
+R 2
+Head [ 1, 1 ]
+knot1 position [ 0, 0 ]
+final knot position [ 0, 0 ] 
+
+L 1
+Head [ 0, 1 ]
+knot1 position [ 0, 0 ]
+final knot position [ 0, 0 ] 
+
+D 2
+Head [ 0, -1 ]
+knot1 position [ 0, 0 ]
+final knot position [ 0, 0 ] 
+
+R 1
+Head [ 1, -1 ]
+knot1 position [ 0, 0 ]
+final knot position [ 0, 0 ] 
+
+U 2
+Head [ 1, 1 ]
+knot1 position [ 0, 0 ]
+final knot position [ 0, 0 ] 
+
+R 1
+Head [ 2, 1 ]
+knot1 position [ 1, 1 ]
+final knot position [ 0, 0 ] 
+
+U 1
+Head [ 2, 2 ]
+knot1 position [ 1, 1 ]
+final knot position [ 0, 0 ] 
+
+R 2
+Head [ 4, 2 ]
+knot1 position [ 3, 2 ]
+final knot position [ 0, 0 ] 
+
+D 2
+Head [ 4, 0 ]
+knot1 position [ 4, 1 ]
+final knot position [ 0, 0 ] 
+
+L 1
+Head [ 3, 0 ]
+knot1 position [ 4, 1 ]
+final knot position [ 0, 0 ] 
+
+R 1
+Head [ 4, 0 ]
+knot1 position [ 4, 1 ]
+final knot position [ 0, 0 ] 
+
+D 2
+Head [ 4, -2 ]
+knot1 position [ 4, -1 ]
+final knot position [ 0, 0 ] 
+
+R 1
+Head [ 5, -2 ]
+knot1 position [ 4, -1 ]
+final knot position [ 0, 0 ] 
+
+L 1
+Head [ 4, -2 ]
+knot1 position [ 4, -1 ]
+final knot position [ 0, 0 ] 
+
+R 1
+Head [ 5, -2 ]
+knot1 position [ 4, -1 ]
+final knot position [ 0, 0 ] 
+
+D 1
+Head [ 5, -3 ]
+knot1 position [ 5, -2 ]
+final knot position [ 0, 0 ] 
+
+U 1
+Head [ 5, -2 ]
+knot1 position [ 5, -2 ]
+final knot position [ 0, 0 ] 
+
+R 1
+Head [ 6, -2 ]
+knot1 position [ 5, -2 ]
+final knot position [ 0, 0 ] 
+
+L 1
+Head [ 5, -2 ]
+knot1 position [ 5, -2 ]
+final knot position [ 0, 0 ] 
+
+R 2
+Head [ 7, -2 ]
+knot1 position [ 6, -2 ]
+final knot position [ 0, 0 ] 
+
+U 1
+Head [ 7, -1 ]
+knot1 position [ 6, -2 ]
+final knot position [ 0, 0 ] 
+
+R 1
+Head [ 8, -1 ]
+knot1 position [ 7, -1 ]
+final knot position [ 0, 0 ] 
+
+D 2
+Head [ 8, -3 ]
+knot1 position [ 8, -2 ]
+final knot position [ 0, 0 ] 
+
+L 2
+Head [ 6, -3 ]
+knot1 position [ 7, -3 ]
+final knot position [ 0, 0 ] 
+
+U 1
+Head [ 6, -2 ]
+knot1 position [ 7, -3 ]
+final knot position [ 0, 0 ] 
+
+R 1
+Head [ 7, -2 ]
+knot1 position [ 7, -3 ]
+final knot position [ 0, 0 ] 
+
+D 1
+Head [ 7, -3 ]
+knot1 position [ 7, -3 ]
+final knot position [ 0, 0 ] 
+
+L 1
+Head [ 6, -3 ]
+knot1 position [ 7, -3 ]
+final knot position [ 0, 0 ] 
+
+R 1
+Head [ 7, -3 ]
+knot1 position [ 7, -3 ]
+final knot position [ 0, 0 ] 
+
+L 2
+Head [ 5, -3 ]
+knot1 position [ 6, -3 ]
+final knot position [ 0, 0 ] 
+
+D 1
+Head [ 5, -4 ]
+knot1 position [ 6, -3 ]
+final knot position [ 0, 0 ] 
+
+U 1
+Head [ 5, -3 ]
+knot1 position [ 6, -3 ]
+final knot position [ 0, 0 ] 
+
+D 2
+Head [ 5, -5 ]
+knot1 position [ 5, -4 ]
+final knot position [ 0, 0 ] 
+
+R 2
+Head [ 7, -5 ]
+knot1 position [ 6, -5 ]
+final knot position [ 0, 0 ] 
+
+D 2
+Head [ 7, -7 ]
+knot1 position [ 7, -6 ]
+final knot position [ 1, -1 ] 
+
+R 2
+Head [ 9, -7 ]
+knot1 position [ 8, -7 ]
+final knot position [ 2, -2 ] 
+
+D 2
+Head [ 9, -9 ]
+knot1 position [ 9, -8 ]
+final knot position [ 3, -3 ] 
+
+R 2
+Head [ 11, -9 ]
+knot1 position [ 10, -9 ]
+final knot position [ 4, -4 ] 
+
+U 1
+Head [ 11, -8 ]
+knot1 position [ 10, -9 ]
+final knot position [ 4, -4 ] 
+
+L 2
+Head [ 9, -8 ]
+knot1 position [ 10, -9 ]
+final knot position [ 4, -4 ] 
+
+R 2
+Head [ 11, -8 ]
+knot1 position [ 10, -9 ]
+final knot position [ 4, -4 ] 
+
+D 2
+Head [ 11, -10 ]
+knot1 position [ 10, -9 ]
+final knot position [ 4, -4 ] 
+
+L 2
+Head [ 9, -10 ]
+knot1 position [ 10, -9 ]
+final knot position [ 4, -4 ] 
+
+U 2
+Head [ 9, -8 ]
+knot1 position [ 10, -9 ]
+final knot position [ 4, -4 ] 
+
+R 1
+Head [ 10, -8 ]
+knot1 position [ 10, -9 ]
+final knot position [ 4, -4 ] 
+
+L 1
+Head [ 9, -8 ]
+knot1 position [ 10, -9 ]
+final knot position [ 4, -4 ] 
+
+U 1
+Head [ 9, -7 ]
+knot1 position [ 9, -8 ]
+final knot position [ 4, -4 ] 
+
+R 1
+Head [ 10, -7 ]
+knot1 position [ 9, -8 ]
+final knot position [ 4, -4 ] 
+
+D 1
+Head [ 10, -8 ]
+knot1 position [ 9, -8 ]
+final knot position [ 4, -4 ] 
+
+R 1
+Head [ 11, -8 ]
+knot1 position [ 10, -8 ]
+final knot position [ 4, -4 ] 
+
+L 1
+Head [ 10, -8 ]
+knot1 position [ 10, -8 ]
+final knot position [ 4, -4 ] 
+
+R 1
+Head [ 11, -8 ]
+knot1 position [ 10, -8 ]
+final knot position [ 4, -4 ] 
+
+D 2
+Head [ 11, -10 ]
+knot1 position [ 11, -9 ]
+final knot position [ 4, -4 ] 
+
+L 2
+Head [ 9, -10 ]
+knot1 position [ 10, -10 ]
+final knot position [ 5, -5 ] 
+
+U 1
+Head [ 9, -9 ]
+knot1 position [ 10, -10 ]
+final knot position [ 5, -5 ] 
+
+R 1
+Head [ 10, -9 ]
+knot1 position [ 10, -10 ]
+final knot position [ 5, -5 ] 
+
+L 1
+Head [ 9, -9 ]
+knot1 position [ 10, -10 ]
+final knot position [ 5, -5 ] 
+
+R 1
+Head [ 10, -9 ]
+knot1 position [ 10, -10 ]
+final knot position [ 5, -5 ] 
+
+U 2
+Head [ 10, -7 ]
+knot1 position [ 10, -8 ]
+final knot position [ 5, -5 ] 
+
+D 2
+Head [ 10, -9 ]
+knot1 position [ 10, -8 ]
+final knot position [ 5, -5 ] 
+
+U 2
+Head [ 10, -7 ]
+knot1 position [ 10, -8 ]
+final knot position [ 5, -5 ] 
+
+L 1
+Head [ 9, -7 ]
+knot1 position [ 10, -8 ]
+final knot position [ 5, -5 ] 
+
+U 2
+Head [ 9, -5 ]
+knot1 position [ 9, -6 ]
+final knot position [ 5, -5 ] 
+
+L 1
+Head [ 8, -5 ]
+knot1 position [ 9, -6 ]
+final knot position [ 5, -5 ] 
+
+R 2
+Head [ 10, -5 ]
+knot1 position [ 9, -6 ]
+final knot position [ 5, -5 ] 
+
+U 2
+Head [ 10, -3 ]
+knot1 position [ 10, -4 ]
+final knot position [ 5, -5 ] 
+
+D 1
+Head [ 10, -4 ]
+knot1 position [ 10, -4 ]
+final knot position [ 5, -5 ] 
+
+L 1
+Head [ 9, -4 ]
+knot1 position [ 10, -4 ]
+final knot position [ 5, -5 ] 
+
+R 1
+Head [ 10, -4 ]
+knot1 position [ 10, -4 ]
+final knot position [ 5, -5 ] 
+
+L 2
+Head [ 8, -4 ]
+knot1 position [ 9, -4 ]
+final knot position [ 5, -5 ] 
+
+U 1
+Head [ 8, -3 ]
+knot1 position [ 9, -4 ]
+final knot position [ 5, -5 ] 
+
+D 2
+Head [ 8, -5 ]
+knot1 position [ 9, -4 ]
+final knot position [ 5, -5 ] 
+
+R 2
+Head [ 10, -5 ]
+knot1 position [ 9, -4 ]
+final knot position [ 5, -5 ] 
+
+U 2
+Head [ 10, -3 ]
+knot1 position [ 9, -4 ]
+final knot position [ 5, -5 ] 
+
+R 1
+Head [ 11, -3 ]
+knot1 position [ 10, -3 ]
+final knot position [ 5, -5 ] 
+
+L 1
+Head [ 10, -3 ]
+knot1 position [ 10, -3 ]
+final knot position [ 5, -5 ] 
+
+U 2
+Head [ 10, -1 ]
+knot1 position [ 10, -2 ]
+final knot position [ 6, -6 ] 
+
+R 2
+Head [ 12, -1 ]
+knot1 position [ 11, -1 ]
+final knot position [ 7, -5 ] 
+
+L 1
+Head [ 11, -1 ]
+knot1 position [ 11, -1 ]
+final knot position [ 7, -5 ] 
+
+R 2
+Head [ 13, -1 ]
+knot1 position [ 12, -1 ]
+final knot position [ 7, -5 ] 
+
+D 1
+Head [ 13, -2 ]
+knot1 position [ 12, -1 ]
+final knot position [ 7, -5 ] 
+
+U 2
+Head [ 13, 0 ]
+knot1 position [ 12, -1 ]
+final knot position [ 7, -5 ] 
+
+D 2
+Head [ 13, -2 ]
+knot1 position [ 12, -1 ]
+final knot position [ 7, -5 ] 
+
+R 2
+Head [ 15, -2 ]
+knot1 position [ 14, -2 ]
+final knot position [ 8, -4 ] 
+
+L 1
+Head [ 14, -2 ]
+knot1 position [ 14, -2 ]
+final knot position [ 8, -4 ] 
+
+R 1
+Head [ 15, -2 ]
+knot1 position [ 14, -2 ]
+final knot position [ 8, -4 ] 
+
+U 2
+Head [ 15, 0 ]
+knot1 position [ 15, -1 ]
+final knot position [ 9, -3 ] 
+
+D 2
+Head [ 15, -2 ]
+knot1 position [ 15, -1 ]
+final knot position [ 9, -3 ] 
+
+U 2
+Head [ 15, 0 ]
+knot1 position [ 15, -1 ]
+final knot position [ 9, -3 ] 
+
+D 1
+Head [ 15, -1 ]
+knot1 position [ 15, -1 ]
+final knot position [ 9, -3 ] 
+
+U 1
+Head [ 15, 0 ]
+knot1 position [ 15, -1 ]
+final knot position [ 9, -3 ] 
+
+R 2
+Head [ 17, 0 ]
+knot1 position [ 16, 0 ]
+final knot position [ 10, -2 ] 
+
+D 1
+Head [ 17, -1 ]
+knot1 position [ 16, 0 ]
+final knot position [ 10, -2 ] 
+
+R 1
+Head [ 18, -1 ]
+knot1 position [ 17, -1 ]
+final knot position [ 10, -2 ] 
+
+L 1
+Head [ 17, -1 ]
+knot1 position [ 17, -1 ]
+final knot position [ 10, -2 ] 
+
+D 2
+Head [ 17, -3 ]
+knot1 position [ 17, -2 ]
+final knot position [ 10, -2 ] 
+
+L 2
+Head [ 15, -3 ]
+knot1 position [ 16, -3 ]
+final knot position [ 10, -2 ] 
+
+U 2
+Head [ 15, -1 ]
+knot1 position [ 15, -2 ]
+final knot position [ 10, -2 ] 
+
+R 2
+Head [ 17, -1 ]
+knot1 position [ 16, -1 ]
+final knot position [ 10, -2 ] 
+
+U 1
+Head [ 17, 0 ]
+knot1 position [ 16, -1 ]
+final knot position [ 10, -2 ] 
+
+R 2
+Head [ 19, 0 ]
+knot1 position [ 18, 0 ]
+final knot position [ 10, -2 ] 
+
+U 1
+Head [ 19, 1 ]
+knot1 position [ 18, 0 ]
+final knot position [ 10, -2 ] 
+
+D 1
+Head [ 19, 0 ]
+knot1 position [ 18, 0 ]
+final knot position [ 10, -2 ] 
+
+R 2
+Head [ 21, 0 ]
+knot1 position [ 20, 0 ]
+final knot position [ 12, 0 ] 
+
+U 1
+Head [ 21, 1 ]
+knot1 position [ 20, 0 ]
+final knot position [ 12, 0 ] 
+
+R 1
+Head [ 22, 1 ]
+knot1 position [ 21, 1 ]
+final knot position [ 13, 1 ] 
+
+U 2
+Head [ 22, 3 ]
+knot1 position [ 22, 2 ]
+final knot position [ 14, 2 ] 
+
+R 2
+Head [ 24, 3 ]
+knot1 position [ 23, 3 ]
+final knot position [ 15, 3 ] 
+
+D 2
+Head [ 24, 1 ]
+knot1 position [ 24, 2 ]
+final knot position [ 16, 2 ] 
+
+L 2
+Head [ 22, 1 ]
+knot1 position [ 23, 1 ]
+final knot position [ 16, 2 ] 
+
+D 3
+Head [ 22, -2 ]
+knot1 position [ 22, -1 ]
+final knot position [ 16, 2 ] 
+
+R 2
+Head [ 24, -2 ]
+knot1 position [ 23, -2 ]
+final knot position [ 17, 1 ] 
+
+U 2
+Head [ 24, 0 ]
+knot1 position [ 24, -1 ]
+final knot position [ 17, 1 ] 
+
+R 2
+Head [ 26, 0 ]
+knot1 position [ 25, 0 ]
+final knot position [ 17, 1 ] 
+
+U 2
+Head [ 26, 2 ]
+knot1 position [ 26, 1 ]
+final knot position [ 18, 1 ] 
+
+L 3
+Head [ 23, 2 ]
+knot1 position [ 24, 2 ]
+final knot position [ 18, 1 ] 
+
+U 1
+Head [ 23, 3 ]
+knot1 position [ 24, 2 ]
+final knot position [ 18, 1 ] 
+
+L 1
+Head [ 22, 3 ]
+knot1 position [ 23, 3 ]
+final knot position [ 18, 1 ] 
+
+R 3
+Head [ 25, 3 ]
+knot1 position [ 24, 3 ]
+final knot position [ 18, 1 ] 
+
+D 2
+Head [ 25, 1 ]
+knot1 position [ 25, 2 ]
+final knot position [ 18, 1 ] 
+
+R 2
+Head [ 27, 1 ]
+knot1 position [ 26, 1 ]
+final knot position [ 18, 1 ] 
+
+U 1
+Head [ 27, 2 ]
+knot1 position [ 26, 1 ]
+final knot position [ 18, 1 ] 
+
+L 2
+Head [ 25, 2 ]
+knot1 position [ 26, 1 ]
+final knot position [ 18, 1 ] 
+
+D 2
+Head [ 25, 0 ]
+knot1 position [ 26, 1 ]
+final knot position [ 18, 1 ] 
+
+L 3
+Head [ 22, 0 ]
+knot1 position [ 23, 0 ]
+final knot position [ 18, 1 ] 
+
+U 3
+Head [ 22, 3 ]
+knot1 position [ 22, 2 ]
+final knot position [ 18, 1 ] 
+
+D 2
+Head [ 22, 1 ]
+knot1 position [ 22, 2 ]
+final knot position [ 18, 1 ] 
+
+R 3
+Head [ 25, 1 ]
+knot1 position [ 24, 1 ]
+final knot position [ 18, 1 ] 
+
+U 3
+Head [ 25, 4 ]
+knot1 position [ 25, 3 ]
+final knot position [ 18, 1 ] 
+
+R 2
+Head [ 27, 4 ]
+knot1 position [ 26, 4 ]
+final knot position [ 19, 2 ] 
+
+D 2
+Head [ 27, 2 ]
+knot1 position [ 27, 3 ]
+final knot position [ 19, 2 ] 
+
+U 3
+Head [ 27, 5 ]
+knot1 position [ 27, 4 ]
+final knot position [ 19, 2 ] 
+
+L 1
+Head [ 26, 5 ]
+knot1 position [ 27, 4 ]
+final knot position [ 19, 2 ] 
+
+U 2
+Head [ 26, 7 ]
+knot1 position [ 26, 6 ]
+final knot position [ 20, 3 ] 
+
+R 2
+Head [ 28, 7 ]
+knot1 position [ 27, 7 ]
+final knot position [ 21, 4 ] 
+
+L 1
+Head [ 27, 7 ]
+knot1 position [ 27, 7 ]
+final knot position [ 21, 4 ] 
+
+D 3
+Head [ 27, 4 ]
+knot1 position [ 27, 5 ]
+final knot position [ 21, 4 ] 
+
+U 1
+Head [ 27, 5 ]
+knot1 position [ 27, 5 ]
+final knot position [ 21, 4 ] 
+
+R 3
+Head [ 30, 5 ]
+knot1 position [ 29, 5 ]
+final knot position [ 21, 4 ] 
+
+L 2
+Head [ 28, 5 ]
+knot1 position [ 29, 5 ]
+final knot position [ 21, 4 ] 
+
+D 1
+Head [ 28, 4 ]
+knot1 position [ 29, 5 ]
+final knot position [ 21, 4 ] 
+
+U 2
+Head [ 28, 6 ]
+knot1 position [ 29, 5 ]
+final knot position [ 21, 4 ] 
+
+L 3
+Head [ 25, 6 ]
+knot1 position [ 26, 6 ]
+final knot position [ 21, 4 ] 
+
+R 3
+Head [ 28, 6 ]
+knot1 position [ 27, 6 ]
+final knot position [ 21, 4 ] 
+
+U 3
+Head [ 28, 9 ]
+knot1 position [ 28, 8 ]
+final knot position [ 22, 5 ] 
+
+L 1
+Head [ 27, 9 ]
+knot1 position [ 28, 8 ]
+final knot position [ 22, 5 ] 
+
+D 1
+Head [ 27, 8 ]
+knot1 position [ 28, 8 ]
+final knot position [ 22, 5 ] 
+
+R 3
+Head [ 30, 8 ]
+knot1 position [ 29, 8 ]
+final knot position [ 22, 5 ] 
+
+D 3
+Head [ 30, 5 ]
+knot1 position [ 30, 6 ]
+final knot position [ 22, 5 ] 
+
+R 1
+Head [ 31, 5 ]
+knot1 position [ 30, 6 ]
+final knot position [ 22, 5 ] 
+
+U 2
+Head [ 31, 7 ]
+knot1 position [ 30, 6 ]
+final knot position [ 22, 5 ] 
+
+R 3
+Head [ 34, 7 ]
+knot1 position [ 33, 7 ]
+final knot position [ 25, 7 ] 
+
+L 2
+Head [ 32, 7 ]
+knot1 position [ 33, 7 ]
+final knot position [ 25, 7 ] 
+
+R 1
+Head [ 33, 7 ]
+knot1 position [ 33, 7 ]
+final knot position [ 25, 7 ] 
+
+U 2
+Head [ 33, 9 ]
+knot1 position [ 33, 8 ]
+final knot position [ 25, 7 ] 
+
+L 3
+Head [ 30, 9 ]
+knot1 position [ 31, 9 ]
+final knot position [ 25, 7 ] 
+
+D 1
+Head [ 30, 8 ]
+knot1 position [ 31, 9 ]
+final knot position [ 25, 7 ] 
+
+R 3
+Head [ 33, 8 ]
+knot1 position [ 32, 8 ]
+final knot position [ 25, 7 ] 
+
+U 2
+Head [ 33, 10 ]
+knot1 position [ 33, 9 ]
+final knot position [ 25, 7 ] 
+
+D 2
+Head [ 33, 8 ]
+knot1 position [ 33, 9 ]
+final knot position [ 25, 7 ] 
+
+R 2
+Head [ 35, 8 ]
+knot1 position [ 34, 8 ]
+final knot position [ 26, 8 ] 
+
+D 3
+Head [ 35, 5 ]
+knot1 position [ 35, 6 ]
+final knot position [ 27, 7 ] 
+
+L 3
+Head [ 32, 5 ]
+knot1 position [ 33, 5 ]
+final knot position [ 27, 7 ] 
+
+D 1
+Head [ 32, 4 ]
+knot1 position [ 33, 5 ]
+final knot position [ 27, 7 ] 
+
+L 2
+Head [ 30, 4 ]
+knot1 position [ 31, 4 ]
+final knot position [ 27, 7 ] 
+
+D 1
+Head [ 30, 3 ]
+knot1 position [ 31, 4 ]
+final knot position [ 27, 7 ] 
+
+R 2
+Head [ 32, 3 ]
+knot1 position [ 31, 4 ]
+final knot position [ 27, 7 ] 
+
+L 1
+Head [ 31, 3 ]
+knot1 position [ 31, 4 ]
+final knot position [ 27, 7 ] 
+
+D 2
+Head [ 31, 1 ]
+knot1 position [ 31, 2 ]
+final knot position [ 27, 7 ] 
+
+U 1
+Head [ 31, 2 ]
+knot1 position [ 31, 2 ]
+final knot position [ 27, 7 ] 
+
+D 3
+Head [ 31, -1 ]
+knot1 position [ 31, 0 ]
+final knot position [ 28, 6 ] 
+
+U 1
+Head [ 31, 0 ]
+knot1 position [ 31, 0 ]
+final knot position [ 28, 6 ] 
+
+R 1
+Head [ 32, 0 ]
+knot1 position [ 31, 0 ]
+final knot position [ 28, 6 ] 
+
+U 1
+Head [ 32, 1 ]
+knot1 position [ 31, 0 ]
+final knot position [ 28, 6 ] 
+
+R 3
+Head [ 35, 1 ]
+knot1 position [ 34, 1 ]
+final knot position [ 29, 5 ] 
+
+L 3
+Head [ 32, 1 ]
+knot1 position [ 33, 1 ]
+final knot position [ 29, 5 ] 
+
+U 2
+Head [ 32, 3 ]
+knot1 position [ 32, 2 ]
+final knot position [ 29, 5 ] 
+
+D 3
+Head [ 32, 0 ]
+knot1 position [ 32, 1 ]
+final knot position [ 29, 5 ] 
+
+R 3
+Head [ 35, 0 ]
+knot1 position [ 34, 0 ]
+final knot position [ 29, 5 ] 
+
+U 1
+Head [ 35, 1 ]
+knot1 position [ 34, 0 ]
+final knot position [ 29, 5 ] 
+
+L 1
+Head [ 34, 1 ]
+knot1 position [ 34, 0 ]
+final knot position [ 29, 5 ] 
+
+R 1
+Head [ 35, 1 ]
+knot1 position [ 34, 0 ]
+final knot position [ 29, 5 ] 
+
+U 3
+Head [ 35, 4 ]
+knot1 position [ 35, 3 ]
+final knot position [ 29, 5 ] 
+
+L 2
+Head [ 33, 4 ]
+knot1 position [ 34, 4 ]
+final knot position [ 29, 5 ] 
+
+U 2
+Head [ 33, 6 ]
+knot1 position [ 33, 5 ]
+final knot position [ 29, 5 ] 
+
+D 3
+Head [ 33, 3 ]
+knot1 position [ 33, 4 ]
+final knot position [ 29, 5 ] 
+
+L 2
+Head [ 31, 3 ]
+knot1 position [ 32, 3 ]
+final knot position [ 29, 5 ] 
+
+D 1
+Head [ 31, 2 ]
+knot1 position [ 32, 3 ]
+final knot position [ 29, 5 ] 
+
+R 2
+Head [ 33, 2 ]
+knot1 position [ 32, 3 ]
+final knot position [ 29, 5 ] 
+
+D 2
+Head [ 33, 0 ]
+knot1 position [ 33, 1 ]
+final knot position [ 29, 5 ] 
+
+L 1
+Head [ 32, 0 ]
+knot1 position [ 33, 1 ]
+final knot position [ 29, 5 ] 
+
+R 2
+Head [ 34, 0 ]
+knot1 position [ 33, 1 ]
+final knot position [ 29, 5 ] 
+
+U 1
+Head [ 34, 1 ]
+knot1 position [ 33, 1 ]
+final knot position [ 29, 5 ] 
+
+D 3
+Head [ 34, -2 ]
+knot1 position [ 34, -1 ]
+final knot position [ 29, 5 ] 
+
+R 3
+Head [ 37, -2 ]
+knot1 position [ 36, -2 ]
+final knot position [ 30, 4 ] 
+
+D 2
+Head [ 37, -4 ]
+knot1 position [ 37, -3 ]
+final knot position [ 31, 3 ] 
+
+R 3
+Head [ 40, -4 ]
+knot1 position [ 39, -4 ]
+final knot position [ 33, 1 ] 
+
+L 3
+Head [ 37, -4 ]
+knot1 position [ 38, -4 ]
+final knot position [ 33, 1 ] 
+
+R 3
+Head [ 40, -4 ]
+knot1 position [ 39, -4 ]
+final knot position [ 33, 1 ] 
+
+D 1
+Head [ 40, -5 ]
+knot1 position [ 39, -4 ]
+final knot position [ 33, 1 ] 
+
+U 1
+Head [ 40, -4 ]
+knot1 position [ 39, -4 ]
+final knot position [ 33, 1 ] 
+
+R 1
+Head [ 41, -4 ]
+knot1 position [ 40, -4 ]
+final knot position [ 33, 1 ] 
+
+U 2
+Head [ 41, -2 ]
+knot1 position [ 41, -3 ]
+final knot position [ 34, 0 ] 
+
+D 2
+Head [ 41, -4 ]
+knot1 position [ 41, -3 ]
+final knot position [ 34, 0 ] 
+
+L 2
+Head [ 39, -4 ]
+knot1 position [ 40, -4 ]
+final knot position [ 34, 0 ] 
+
+D 3
+Head [ 39, -7 ]
+knot1 position [ 39, -6 ]
+final knot position [ 34, 0 ] 
+
+R 2
+Head [ 41, -7 ]
+knot1 position [ 40, -7 ]
+final knot position [ 35, -1 ] 
+
+D 3
+Head [ 41, -10 ]
+knot1 position [ 41, -9 ]
+final knot position [ 37, -3 ] 
+
+U 2
+Head [ 41, -8 ]
+knot1 position [ 41, -9 ]
+final knot position [ 37, -3 ] 
+
+L 2
+Head [ 39, -8 ]
+knot1 position [ 40, -8 ]
+final knot position [ 37, -3 ] 
+
+R 1
+Head [ 40, -8 ]
+knot1 position [ 40, -8 ]
+final knot position [ 37, -3 ] 
+
+U 3
+Head [ 40, -5 ]
+knot1 position [ 40, -6 ]
+final knot position [ 37, -3 ] 
+
+L 1
+Head [ 39, -5 ]
+knot1 position [ 40, -6 ]
+final knot position [ 37, -3 ] 
+
+D 1
+Head [ 39, -6 ]
+knot1 position [ 40, -6 ]
+final knot position [ 37, -3 ] 
+
+U 1
+Head [ 39, -5 ]
+knot1 position [ 40, -6 ]
+final knot position [ 37, -3 ] 
+
+D 2
+Head [ 39, -7 ]
+knot1 position [ 40, -6 ]
+final knot position [ 37, -3 ] 
+
+U 1
+Head [ 39, -6 ]
+knot1 position [ 40, -6 ]
+final knot position [ 37, -3 ] 
+
+L 3
+Head [ 36, -6 ]
+knot1 position [ 37, -6 ]
+final knot position [ 37, -3 ] 
+
+R 2
+Head [ 38, -6 ]
+knot1 position [ 37, -6 ]
+final knot position [ 37, -3 ] 
+
+D 1
+Head [ 38, -7 ]
+knot1 position [ 37, -6 ]
+final knot position [ 37, -3 ] 
+
+L 3
+Head [ 35, -7 ]
+knot1 position [ 36, -7 ]
+final knot position [ 37, -3 ] 
+
+U 1
+Head [ 35, -6 ]
+knot1 position [ 36, -7 ]
+final knot position [ 37, -3 ] 
+
+R 3
+Head [ 38, -6 ]
+knot1 position [ 37, -6 ]
+final knot position [ 37, -3 ] 
+
+D 2
+Head [ 38, -8 ]
+knot1 position [ 38, -7 ]
+final knot position [ 37, -3 ] 
+
+U 4
+Head [ 38, -4 ]
+knot1 position [ 38, -5 ]
+final knot position [ 37, -3 ] 
+
+D 1
+Head [ 38, -5 ]
+knot1 position [ 38, -5 ]
+final knot position [ 37, -3 ] 
+
+L 4
+Head [ 34, -5 ]
+knot1 position [ 35, -5 ]
+final knot position [ 37, -3 ] 
+
+R 2
+Head [ 36, -5 ]
+knot1 position [ 35, -5 ]
+final knot position [ 37, -3 ] 
+
+L 2
+Head [ 34, -5 ]
+knot1 position [ 35, -5 ]
+final knot position [ 37, -3 ] 
+
+R 2
+Head [ 36, -5 ]
+knot1 position [ 35, -5 ]
+final knot position [ 37, -3 ] 
+
+U 4
+Head [ 36, -1 ]
+knot1 position [ 36, -2 ]
+final knot position [ 37, -3 ] 
+
+R 1
+Head [ 37, -1 ]
+knot1 position [ 36, -2 ]
+final knot position [ 37, -3 ] 
+
+U 3
+Head [ 37, 2 ]
+knot1 position [ 37, 1 ]
+final knot position [ 37, -3 ] 
+
+L 2
+Head [ 35, 2 ]
+knot1 position [ 36, 2 ]
+final knot position [ 37, -3 ] 
+
+U 2
+Head [ 35, 4 ]
+knot1 position [ 35, 3 ]
+final knot position [ 37, -3 ] 
+
+R 3
+Head [ 38, 4 ]
+knot1 position [ 37, 4 ]
+final knot position [ 37, -3 ] 
+
+L 3
+Head [ 35, 4 ]
+knot1 position [ 36, 4 ]
+final knot position [ 37, -3 ] 
+
+D 3
+Head [ 35, 1 ]
+knot1 position [ 35, 2 ]
+final knot position [ 37, -3 ] 
+
+R 4
+Head [ 39, 1 ]
+knot1 position [ 38, 1 ]
+final knot position [ 37, -3 ] 
+
+D 4
+Head [ 39, -3 ]
+knot1 position [ 39, -2 ]
+final knot position [ 37, -3 ] 
+
+R 3
+Head [ 42, -3 ]
+knot1 position [ 41, -3 ]
+final knot position [ 37, -3 ] 
+
+D 1
+Head [ 42, -4 ]
+knot1 position [ 41, -3 ]
+final knot position [ 37, -3 ] 
+
+L 4
+Head [ 38, -4 ]
+knot1 position [ 39, -4 ]
+final knot position [ 37, -3 ] 
+
+D 4
+Head [ 38, -8 ]
+knot1 position [ 38, -7 ]
+final knot position [ 37, -3 ] 
+
+U 3
+Head [ 38, -5 ]
+knot1 position [ 38, -6 ]
+final knot position [ 37, -3 ] 
+
+D 3
+Head [ 38, -8 ]
+knot1 position [ 38, -7 ]
+final knot position [ 37, -3 ] 
+
+L 4
+Head [ 34, -8 ]
+knot1 position [ 35, -8 ]
+final knot position [ 37, -3 ] 
+
+R 4
+Head [ 38, -8 ]
+knot1 position [ 37, -8 ]
+final knot position [ 37, -3 ] 
+
+L 2
+Head [ 36, -8 ]
+knot1 position [ 37, -8 ]
+final knot position [ 37, -3 ] 
+
+R 3
+Head [ 39, -8 ]
+knot1 position [ 38, -8 ]
+final knot position [ 37, -3 ] 
+
+L 4
+Head [ 35, -8 ]
+knot1 position [ 36, -8 ]
+final knot position [ 37, -3 ] 
+
+D 3
+Head [ 35, -11 ]
+knot1 position [ 35, -10 ]
+final knot position [ 37, -3 ] 
+
+L 3
+Head [ 32, -11 ]
+knot1 position [ 33, -11 ]
+final knot position [ 36, -4 ] 
+
+U 1
+Head [ 32, -10 ]
+knot1 position [ 33, -11 ]
+final knot position [ 36, -4 ] 
+
+R 2
+Head [ 34, -10 ]
+knot1 position [ 33, -11 ]
+final knot position [ 36, -4 ] 
+
+U 1
+Head [ 34, -9 ]
+knot1 position [ 34, -10 ]
+final knot position [ 36, -4 ] 
+
+L 3
+Head [ 31, -9 ]
+knot1 position [ 32, -9 ]
+final knot position [ 36, -4 ] 
+
+U 4
+Head [ 31, -5 ]
+knot1 position [ 31, -6 ]
+final knot position [ 36, -4 ] 
+
+D 1
+Head [ 31, -6 ]
+knot1 position [ 31, -6 ]
+final knot position [ 36, -4 ] 
+
+L 2
+Head [ 29, -6 ]
+knot1 position [ 30, -6 ]
+final knot position [ 36, -4 ] 
+
+U 2
+Head [ 29, -4 ]
+knot1 position [ 29, -5 ]
+final knot position [ 36, -4 ] 
+
+L 1
+Head [ 28, -4 ]
+knot1 position [ 29, -5 ]
+final knot position [ 36, -4 ] 
+
+D 1
+Head [ 28, -5 ]
+knot1 position [ 29, -5 ]
+final knot position [ 36, -4 ] 
+
+R 2
+Head [ 30, -5 ]
+knot1 position [ 29, -5 ]
+final knot position [ 36, -4 ] 
+
+L 4
+Head [ 26, -5 ]
+knot1 position [ 27, -5 ]
+final knot position [ 35, -5 ] 
+
+R 3
+Head [ 29, -5 ]
+knot1 position [ 28, -5 ]
+final knot position [ 35, -5 ] 
+
+U 4
+Head [ 29, -1 ]
+knot1 position [ 29, -2 ]
+final knot position [ 35, -5 ] 
+
+R 1
+Head [ 30, -1 ]
+knot1 position [ 29, -2 ]
+final knot position [ 35, -5 ] 
+
+D 1
+Head [ 30, -2 ]
+knot1 position [ 29, -2 ]
+final knot position [ 35, -5 ] 
+
+R 1
+Head [ 31, -2 ]
+knot1 position [ 30, -2 ]
+final knot position [ 35, -5 ] 
+
+U 3
+Head [ 31, 1 ]
+knot1 position [ 31, 0 ]
+final knot position [ 35, -5 ] 
+
+D 4
+Head [ 31, -3 ]
+knot1 position [ 31, -2 ]
+final knot position [ 35, -5 ] 
+
+R 1
+Head [ 32, -3 ]
+knot1 position [ 31, -2 ]
+final knot position [ 35, -5 ] 
+
+U 4
+Head [ 32, 1 ]
+knot1 position [ 32, 0 ]
+final knot position [ 35, -5 ] 
+
+R 2
+Head [ 34, 1 ]
+knot1 position [ 33, 1 ]
+final knot position [ 35, -5 ] 
+
+D 2
+Head [ 34, -1 ]
+knot1 position [ 34, 0 ]
+final knot position [ 35, -5 ] 
+
+U 2
+Head [ 34, 1 ]
+knot1 position [ 34, 0 ]
+final knot position [ 35, -5 ] 
+
+R 2
+Head [ 36, 1 ]
+knot1 position [ 35, 1 ]
+final knot position [ 35, -5 ] 
+
+U 4
+Head [ 36, 5 ]
+knot1 position [ 36, 4 ]
+final knot position [ 35, -4 ] 
+
+L 1
+Head [ 35, 5 ]
+knot1 position [ 36, 4 ]
+final knot position [ 35, -4 ] 
+
+D 3
+Head [ 35, 2 ]
+knot1 position [ 35, 3 ]
+final knot position [ 35, -4 ] 
+
+L 4
+Head [ 31, 2 ]
+knot1 position [ 32, 2 ]
+final knot position [ 35, -4 ] 
+
+D 2
+Head [ 31, 0 ]
+knot1 position [ 31, 1 ]
+final knot position [ 35, -4 ] 
+
+L 2
+Head [ 29, 0 ]
+knot1 position [ 30, 0 ]
+final knot position [ 35, -4 ] 
+
+D 2
+Head [ 29, -2 ]
+knot1 position [ 29, -1 ]
+final knot position [ 35, -4 ] 
+
+U 4
+Head [ 29, 2 ]
+knot1 position [ 29, 1 ]
+final knot position [ 34, -3 ] 
+
+L 4
+Head [ 25, 2 ]
+knot1 position [ 26, 2 ]
+final knot position [ 32, -1 ] 
+
+R 1
+Head [ 26, 2 ]
+knot1 position [ 26, 2 ]
+final knot position [ 32, -1 ] 
+
+D 1
+Head [ 26, 1 ]
+knot1 position [ 26, 2 ]
+final knot position [ 32, -1 ] 
+
+R 3
+Head [ 29, 1 ]
+knot1 position [ 28, 1 ]
+final knot position [ 32, -1 ] 
+
+D 3
+Head [ 29, -2 ]
+knot1 position [ 29, -1 ]
+final knot position [ 32, -1 ] 
+
+L 4
+Head [ 25, -2 ]
+knot1 position [ 26, -2 ]
+final knot position [ 32, -1 ] 
+
+R 3
+Head [ 28, -2 ]
+knot1 position [ 27, -2 ]
+final knot position [ 32, -1 ] 
+
+D 2
+Head [ 28, -4 ]
+knot1 position [ 28, -3 ]
+final knot position [ 32, -1 ] 
+
+R 1
+Head [ 29, -4 ]
+knot1 position [ 28, -3 ]
+final knot position [ 32, -1 ] 
+
+D 1
+Head [ 29, -5 ]
+knot1 position [ 29, -4 ]
+final knot position [ 32, -1 ] 
+
+R 1
+Head [ 30, -5 ]
+knot1 position [ 29, -4 ]
+final knot position [ 32, -1 ] 
+
+U 1
+Head [ 30, -4 ]
+knot1 position [ 29, -4 ]
+final knot position [ 32, -1 ] 
+
+D 1
+Head [ 30, -5 ]
+knot1 position [ 29, -4 ]
+final knot position [ 32, -1 ] 
+
+L 1
+Head [ 29, -5 ]
+knot1 position [ 29, -4 ]
+final knot position [ 32, -1 ] 
+
+D 1
+Head [ 29, -6 ]
+knot1 position [ 29, -5 ]
+final knot position [ 32, -1 ] 
+
+R 2
+Head [ 31, -6 ]
+knot1 position [ 30, -6 ]
+final knot position [ 32, -1 ] 
+
+L 3
+Head [ 28, -6 ]
+knot1 position [ 29, -6 ]
+final knot position [ 32, -1 ] 
+
+D 1
+Head [ 28, -7 ]
+knot1 position [ 29, -6 ]
+final knot position [ 32, -1 ] 
+
+R 1
+Head [ 29, -7 ]
+knot1 position [ 29, -6 ]
+final knot position [ 32, -1 ] 
+
+L 4
+Head [ 25, -7 ]
+knot1 position [ 26, -7 ]
+final knot position [ 30, -2 ] 
+
+D 4
+Head [ 25, -11 ]
+knot1 position [ 25, -10 ]
+final knot position [ 28, -4 ] 
+
+R 4
+Head [ 29, -11 ]
+knot1 position [ 28, -11 ]
+final knot position [ 28, -4 ] 
+
+L 3
+Head [ 26, -11 ]
+knot1 position [ 27, -11 ]
+final knot position [ 28, -4 ] 
+
+D 4
+Head [ 26, -15 ]
+knot1 position [ 26, -14 ]
+final knot position [ 26, -6 ] 
+
+U 2
+Head [ 26, -13 ]
+knot1 position [ 26, -14 ]
+final knot position [ 26, -6 ] 
+
+L 1
+Head [ 25, -13 ]
+knot1 position [ 26, -14 ]
+final knot position [ 26, -6 ] 
+
+D 3
+Head [ 25, -16 ]
+knot1 position [ 25, -15 ]
+final knot position [ 25, -7 ] 
+
+U 2
+Head [ 25, -14 ]
+knot1 position [ 25, -15 ]
+final knot position [ 25, -7 ] 
+
+D 1
+Head [ 25, -15 ]
+knot1 position [ 25, -15 ]
+final knot position [ 25, -7 ] 
+
+R 2
+Head [ 27, -15 ]
+knot1 position [ 26, -15 ]
+final knot position [ 25, -7 ] 
+
+D 2
+Head [ 27, -17 ]
+knot1 position [ 27, -16 ]
+final knot position [ 26, -8 ] 
+
+L 2
+Head [ 25, -17 ]
+knot1 position [ 26, -17 ]
+final knot position [ 26, -9 ] 
+
+U 1
+Head [ 25, -16 ]
+knot1 position [ 26, -17 ]
+final knot position [ 26, -9 ] 
+
+D 4
+Head [ 25, -20 ]
+knot1 position [ 25, -19 ]
+final knot position [ 25, -11 ] 
+
+R 3
+Head [ 28, -20 ]
+knot1 position [ 27, -20 ]
+final knot position [ 26, -12 ] 
+
+U 4
+Head [ 28, -16 ]
+knot1 position [ 28, -17 ]
+final knot position [ 26, -12 ] 
+
+D 1
+Head [ 28, -17 ]
+knot1 position [ 28, -17 ]
+final knot position [ 26, -12 ] 
+
+R 3
+Head [ 31, -17 ]
+knot1 position [ 30, -17 ]
+final knot position [ 26, -12 ] 
+
+U 1
+Head [ 31, -16 ]
+knot1 position [ 30, -17 ]
+final knot position [ 26, -12 ] 
+
+D 1
+Head [ 31, -17 ]
+knot1 position [ 30, -17 ]
+final knot position [ 26, -12 ] 
+
+U 1
+Head [ 31, -16 ]
+knot1 position [ 30, -17 ]
+final knot position [ 26, -12 ] 
+
+R 1
+Head [ 32, -16 ]
+knot1 position [ 31, -16 ]
+final knot position [ 26, -12 ] 
+
+D 1
+Head [ 32, -17 ]
+knot1 position [ 31, -16 ]
+final knot position [ 26, -12 ] 
+
+R 3
+Head [ 35, -17 ]
+knot1 position [ 34, -17 ]
+final knot position [ 28, -14 ] 
+
+U 4
+Head [ 35, -13 ]
+knot1 position [ 35, -14 ]
+final knot position [ 28, -14 ] 
+
+R 4
+Head [ 39, -13 ]
+knot1 position [ 38, -13 ]
+final knot position [ 30, -13 ] 
+
+U 2
+Head [ 39, -11 ]
+knot1 position [ 39, -12 ]
+final knot position [ 31, -12 ] 
+
+L 1
+Head [ 38, -11 ]
+knot1 position [ 39, -12 ]
+final knot position [ 31, -12 ] 
+
+U 1
+Head [ 38, -10 ]
+knot1 position [ 38, -11 ]
+final knot position [ 31, -12 ] 
+
+L 3
+Head [ 35, -10 ]
+knot1 position [ 36, -10 ]
+final knot position [ 31, -12 ] 
+
+R 5
+Head [ 40, -10 ]
+knot1 position [ 39, -10 ]
+final knot position [ 32, -11 ] 
+
+D 2
+Head [ 40, -12 ]
+knot1 position [ 40, -11 ]
+final knot position [ 32, -11 ] 
+
+U 1
+Head [ 40, -11 ]
+knot1 position [ 40, -11 ]
+final knot position [ 32, -11 ] 
+
+R 3
+Head [ 43, -11 ]
+knot1 position [ 42, -11 ]
+final knot position [ 34, -11 ] 
+
+D 3
+Head [ 43, -14 ]
+knot1 position [ 43, -13 ]
+final knot position [ 35, -12 ] 
+
+R 1
+Head [ 44, -14 ]
+knot1 position [ 43, -13 ]
+final knot position [ 35, -12 ] 
+
+D 1
+Head [ 44, -15 ]
+knot1 position [ 44, -14 ]
+final knot position [ 36, -13 ] 
+
+L 5
+Head [ 39, -15 ]
+knot1 position [ 40, -15 ]
+final knot position [ 36, -13 ] 
+
+R 1
+Head [ 40, -15 ]
+knot1 position [ 40, -15 ]
+final knot position [ 36, -13 ] 
+
+D 1
+Head [ 40, -16 ]
+knot1 position [ 40, -15 ]
+final knot position [ 36, -13 ] 
+
+R 2
+Head [ 42, -16 ]
+knot1 position [ 41, -16 ]
+final knot position [ 36, -13 ] 
+
+U 3
+Head [ 42, -13 ]
+knot1 position [ 42, -14 ]
+final knot position [ 36, -13 ] 
+
+R 2
+Head [ 44, -13 ]
+knot1 position [ 43, -13 ]
+final knot position [ 36, -13 ] 
+
+L 4
+Head [ 40, -13 ]
+knot1 position [ 41, -13 ]
+final knot position [ 36, -13 ] 
+
+U 3
+Head [ 40, -10 ]
+knot1 position [ 40, -11 ]
+final knot position [ 36, -13 ] 
+
+D 4
+Head [ 40, -14 ]
+knot1 position [ 40, -13 ]
+final knot position [ 36, -13 ] 
+
+U 1
+Head [ 40, -13 ]
+knot1 position [ 40, -13 ]
+final knot position [ 36, -13 ] 
+
+R 3
+Head [ 43, -13 ]
+knot1 position [ 42, -13 ]
+final knot position [ 36, -13 ] 
+
+D 1
+Head [ 43, -14 ]
+knot1 position [ 42, -13 ]
+final knot position [ 36, -13 ] 
+
+R 2
+Head [ 45, -14 ]
+knot1 position [ 44, -14 ]
+final knot position [ 36, -13 ] 
+
+L 3
+Head [ 42, -14 ]
+knot1 position [ 43, -14 ]
+final knot position [ 36, -13 ] 
+
+R 3
+Head [ 45, -14 ]
+knot1 position [ 44, -14 ]
+final knot position [ 36, -13 ] 
+
+U 2
+Head [ 45, -12 ]
+knot1 position [ 45, -13 ]
+final knot position [ 37, -13 ] 
+
+L 5
+Head [ 40, -12 ]
+knot1 position [ 41, -12 ]
+final knot position [ 37, -13 ] 
+
+U 3
+Head [ 40, -9 ]
+knot1 position [ 40, -10 ]
+final knot position [ 37, -13 ] 
+
+R 4
+Head [ 44, -9 ]
+knot1 position [ 43, -9 ]
+final knot position [ 38, -12 ] 
+
+D 4
+Head [ 44, -13 ]
+knot1 position [ 44, -12 ]
+final knot position [ 38, -12 ] 
+
+R 2
+Head [ 46, -13 ]
+knot1 position [ 45, -13 ]
+final knot position [ 38, -12 ] 
+
+D 3
+Head [ 46, -16 ]
+knot1 position [ 46, -15 ]
+final knot position [ 39, -13 ] 
+
+R 2
+Head [ 48, -16 ]
+knot1 position [ 47, -16 ]
+final knot position [ 40, -14 ] 
+
+U 4
+Head [ 48, -12 ]
+knot1 position [ 48, -13 ]
+final knot position [ 41, -14 ] 
+
+L 5
+Head [ 43, -12 ]
+knot1 position [ 44, -12 ]
+final knot position [ 41, -14 ] 
+
+R 2
+Head [ 45, -12 ]
+knot1 position [ 44, -12 ]
+final knot position [ 41, -14 ] 
+
+L 3
+Head [ 42, -12 ]
+knot1 position [ 43, -12 ]
+final knot position [ 41, -14 ] 
+
+U 4
+Head [ 42, -8 ]
+knot1 position [ 42, -9 ]
+final knot position [ 41, -14 ] 
+
+L 5
+Head [ 37, -8 ]
+knot1 position [ 38, -8 ]
+final knot position [ 41, -14 ] 
+
+R 3
+Head [ 40, -8 ]
+knot1 position [ 39, -8 ]
+final knot position [ 41, -14 ] 
+
+D 3
+Head [ 40, -11 ]
+knot1 position [ 40, -10 ]
+final knot position [ 41, -14 ] 
+
+U 4
+Head [ 40, -7 ]
+knot1 position [ 40, -8 ]
+final knot position [ 41, -14 ] 
+
+R 2
+Head [ 42, -7 ]
+knot1 position [ 41, -7 ]
+final knot position [ 41, -14 ] 
+
+U 5
+Head [ 42, -2 ]
+knot1 position [ 42, -3 ]
+final knot position [ 42, -11 ] 
+
+R 2
+Head [ 44, -2 ]
+knot1 position [ 43, -2 ]
+final knot position [ 43, -10 ] 
+
+U 5
+Head [ 44, 3 ]
+knot1 position [ 44, 2 ]
+final knot position [ 44, -6 ] 
+
+D 1
+Head [ 44, 2 ]
+knot1 position [ 44, 2 ]
+final knot position [ 44, -6 ] 
+
+L 2
+Head [ 42, 2 ]
+knot1 position [ 43, 2 ]
+final knot position [ 44, -6 ] 
+
+D 2
+Head [ 42, 0 ]
+knot1 position [ 42, 1 ]
+final knot position [ 44, -6 ] 
+
+U 3
+Head [ 42, 3 ]
+knot1 position [ 42, 2 ]
+final knot position [ 44, -6 ] 
+
+R 3
+Head [ 45, 3 ]
+knot1 position [ 44, 3 ]
+final knot position [ 43, -5 ] 
+
+L 3
+Head [ 42, 3 ]
+knot1 position [ 43, 3 ]
+final knot position [ 43, -5 ] 
+
+U 3
+Head [ 42, 6 ]
+knot1 position [ 42, 5 ]
+final knot position [ 42, -3 ] 
+
+D 5
+Head [ 42, 1 ]
+knot1 position [ 42, 2 ]
+final knot position [ 42, -3 ] 
+
+R 4
+Head [ 46, 1 ]
+knot1 position [ 45, 1 ]
+final knot position [ 42, -3 ] 
+
+D 4
+Head [ 46, -3 ]
+knot1 position [ 46, -2 ]
+final knot position [ 42, -3 ] 
+
+L 4
+Head [ 42, -3 ]
+knot1 position [ 43, -3 ]
+final knot position [ 42, -3 ] 
+
+D 5
+Head [ 42, -8 ]
+knot1 position [ 42, -7 ]
+final knot position [ 42, -3 ] 
+
+R 1
+Head [ 43, -8 ]
+knot1 position [ 42, -7 ]
+final knot position [ 42, -3 ] 
+
+U 4
+Head [ 43, -4 ]
+knot1 position [ 43, -5 ]
+final knot position [ 42, -3 ] 
+
+L 2
+Head [ 41, -4 ]
+knot1 position [ 42, -4 ]
+final knot position [ 42, -3 ] 
+
+R 1
+Head [ 42, -4 ]
+knot1 position [ 42, -4 ]
+final knot position [ 42, -3 ] 
+
+D 3
+Head [ 42, -7 ]
+knot1 position [ 42, -6 ]
+final knot position [ 42, -3 ] 
+
+L 2
+Head [ 40, -7 ]
+knot1 position [ 41, -7 ]
+final knot position [ 42, -3 ] 
+
+R 2
+Head [ 42, -7 ]
+knot1 position [ 41, -7 ]
+final knot position [ 42, -3 ] 
+
+L 3
+Head [ 39, -7 ]
+knot1 position [ 40, -7 ]
+final knot position [ 42, -3 ] 
+
+R 2
+Head [ 41, -7 ]
+knot1 position [ 40, -7 ]
+final knot position [ 42, -3 ] 
+
+L 2
+Head [ 39, -7 ]
+knot1 position [ 40, -7 ]
+final knot position [ 42, -3 ] 
+
+D 3
+Head [ 39, -10 ]
+knot1 position [ 39, -9 ]
+final knot position [ 42, -3 ] 
+
+U 5
+Head [ 39, -5 ]
+knot1 position [ 39, -6 ]
+final knot position [ 42, -3 ] 
+
+D 5
+Head [ 39, -10 ]
+knot1 position [ 39, -9 ]
+final knot position [ 42, -3 ] 
+
+L 3
+Head [ 36, -10 ]
+knot1 position [ 37, -10 ]
+final knot position [ 41, -4 ] 
+
+R 5
+Head [ 41, -10 ]
+knot1 position [ 40, -10 ]
+final knot position [ 41, -4 ] 
+
+U 3
+Head [ 41, -7 ]
+knot1 position [ 41, -8 ]
+final knot position [ 41, -4 ] 
+
+L 3
+Head [ 38, -7 ]
+knot1 position [ 39, -7 ]
+final knot position [ 41, -4 ] 
+
+D 5
+Head [ 38, -12 ]
+knot1 position [ 38, -11 ]
+final knot position [ 41, -4 ] 
+
+L 4
+Head [ 34, -12 ]
+knot1 position [ 35, -12 ]
+final knot position [ 39, -6 ] 
+
+D 1
+Head [ 34, -13 ]
+knot1 position [ 35, -12 ]
+final knot position [ 39, -6 ] 
+
+L 2
+Head [ 32, -13 ]
+knot1 position [ 33, -13 ]
+final knot position [ 37, -8 ] 
+
+D 4
+Head [ 32, -17 ]
+knot1 position [ 32, -16 ]
+final knot position [ 35, -10 ] 
+
+U 4
+Head [ 32, -13 ]
+knot1 position [ 32, -14 ]
+final knot position [ 35, -10 ] 
+
+D 1
+Head [ 32, -14 ]
+knot1 position [ 32, -14 ]
+final knot position [ 35, -10 ] 
+
+R 1
+Head [ 33, -14 ]
+knot1 position [ 32, -14 ]
+final knot position [ 35, -10 ] 
+
+L 4
+Head [ 29, -14 ]
+knot1 position [ 30, -14 ]
+final knot position [ 35, -10 ] 
+
+R 3
+Head [ 32, -14 ]
+knot1 position [ 31, -14 ]
+final knot position [ 35, -10 ] 
+
+U 2
+Head [ 32, -12 ]
+knot1 position [ 32, -13 ]
+final knot position [ 35, -10 ] 
+
+L 3
+Head [ 29, -12 ]
+knot1 position [ 30, -12 ]
+final knot position [ 35, -10 ] 
+
+U 4
+Head [ 29, -8 ]
+knot1 position [ 29, -9 ]
+final knot position [ 35, -10 ] 
+
+D 4
+Head [ 29, -12 ]
+knot1 position [ 29, -11 ]
+final knot position [ 35, -10 ] 
+
+R 2
+Head [ 31, -12 ]
+knot1 position [ 30, -12 ]
+final knot position [ 35, -10 ] 
+
+D 4
+Head [ 31, -16 ]
+knot1 position [ 31, -15 ]
+final knot position [ 35, -10 ] 
+
+U 2
+Head [ 31, -14 ]
+knot1 position [ 31, -15 ]
+final knot position [ 35, -10 ] 
+
+D 4
+Head [ 31, -18 ]
+knot1 position [ 31, -17 ]
+final knot position [ 34, -11 ] 
+
+U 2
+Head [ 31, -16 ]
+knot1 position [ 31, -17 ]
+final knot position [ 34, -11 ] 
+
+L 4
+Head [ 27, -16 ]
+knot1 position [ 28, -16 ]
+final knot position [ 33, -12 ] 
+
+D 5
+Head [ 27, -21 ]
+knot1 position [ 27, -20 ]
+final knot position [ 31, -14 ] 
+
+L 4
+Head [ 23, -21 ]
+knot1 position [ 24, -21 ]
+final knot position [ 29, -16 ] 
+
+R 1
+Head [ 24, -21 ]
+knot1 position [ 24, -21 ]
+final knot position [ 29, -16 ] 
+
+L 2
+Head [ 22, -21 ]
+knot1 position [ 23, -21 ]
+final knot position [ 28, -17 ] 
+
+R 3
+Head [ 25, -21 ]
+knot1 position [ 24, -21 ]
+final knot position [ 28, -17 ] 
+
+D 2
+Head [ 25, -23 ]
+knot1 position [ 25, -22 ]
+final knot position [ 28, -17 ] 
+
+R 5
+Head [ 30, -23 ]
+knot1 position [ 29, -23 ]
+final knot position [ 28, -17 ] 
+
+L 1
+Head [ 29, -23 ]
+knot1 position [ 29, -23 ]
+final knot position [ 28, -17 ] 
+
+U 5
+Head [ 29, -18 ]
+knot1 position [ 29, -19 ]
+final knot position [ 28, -17 ] 
+
+R 1
+Head [ 30, -18 ]
+knot1 position [ 29, -19 ]
+final knot position [ 28, -17 ] 
+
+D 5
+Head [ 30, -23 ]
+knot1 position [ 30, -22 ]
+final knot position [ 28, -17 ] 
+
+L 1
+Head [ 29, -23 ]
+knot1 position [ 30, -22 ]
+final knot position [ 28, -17 ] 
+
+D 2
+Head [ 29, -25 ]
+knot1 position [ 29, -24 ]
+final knot position [ 28, -17 ] 
+
+U 5
+Head [ 29, -20 ]
+knot1 position [ 29, -21 ]
+final knot position [ 28, -17 ] 
+
+D 2
+Head [ 29, -22 ]
+knot1 position [ 29, -21 ]
+final knot position [ 28, -17 ] 
+
+U 1
+Head [ 29, -21 ]
+knot1 position [ 29, -21 ]
+final knot position [ 28, -17 ] 
+
+D 6
+Head [ 29, -27 ]
+knot1 position [ 29, -26 ]
+final knot position [ 28, -18 ] 
+
+U 2
+Head [ 29, -25 ]
+knot1 position [ 29, -26 ]
+final knot position [ 28, -18 ] 
+
+L 5
+Head [ 24, -25 ]
+knot1 position [ 25, -25 ]
+final knot position [ 28, -19 ] 
+
+D 2
+Head [ 24, -27 ]
+knot1 position [ 24, -26 ]
+final knot position [ 27, -20 ] 
+
+R 1
+Head [ 25, -27 ]
+knot1 position [ 24, -26 ]
+final knot position [ 27, -20 ] 
+
+D 1
+Head [ 25, -28 ]
+knot1 position [ 25, -27 ]
+final knot position [ 27, -20 ] 
+
+R 1
+Head [ 26, -28 ]
+knot1 position [ 25, -27 ]
+final knot position [ 27, -20 ] 
+
+D 5
+Head [ 26, -33 ]
+knot1 position [ 26, -32 ]
+final knot position [ 26, -24 ] 
+
+U 1
+Head [ 26, -32 ]
+knot1 position [ 26, -32 ]
+final knot position [ 26, -24 ] 
+
+D 5
+Head [ 26, -37 ]
+knot1 position [ 26, -36 ]
+final knot position [ 26, -28 ] 
+
+R 4
+Head [ 30, -37 ]
+knot1 position [ 29, -37 ]
+final knot position [ 28, -30 ] 
+
+L 3
+Head [ 27, -37 ]
+knot1 position [ 28, -37 ]
+final knot position [ 28, -30 ] 
+
+R 4
+Head [ 31, -37 ]
+knot1 position [ 30, -37 ]
+final knot position [ 28, -30 ] 
+
+U 1
+Head [ 31, -36 ]
+knot1 position [ 30, -37 ]
+final knot position [ 28, -30 ] 
+
+D 5
+Head [ 31, -41 ]
+knot1 position [ 31, -40 ]
+final knot position [ 30, -32 ] 
+
+U 5
+Head [ 31, -36 ]
+knot1 position [ 31, -37 ]
+final knot position [ 30, -32 ] 
+
+L 4
+Head [ 27, -36 ]
+knot1 position [ 28, -36 ]
+final knot position [ 30, -32 ] 
+
+U 5
+Head [ 27, -31 ]
+knot1 position [ 27, -32 ]
+final knot position [ 30, -32 ] 
+
+L 4
+Head [ 23, -31 ]
+knot1 position [ 24, -31 ]
+final knot position [ 30, -32 ] 
+
+U 5
+Head [ 23, -26 ]
+knot1 position [ 23, -27 ]
+final knot position [ 28, -30 ] 
+
+R 2
+Head [ 25, -26 ]
+knot1 position [ 24, -26 ]
+final knot position [ 28, -30 ] 
+
+L 6
+Head [ 19, -26 ]
+knot1 position [ 20, -26 ]
+final knot position [ 26, -28 ] 
+
+D 4
+Head [ 19, -30 ]
+knot1 position [ 19, -29 ]
+final knot position [ 26, -28 ] 
+
+L 1
+Head [ 18, -30 ]
+knot1 position [ 19, -29 ]
+final knot position [ 26, -28 ] 
+
+U 1
+Head [ 18, -29 ]
+knot1 position [ 19, -29 ]
+final knot position [ 26, -28 ] 
+
+R 6
+Head [ 24, -29 ]
+knot1 position [ 23, -29 ]
+final knot position [ 26, -28 ] 
+
+D 4
+Head [ 24, -33 ]
+knot1 position [ 24, -32 ]
+final knot position [ 26, -28 ] 
+
+L 1
+Head [ 23, -33 ]
+knot1 position [ 24, -32 ]
+final knot position [ 26, -28 ] 
+
+D 2
+Head [ 23, -35 ]
+knot1 position [ 23, -34 ]
+final knot position [ 26, -28 ] 
+
+R 2
+Head [ 25, -35 ]
+knot1 position [ 24, -35 ]
+final knot position [ 26, -28 ] 
+
+U 5
+Head [ 25, -30 ]
+knot1 position [ 25, -31 ]
+final knot position [ 26, -28 ] 
+
+R 5
+Head [ 30, -30 ]
+knot1 position [ 29, -30 ]
+final knot position [ 26, -28 ] 
+
+U 4
+Head [ 30, -26 ]
+knot1 position [ 30, -27 ]
+final knot position [ 26, -28 ] 
+
+L 5
+Head [ 25, -26 ]
+knot1 position [ 26, -26 ]
+final knot position [ 26, -28 ] 
+
+R 4
+Head [ 29, -26 ]
+knot1 position [ 28, -26 ]
+final knot position [ 26, -28 ] 
+
+D 4
+Head [ 29, -30 ]
+knot1 position [ 29, -29 ]
+final knot position [ 26, -28 ] 
+
+U 4
+Head [ 29, -26 ]
+knot1 position [ 29, -27 ]
+final knot position [ 26, -28 ] 
+
+D 1
+Head [ 29, -27 ]
+knot1 position [ 29, -27 ]
+final knot position [ 26, -28 ] 
+
+R 2
+Head [ 31, -27 ]
+knot1 position [ 30, -27 ]
+final knot position [ 26, -28 ] 
+
+L 5
+Head [ 26, -27 ]
+knot1 position [ 27, -27 ]
+final knot position [ 26, -28 ] 
+
+U 3
+Head [ 26, -24 ]
+knot1 position [ 26, -25 ]
+final knot position [ 26, -28 ] 
+
+R 1
+Head [ 27, -24 ]
+knot1 position [ 26, -25 ]
+final knot position [ 26, -28 ] 
+
+L 3
+Head [ 24, -24 ]
+knot1 position [ 25, -24 ]
+final knot position [ 26, -28 ] 
+
+U 6
+Head [ 24, -18 ]
+knot1 position [ 24, -19 ]
+final knot position [ 25, -27 ] 
+
+R 5
+Head [ 29, -18 ]
+knot1 position [ 28, -18 ]
+final knot position [ 26, -25 ] 
+
+L 2
+Head [ 27, -18 ]
+knot1 position [ 28, -18 ]
+final knot position [ 26, -25 ] 
+
+D 4
+Head [ 27, -22 ]
+knot1 position [ 27, -21 ]
+final knot position [ 26, -25 ] 
+
+R 4
+Head [ 31, -22 ]
+knot1 position [ 30, -22 ]
+final knot position [ 26, -25 ] 
+
+U 5
+Head [ 31, -17 ]
+knot1 position [ 31, -18 ]
+final knot position [ 27, -24 ] 
+
+R 2
+Head [ 33, -17 ]
+knot1 position [ 32, -17 ]
+final knot position [ 28, -23 ] 
+
+U 6
+Head [ 33, -11 ]
+knot1 position [ 33, -12 ]
+final knot position [ 31, -20 ] 
+
+L 4
+Head [ 29, -11 ]
+knot1 position [ 30, -11 ]
+final knot position [ 31, -18 ] 
+
+U 6
+Head [ 29, -5 ]
+knot1 position [ 29, -6 ]
+final knot position [ 29, -14 ] 
+
+R 2
+Head [ 31, -5 ]
+knot1 position [ 30, -5 ]
+final knot position [ 30, -13 ] 
+
+L 6
+Head [ 25, -5 ]
+knot1 position [ 26, -5 ]
+final knot position [ 28, -11 ] 
+
+D 5
+Head [ 25, -10 ]
+knot1 position [ 25, -9 ]
+final knot position [ 28, -11 ] 
+
+R 6
+Head [ 31, -10 ]
+knot1 position [ 30, -10 ]
+final knot position [ 28, -11 ] 
+
+U 1
+Head [ 31, -9 ]
+knot1 position [ 30, -10 ]
+final knot position [ 28, -11 ] 
+
+L 3
+Head [ 28, -9 ]
+knot1 position [ 29, -9 ]
+final knot position [ 28, -11 ] 
+
+U 4
+Head [ 28, -5 ]
+knot1 position [ 28, -6 ]
+final knot position [ 28, -11 ] 
+
+R 2
+Head [ 30, -5 ]
+knot1 position [ 29, -5 ]
+final knot position [ 28, -11 ] 
+
+L 5
+Head [ 25, -5 ]
+knot1 position [ 26, -5 ]
+final knot position [ 28, -11 ] 
+
+D 4
+Head [ 25, -9 ]
+knot1 position [ 25, -8 ]
+final knot position [ 28, -11 ] 
+
+L 6
+Head [ 19, -9 ]
+knot1 position [ 20, -9 ]
+final knot position [ 27, -10 ] 
+
+U 1
+Head [ 19, -8 ]
+knot1 position [ 20, -9 ]
+final knot position [ 27, -10 ] 
+
+D 1
+Head [ 19, -9 ]
+knot1 position [ 20, -9 ]
+final knot position [ 27, -10 ] 
+
+R 2
+Head [ 21, -9 ]
+knot1 position [ 20, -9 ]
+final knot position [ 27, -10 ] 
+
+D 5
+Head [ 21, -14 ]
+knot1 position [ 21, -13 ]
+final knot position [ 27, -10 ] 
+
+L 1
+Head [ 20, -14 ]
+knot1 position [ 21, -13 ]
+final knot position [ 27, -10 ] 
+
+R 5
+Head [ 25, -14 ]
+knot1 position [ 24, -14 ]
+final knot position [ 27, -10 ] 
+
+L 3
+Head [ 22, -14 ]
+knot1 position [ 23, -14 ]
+final knot position [ 27, -10 ] 
+
+U 5
+Head [ 22, -9 ]
+knot1 position [ 22, -10 ]
+final knot position [ 27, -10 ] 
+
+D 4
+Head [ 22, -13 ]
+knot1 position [ 22, -12 ]
+final knot position [ 27, -10 ] 
+
+U 5
+Head [ 22, -8 ]
+knot1 position [ 22, -9 ]
+final knot position [ 27, -10 ] 
+
+D 4
+Head [ 22, -12 ]
+knot1 position [ 22, -11 ]
+final knot position [ 27, -10 ] 
+
+U 2
+Head [ 22, -10 ]
+knot1 position [ 22, -11 ]
+final knot position [ 27, -10 ] 
+
+R 4
+Head [ 26, -10 ]
+knot1 position [ 25, -10 ]
+final knot position [ 27, -10 ] 
+
+L 3
+Head [ 23, -10 ]
+knot1 position [ 24, -10 ]
+final knot position [ 27, -10 ] 
+
+D 4
+Head [ 23, -14 ]
+knot1 position [ 23, -13 ]
+final knot position [ 27, -10 ] 
+
+L 5
+Head [ 18, -14 ]
+knot1 position [ 19, -14 ]
+final knot position [ 27, -10 ] 
+
+R 6
+Head [ 24, -14 ]
+knot1 position [ 23, -14 ]
+final knot position [ 27, -10 ] 
+
+U 6
+Head [ 24, -8 ]
+knot1 position [ 24, -9 ]
+final knot position [ 27, -10 ] 
+
+D 5
+Head [ 24, -13 ]
+knot1 position [ 24, -12 ]
+final knot position [ 27, -10 ] 
+
+U 2
+Head [ 24, -11 ]
+knot1 position [ 24, -12 ]
+final knot position [ 27, -10 ] 
+
+R 4
+Head [ 28, -11 ]
+knot1 position [ 27, -11 ]
+final knot position [ 27, -10 ] 
+
+D 5
+Head [ 28, -16 ]
+knot1 position [ 28, -15 ]
+final knot position [ 27, -10 ] 
+
+L 5
+Head [ 23, -16 ]
+knot1 position [ 24, -16 ]
+final knot position [ 27, -10 ] 
+
+R 3
+Head [ 26, -16 ]
+knot1 position [ 25, -16 ]
+final knot position [ 27, -10 ] 
+
+L 3
+Head [ 23, -16 ]
+knot1 position [ 24, -16 ]
+final knot position [ 27, -10 ] 
+
+D 3
+Head [ 23, -19 ]
+knot1 position [ 23, -18 ]
+final knot position [ 26, -11 ] 
+
+U 6
+Head [ 23, -13 ]
+knot1 position [ 23, -14 ]
+final knot position [ 26, -11 ] 
+
+L 1
+Head [ 22, -13 ]
+knot1 position [ 23, -14 ]
+final knot position [ 26, -11 ] 
+
+D 3
+Head [ 22, -16 ]
+knot1 position [ 22, -15 ]
+final knot position [ 26, -11 ] 
+
+R 2
+Head [ 24, -16 ]
+knot1 position [ 23, -16 ]
+final knot position [ 26, -11 ] 
+
+L 3
+Head [ 21, -16 ]
+knot1 position [ 22, -16 ]
+final knot position [ 26, -11 ] 
+
+R 2
+Head [ 23, -16 ]
+knot1 position [ 22, -16 ]
+final knot position [ 26, -11 ] 
+
+L 6
+Head [ 17, -16 ]
+knot1 position [ 18, -16 ]
+final knot position [ 24, -13 ] 
+
+D 1
+Head [ 17, -17 ]
+knot1 position [ 18, -16 ]
+final knot position [ 24, -13 ] 
+
+L 6
+Head [ 11, -17 ]
+knot1 position [ 12, -17 ]
+final knot position [ 20, -17 ] 
+
+D 4
+Head [ 11, -21 ]
+knot1 position [ 11, -20 ]
+final knot position [ 18, -19 ] 
+
+L 6
+Head [ 5, -21 ]
+knot1 position [ 6, -21 ]
+final knot position [ 14, -21 ] 
+
+R 4
+Head [ 9, -21 ]
+knot1 position [ 8, -21 ]
+final knot position [ 14, -21 ] 
+
+D 5
+Head [ 9, -26 ]
+knot1 position [ 9, -25 ]
+final knot position [ 14, -21 ] 
+
+L 3
+Head [ 6, -26 ]
+knot1 position [ 7, -26 ]
+final knot position [ 13, -22 ] 
+
+U 6
+Head [ 6, -20 ]
+knot1 position [ 6, -21 ]
+final knot position [ 12, -23 ] 
+
+R 5
+Head [ 11, -20 ]
+knot1 position [ 10, -20 ]
+final knot position [ 12, -23 ] 
+
+U 4
+Head [ 11, -16 ]
+knot1 position [ 11, -17 ]
+final knot position [ 12, -23 ] 
+
+D 1
+Head [ 11, -17 ]
+knot1 position [ 11, -17 ]
+final knot position [ 12, -23 ] 
+
+L 5
+Head [ 6, -17 ]
+knot1 position [ 7, -17 ]
+final knot position [ 11, -22 ] 
+
+U 1
+Head [ 6, -16 ]
+knot1 position [ 7, -17 ]
+final knot position [ 11, -22 ] 
+
+D 2
+Head [ 6, -18 ]
+knot1 position [ 7, -17 ]
+final knot position [ 11, -22 ] 
+
+U 2
+Head [ 6, -16 ]
+knot1 position [ 7, -17 ]
+final knot position [ 11, -22 ] 
+
+D 5
+Head [ 6, -21 ]
+knot1 position [ 6, -20 ]
+final knot position [ 11, -22 ] 
+
+R 7
+Head [ 13, -21 ]
+knot1 position [ 12, -21 ]
+final knot position [ 11, -22 ] 
+
+L 3
+Head [ 10, -21 ]
+knot1 position [ 11, -21 ]
+final knot position [ 11, -22 ] 
+
+U 5
+Head [ 10, -16 ]
+knot1 position [ 10, -17 ]
+final knot position [ 11, -22 ] 
+
+R 4
+Head [ 14, -16 ]
+knot1 position [ 13, -16 ]
+final knot position [ 11, -22 ] 
+
+L 5
+Head [ 9, -16 ]
+knot1 position [ 10, -16 ]
+final knot position [ 11, -22 ] 
+
+U 1
+Head [ 9, -15 ]
+knot1 position [ 10, -16 ]
+final knot position [ 11, -22 ] 
+
+R 2
+Head [ 11, -15 ]
+knot1 position [ 10, -16 ]
+final knot position [ 11, -22 ] 
+
+D 6
+Head [ 11, -21 ]
+knot1 position [ 11, -20 ]
+final knot position [ 11, -22 ] 
+
+L 6
+Head [ 5, -21 ]
+knot1 position [ 6, -21 ]
+final knot position [ 11, -22 ] 
+
+D 2
+Head [ 5, -23 ]
+knot1 position [ 5, -22 ]
+final knot position [ 11, -22 ] 
+
+L 1
+Head [ 4, -23 ]
+knot1 position [ 5, -22 ]
+final knot position [ 11, -22 ] 
+
+D 6
+Head [ 4, -29 ]
+knot1 position [ 4, -28 ]
+final knot position [ 8, -24 ] 
+
+U 2
+Head [ 4, -27 ]
+knot1 position [ 4, -28 ]
+final knot position [ 8, -24 ] 
+
+D 2
+Head [ 4, -29 ]
+knot1 position [ 4, -28 ]
+final knot position [ 8, -24 ] 
+
+U 2
+Head [ 4, -27 ]
+knot1 position [ 4, -28 ]
+final knot position [ 8, -24 ] 
+
+D 6
+Head [ 4, -33 ]
+knot1 position [ 4, -32 ]
+final knot position [ 6, -26 ] 
+
+L 1
+Head [ 3, -33 ]
+knot1 position [ 4, -32 ]
+final knot position [ 6, -26 ] 
+
+R 6
+Head [ 9, -33 ]
+knot1 position [ 8, -33 ]
+final knot position [ 6, -26 ] 
+
+U 7
+Head [ 9, -26 ]
+knot1 position [ 9, -27 ]
+final knot position [ 6, -26 ] 
+
+D 2
+Head [ 9, -28 ]
+knot1 position [ 9, -27 ]
+final knot position [ 6, -26 ] 
+
+L 3
+Head [ 6, -28 ]
+knot1 position [ 7, -28 ]
+final knot position [ 6, -26 ] 
+
+R 3
+Head [ 9, -28 ]
+knot1 position [ 8, -28 ]
+final knot position [ 6, -26 ] 
+
+U 6
+Head [ 9, -22 ]
+knot1 position [ 9, -23 ]
+final knot position [ 6, -26 ] 
+
+D 3
+Head [ 9, -25 ]
+knot1 position [ 9, -24 ]
+final knot position [ 6, -26 ] 
+
+R 4
+Head [ 13, -25 ]
+knot1 position [ 12, -25 ]
+final knot position [ 6, -26 ] 
+
+U 3
+Head [ 13, -22 ]
+knot1 position [ 13, -23 ]
+final knot position [ 6, -26 ] 
+
+L 7
+Head [ 6, -22 ]
+knot1 position [ 7, -22 ]
+final knot position [ 7, -26 ] 
+
+D 3
+Head [ 6, -25 ]
+knot1 position [ 6, -24 ]
+final knot position [ 7, -26 ] 
+
+U 6
+Head [ 6, -19 ]
+knot1 position [ 6, -20 ]
+final knot position [ 7, -26 ] 
+
+D 2
+Head [ 6, -21 ]
+knot1 position [ 6, -20 ]
+final knot position [ 7, -26 ] 
+
+U 1
+Head [ 6, -20 ]
+knot1 position [ 6, -20 ]
+final knot position [ 7, -26 ] 
+
+R 4
+Head [ 10, -20 ]
+knot1 position [ 9, -20 ]
+final knot position [ 7, -26 ] 
+
+L 1
+Head [ 9, -20 ]
+knot1 position [ 9, -20 ]
+final knot position [ 7, -26 ] 
+
+R 3
+Head [ 12, -20 ]
+knot1 position [ 11, -20 ]
+final knot position [ 7, -26 ] 
+
+U 5
+Head [ 12, -15 ]
+knot1 position [ 12, -16 ]
+final knot position [ 9, -24 ] 
+
+D 6
+Head [ 12, -21 ]
+knot1 position [ 12, -20 ]
+final knot position [ 9, -24 ] 
+
+R 2
+Head [ 14, -21 ]
+knot1 position [ 13, -21 ]
+final knot position [ 9, -24 ] 
+
+L 4
+Head [ 10, -21 ]
+knot1 position [ 11, -21 ]
+final knot position [ 9, -24 ] 
+
+D 5
+Head [ 10, -26 ]
+knot1 position [ 10, -25 ]
+final knot position [ 9, -24 ] 
+
+R 6
+Head [ 16, -26 ]
+knot1 position [ 15, -26 ]
+final knot position [ 9, -24 ] 
+
+L 5
+Head [ 11, -26 ]
+knot1 position [ 12, -26 ]
+final knot position [ 9, -24 ] 
+
+D 1
+Head [ 11, -27 ]
+knot1 position [ 12, -26 ]
+final knot position [ 9, -24 ] 
+
+R 3
+Head [ 14, -27 ]
+knot1 position [ 13, -27 ]
+final knot position [ 9, -24 ] 
+
+D 2
+Head [ 14, -29 ]
+knot1 position [ 14, -28 ]
+final knot position [ 9, -24 ] 
+
+L 7
+Head [ 7, -29 ]
+knot1 position [ 8, -29 ]
+final knot position [ 10, -24 ] 
+
+U 1
+Head [ 7, -28 ]
+knot1 position [ 8, -29 ]
+final knot position [ 10, -24 ] 
+
+R 5
+Head [ 12, -28 ]
+knot1 position [ 11, -28 ]
+final knot position [ 10, -24 ] 
+
+D 6
+Head [ 12, -34 ]
+knot1 position [ 12, -33 ]
+final knot position [ 11, -25 ] 
+
+U 6
+Head [ 12, -28 ]
+knot1 position [ 12, -29 ]
+final knot position [ 11, -25 ] 
+
+D 4
+Head [ 12, -32 ]
+knot1 position [ 12, -31 ]
+final knot position [ 11, -25 ] 
+
+U 6
+Head [ 12, -26 ]
+knot1 position [ 12, -27 ]
+final knot position [ 11, -25 ] 
+
+D 2
+Head [ 12, -28 ]
+knot1 position [ 12, -27 ]
+final knot position [ 11, -25 ] 
+
+L 2
+Head [ 10, -28 ]
+knot1 position [ 11, -28 ]
+final knot position [ 11, -25 ] 
+
+U 7
+Head [ 10, -21 ]
+knot1 position [ 10, -22 ]
+final knot position [ 11, -25 ] 
+
+D 1
+Head [ 10, -22 ]
+knot1 position [ 10, -22 ]
+final knot position [ 11, -25 ] 
+
+R 3
+Head [ 13, -22 ]
+knot1 position [ 12, -22 ]
+final knot position [ 11, -25 ] 
+
+U 3
+Head [ 13, -19 ]
+knot1 position [ 13, -20 ]
+final knot position [ 11, -25 ] 
+
+R 1
+Head [ 14, -19 ]
+knot1 position [ 13, -20 ]
+final knot position [ 11, -25 ] 
+
+L 6
+Head [ 8, -19 ]
+knot1 position [ 9, -19 ]
+final knot position [ 11, -25 ] 
+
+D 7
+Head [ 8, -26 ]
+knot1 position [ 8, -25 ]
+final knot position [ 11, -25 ] 
+
+L 4
+Head [ 4, -26 ]
+knot1 position [ 5, -26 ]
+final knot position [ 11, -25 ] 
+
+R 1
+Head [ 5, -26 ]
+knot1 position [ 5, -26 ]
+final knot position [ 11, -25 ] 
+
+D 7
+Head [ 5, -33 ]
+knot1 position [ 5, -32 ]
+final knot position [ 9, -27 ] 
+
+L 2
+Head [ 3, -33 ]
+knot1 position [ 4, -33 ]
+final knot position [ 8, -28 ] 
+
+U 6
+Head [ 3, -27 ]
+knot1 position [ 3, -28 ]
+final knot position [ 8, -28 ] 
+
+D 2
+Head [ 3, -29 ]
+knot1 position [ 3, -28 ]
+final knot position [ 8, -28 ] 
+
+R 6
+Head [ 9, -29 ]
+knot1 position [ 8, -29 ]
+final knot position [ 8, -28 ] 
+
+D 7
+Head [ 9, -36 ]
+knot1 position [ 9, -35 ]
+final knot position [ 8, -28 ] 
+
+U 7
+Head [ 9, -29 ]
+knot1 position [ 9, -30 ]
+final knot position [ 8, -28 ] 
+
+R 5
+Head [ 14, -29 ]
+knot1 position [ 13, -29 ]
+final knot position [ 8, -28 ] 
+
+L 1
+Head [ 13, -29 ]
+knot1 position [ 13, -29 ]
+final knot position [ 8, -28 ] 
+
+U 3
+Head [ 13, -26 ]
+knot1 position [ 13, -27 ]
+final knot position [ 8, -28 ] 
+
+R 5
+Head [ 18, -26 ]
+knot1 position [ 17, -26 ]
+final knot position [ 9, -27 ] 
+
+D 4
+Head [ 18, -30 ]
+knot1 position [ 18, -29 ]
+final knot position [ 11, -28 ] 
+
+U 2
+Head [ 18, -28 ]
+knot1 position [ 18, -29 ]
+final knot position [ 11, -28 ] 
+
+D 2
+Head [ 18, -30 ]
+knot1 position [ 18, -29 ]
+final knot position [ 11, -28 ] 
+
+L 6
+Head [ 12, -30 ]
+knot1 position [ 13, -30 ]
+final knot position [ 11, -28 ] 
+
+D 2
+Head [ 12, -32 ]
+knot1 position [ 12, -31 ]
+final knot position [ 11, -28 ] 
+
+U 7
+Head [ 12, -25 ]
+knot1 position [ 12, -26 ]
+final knot position [ 11, -28 ] 
+
+R 4
+Head [ 16, -25 ]
+knot1 position [ 15, -25 ]
+final knot position [ 11, -28 ] 
+
+L 7
+Head [ 9, -25 ]
+knot1 position [ 10, -25 ]
+final knot position [ 11, -28 ] 
+
+U 4
+Head [ 9, -21 ]
+knot1 position [ 9, -22 ]
+final knot position [ 11, -28 ] 
+
+D 6
+Head [ 9, -27 ]
+knot1 position [ 9, -26 ]
+final knot position [ 11, -28 ] 
+
+U 2
+Head [ 9, -25 ]
+knot1 position [ 9, -26 ]
+final knot position [ 11, -28 ] 
+
+D 6
+Head [ 9, -31 ]
+knot1 position [ 9, -30 ]
+final knot position [ 11, -28 ] 
+
+L 3
+Head [ 6, -31 ]
+knot1 position [ 7, -31 ]
+final knot position [ 11, -28 ] 
+
+U 5
+Head [ 6, -26 ]
+knot1 position [ 6, -27 ]
+final knot position [ 11, -28 ] 
+
+R 5
+Head [ 11, -26 ]
+knot1 position [ 10, -26 ]
+final knot position [ 11, -28 ] 
+
+D 4
+Head [ 11, -30 ]
+knot1 position [ 11, -29 ]
+final knot position [ 11, -28 ] 
+
+R 1
+Head [ 12, -30 ]
+knot1 position [ 11, -29 ]
+final knot position [ 11, -28 ] 
+
+D 6
+Head [ 12, -36 ]
+knot1 position [ 12, -35 ]
+final knot position [ 11, -28 ] 
+
+U 6
+Head [ 12, -30 ]
+knot1 position [ 12, -31 ]
+final knot position [ 11, -28 ] 
+
+R 3
+Head [ 15, -30 ]
+knot1 position [ 14, -30 ]
+final knot position [ 11, -28 ] 
+
+L 2
+Head [ 13, -30 ]
+knot1 position [ 14, -30 ]
+final knot position [ 11, -28 ] 
+
+U 1
+Head [ 13, -29 ]
+knot1 position [ 14, -30 ]
+final knot position [ 11, -28 ] 
+
+R 7
+Head [ 20, -29 ]
+knot1 position [ 19, -29 ]
+final knot position [ 11, -28 ] 
+
+D 4
+Head [ 20, -33 ]
+knot1 position [ 20, -32 ]
+final knot position [ 13, -30 ] 
+
+L 2
+Head [ 18, -33 ]
+knot1 position [ 19, -33 ]
+final knot position [ 13, -30 ] 
+
+D 4
+Head [ 18, -37 ]
+knot1 position [ 18, -36 ]
+final knot position [ 14, -31 ] 
+
+L 5
+Head [ 13, -37 ]
+knot1 position [ 14, -37 ]
+final knot position [ 14, -31 ] 
+
+U 3
+Head [ 13, -34 ]
+knot1 position [ 13, -35 ]
+final knot position [ 14, -31 ] 
+
+R 6
+Head [ 19, -34 ]
+knot1 position [ 18, -34 ]
+final knot position [ 14, -31 ] 
+
+L 3
+Head [ 16, -34 ]
+knot1 position [ 17, -34 ]
+final knot position [ 14, -31 ] 
+
+D 7
+Head [ 16, -41 ]
+knot1 position [ 16, -40 ]
+final knot position [ 15, -32 ] 
+
+R 7
+Head [ 23, -41 ]
+knot1 position [ 22, -41 ]
+final knot position [ 18, -35 ] 
+
+L 1
+Head [ 22, -41 ]
+knot1 position [ 22, -41 ]
+final knot position [ 18, -35 ] 
+
+U 4
+Head [ 22, -37 ]
+knot1 position [ 22, -38 ]
+final knot position [ 18, -35 ] 
+
+L 6
+Head [ 16, -37 ]
+knot1 position [ 17, -37 ]
+final knot position [ 18, -35 ] 
+
+R 7
+Head [ 23, -37 ]
+knot1 position [ 22, -37 ]
+final knot position [ 18, -35 ] 
+
+U 3
+Head [ 23, -34 ]
+knot1 position [ 23, -35 ]
+final knot position [ 18, -35 ] 
+
+R 1
+Head [ 24, -34 ]
+knot1 position [ 23, -35 ]
+final knot position [ 18, -35 ] 
+
+D 8
+Head [ 24, -42 ]
+knot1 position [ 24, -41 ]
+final knot position [ 19, -36 ] 
+
+L 3
+Head [ 21, -42 ]
+knot1 position [ 22, -42 ]
+final knot position [ 19, -36 ] 
+
+D 3
+Head [ 21, -45 ]
+knot1 position [ 21, -44 ]
+final knot position [ 19, -36 ] 
+
+U 3
+Head [ 21, -42 ]
+knot1 position [ 21, -43 ]
+final knot position [ 19, -36 ] 
+
+R 2
+Head [ 23, -42 ]
+knot1 position [ 22, -42 ]
+final knot position [ 19, -36 ] 
+
+L 6
+Head [ 17, -42 ]
+knot1 position [ 18, -42 ]
+final knot position [ 19, -36 ] 
+
+U 4
+Head [ 17, -38 ]
+knot1 position [ 17, -39 ]
+final knot position [ 19, -36 ] 
+
+L 2
+Head [ 15, -38 ]
+knot1 position [ 16, -38 ]
+final knot position [ 19, -36 ] 
+
+D 7
+Head [ 15, -45 ]
+knot1 position [ 15, -44 ]
+final knot position [ 18, -38 ] 
+
+L 5
+Head [ 10, -45 ]
+knot1 position [ 11, -45 ]
+final knot position [ 16, -40 ] 
+
+D 1
+Head [ 10, -46 ]
+knot1 position [ 11, -45 ]
+final knot position [ 16, -40 ] 
+
+R 3
+Head [ 13, -46 ]
+knot1 position [ 12, -46 ]
+final knot position [ 16, -40 ] 
+
+U 2
+Head [ 13, -44 ]
+knot1 position [ 13, -45 ]
+final knot position [ 16, -40 ] 
+
+L 6
+Head [ 7, -44 ]
+knot1 position [ 8, -44 ]
+final knot position [ 14, -42 ] 
+
+R 2
+Head [ 9, -44 ]
+knot1 position [ 8, -44 ]
+final knot position [ 14, -42 ] 
+
+U 1
+Head [ 9, -43 ]
+knot1 position [ 8, -44 ]
+final knot position [ 14, -42 ] 
+
+D 6
+Head [ 9, -49 ]
+knot1 position [ 9, -48 ]
+final knot position [ 13, -43 ] 
+
+U 4
+Head [ 9, -45 ]
+knot1 position [ 9, -46 ]
+final knot position [ 13, -43 ] 
+
+D 1
+Head [ 9, -46 ]
+knot1 position [ 9, -46 ]
+final knot position [ 13, -43 ] 
+
+U 8
+Head [ 9, -38 ]
+knot1 position [ 9, -39 ]
+final knot position [ 13, -43 ] 
+
+D 7
+Head [ 9, -45 ]
+knot1 position [ 9, -44 ]
+final knot position [ 13, -43 ] 
+
+R 3
+Head [ 12, -45 ]
+knot1 position [ 11, -45 ]
+final knot position [ 13, -43 ] 
+
+L 3
+Head [ 9, -45 ]
+knot1 position [ 10, -45 ]
+final knot position [ 13, -43 ] 
+
+R 1
+Head [ 10, -45 ]
+knot1 position [ 10, -45 ]
+final knot position [ 13, -43 ] 
+
+D 1
+Head [ 10, -46 ]
+knot1 position [ 10, -45 ]
+final knot position [ 13, -43 ] 
+
+R 5
+Head [ 15, -46 ]
+knot1 position [ 14, -46 ]
+final knot position [ 13, -43 ] 
+
+L 5
+Head [ 10, -46 ]
+knot1 position [ 11, -46 ]
+final knot position [ 13, -43 ] 
+
+R 6
+Head [ 16, -46 ]
+knot1 position [ 15, -46 ]
+final knot position [ 13, -43 ] 
+
+U 4
+Head [ 16, -42 ]
+knot1 position [ 16, -43 ]
+final knot position [ 13, -43 ] 
+
+R 4
+Head [ 20, -42 ]
+knot1 position [ 19, -42 ]
+final knot position [ 13, -43 ] 
+
+U 3
+Head [ 20, -39 ]
+knot1 position [ 20, -40 ]
+final knot position [ 13, -43 ] 
+
+R 4
+Head [ 24, -39 ]
+knot1 position [ 23, -39 ]
+final knot position [ 16, -40 ] 
+
+L 6
+Head [ 18, -39 ]
+knot1 position [ 19, -39 ]
+final knot position [ 16, -40 ] 
+
+R 4
+Head [ 22, -39 ]
+knot1 position [ 21, -39 ]
+final knot position [ 16, -40 ] 
+
+U 6
+Head [ 22, -33 ]
+knot1 position [ 22, -34 ]
+final knot position [ 18, -38 ] 
+
+L 5
+Head [ 17, -33 ]
+knot1 position [ 18, -33 ]
+final knot position [ 18, -38 ] 
+
+U 8
+Head [ 17, -25 ]
+knot1 position [ 17, -26 ]
+final knot position [ 17, -34 ] 
+
+L 1
+Head [ 16, -25 ]
+knot1 position [ 17, -26 ]
+final knot position [ 17, -34 ] 
+
+D 1
+Head [ 16, -26 ]
+knot1 position [ 17, -26 ]
+final knot position [ 17, -34 ] 
+
+L 4
+Head [ 12, -26 ]
+knot1 position [ 13, -26 ]
+final knot position [ 15, -32 ] 
+
+U 8
+Head [ 12, -18 ]
+knot1 position [ 12, -19 ]
+final knot position [ 12, -27 ] 
+
+R 2
+Head [ 14, -18 ]
+knot1 position [ 13, -18 ]
+final knot position [ 13, -26 ] 
+
+U 7
+Head [ 14, -11 ]
+knot1 position [ 14, -12 ]
+final knot position [ 14, -20 ] 
+
+L 4
+Head [ 10, -11 ]
+knot1 position [ 11, -11 ]
+final knot position [ 12, -18 ] 
+
+U 7
+Head [ 10, -4 ]
+knot1 position [ 10, -5 ]
+final knot position [ 10, -13 ] 
+
+L 7
+Head [ 3, -4 ]
+knot1 position [ 4, -4 ]
+final knot position [ 7, -10 ] 
+
+D 5
+Head [ 3, -9 ]
+knot1 position [ 3, -8 ]
+final knot position [ 7, -10 ] 
+
+U 1
+Head [ 3, -8 ]
+knot1 position [ 3, -8 ]
+final knot position [ 7, -10 ] 
+
+R 7
+Head [ 10, -8 ]
+knot1 position [ 9, -8 ]
+final knot position [ 7, -10 ] 
+
+U 7
+Head [ 10, -1 ]
+knot1 position [ 10, -2 ]
+final knot position [ 8, -9 ] 
+
+D 6
+Head [ 10, -7 ]
+knot1 position [ 10, -6 ]
+final knot position [ 8, -9 ] 
+
+R 5
+Head [ 15, -7 ]
+knot1 position [ 14, -7 ]
+final knot position [ 8, -9 ] 
+
+U 5
+Head [ 15, -2 ]
+knot1 position [ 15, -3 ]
+final knot position [ 10, -7 ] 
+
+D 2
+Head [ 15, -4 ]
+knot1 position [ 15, -3 ]
+final knot position [ 10, -7 ] 
+
+R 8
+Head [ 23, -4 ]
+knot1 position [ 22, -4 ]
+final knot position [ 14, -4 ] 
+
+L 1
+Head [ 22, -4 ]
+knot1 position [ 22, -4 ]
+final knot position [ 14, -4 ] 
+
+D 3
+Head [ 22, -7 ]
+knot1 position [ 22, -6 ]
+final knot position [ 15, -5 ] 
+
+L 5
+Head [ 17, -7 ]
+knot1 position [ 18, -7 ]
+final knot position [ 15, -5 ] 
+
+D 5
+Head [ 17, -12 ]
+knot1 position [ 17, -11 ]
+final knot position [ 15, -5 ] 
+
+R 1
+Head [ 18, -12 ]
+knot1 position [ 17, -11 ]
+final knot position [ 15, -5 ] 
+
+U 1
+Head [ 18, -11 ]
+knot1 position [ 17, -11 ]
+final knot position [ 15, -5 ] 
+
+R 4
+Head [ 22, -11 ]
+knot1 position [ 21, -11 ]
+final knot position [ 17, -7 ] 
+
+D 3
+Head [ 22, -14 ]
+knot1 position [ 22, -13 ]
+final knot position [ 18, -8 ] 
+
+R 1
+Head [ 23, -14 ]
+knot1 position [ 22, -13 ]
+final knot position [ 18, -8 ] 
+
+U 4
+Head [ 23, -10 ]
+knot1 position [ 23, -11 ]
+final knot position [ 18, -8 ] 
+
+R 8
+Head [ 31, -10 ]
+knot1 position [ 30, -10 ]
+final knot position [ 22, -10 ] 
+
+D 3
+Head [ 31, -13 ]
+knot1 position [ 31, -12 ]
+final knot position [ 23, -11 ] 
+
+L 4
+Head [ 27, -13 ]
+knot1 position [ 28, -13 ]
+final knot position [ 23, -11 ] 
+
+R 7
+Head [ 34, -13 ]
+knot1 position [ 33, -13 ]
+final knot position [ 25, -13 ] 
+
+L 4
+Head [ 30, -13 ]
+knot1 position [ 31, -13 ]
+final knot position [ 25, -13 ] 
+
+R 7
+Head [ 37, -13 ]
+knot1 position [ 36, -13 ]
+final knot position [ 28, -13 ] 
+
+L 7
+Head [ 30, -13 ]
+knot1 position [ 31, -13 ]
+final knot position [ 28, -13 ] 
+
+R 1
+Head [ 31, -13 ]
+knot1 position [ 31, -13 ]
+final knot position [ 28, -13 ] 
+
+L 1
+Head [ 30, -13 ]
+knot1 position [ 31, -13 ]
+final knot position [ 28, -13 ] 
+
+D 2
+Head [ 30, -15 ]
+knot1 position [ 30, -14 ]
+final knot position [ 28, -13 ] 
+
+L 6
+Head [ 24, -15 ]
+knot1 position [ 25, -15 ]
+final knot position [ 28, -13 ] 
+
+R 7
+Head [ 31, -15 ]
+knot1 position [ 30, -15 ]
+final knot position [ 28, -13 ] 
+
+D 5
+Head [ 31, -20 ]
+knot1 position [ 31, -19 ]
+final knot position [ 28, -13 ] 
+
+U 7
+Head [ 31, -13 ]
+knot1 position [ 31, -14 ]
+final knot position [ 28, -13 ] 
+
+L 8
+Head [ 23, -13 ]
+knot1 position [ 24, -13 ]
+final knot position [ 28, -13 ] 
+
+U 1
+Head [ 23, -12 ]
+knot1 position [ 24, -13 ]
+final knot position [ 28, -13 ] 
+
+L 8
+Head [ 15, -12 ]
+knot1 position [ 16, -12 ]
+final knot position [ 24, -12 ] 
+
+U 2
+Head [ 15, -10 ]
+knot1 position [ 15, -11 ]
+final knot position [ 23, -11 ] 
+
+R 6
+Head [ 21, -10 ]
+knot1 position [ 20, -10 ]
+final knot position [ 23, -11 ] 
+
+L 4
+Head [ 17, -10 ]
+knot1 position [ 18, -10 ]
+final knot position [ 23, -11 ] 
+
+U 1
+Head [ 17, -9 ]
+knot1 position [ 18, -10 ]
+final knot position [ 23, -11 ] 
+
+R 1
+Head [ 18, -9 ]
+knot1 position [ 18, -10 ]
+final knot position [ 23, -11 ] 
+
+U 3
+Head [ 18, -6 ]
+knot1 position [ 18, -7 ]
+final knot position [ 23, -11 ] 
+
+L 6
+Head [ 12, -6 ]
+knot1 position [ 13, -6 ]
+final knot position [ 20, -8 ] 
+
+D 7
+Head [ 12, -13 ]
+knot1 position [ 12, -12 ]
+final knot position [ 18, -9 ] 
+
+L 3
+Head [ 9, -13 ]
+knot1 position [ 10, -13 ]
+final knot position [ 17, -10 ] 
+
+D 2
+Head [ 9, -15 ]
+knot1 position [ 9, -14 ]
+final knot position [ 16, -11 ] 
+
+R 4
+Head [ 13, -15 ]
+knot1 position [ 12, -15 ]
+final knot position [ 15, -12 ] 
+
+U 5
+Head [ 13, -10 ]
+knot1 position [ 13, -11 ]
+final knot position [ 15, -12 ] 
+
+D 1
+Head [ 13, -11 ]
+knot1 position [ 13, -11 ]
+final knot position [ 15, -12 ] 
+
+U 2
+Head [ 13, -9 ]
+knot1 position [ 13, -10 ]
+final knot position [ 15, -12 ] 
+
+D 6
+Head [ 13, -15 ]
+knot1 position [ 13, -14 ]
+final knot position [ 15, -12 ] 
+
+L 6
+Head [ 7, -15 ]
+knot1 position [ 8, -15 ]
+final knot position [ 14, -13 ] 
+
+U 4
+Head [ 7, -11 ]
+knot1 position [ 7, -12 ]
+final knot position [ 14, -13 ] 
+
+D 1
+Head [ 7, -12 ]
+knot1 position [ 7, -12 ]
+final knot position [ 14, -13 ] 
+
+L 2
+Head [ 5, -12 ]
+knot1 position [ 6, -12 ]
+final knot position [ 14, -13 ] 
+
+R 4
+Head [ 9, -12 ]
+knot1 position [ 8, -12 ]
+final knot position [ 14, -13 ] 
+
+U 2
+Head [ 9, -10 ]
+knot1 position [ 9, -11 ]
+final knot position [ 14, -13 ] 
+
+L 1
+Head [ 8, -10 ]
+knot1 position [ 9, -11 ]
+final knot position [ 14, -13 ] 
+
+R 5
+Head [ 13, -10 ]
+knot1 position [ 12, -10 ]
+final knot position [ 14, -13 ] 
+
+L 3
+Head [ 10, -10 ]
+knot1 position [ 11, -10 ]
+final knot position [ 14, -13 ] 
+
+R 5
+Head [ 15, -10 ]
+knot1 position [ 14, -10 ]
+final knot position [ 14, -13 ] 
+
+U 7
+Head [ 15, -3 ]
+knot1 position [ 15, -4 ]
+final knot position [ 15, -12 ] 
+
+R 4
+Head [ 19, -3 ]
+knot1 position [ 18, -3 ]
+final knot position [ 17, -10 ] 
+
+L 4
+Head [ 15, -3 ]
+knot1 position [ 16, -3 ]
+final knot position [ 17, -10 ] 
+
+R 2
+Head [ 17, -3 ]
+knot1 position [ 16, -3 ]
+final knot position [ 17, -10 ] 
+
+D 4
+Head [ 17, -7 ]
+knot1 position [ 17, -6 ]
+final knot position [ 17, -10 ] 
+
+L 1
+Head [ 16, -7 ]
+knot1 position [ 17, -6 ]
+final knot position [ 17, -10 ] 
+
+R 2
+Head [ 18, -7 ]
+knot1 position [ 17, -6 ]
+final knot position [ 17, -10 ] 
+
+D 1
+Head [ 18, -8 ]
+knot1 position [ 18, -7 ]
+final knot position [ 17, -10 ] 
+
+L 2
+Head [ 16, -8 ]
+knot1 position [ 17, -8 ]
+final knot position [ 17, -10 ] 
+
+R 2
+Head [ 18, -8 ]
+knot1 position [ 17, -8 ]
+final knot position [ 17, -10 ] 
+
+U 2
+Head [ 18, -6 ]
+knot1 position [ 18, -7 ]
+final knot position [ 17, -10 ] 
+
+R 5
+Head [ 23, -6 ]
+knot1 position [ 22, -6 ]
+final knot position [ 17, -10 ] 
+
+L 7
+Head [ 16, -6 ]
+knot1 position [ 17, -6 ]
+final knot position [ 17, -10 ] 
+
+U 3
+Head [ 16, -3 ]
+knot1 position [ 16, -4 ]
+final knot position [ 17, -10 ] 
+
+R 1
+Head [ 17, -3 ]
+knot1 position [ 16, -4 ]
+final knot position [ 17, -10 ] 
+
+D 5
+Head [ 17, -8 ]
+knot1 position [ 17, -7 ]
+final knot position [ 17, -10 ] 
+
+U 7
+Head [ 17, -1 ]
+knot1 position [ 17, -2 ]
+final knot position [ 17, -10 ] 
+
+D 8
+Head [ 17, -9 ]
+knot1 position [ 17, -8 ]
+final knot position [ 17, -10 ] 
+
+R 7
+Head [ 24, -9 ]
+knot1 position [ 23, -9 ]
+final knot position [ 17, -10 ] 
+
+D 5
+Head [ 24, -14 ]
+knot1 position [ 24, -13 ]
+final knot position [ 17, -10 ] 
+
+U 2
+Head [ 24, -12 ]
+knot1 position [ 24, -13 ]
+final knot position [ 17, -10 ] 
+
+L 5
+Head [ 19, -12 ]
+knot1 position [ 20, -12 ]
+final knot position [ 18, -10 ] 
+
+D 4
+Head [ 19, -16 ]
+knot1 position [ 19, -15 ]
+final knot position [ 18, -10 ] 
+
+L 2
+Head [ 17, -16 ]
+knot1 position [ 18, -16 ]
+final knot position [ 18, -10 ] 
+
+D 8
+Head [ 17, -24 ]
+knot1 position [ 17, -23 ]
+final knot position [ 17, -15 ] 
+
+U 7
+Head [ 17, -17 ]
+knot1 position [ 17, -18 ]
+final knot position [ 17, -15 ] 
+
+D 3
+Head [ 17, -20 ]
+knot1 position [ 17, -19 ]
+final knot position [ 17, -15 ] 
+
+U 4
+Head [ 17, -16 ]
+knot1 position [ 17, -17 ]
+final knot position [ 17, -15 ] 
+
+L 9
+Head [ 8, -16 ]
+knot1 position [ 9, -16 ]
+final knot position [ 17, -15 ] 
+
+D 2
+Head [ 8, -18 ]
+knot1 position [ 8, -17 ]
+final knot position [ 16, -16 ] 
+
+U 7
+Head [ 8, -11 ]
+knot1 position [ 8, -12 ]
+final knot position [ 14, -15 ] 
+
+R 7
+Head [ 15, -11 ]
+knot1 position [ 14, -11 ]
+final knot position [ 14, -15 ] 
+
+D 9
+Head [ 15, -20 ]
+knot1 position [ 15, -19 ]
+final knot position [ 14, -15 ] 
+
+U 3
+Head [ 15, -17 ]
+knot1 position [ 15, -18 ]
+final knot position [ 14, -15 ] 
+
+R 2
+Head [ 17, -17 ]
+knot1 position [ 16, -17 ]
+final knot position [ 14, -15 ] 
+
+L 7
+Head [ 10, -17 ]
+knot1 position [ 11, -17 ]
+final knot position [ 14, -15 ] 
+
+U 5
+Head [ 10, -12 ]
+knot1 position [ 10, -13 ]
+final knot position [ 14, -15 ] 
+
+L 9
+Head [ 1, -12 ]
+knot1 position [ 2, -12 ]
+final knot position [ 10, -12 ] 
+
+D 5
+Head [ 1, -17 ]
+knot1 position [ 1, -16 ]
+final knot position [ 8, -14 ] 
+
+R 6
+Head [ 7, -17 ]
+knot1 position [ 6, -17 ]
+final knot position [ 8, -14 ] 
+
+D 5
+Head [ 7, -22 ]
+knot1 position [ 7, -21 ]
+final knot position [ 8, -14 ] 
+
+R 1
+Head [ 8, -22 ]
+knot1 position [ 7, -21 ]
+final knot position [ 8, -14 ] 
+
+D 1
+Head [ 8, -23 ]
+knot1 position [ 8, -22 ]
+final knot position [ 8, -14 ] 
+
+R 5
+Head [ 13, -23 ]
+knot1 position [ 12, -23 ]
+final knot position [ 10, -17 ] 
+
+D 3
+Head [ 13, -26 ]
+knot1 position [ 13, -25 ]
+final knot position [ 11, -18 ] 
+
+U 2
+Head [ 13, -24 ]
+knot1 position [ 13, -25 ]
+final knot position [ 11, -18 ] 
+
+R 5
+Head [ 18, -24 ]
+knot1 position [ 17, -24 ]
+final knot position [ 13, -20 ] 
+
+D 8
+Head [ 18, -32 ]
+knot1 position [ 18, -31 ]
+final knot position [ 17, -24 ] 
+
+U 4
+Head [ 18, -28 ]
+knot1 position [ 18, -29 ]
+final knot position [ 17, -24 ] 
+
+R 9
+Head [ 27, -28 ]
+knot1 position [ 26, -28 ]
+final knot position [ 19, -26 ] 
+
+U 5
+Head [ 27, -23 ]
+knot1 position [ 27, -24 ]
+final knot position [ 20, -26 ] 
+
+L 2
+Head [ 25, -23 ]
+knot1 position [ 26, -23 ]
+final knot position [ 20, -26 ] 
+
+U 2
+Head [ 25, -21 ]
+knot1 position [ 25, -22 ]
+final knot position [ 20, -26 ] 
+
+R 5
+Head [ 30, -21 ]
+knot1 position [ 29, -21 ]
+final knot position [ 22, -24 ] 
+
+D 9
+Head [ 30, -30 ]
+knot1 position [ 30, -29 ]
+final knot position [ 25, -25 ] 
+
+U 2
+Head [ 30, -28 ]
+knot1 position [ 30, -29 ]
+final knot position [ 25, -25 ] 
+
+D 3
+Head [ 30, -31 ]
+knot1 position [ 30, -30 ]
+final knot position [ 26, -26 ] 
+
+R 4
+Head [ 34, -31 ]
+knot1 position [ 33, -31 ]
+final knot position [ 28, -28 ] 
+
+D 5
+Head [ 34, -36 ]
+knot1 position [ 34, -35 ]
+final knot position [ 30, -30 ] 
+
+U 7
+Head [ 34, -29 ]
+knot1 position [ 34, -30 ]
+final knot position [ 30, -30 ] 
+
+L 2
+Head [ 32, -29 ]
+knot1 position [ 33, -29 ]
+final knot position [ 30, -30 ] 
+
+U 8
+Head [ 32, -21 ]
+knot1 position [ 32, -22 ]
+final knot position [ 31, -29 ] 
+
+R 7
+Head [ 39, -21 ]
+knot1 position [ 38, -21 ]
+final knot position [ 34, -26 ] 
+
+L 1
+Head [ 38, -21 ]
+knot1 position [ 38, -21 ]
+final knot position [ 34, -26 ] 
+
+U 4
+Head [ 38, -17 ]
+knot1 position [ 38, -18 ]
+final knot position [ 35, -25 ] 
+
+D 6
+Head [ 38, -23 ]
+knot1 position [ 38, -22 ]
+final knot position [ 35, -25 ] 
+
+R 8
+Head [ 46, -23 ]
+knot1 position [ 45, -23 ]
+final knot position [ 37, -23 ] 
+
+U 3
+Head [ 46, -20 ]
+knot1 position [ 46, -21 ]
+final knot position [ 38, -22 ] 
+
+D 4
+Head [ 46, -24 ]
+knot1 position [ 46, -23 ]
+final knot position [ 38, -22 ] 
+
+U 1
+Head [ 46, -23 ]
+knot1 position [ 46, -23 ]
+final knot position [ 38, -22 ] 
+
+R 5
+Head [ 51, -23 ]
+knot1 position [ 50, -23 ]
+final knot position [ 42, -23 ] 
+
+U 8
+Head [ 51, -15 ]
+knot1 position [ 51, -16 ]
+final knot position [ 46, -19 ] 
+
+D 9
+Head [ 51, -24 ]
+knot1 position [ 51, -23 ]
+final knot position [ 46, -19 ] 
+
+U 5
+Head [ 51, -19 ]
+knot1 position [ 51, -20 ]
+final knot position [ 46, -19 ] 
+
+D 9
+Head [ 51, -28 ]
+knot1 position [ 51, -27 ]
+final knot position [ 48, -21 ] 
+
+R 7
+Head [ 58, -28 ]
+knot1 position [ 57, -28 ]
+final knot position [ 51, -24 ] 
+
+D 3
+Head [ 58, -31 ]
+knot1 position [ 58, -30 ]
+final knot position [ 52, -25 ] 
+
+L 1
+Head [ 57, -31 ]
+knot1 position [ 58, -30 ]
+final knot position [ 52, -25 ] 
+
+D 4
+Head [ 57, -35 ]
+knot1 position [ 57, -34 ]
+final knot position [ 55, -28 ] 
+
+R 8
+Head [ 65, -35 ]
+knot1 position [ 64, -35 ]
+final knot position [ 59, -32 ] 
+
+D 8
+Head [ 65, -43 ]
+knot1 position [ 65, -42 ]
+final knot position [ 63, -36 ] 
+
+U 5
+Head [ 65, -38 ]
+knot1 position [ 65, -39 ]
+final knot position [ 63, -36 ] 
+
+D 7
+Head [ 65, -45 ]
+knot1 position [ 65, -44 ]
+final knot position [ 64, -37 ] 
+
+L 5
+Head [ 60, -45 ]
+knot1 position [ 61, -45 ]
+final knot position [ 63, -38 ] 
+
+U 1
+Head [ 60, -44 ]
+knot1 position [ 61, -45 ]
+final knot position [ 63, -38 ] 
+
+D 6
+Head [ 60, -50 ]
+knot1 position [ 60, -49 ]
+final knot position [ 60, -41 ] 
+
+L 7
+Head [ 53, -50 ]
+knot1 position [ 54, -50 ]
+final knot position [ 57, -44 ] 
+
+D 1
+Head [ 53, -51 ]
+knot1 position [ 54, -50 ]
+final knot position [ 57, -44 ] 
+
+R 1
+Head [ 54, -51 ]
+knot1 position [ 54, -50 ]
+final knot position [ 57, -44 ] 
+
+U 2
+Head [ 54, -49 ]
+knot1 position [ 54, -50 ]
+final knot position [ 57, -44 ] 
+
+L 3
+Head [ 51, -49 ]
+knot1 position [ 52, -49 ]
+final knot position [ 56, -45 ] 
+
+R 4
+Head [ 55, -49 ]
+knot1 position [ 54, -49 ]
+final knot position [ 56, -45 ] 
+
+L 1
+Head [ 54, -49 ]
+knot1 position [ 54, -49 ]
+final knot position [ 56, -45 ] 
+
+D 7
+Head [ 54, -56 ]
+knot1 position [ 54, -55 ]
+final knot position [ 54, -47 ] 
+
+L 3
+Head [ 51, -56 ]
+knot1 position [ 52, -56 ]
+final knot position [ 53, -48 ] 
+
+U 9
+Head [ 51, -47 ]
+knot1 position [ 51, -48 ]
+final knot position [ 53, -48 ] 
+
+R 1
+Head [ 52, -47 ]
+knot1 position [ 51, -48 ]
+final knot position [ 53, -48 ] 
+
+U 9
+Head [ 52, -38 ]
+knot1 position [ 52, -39 ]
+final knot position [ 52, -47 ] 
+
+L 7
+Head [ 45, -38 ]
+knot1 position [ 46, -38 ]
+final knot position [ 49, -44 ] 
+
+R 1
+Head [ 46, -38 ]
+knot1 position [ 46, -38 ]
+final knot position [ 49, -44 ] 
+
+U 5
+Head [ 46, -33 ]
+knot1 position [ 46, -34 ]
+final knot position [ 47, -42 ] 
+
+L 4
+Head [ 42, -33 ]
+knot1 position [ 43, -33 ]
+final knot position [ 45, -40 ] 
+
+U 8
+Head [ 42, -25 ]
+knot1 position [ 42, -26 ]
+final knot position [ 42, -34 ] 
+
+D 9
+Head [ 42, -34 ]
+knot1 position [ 42, -33 ]
+final knot position [ 42, -34 ] 
+
+U 3
+Head [ 42, -31 ]
+knot1 position [ 42, -32 ]
+final knot position [ 42, -34 ] 
+
+D 9
+Head [ 42, -40 ]
+knot1 position [ 42, -39 ]
+final knot position [ 42, -34 ] 
+
+R 5
+Head [ 47, -40 ]
+knot1 position [ 46, -40 ]
+final knot position [ 42, -34 ] 
+
+U 8
+Head [ 47, -32 ]
+knot1 position [ 47, -33 ]
+final knot position [ 42, -34 ] 
+
+L 9
+Head [ 38, -32 ]
+knot1 position [ 39, -32 ]
+final knot position [ 42, -34 ] 
+
+U 9
+Head [ 38, -23 ]
+knot1 position [ 38, -24 ]
+final knot position [ 40, -32 ] 
+
+D 7
+Head [ 38, -30 ]
+knot1 position [ 38, -29 ]
+final knot position [ 40, -32 ] 
+
+R 7
+Head [ 45, -30 ]
+knot1 position [ 44, -30 ]
+final knot position [ 40, -32 ] 
+
+L 2
+Head [ 43, -30 ]
+knot1 position [ 44, -30 ]
+final knot position [ 40, -32 ] 
+
+U 9
+Head [ 43, -21 ]
+knot1 position [ 43, -22 ]
+final knot position [ 41, -30 ] 
+
+R 7
+Head [ 50, -21 ]
+knot1 position [ 49, -21 ]
+final knot position [ 44, -27 ] 
+
+U 10
+Head [ 50, -11 ]
+knot1 position [ 50, -12 ]
+final knot position [ 50, -20 ] 
+
+D 7
+Head [ 50, -18 ]
+knot1 position [ 50, -17 ]
+final knot position [ 50, -20 ] 
+
+L 1
+Head [ 49, -18 ]
+knot1 position [ 50, -17 ]
+final knot position [ 50, -20 ] 
+
+D 2
+Head [ 49, -20 ]
+knot1 position [ 49, -19 ]
+final knot position [ 50, -20 ] 
+
+R 4
+Head [ 53, -20 ]
+knot1 position [ 52, -20 ]
+final knot position [ 50, -20 ] 
+
+D 9
+Head [ 53, -29 ]
+knot1 position [ 53, -28 ]
+final knot position [ 51, -21 ] 
+
+L 4
+Head [ 49, -29 ]
+knot1 position [ 50, -29 ]
+final knot position [ 51, -22 ] 
+
+D 7
+Head [ 49, -36 ]
+knot1 position [ 49, -35 ]
+final knot position [ 49, -27 ] 
+
+R 9
+Head [ 58, -36 ]
+knot1 position [ 57, -36 ]
+final knot position [ 53, -31 ] 
+
+U 1
+Head [ 58, -35 ]
+knot1 position [ 57, -36 ]
+final knot position [ 53, -31 ] 
+
+D 4
+Head [ 58, -39 ]
+knot1 position [ 58, -38 ]
+final knot position [ 54, -32 ] 
+
+U 8
+Head [ 58, -31 ]
+knot1 position [ 58, -32 ]
+final knot position [ 54, -32 ] 
+
+L 9
+Head [ 49, -31 ]
+knot1 position [ 50, -31 ]
+final knot position [ 54, -32 ] 
+
+R 9
+Head [ 58, -31 ]
+knot1 position [ 57, -31 ]
+final knot position [ 54, -32 ] 
+
+D 3
+Head [ 58, -34 ]
+knot1 position [ 58, -33 ]
+final knot position [ 54, -32 ] 
+
+R 2
+Head [ 60, -34 ]
+knot1 position [ 59, -34 ]
+final knot position [ 54, -32 ] 
+
+D 7
+Head [ 60, -41 ]
+knot1 position [ 60, -40 ]
+final knot position [ 57, -35 ] 
+
+U 2
+Head [ 60, -39 ]
+knot1 position [ 60, -40 ]
+final knot position [ 57, -35 ] 
+
+D 7
+Head [ 60, -46 ]
+knot1 position [ 60, -45 ]
+final knot position [ 59, -37 ] 
+
+U 1
+Head [ 60, -45 ]
+knot1 position [ 60, -45 ]
+final knot position [ 59, -37 ] 
+
+R 3
+Head [ 63, -45 ]
+knot1 position [ 62, -45 ]
+final knot position [ 60, -38 ] 
+
+D 1
+Head [ 63, -46 ]
+knot1 position [ 62, -45 ]
+final knot position [ 60, -38 ] 
+
+U 10
+Head [ 63, -36 ]
+knot1 position [ 63, -37 ]
+final knot position [ 60, -38 ] 
+
+D 5
+Head [ 63, -41 ]
+knot1 position [ 63, -40 ]
+final knot position [ 60, -38 ] 
+
+U 6
+Head [ 63, -35 ]
+knot1 position [ 63, -36 ]
+final knot position [ 60, -38 ] 
+
+D 1
+Head [ 63, -36 ]
+knot1 position [ 63, -36 ]
+final knot position [ 60, -38 ] 
+
+R 5
+Head [ 68, -36 ]
+knot1 position [ 67, -36 ]
+final knot position [ 61, -38 ] 
+
+D 6
+Head [ 68, -42 ]
+knot1 position [ 68, -41 ]
+final knot position [ 62, -39 ] 
+
+U 1
+Head [ 68, -41 ]
+knot1 position [ 68, -41 ]
+final knot position [ 62, -39 ] 
+
+R 6
+Head [ 74, -41 ]
+knot1 position [ 73, -41 ]
+final knot position [ 65, -41 ] 
+
+U 2
+Head [ 74, -39 ]
+knot1 position [ 74, -40 ]
+final knot position [ 66, -40 ] 
+
+D 5
+Head [ 74, -44 ]
+knot1 position [ 74, -43 ]
+final knot position [ 67, -41 ] 
+
+U 8
+Head [ 74, -36 ]
+knot1 position [ 74, -37 ]
+final knot position [ 68, -40 ] 
+
+L 9
+Head [ 65, -36 ]
+knot1 position [ 66, -36 ]
+final knot position [ 68, -40 ] 
+
+D 1
+Head [ 65, -37 ]
+knot1 position [ 66, -36 ]
+final knot position [ 68, -40 ] 
+
+U 9
+Head [ 65, -28 ]
+knot1 position [ 65, -29 ]
+final knot position [ 66, -37 ] 
+
+D 6
+Head [ 65, -34 ]
+knot1 position [ 65, -33 ]
+final knot position [ 66, -37 ] 
+
+L 10
+Head [ 55, -34 ]
+knot1 position [ 56, -34 ]
+final knot position [ 64, -35 ] 
+
+R 4
+Head [ 59, -34 ]
+knot1 position [ 58, -34 ]
+final knot position [ 64, -35 ] 
+
+D 1
+Head [ 59, -35 ]
+knot1 position [ 58, -34 ]
+final knot position [ 64, -35 ] 
+
+L 6
+Head [ 53, -35 ]
+knot1 position [ 54, -35 ]
+final knot position [ 62, -35 ] 
+
+R 1
+Head [ 54, -35 ]
+knot1 position [ 54, -35 ]
+final knot position [ 62, -35 ] 
+
+L 3
+Head [ 51, -35 ]
+knot1 position [ 52, -35 ]
+final knot position [ 60, -35 ] 
+
+D 4
+Head [ 51, -39 ]
+knot1 position [ 51, -38 ]
+final knot position [ 58, -37 ] 
+
+R 9
+Head [ 60, -39 ]
+knot1 position [ 59, -39 ]
+final knot position [ 58, -37 ] 
+
+D 7
+Head [ 60, -46 ]
+knot1 position [ 60, -45 ]
+final knot position [ 58, -37 ] 
+
+R 4
+Head [ 64, -46 ]
+knot1 position [ 63, -46 ]
+final knot position [ 60, -39 ] 
+
+D 8
+Head [ 64, -54 ]
+knot1 position [ 64, -53 ]
+final knot position [ 64, -45 ] 
+
+R 8
+Head [ 72, -54 ]
+knot1 position [ 71, -54 ]
+final knot position [ 68, -49 ] 
+
+L 5
+Head [ 67, -54 ]
+knot1 position [ 68, -54 ]
+final knot position [ 68, -49 ] 
+
+U 7
+Head [ 67, -47 ]
+knot1 position [ 67, -48 ]
+final knot position [ 68, -49 ] 
+
+R 3
+Head [ 70, -47 ]
+knot1 position [ 69, -47 ]
+final knot position [ 68, -49 ] 
+
+U 5
+Head [ 70, -42 ]
+knot1 position [ 70, -43 ]
+final knot position [ 68, -49 ] 
+
+D 4
+Head [ 70, -46 ]
+knot1 position [ 70, -45 ]
+final knot position [ 68, -49 ] 
+
+L 5
+Head [ 65, -46 ]
+knot1 position [ 66, -46 ]
+final knot position [ 68, -49 ] 
+
+D 7
+Head [ 65, -53 ]
+knot1 position [ 65, -52 ]
+final knot position [ 68, -49 ] 
+
+L 10
+Head [ 55, -53 ]
+knot1 position [ 56, -53 ]
+final knot position [ 64, -53 ] 
+
+U 3
+Head [ 55, -50 ]
+knot1 position [ 55, -51 ]
+final knot position [ 63, -52 ] 
+
+D 9
+Head [ 55, -59 ]
+knot1 position [ 55, -58 ]
+final knot position [ 60, -55 ] 
+
+R 7
+Head [ 62, -59 ]
+knot1 position [ 61, -59 ]
+final knot position [ 60, -55 ] 
+
+U 4
+Head [ 62, -55 ]
+knot1 position [ 62, -56 ]
+final knot position [ 60, -55 ] 
+
+D 3
+Head [ 62, -58 ]
+knot1 position [ 62, -57 ]
+final knot position [ 60, -55 ] 
+
+R 7
+Head [ 69, -58 ]
+knot1 position [ 68, -58 ]
+final knot position [ 61, -56 ] 
+
+U 5
+Head [ 69, -53 ]
+knot1 position [ 69, -54 ]
+final knot position [ 62, -56 ] 
+
+D 10
+Head [ 69, -63 ]
+knot1 position [ 69, -62 ]
+final knot position [ 64, -58 ] 
+
+R 1
+Head [ 70, -63 ]
+knot1 position [ 69, -62 ]
+final knot position [ 64, -58 ] 
+
+L 7
+Head [ 63, -63 ]
+knot1 position [ 64, -63 ]
+final knot position [ 64, -58 ] 
+
+U 7
+Head [ 63, -56 ]
+knot1 position [ 63, -57 ]
+final knot position [ 64, -58 ] 
+
+R 5
+Head [ 68, -56 ]
+knot1 position [ 67, -56 ]
+final knot position [ 64, -58 ] 
+
+U 4
+Head [ 68, -52 ]
+knot1 position [ 68, -53 ]
+final knot position [ 64, -58 ] 
+
+L 7
+Head [ 61, -52 ]
+knot1 position [ 62, -52 ]
+final knot position [ 65, -58 ] 
+
+D 6
+Head [ 61, -58 ]
+knot1 position [ 61, -57 ]
+final knot position [ 65, -58 ] 
+
+R 1
+Head [ 62, -58 ]
+knot1 position [ 61, -57 ]
+final knot position [ 65, -58 ] 
+
+D 1
+Head [ 62, -59 ]
+knot1 position [ 62, -58 ]
+final knot position [ 65, -58 ] 
+
+R 4
+Head [ 66, -59 ]
+knot1 position [ 65, -59 ]
+final knot position [ 65, -58 ] 
+
+L 3
+Head [ 63, -59 ]
+knot1 position [ 64, -59 ]
+final knot position [ 65, -58 ] 
+
+R 4
+Head [ 67, -59 ]
+knot1 position [ 66, -59 ]
+final knot position [ 65, -58 ] 
+
+D 3
+Head [ 67, -62 ]
+knot1 position [ 67, -61 ]
+final knot position [ 65, -58 ] 
+
+L 7
+Head [ 60, -62 ]
+knot1 position [ 61, -62 ]
+final knot position [ 65, -58 ] 
+
+D 7
+Head [ 60, -69 ]
+knot1 position [ 60, -68 ]
+final knot position [ 62, -61 ] 
+
+L 6
+Head [ 54, -69 ]
+knot1 position [ 55, -69 ]
+final knot position [ 59, -64 ] 
+
+R 4
+Head [ 58, -69 ]
+knot1 position [ 57, -69 ]
+final knot position [ 59, -64 ] 
+
+L 1
+Head [ 57, -69 ]
+knot1 position [ 57, -69 ]
+final knot position [ 59, -64 ] 
+
+D 2
+Head [ 57, -71 ]
+knot1 position [ 57, -70 ]
+final knot position [ 59, -64 ] 
+
+U 4
+Head [ 57, -67 ]
+knot1 position [ 57, -68 ]
+final knot position [ 59, -64 ] 
+
+D 8
+Head [ 57, -75 ]
+knot1 position [ 57, -74 ]
+final knot position [ 57, -66 ] 
+
+L 8
+Head [ 49, -75 ]
+knot1 position [ 50, -75 ]
+final knot position [ 53, -70 ] 
+
+R 1
+Head [ 50, -75 ]
+knot1 position [ 50, -75 ]
+final knot position [ 53, -70 ] 
+
+U 4
+Head [ 50, -71 ]
+knot1 position [ 50, -72 ]
+final knot position [ 53, -70 ] 
+
+D 1
+Head [ 50, -72 ]
+knot1 position [ 50, -72 ]
+final knot position [ 53, -70 ] 
+
+U 2
+Head [ 50, -70 ]
+knot1 position [ 50, -71 ]
+final knot position [ 53, -70 ] 
+
+L 1
+Head [ 49, -70 ]
+knot1 position [ 50, -71 ]
+final knot position [ 53, -70 ] 
+
+R 4
+Head [ 53, -70 ]
+knot1 position [ 52, -70 ]
+final knot position [ 53, -70 ] 
+
+U 7
+Head [ 53, -63 ]
+knot1 position [ 53, -64 ]
+final knot position [ 53, -70 ] 
+
+D 9
+Head [ 53, -72 ]
+knot1 position [ 53, -71 ]
+final knot position [ 53, -70 ] 
+
+U 4
+Head [ 53, -68 ]
+knot1 position [ 53, -69 ]
+final knot position [ 53, -70 ] 
+
+D 10
+Head [ 53, -78 ]
+knot1 position [ 53, -77 ]
+final knot position [ 53, -70 ] 
+
+U 5
+Head [ 53, -73 ]
+knot1 position [ 53, -74 ]
+final knot position [ 53, -70 ] 
+
+R 3
+Head [ 56, -73 ]
+knot1 position [ 55, -73 ]
+final knot position [ 53, -70 ] 
+
+D 6
+Head [ 56, -79 ]
+knot1 position [ 56, -78 ]
+final knot position [ 54, -71 ] 
+
+U 7
+Head [ 56, -72 ]
+knot1 position [ 56, -73 ]
+final knot position [ 54, -71 ] 
+
+D 6
+Head [ 56, -78 ]
+knot1 position [ 56, -77 ]
+final knot position [ 54, -71 ] 
+
+L 7
+Head [ 49, -78 ]
+knot1 position [ 50, -78 ]
+final knot position [ 53, -73 ] 
+
+R 7
+Head [ 56, -78 ]
+knot1 position [ 55, -78 ]
+final knot position [ 53, -73 ] 
+
+L 7
+Head [ 49, -78 ]
+knot1 position [ 50, -78 ]
+final knot position [ 53, -73 ] 
+
+R 6
+Head [ 55, -78 ]
+knot1 position [ 54, -78 ]
+final knot position [ 53, -73 ] 
+
+D 4
+Head [ 55, -82 ]
+knot1 position [ 55, -81 ]
+final knot position [ 54, -74 ] 
+
+U 4
+Head [ 55, -78 ]
+knot1 position [ 55, -79 ]
+final knot position [ 54, -74 ] 
+
+L 7
+Head [ 48, -78 ]
+knot1 position [ 49, -78 ]
+final knot position [ 54, -74 ] 
+
+U 9
+Head [ 48, -69 ]
+knot1 position [ 48, -70 ]
+final knot position [ 53, -74 ] 
+
+L 6
+Head [ 42, -69 ]
+knot1 position [ 43, -69 ]
+final knot position [ 50, -71 ] 
+
+D 2
+Head [ 42, -71 ]
+knot1 position [ 42, -70 ]
+final knot position [ 50, -71 ] 
+
+L 2
+Head [ 40, -71 ]
+knot1 position [ 41, -71 ]
+final knot position [ 49, -71 ] 
+
+U 10
+Head [ 40, -61 ]
+knot1 position [ 40, -62 ]
+final knot position [ 44, -66 ] 
+
+L 4
+Head [ 36, -61 ]
+knot1 position [ 37, -61 ]
+final knot position [ 42, -64 ] 
+
+U 3
+Head [ 36, -58 ]
+knot1 position [ 36, -59 ]
+final knot position [ 41, -63 ] 
+
+D 3
+Head [ 36, -61 ]
+knot1 position [ 36, -60 ]
+final knot position [ 41, -63 ] 
+
+L 5
+Head [ 31, -61 ]
+knot1 position [ 32, -61 ]
+final knot position [ 40, -62 ] 
+
+U 10
+Head [ 31, -51 ]
+knot1 position [ 31, -52 ]
+final knot position [ 35, -57 ] 
+
+D 10
+Head [ 31, -61 ]
+knot1 position [ 31, -60 ]
+final knot position [ 35, -57 ] 
+
+R 8
+Head [ 39, -61 ]
+knot1 position [ 38, -61 ]
+final knot position [ 35, -57 ] 
+
+D 2
+Head [ 39, -63 ]
+knot1 position [ 39, -62 ]
+final knot position [ 35, -57 ] 
+
+L 6
+Head [ 33, -63 ]
+knot1 position [ 34, -63 ]
+final knot position [ 35, -57 ] 
+
+D 9
+Head [ 33, -72 ]
+knot1 position [ 33, -71 ]
+final knot position [ 33, -63 ] 
+
+R 7
+Head [ 40, -72 ]
+knot1 position [ 39, -72 ]
+final knot position [ 36, -66 ] 
+
+L 8
+Head [ 32, -72 ]
+knot1 position [ 33, -72 ]
+final knot position [ 36, -66 ] 
+
+R 3
+Head [ 35, -72 ]
+knot1 position [ 34, -72 ]
+final knot position [ 36, -66 ] 
+
+U 1
+Head [ 35, -71 ]
+knot1 position [ 34, -72 ]
+final knot position [ 36, -66 ] 
+
+D 4
+Head [ 35, -75 ]
+knot1 position [ 35, -74 ]
+final knot position [ 36, -66 ] 
+
+U 2
+Head [ 35, -73 ]
+knot1 position [ 35, -74 ]
+final knot position [ 36, -66 ] 
+
+R 4
+Head [ 39, -73 ]
+knot1 position [ 38, -73 ]
+final knot position [ 36, -67 ] 
+
+U 5
+Head [ 39, -68 ]
+knot1 position [ 39, -69 ]
+final knot position [ 36, -67 ] 
+
+D 8
+Head [ 39, -76 ]
+knot1 position [ 39, -75 ]
+final knot position [ 37, -68 ] 
+
+U 6
+Head [ 39, -70 ]
+knot1 position [ 39, -71 ]
+final knot position [ 37, -68 ] 
+
+L 4
+Head [ 35, -70 ]
+knot1 position [ 36, -70 ]
+final knot position [ 37, -68 ] 
+
+U 9
+Head [ 35, -61 ]
+knot1 position [ 35, -62 ]
+final knot position [ 37, -68 ] 
+
+R 5
+Head [ 40, -61 ]
+knot1 position [ 39, -61 ]
+final knot position [ 37, -68 ] 
+
+U 8
+Head [ 40, -53 ]
+knot1 position [ 40, -54 ]
+final knot position [ 40, -62 ] 
+
+L 11
+Head [ 29, -53 ]
+knot1 position [ 30, -53 ]
+final knot position [ 35, -57 ] 
+
+D 11
+Head [ 29, -64 ]
+knot1 position [ 29, -63 ]
+final knot position [ 33, -58 ] 
+
+U 6
+Head [ 29, -58 ]
+knot1 position [ 29, -59 ]
+final knot position [ 33, -58 ] 
+
+D 4
+Head [ 29, -62 ]
+knot1 position [ 29, -61 ]
+final knot position [ 33, -58 ] 
+
+U 3
+Head [ 29, -59 ]
+knot1 position [ 29, -60 ]
+final knot position [ 33, -58 ] 
+
+R 7
+Head [ 36, -59 ]
+knot1 position [ 35, -59 ]
+final knot position [ 33, -58 ] 
+
+L 8
+Head [ 28, -59 ]
+knot1 position [ 29, -59 ]
+final knot position [ 33, -58 ] 
+
+R 5
+Head [ 33, -59 ]
+knot1 position [ 32, -59 ]
+final knot position [ 33, -58 ] 
+
+D 5
+Head [ 33, -64 ]
+knot1 position [ 33, -63 ]
+final knot position [ 33, -58 ] 
+
+U 5
+Head [ 33, -59 ]
+knot1 position [ 33, -60 ]
+final knot position [ 33, -58 ] 
+
+R 1
+Head [ 34, -59 ]
+knot1 position [ 33, -60 ]
+final knot position [ 33, -58 ] 
+
+U 10
+Head [ 34, -49 ]
+knot1 position [ 34, -50 ]
+final knot position [ 33, -58 ] 
+
+L 4
+Head [ 30, -49 ]
+knot1 position [ 31, -49 ]
+final knot position [ 32, -56 ] 
+
+D 6
+Head [ 30, -55 ]
+knot1 position [ 30, -54 ]
+final knot position [ 32, -56 ] 
+
+U 11
+Head [ 30, -44 ]
+knot1 position [ 30, -45 ]
+final knot position [ 30, -53 ] 
+
+R 3
+Head [ 33, -44 ]
+knot1 position [ 32, -44 ]
+final knot position [ 31, -52 ] 
+
+D 10
+Head [ 33, -54 ]
+knot1 position [ 33, -53 ]
+final knot position [ 31, -52 ] 
+
+U 10
+Head [ 33, -44 ]
+knot1 position [ 33, -45 ]
+final knot position [ 31, -52 ] 
+
+L 7
+Head [ 26, -44 ]
+knot1 position [ 27, -44 ]
+final knot position [ 30, -50 ] 
+
+R 11
+Head [ 37, -44 ]
+knot1 position [ 36, -44 ]
+final knot position [ 32, -48 ] 
+
+U 9
+Head [ 37, -35 ]
+knot1 position [ 37, -36 ]
+final knot position [ 36, -44 ] 
+
+L 10
+Head [ 27, -35 ]
+knot1 position [ 28, -35 ]
+final knot position [ 32, -39 ] 
+
+U 10
+Head [ 27, -25 ]
+knot1 position [ 27, -26 ]
+final knot position [ 27, -34 ] 
+
+L 11
+Head [ 16, -25 ]
+knot1 position [ 17, -25 ]
+final knot position [ 22, -29 ] 
+
+D 2
+Head [ 16, -27 ]
+knot1 position [ 16, -26 ]
+final knot position [ 22, -29 ] 
+
+L 9
+Head [ 7, -27 ]
+knot1 position [ 8, -27 ]
+final knot position [ 16, -27 ] 
+
+D 3
+Head [ 7, -30 ]
+knot1 position [ 7, -29 ]
+final knot position [ 15, -28 ] 
+
+L 11
+Head [ -4, -30 ]
+knot1 position [ -3, -30 ]
+final knot position [ 5, -30 ] 
+
+D 2
+Head [ -4, -32 ]
+knot1 position [ -4, -31 ]
+final knot position [ 4, -31 ] 
+
+U 1
+Head [ -4, -31 ]
+knot1 position [ -4, -31 ]
+final knot position [ 4, -31 ] 
+
+D 5
+Head [ -4, -36 ]
+knot1 position [ -4, -35 ]
+final knot position [ 2, -33 ] 
+
+L 6
+Head [ -10, -36 ]
+knot1 position [ -9, -36 ]
+final knot position [ -1, -36 ] 
+
+U 3
+Head [ -10, -33 ]
+knot1 position [ -10, -34 ]
+final knot position [ -2, -35 ] 
+
+D 10
+Head [ -10, -43 ]
+knot1 position [ -10, -42 ]
+final knot position [ -5, -38 ] 
+
+R 8
+Head [ -2, -43 ]
+knot1 position [ -3, -43 ]
+final knot position [ -5, -38 ] 
+
+U 10
+Head [ -2, -33 ]
+knot1 position [ -2, -34 ]
+final knot position [ -5, -38 ] 
+
+R 9
+Head [ 7, -33 ]
+knot1 position [ 6, -33 ]
+final knot position [ -2, -35 ] 
+
+L 1
+Head [ 6, -33 ]
+knot1 position [ 6, -33 ]
+final knot position [ -2, -35 ] 
+
+D 6
+Head [ 6, -39 ]
+knot1 position [ 6, -38 ]
+final knot position [ 0, -35 ] 
+
+U 6
+Head [ 6, -33 ]
+knot1 position [ 6, -34 ]
+final knot position [ 0, -35 ] 
+
+D 6
+Head [ 6, -39 ]
+knot1 position [ 6, -38 ]
+final knot position [ 0, -35 ] 
+
+L 8
+Head [ -2, -39 ]
+knot1 position [ -1, -39 ]
+final knot position [ 0, -35 ] 
+
+R 3
+Head [ 1, -39 ]
+knot1 position [ 0, -39 ]
+final knot position [ 0, -35 ] 
+
+U 1
+Head [ 1, -38 ]
+knot1 position [ 0, -39 ]
+final knot position [ 0, -35 ] 
+
+D 2
+Head [ 1, -40 ]
+knot1 position [ 0, -39 ]
+final knot position [ 0, -35 ] 
+
+L 6
+Head [ -5, -40 ]
+knot1 position [ -4, -40 ]
+final knot position [ 0, -36 ] 
+
+R 10
+Head [ 5, -40 ]
+knot1 position [ 4, -40 ]
+final knot position [ 0, -36 ] 
+
+U 7
+Head [ 5, -33 ]
+knot1 position [ 5, -34 ]
+final knot position [ 0, -36 ] 
+
+D 2
+Head [ 5, -35 ]
+knot1 position [ 5, -34 ]
+final knot position [ 0, -36 ] 
+
+L 5
+Head [ 0, -35 ]
+knot1 position [ 1, -35 ]
+final knot position [ 0, -36 ] 
+
+D 10
+Head [ 0, -45 ]
+knot1 position [ 0, -44 ]
+final knot position [ 0, -36 ] 
+
+U 5
+Head [ 0, -40 ]
+knot1 position [ 0, -41 ]
+final knot position [ 0, -36 ] 
+
+D 9
+Head [ 0, -49 ]
+knot1 position [ 0, -48 ]
+final knot position [ 0, -40 ] 
+
+R 4
+Head [ 4, -49 ]
+knot1 position [ 3, -49 ]
+final knot position [ 2, -42 ] 
+
+L 9
+Head [ -5, -49 ]
+knot1 position [ -4, -49 ]
+final knot position [ 0, -44 ] 
+
+D 6
+Head [ -5, -55 ]
+knot1 position [ -5, -54 ]
+final knot position [ -3, -47 ] 
+
+U 9
+Head [ -5, -46 ]
+knot1 position [ -5, -47 ]
+final knot position [ -3, -47 ] 
+
+R 5
+Head [ 0, -46 ]
+knot1 position [ -1, -46 ]
+final knot position [ -3, -47 ] 
+
+L 9
+Head [ -9, -46 ]
+knot1 position [ -8, -46 ]
+final knot position [ -3, -47 ] 
+
+U 1
+Head [ -9, -45 ]
+knot1 position [ -8, -46 ]
+final knot position [ -3, -47 ] 
+
+D 2
+Head [ -9, -47 ]
+knot1 position [ -8, -46 ]
+final knot position [ -3, -47 ] 
+
+R 2
+Head [ -7, -47 ]
+knot1 position [ -8, -46 ]
+final knot position [ -3, -47 ] 
+
+L 5
+Head [ -12, -47 ]
+knot1 position [ -11, -47 ]
+final knot position [ -3, -47 ] 
+
+R 4
+Head [ -8, -47 ]
+knot1 position [ -9, -47 ]
+final knot position [ -3, -47 ] 
+
+D 8
+Head [ -8, -55 ]
+knot1 position [ -8, -54 ]
+final knot position [ -5, -49 ] 
+
+U 8
+Head [ -8, -47 ]
+knot1 position [ -8, -48 ]
+final knot position [ -5, -49 ] 
+
+D 11
+Head [ -8, -58 ]
+knot1 position [ -8, -57 ]
+final knot position [ -6, -50 ] 
+
+L 4
+Head [ -12, -58 ]
+knot1 position [ -11, -58 ]
+final knot position [ -8, -52 ] 
+
+D 3
+Head [ -12, -61 ]
+knot1 position [ -12, -60 ]
+final knot position [ -9, -53 ] 
+
+U 1
+Head [ -12, -60 ]
+knot1 position [ -12, -60 ]
+final knot position [ -9, -53 ] 
+
+L 9
+Head [ -21, -60 ]
+knot1 position [ -20, -60 ]
+final knot position [ -13, -57 ] 
+
+R 8
+Head [ -13, -60 ]
+knot1 position [ -14, -60 ]
+final knot position [ -13, -57 ] 
+
+L 10
+Head [ -23, -60 ]
+knot1 position [ -22, -60 ]
+final knot position [ -14, -58 ] 
+
+R 8
+Head [ -15, -60 ]
+knot1 position [ -16, -60 ]
+final knot position [ -14, -58 ] 
+
+L 10
+Head [ -25, -60 ]
+knot1 position [ -24, -60 ]
+final knot position [ -16, -60 ] 
+
+U 10
+Head [ -25, -50 ]
+knot1 position [ -25, -51 ]
+final knot position [ -21, -55 ] 
+
+D 5
+Head [ -25, -55 ]
+knot1 position [ -25, -54 ]
+final knot position [ -21, -55 ] 
+
+R 11
+Head [ -14, -55 ]
+knot1 position [ -15, -55 ]
+final knot position [ -21, -55 ] 
+
+U 2
+Head [ -14, -53 ]
+knot1 position [ -14, -54 ]
+final knot position [ -21, -55 ] 
+
+R 8
+Head [ -6, -53 ]
+knot1 position [ -7, -53 ]
+final knot position [ -15, -53 ] 
+
+U 1
+Head [ -6, -52 ]
+knot1 position [ -7, -53 ]
+final knot position [ -15, -53 ] 
+
+L 6
+Head [ -12, -52 ]
+knot1 position [ -11, -52 ]
+final knot position [ -15, -53 ] 
+
+U 5
+Head [ -12, -47 ]
+knot1 position [ -12, -48 ]
+final knot position [ -15, -53 ] 
+
+D 2
+Head [ -12, -49 ]
+knot1 position [ -12, -48 ]
+final knot position [ -15, -53 ] 
+
+U 2
+Head [ -12, -47 ]
+knot1 position [ -12, -48 ]
+final knot position [ -15, -53 ] 
+
+R 3
+Head [ -9, -47 ]
+knot1 position [ -10, -47 ]
+final knot position [ -14, -52 ] 
+
+L 4
+Head [ -13, -47 ]
+knot1 position [ -12, -47 ]
+final knot position [ -14, -52 ] 
+
+R 1
+Head [ -12, -47 ]
+knot1 position [ -12, -47 ]
+final knot position [ -14, -52 ] 
+
+D 6
+Head [ -12, -53 ]
+knot1 position [ -12, -52 ]
+final knot position [ -14, -52 ] 
+
+L 6
+Head [ -18, -53 ]
+knot1 position [ -17, -53 ]
+final knot position [ -14, -52 ] 
+
+U 5
+Head [ -18, -48 ]
+knot1 position [ -18, -49 ]
+final knot position [ -14, -52 ] 
+
+R 1
+Head [ -17, -48 ]
+knot1 position [ -18, -49 ]
+final knot position [ -14, -52 ] 
+
+L 6
+Head [ -23, -48 ]
+knot1 position [ -22, -48 ]
+final knot position [ -16, -50 ] 
+
+D 1
+Head [ -23, -49 ]
+knot1 position [ -22, -48 ]
+final knot position [ -16, -50 ] 
+
+R 5
+Head [ -18, -49 ]
+knot1 position [ -19, -49 ]
+final knot position [ -16, -50 ] 
+
+L 2
+Head [ -20, -49 ]
+knot1 position [ -19, -49 ]
+final knot position [ -16, -50 ] 
+
+R 11
+Head [ -9, -49 ]
+knot1 position [ -10, -49 ]
+final knot position [ -16, -50 ] 
+
+D 5
+Head [ -9, -54 ]
+knot1 position [ -9, -53 ]
+final knot position [ -16, -50 ] 
+
+L 6
+Head [ -15, -54 ]
+knot1 position [ -14, -54 ]
+final knot position [ -16, -50 ] 
+
+R 1
+Head [ -14, -54 ]
+knot1 position [ -14, -54 ]
+final knot position [ -16, -50 ] 
+
+D 11
+Head [ -14, -65 ]
+knot1 position [ -14, -64 ]
+final knot position [ -14, -56 ] 
+
+U 9
+Head [ -14, -56 ]
+knot1 position [ -14, -57 ]
+final knot position [ -14, -56 ] 
+
+D 12
+Head [ -14, -68 ]
+knot1 position [ -14, -67 ]
+final knot position [ -14, -59 ] 
+
+U 8
+Head [ -14, -60 ]
+knot1 position [ -14, -61 ]
+final knot position [ -14, -59 ] 
+
+R 7
+Head [ -7, -60 ]
+knot1 position [ -8, -60 ]
+final knot position [ -14, -59 ] 
+
+L 6
+Head [ -13, -60 ]
+knot1 position [ -12, -60 ]
+final knot position [ -14, -59 ] 
+
+R 9
+Head [ -4, -60 ]
+knot1 position [ -5, -60 ]
+final knot position [ -13, -60 ] 
+
+U 7
+Head [ -4, -53 ]
+knot1 position [ -4, -54 ]
+final knot position [ -10, -57 ] 
+
+D 2
+Head [ -4, -55 ]
+knot1 position [ -4, -54 ]
+final knot position [ -10, -57 ] 
+
+R 5
+Head [ 1, -55 ]
+knot1 position [ 0, -55 ]
+final knot position [ -8, -55 ] 
+
+D 12
+Head [ 1, -67 ]
+knot1 position [ 1, -66 ]
+final knot position [ -2, -61 ] 
+
+L 10
+Head [ -9, -67 ]
+knot1 position [ -8, -67 ]
+final knot position [ -4, -63 ] 
+
+D 7
+Head [ -9, -74 ]
+knot1 position [ -9, -73 ]
+final knot position [ -7, -66 ] 
+
+L 5
+Head [ -14, -74 ]
+knot1 position [ -13, -74 ]
+final knot position [ -9, -68 ] 
+
+U 7
+Head [ -14, -67 ]
+knot1 position [ -14, -68 ]
+final knot position [ -10, -69 ] 
+
+D 9
+Head [ -14, -76 ]
+knot1 position [ -14, -75 ]
+final knot position [ -11, -70 ] 
+
+R 7
+Head [ -7, -76 ]
+knot1 position [ -8, -76 ]
+final knot position [ -11, -70 ] 
+
+U 8
+Head [ -7, -68 ]
+knot1 position [ -7, -69 ]
+final knot position [ -11, -70 ] 
+
+D 3
+Head [ -7, -71 ]
+knot1 position [ -7, -70 ]
+final knot position [ -11, -70 ] 
+
+U 8
+Head [ -7, -63 ]
+knot1 position [ -7, -64 ]
+final knot position [ -10, -70 ] 
+
+D 5
+Head [ -7, -68 ]
+knot1 position [ -7, -67 ]
+final knot position [ -10, -70 ] 
+
+U 1
+Head [ -7, -67 ]
+knot1 position [ -7, -67 ]
+final knot position [ -10, -70 ] 
+
+L 10
+Head [ -17, -67 ]
+knot1 position [ -16, -67 ]
+final knot position [ -10, -69 ] 
+
+U 7
+Head [ -17, -60 ]
+knot1 position [ -17, -61 ]
+final knot position [ -13, -66 ] 
+
+L 2
+Head [ -19, -60 ]
+knot1 position [ -18, -60 ]
+final knot position [ -14, -65 ] 
+
+R 5
+Head [ -14, -60 ]
+knot1 position [ -15, -60 ]
+final knot position [ -14, -65 ] 
+
+L 2
+Head [ -16, -60 ]
+knot1 position [ -15, -60 ]
+final knot position [ -14, -65 ] 
+
+U 1
+Head [ -16, -59 ]
+knot1 position [ -15, -60 ]
+final knot position [ -14, -65 ] 
+
+L 8
+Head [ -24, -59 ]
+knot1 position [ -23, -59 ]
+final knot position [ -17, -62 ] 
+
+R 2
+Head [ -22, -59 ]
+knot1 position [ -23, -59 ]
+final knot position [ -17, -62 ] 
+
+D 8
+Head [ -22, -67 ]
+knot1 position [ -22, -66 ]
+final knot position [ -18, -62 ] 
+
+R 9
+Head [ -13, -67 ]
+knot1 position [ -14, -67 ]
+final knot position [ -18, -62 ] 
+
+D 9
+Head [ -13, -76 ]
+knot1 position [ -13, -75 ]
+final knot position [ -13, -67 ] 
+
+R 11
+Head [ -2, -76 ]
+knot1 position [ -3, -76 ]
+final knot position [ -8, -72 ] 
+
+D 4
+Head [ -2, -80 ]
+knot1 position [ -2, -79 ]
+final knot position [ -6, -74 ] 
+
+R 3
+Head [ 1, -80 ]
+knot1 position [ 0, -80 ]
+final knot position [ -5, -75 ] 
+
+U 2
+Head [ 1, -78 ]
+knot1 position [ 1, -79 ]
+final knot position [ -4, -76 ] 
+
+D 9
+Head [ 1, -87 ]
+knot1 position [ 1, -86 ]
+final knot position [ -1, -79 ] 
+
+R 12
+Head [ 13, -87 ]
+knot1 position [ 12, -87 ]
+final knot position [ 5, -85 ] 
+
+U 11
+Head [ 13, -76 ]
+knot1 position [ 13, -77 ]
+final knot position [ 9, -82 ] 
+
+D 8
+Head [ 13, -84 ]
+knot1 position [ 13, -83 ]
+final knot position [ 9, -82 ] 
+
+R 6
+Head [ 19, -84 ]
+knot1 position [ 18, -84 ]
+final knot position [ 11, -83 ] 
+
+D 9
+Head [ 19, -93 ]
+knot1 position [ 19, -92 ]
+final knot position [ 15, -87 ] 
+
+U 3
+Head [ 19, -90 ]
+knot1 position [ 19, -91 ]
+final knot position [ 15, -87 ] 
+
+L 5
+Head [ 14, -90 ]
+knot1 position [ 15, -90 ]
+final knot position [ 15, -87 ] 
+
+R 1
+Head [ 15, -90 ]
+knot1 position [ 15, -90 ]
+final knot position [ 15, -87 ] 
+
+U 4
+Head [ 15, -86 ]
+knot1 position [ 15, -87 ]
+final knot position [ 15, -87 ] 
+
+R 4
+Head [ 19, -86 ]
+knot1 position [ 18, -86 ]
+final knot position [ 15, -87 ] 
+
+U 10
+Head [ 19, -76 ]
+knot1 position [ 19, -77 ]
+final knot position [ 18, -85 ] 
+
+R 11
+Head [ 30, -76 ]
+knot1 position [ 29, -76 ]
+final knot position [ 23, -80 ] 
+
+U 5
+Head [ 30, -71 ]
+knot1 position [ 30, -72 ]
+final knot position [ 25, -78 ] 
+
+R 9
+Head [ 39, -71 ]
+knot1 position [ 38, -71 ]
+final knot position [ 30, -73 ] 
+
+U 1
+Head [ 39, -70 ]
+knot1 position [ 38, -71 ]
+final knot position [ 30, -73 ] 
+
+R 5
+Head [ 44, -70 ]
+knot1 position [ 43, -70 ]
+final knot position [ 35, -70 ] 
+
+D 3
+Head [ 44, -73 ]
+knot1 position [ 44, -72 ]
+final knot position [ 36, -71 ] 
+
+R 8
+Head [ 52, -73 ]
+knot1 position [ 51, -73 ]
+final knot position [ 43, -73 ] 
+
+U 3
+Head [ 52, -70 ]
+knot1 position [ 52, -71 ]
+final knot position [ 44, -72 ] 
+
+R 6
+Head [ 58, -70 ]
+knot1 position [ 57, -70 ]
+final knot position [ 49, -70 ] 
+
+U 4
+Head [ 58, -66 ]
+knot1 position [ 58, -67 ]
+final knot position [ 51, -68 ] 
+
+R 3
+Head [ 61, -66 ]
+knot1 position [ 60, -66 ]
+final knot position [ 52, -67 ] 
+
+D 2
+Head [ 61, -68 ]
+knot1 position [ 61, -67 ]
+final knot position [ 53, -67 ] 
+
+L 2
+Head [ 59, -68 ]
+knot1 position [ 60, -68 ]
+final knot position [ 53, -67 ] 
+
+U 7
+Head [ 59, -61 ]
+knot1 position [ 59, -62 ]
+final knot position [ 54, -66 ] 
+
+L 2
+Head [ 57, -61 ]
+knot1 position [ 58, -61 ]
+final knot position [ 54, -66 ] 
+
+U 12
+Head [ 57, -49 ]
+knot1 position [ 57, -50 ]
+final knot position [ 57, -58 ] 
+
+D 10
+Head [ 57, -59 ]
+knot1 position [ 57, -58 ]
+final knot position [ 57, -58 ] 
+
+L 7
+Head [ 50, -59 ]
+knot1 position [ 51, -59 ]
+final knot position [ 57, -58 ] 
+
+U 6
+Head [ 50, -53 ]
+knot1 position [ 50, -54 ]
+final knot position [ 56, -57 ] 
+
+R 7
+Head [ 57, -53 ]
+knot1 position [ 56, -53 ]
+final knot position [ 56, -57 ] 
+
+U 1
+Head [ 57, -52 ]
+knot1 position [ 56, -53 ]
+final knot position [ 56, -57 ] 
+
+L 11
+Head [ 46, -52 ]
+knot1 position [ 47, -52 ]
+final knot position [ 54, -55 ] 
+
+U 12
+Head [ 46, -40 ]
+knot1 position [ 46, -41 ]
+final knot position [ 48, -49 ] 
+
+R 12
+Head [ 58, -40 ]
+knot1 position [ 57, -40 ]
+final knot position [ 52, -43 ] 
+
+L 12
+Head [ 46, -40 ]
+knot1 position [ 47, -40 ]
+final knot position [ 52, -43 ] 
+
+D 10
+Head [ 46, -50 ]
+knot1 position [ 46, -49 ]
+final knot position [ 50, -45 ] 
+
+R 9
+Head [ 55, -50 ]
+knot1 position [ 54, -50 ]
+final knot position [ 50, -45 ] 
+
+U 12
+Head [ 55, -38 ]
+knot1 position [ 55, -39 ]
+final knot position [ 52, -44 ] 
+
+L 6
+Head [ 49, -38 ]
+knot1 position [ 50, -38 ]
+final knot position [ 52, -44 ] 
+
+U 2
+Head [ 49, -36 ]
+knot1 position [ 49, -37 ]
+final knot position [ 51, -43 ] 
+
+L 7
+Head [ 42, -36 ]
+knot1 position [ 43, -36 ]
+final knot position [ 48, -40 ] 
+
+U 11
+Head [ 42, -25 ]
+knot1 position [ 42, -26 ]
+final knot position [ 42, -34 ] 
+
+R 7
+Head [ 49, -25 ]
+knot1 position [ 48, -25 ]
+final knot position [ 45, -31 ] 
+
+U 6
+Head [ 49, -19 ]
+knot1 position [ 49, -20 ]
+final knot position [ 48, -28 ] 
+
+L 3
+Head [ 46, -19 ]
+knot1 position [ 47, -19 ]
+final knot position [ 48, -27 ] 
+
+U 3
+Head [ 46, -16 ]
+knot1 position [ 46, -17 ]
+final knot position [ 46, -25 ] 
+
+D 1
+Head [ 46, -17 ]
+knot1 position [ 46, -17 ]
+final knot position [ 46, -25 ] 
+
+U 11
+Head [ 46, -6 ]
+knot1 position [ 46, -7 ]
+final knot position [ 46, -15 ] 
+
+R 1
+Head [ 47, -6 ]
+knot1 position [ 46, -7 ]
+final knot position [ 46, -15 ] 
+
+D 4
+Head [ 47, -10 ]
+knot1 position [ 47, -9 ]
+final knot position [ 46, -15 ] 
+
+R 10
+Head [ 57, -10 ]
+knot1 position [ 56, -10 ]
+final knot position [ 49, -12 ] 
+
+L 10
+Head [ 47, -10 ]
+knot1 position [ 48, -10 ]
+final knot position [ 49, -12 ] 
+
+R 6
+Head [ 53, -10 ]
+knot1 position [ 52, -10 ]
+final knot position [ 49, -12 ] 
+
+D 11
+Head [ 53, -21 ]
+knot1 position [ 53, -20 ]
+final knot position [ 51, -13 ] 
+
+R 1
+Head [ 54, -21 ]
+knot1 position [ 53, -20 ]
+final knot position [ 51, -13 ] 
+
+D 5
+Head [ 54, -26 ]
+knot1 position [ 54, -25 ]
+final knot position [ 54, -17 ] 
+
+L 1
+Head [ 53, -26 ]
+knot1 position [ 54, -25 ]
+final knot position [ 54, -17 ] 
+
+R 1
+Head [ 54, -26 ]
+knot1 position [ 54, -25 ]
+final knot position [ 54, -17 ] 
+
+L 4
+Head [ 50, -26 ]
+knot1 position [ 51, -26 ]
+final knot position [ 52, -19 ] 
+
+R 7
+Head [ 57, -26 ]
+knot1 position [ 56, -26 ]
+final knot position [ 53, -20 ] 
+
+U 12
+Head [ 57, -14 ]
+knot1 position [ 57, -15 ]
+final knot position [ 54, -20 ] 
+
+R 6
+Head [ 63, -14 ]
+knot1 position [ 62, -14 ]
+final knot position [ 57, -17 ] 
+
+L 10
+Head [ 53, -14 ]
+knot1 position [ 54, -14 ]
+final knot position [ 57, -17 ] 
+
+D 12
+Head [ 53, -26 ]
+knot1 position [ 53, -25 ]
+final knot position [ 55, -19 ] 
+
+L 4
+Head [ 49, -26 ]
+knot1 position [ 50, -26 ]
+final knot position [ 53, -21 ] 
+
+R 8
+Head [ 57, -26 ]
+knot1 position [ 56, -26 ]
+final knot position [ 53, -21 ] 
+
+U 5
+Head [ 57, -21 ]
+knot1 position [ 57, -22 ]
+final knot position [ 53, -21 ] 
+
+L 7
+Head [ 50, -21 ]
+knot1 position [ 51, -21 ]
+final knot position [ 53, -21 ] 
+
+R 10
+Head [ 60, -21 ]
+knot1 position [ 59, -21 ]
+final knot position [ 53, -21 ] 
+
+D 13
+Head [ 60, -34 ]
+knot1 position [ 60, -33 ]
+final knot position [ 58, -26 ] 
+
+U 7
+Head [ 60, -27 ]
+knot1 position [ 60, -28 ]
+final knot position [ 58, -26 ] 
+
+D 1
+Head [ 60, -28 ]
+knot1 position [ 60, -28 ]
+final knot position [ 58, -26 ] 
+
+R 1
+Head [ 61, -28 ]
+knot1 position [ 60, -28 ]
+final knot position [ 58, -26 ] 
+
+D 9
+Head [ 61, -37 ]
+knot1 position [ 61, -36 ]
+final knot position [ 60, -28 ] 
+
+R 3
+Head [ 64, -37 ]
+knot1 position [ 63, -37 ]
+final knot position [ 61, -29 ] 
+
+D 1
+Head [ 64, -38 ]
+knot1 position [ 63, -37 ]
+final knot position [ 61, -29 ] 
+
+L 4
+Head [ 60, -38 ]
+knot1 position [ 61, -38 ]
+final knot position [ 62, -30 ] 
+
+D 3
+Head [ 60, -41 ]
+knot1 position [ 60, -40 ]
+final knot position [ 60, -32 ] 
+
+R 5
+Head [ 65, -41 ]
+knot1 position [ 64, -41 ]
+final knot position [ 62, -34 ] 
+
+U 9
+Head [ 65, -32 ]
+knot1 position [ 65, -33 ]
+final knot position [ 62, -34 ] 
+
+R 11
+Head [ 76, -32 ]
+knot1 position [ 75, -32 ]
+final knot position [ 67, -32 ] 
+
+L 4
+Head [ 72, -32 ]
+knot1 position [ 73, -32 ]
+final knot position [ 67, -32 ] 
+
+R 1
+Head [ 73, -32 ]
+knot1 position [ 73, -32 ]
+final knot position [ 67, -32 ] 
+
+D 11
+Head [ 73, -43 ]
+knot1 position [ 73, -42 ]
+final knot position [ 71, -36 ] 
+
+L 2
+Head [ 71, -43 ]
+knot1 position [ 72, -43 ]
+final knot position [ 71, -36 ] 
+
+R 4
+Head [ 75, -43 ]
+knot1 position [ 74, -43 ]
+final knot position [ 72, -37 ] 
+
+D 7
+Head [ 75, -50 ]
+knot1 position [ 75, -49 ]
+final knot position [ 75, -41 ] 
+
+R 3
+Head [ 78, -50 ]
+knot1 position [ 77, -50 ]
+final knot position [ 76, -42 ] 
+
+U 2
+Head [ 78, -48 ]
+knot1 position [ 78, -49 ]
+final knot position [ 76, -42 ] 
+
+D 6
+Head [ 78, -54 ]
+knot1 position [ 78, -53 ]
+final knot position [ 78, -45 ] 
+
+R 2
+Head [ 80, -54 ]
+knot1 position [ 79, -54 ]
+final knot position [ 79, -46 ] 
+
+L 13
+Head [ 67, -54 ]
+knot1 position [ 68, -54 ]
+final knot position [ 74, -51 ] 
+
+R 5
+Head [ 72, -54 ]
+knot1 position [ 71, -54 ]
+final knot position [ 74, -51 ] 
+
+L 4
+Head [ 68, -54 ]
+knot1 position [ 69, -54 ]
+final knot position [ 74, -51 ] 
+
+R 4
+Head [ 72, -54 ]
+knot1 position [ 71, -54 ]
+final knot position [ 74, -51 ] 
+
+U 13
+Head [ 72, -41 ]
+knot1 position [ 72, -42 ]
+final knot position [ 72, -50 ] 
+
+R 3
+Head [ 75, -41 ]
+knot1 position [ 74, -41 ]
+final knot position [ 73, -49 ] 
+
+U 4
+Head [ 75, -37 ]
+knot1 position [ 75, -38 ]
+final knot position [ 75, -46 ] 
+
+R 3
+Head [ 78, -37 ]
+knot1 position [ 77, -37 ]
+final knot position [ 76, -45 ] 
+
+D 1
+Head [ 78, -38 ]
+knot1 position [ 77, -37 ]
+final knot position [ 76, -45 ] 
+
+L 3
+Head [ 75, -38 ]
+knot1 position [ 76, -38 ]
+final knot position [ 76, -45 ] 
+
+U 6
+Head [ 75, -32 ]
+knot1 position [ 75, -33 ]
+final knot position [ 75, -41 ] 
+
+L 8
+Head [ 67, -32 ]
+knot1 position [ 68, -32 ]
+final knot position [ 71, -37 ] 
+
+U 5
+Head [ 67, -27 ]
+knot1 position [ 67, -28 ]
+final knot position [ 69, -35 ] 
+
+R 4
+Head [ 71, -27 ]
+knot1 position [ 70, -27 ]
+final knot position [ 69, -34 ] 
+
+D 10
+Head [ 71, -37 ]
+knot1 position [ 71, -36 ]
+final knot position [ 69, -34 ] 
+
+L 3
+Head [ 68, -37 ]
+knot1 position [ 69, -37 ]
+final knot position [ 69, -34 ] 
+
+U 10
+Head [ 68, -27 ]
+knot1 position [ 68, -28 ]
+final knot position [ 69, -34 ] 
+
+R 11
+Head [ 79, -27 ]
+knot1 position [ 78, -27 ]
+final knot position [ 72, -31 ] 
+
+D 11
+Head [ 79, -38 ]
+knot1 position [ 79, -37 ]
+final knot position [ 75, -32 ] 
+
+U 2
+Head [ 79, -36 ]
+knot1 position [ 79, -37 ]
+final knot position [ 75, -32 ] 
+
+D 2
+Head [ 79, -38 ]
+knot1 position [ 79, -37 ]
+final knot position [ 75, -32 ] 
+
+R 4
+Head [ 83, -38 ]
+knot1 position [ 82, -38 ]
+final knot position [ 77, -34 ] 
+
+U 2
+Head [ 83, -36 ]
+knot1 position [ 83, -37 ]
+final knot position [ 77, -34 ] 
+
+D 1
+Head [ 83, -37 ]
+knot1 position [ 83, -37 ]
+final knot position [ 77, -34 ] 
+
+R 10
+Head [ 93, -37 ]
+knot1 position [ 92, -37 ]
+final knot position [ 84, -37 ] 
+
+U 5
+Head [ 93, -32 ]
+knot1 position [ 93, -33 ]
+final knot position [ 86, -35 ] 
+
+L 9
+Head [ 84, -32 ]
+knot1 position [ 85, -32 ]
+final knot position [ 86, -35 ] 
+
+U 11
+Head [ 84, -21 ]
+knot1 position [ 84, -22 ]
+final knot position [ 84, -30 ] 
+
+R 10
+Head [ 94, -21 ]
+knot1 position [ 93, -21 ]
+final knot position [ 89, -25 ] 
+
+D 4
+Head [ 94, -25 ]
+knot1 position [ 94, -24 ]
+final knot position [ 89, -25 ] 
+
+L 1
+Head [ 93, -25 ]
+knot1 position [ 94, -24 ]
+final knot position [ 89, -25 ] 
+
+U 5
+Head [ 93, -20 ]
+knot1 position [ 93, -21 ]
+final knot position [ 89, -25 ] 
+
+R 4
+Head [ 97, -20 ]
+knot1 position [ 96, -20 ]
+final knot position [ 91, -23 ] 
+
+U 6
+Head [ 97, -14 ]
+knot1 position [ 97, -15 ]
+final knot position [ 94, -20 ] 
+
+R 9
+Head [ 106, -14 ]
+knot1 position [ 105, -14 ]
+final knot position [ 98, -16 ] 
+
+D 12
+Head [ 106, -26 ]
+knot1 position [ 106, -25 ]
+final knot position [ 103, -20 ] 
+
+L 10
+Head [ 96, -26 ]
+knot1 position [ 97, -26 ]
+final knot position [ 101, -22 ] 
+
+R 5
+Head [ 101, -26 ]
+knot1 position [ 100, -26 ]
+final knot position [ 101, -22 ] 
+
+L 5
+Head [ 96, -26 ]
+knot1 position [ 97, -26 ]
+final knot position [ 101, -22 ] 
+
+D 9
+Head [ 96, -35 ]
+knot1 position [ 96, -34 ]
+final knot position [ 97, -26 ] 
+
+U 2
+Head [ 96, -33 ]
+knot1 position [ 96, -34 ]
+final knot position [ 97, -26 ] 
+
+R 7
+Head [ 103, -33 ]
+knot1 position [ 102, -33 ]
+final knot position [ 98, -28 ] 
+
+U 2
+Head [ 103, -31 ]
+knot1 position [ 103, -32 ]
+final knot position [ 98, -28 ] 
+
+R 5
+Head [ 108, -31 ]
+knot1 position [ 107, -31 ]
+final knot position [ 100, -30 ] 
+
+L 8
+Head [ 100, -31 ]
+knot1 position [ 101, -31 ]
+final knot position [ 100, -30 ] 
+
+D 5
+Head [ 100, -36 ]
+knot1 position [ 100, -35 ]
+final knot position [ 100, -30 ] 
+
+R 1
+Head [ 101, -36 ]
+knot1 position [ 100, -35 ]
+final knot position [ 100, -30 ] 
+
+D 5
+Head [ 101, -41 ]
+knot1 position [ 101, -40 ]
+final knot position [ 101, -32 ] 
+
+R 8
+Head [ 109, -41 ]
+knot1 position [ 108, -41 ]
+final knot position [ 105, -36 ] 
+
+U 11
+Head [ 109, -30 ]
+knot1 position [ 109, -31 ]
+final knot position [ 105, -36 ] 
+
+R 7
+Head [ 116, -30 ]
+knot1 position [ 115, -30 ]
+final knot position [ 108, -33 ] 
+
+L 13
+Head [ 103, -30 ]
+knot1 position [ 104, -30 ]
+final knot position [ 108, -33 ] 
+
+U 10
+Head [ 103, -20 ]
+knot1 position [ 103, -21 ]
+final knot position [ 104, -28 ] 
+
+D 3
+Head [ 103, -23 ]
+knot1 position [ 103, -22 ]
+final knot position [ 104, -28 ] 
+
+U 1
+Head [ 103, -22 ]
+knot1 position [ 103, -22 ]
+final knot position [ 104, -28 ] 
+
+D 2
+Head [ 103, -24 ]
+knot1 position [ 103, -23 ]
+final knot position [ 104, -28 ] 
+
+L 1
+Head [ 102, -24 ]
+knot1 position [ 103, -23 ]
+final knot position [ 104, -28 ] 
+
+D 12
+Head [ 102, -36 ]
+knot1 position [ 102, -35 ]
+final knot position [ 104, -28 ] 
+
+L 9
+Head [ 93, -36 ]
+knot1 position [ 94, -36 ]
+final knot position [ 100, -32 ] 
+
+D 12
+Head [ 93, -48 ]
+knot1 position [ 93, -47 ]
+final knot position [ 93, -39 ] 
+
+R 5
+Head [ 98, -48 ]
+knot1 position [ 97, -48 ]
+final knot position [ 95, -41 ] 
+
+U 8
+Head [ 98, -40 ]
+knot1 position [ 98, -41 ]
+final knot position [ 95, -41 ] 
+
+R 6
+Head [ 104, -40 ]
+knot1 position [ 103, -40 ]
+final knot position [ 96, -41 ] 
+
+L 6
+Head [ 98, -40 ]
+knot1 position [ 99, -40 ]
+final knot position [ 96, -41 ] 
+
+R 5
+Head [ 103, -40 ]
+knot1 position [ 102, -40 ]
+final knot position [ 96, -41 ] 
+
+U 7
+Head [ 103, -33 ]
+knot1 position [ 103, -34 ]
+final knot position [ 99, -38 ] 
+
+L 10
+Head [ 93, -33 ]
+knot1 position [ 94, -33 ]
+final knot position [ 98, -37 ] 
+
+D 5
+Head [ 93, -38 ]
+knot1 position [ 93, -37 ]
+final knot position [ 98, -37 ] 
+
+U 11
+Head [ 93, -27 ]
+knot1 position [ 93, -28 ]
+final knot position [ 95, -34 ] 
+
+D 4
+Head [ 93, -31 ]
+knot1 position [ 93, -30 ]
+final knot position [ 95, -34 ] 
+
+U 8
+Head [ 93, -23 ]
+knot1 position [ 93, -24 ]
+final knot position [ 93, -32 ] 
+
+R 7
+Head [ 100, -23 ]
+knot1 position [ 99, -23 ]
+final knot position [ 96, -29 ] 
+
+U 8
+Head [ 100, -15 ]
+knot1 position [ 100, -16 ]
+final knot position [ 100, -24 ] 
+
+R 2
+Head [ 102, -15 ]
+knot1 position [ 101, -15 ]
+final knot position [ 101, -23 ] 
+
+L 10
+Head [ 92, -15 ]
+knot1 position [ 93, -15 ]
+final knot position [ 97, -19 ] 
+
+D 5
+Head [ 92, -20 ]
+knot1 position [ 92, -19 ]
+final knot position [ 97, -19 ] 
+
+L 10
+Head [ 82, -20 ]
+knot1 position [ 83, -20 ]
+final knot position [ 91, -20 ] 
+
+D 3
+Head [ 82, -23 ]
+knot1 position [ 82, -22 ]
+final knot position [ 90, -21 ] 
+
+U 13
+Head [ 82, -10 ]
+knot1 position [ 82, -11 ]
+final knot position [ 85, -16 ] 
+
+D 11
+Head [ 82, -21 ]
+knot1 position [ 82, -20 ]
+final knot position [ 85, -16 ] 
+
+U 3
+Head [ 82, -18 ]
+knot1 position [ 82, -19 ]
+final knot position [ 85, -16 ] 
+
+R 10
+Head [ 92, -18 ]
+knot1 position [ 91, -18 ]
+final knot position [ 85, -16 ] 
+
+U 9
+Head [ 92, -9 ]
+knot1 position [ 92, -10 ]
+final knot position [ 87, -14 ] 
+
+D 7
+Head [ 92, -16 ]
+knot1 position [ 92, -15 ]
+final knot position [ 87, -14 ] 
+
+U 6
+Head [ 92, -10 ]
+knot1 position [ 92, -11 ]
+final knot position [ 87, -14 ] 
+
+R 1
+Head [ 93, -10 ]
+knot1 position [ 92, -11 ]
+final knot position [ 87, -14 ] 
+
+U 9
+Head [ 93, -1 ]
+knot1 position [ 93, -2 ]
+final knot position [ 92, -9 ] 
+
+R 11
+Head [ 104, -1 ]
+knot1 position [ 103, -1 ]
+final knot position [ 97, -4 ] 
+
+D 7
+Head [ 104, -8 ]
+knot1 position [ 104, -7 ]
+final knot position [ 98, -4 ] 
+
+R 6
+Head [ 110, -8 ]
+knot1 position [ 109, -8 ]
+final knot position [ 101, -7 ] 
+
+U 9
+Head [ 110, 1 ]
+knot1 position [ 110, 0 ]
+final knot position [ 105, -4 ] 
+
+R 6
+Head [ 116, 1 ]
+knot1 position [ 115, 1 ]
+final knot position [ 108, -1 ] 
+
+U 12
+Head [ 116, 13 ]
+knot1 position [ 116, 12 ]
+final knot position [ 114, 5 ] 
+
+D 6
+Head [ 116, 7 ]
+knot1 position [ 116, 8 ]
+final knot position [ 114, 5 ] 
+
+R 13
+Head [ 129, 7 ]
+knot1 position [ 128, 7 ]
+final knot position [ 120, 7 ] 
+
+L 14
+Head [ 115, 7 ]
+knot1 position [ 116, 7 ]
+final knot position [ 120, 7 ] 
+
+U 10
+Head [ 115, 17 ]
+knot1 position [ 115, 16 ]
+final knot position [ 117, 10 ] 
+
+R 9
+Head [ 124, 17 ]
+knot1 position [ 123, 17 ]
+final knot position [ 119, 12 ] 
+
+L 13
+Head [ 111, 17 ]
+knot1 position [ 112, 17 ]
+final knot position [ 117, 14 ] 
+
+R 7
+Head [ 118, 17 ]
+knot1 position [ 117, 17 ]
+final knot position [ 117, 14 ] 
+
+D 9
+Head [ 118, 8 ]
+knot1 position [ 118, 9 ]
+final knot position [ 117, 14 ] 
+
+U 12
+Head [ 118, 20 ]
+knot1 position [ 118, 19 ]
+final knot position [ 117, 14 ] 
+
+L 8
+Head [ 110, 20 ]
+knot1 position [ 111, 20 ]
+final knot position [ 115, 16 ] 
+
+D 5
+Head [ 110, 15 ]
+knot1 position [ 110, 16 ]
+final knot position [ 115, 16 ] 
+
+R 3
+Head [ 113, 15 ]
+knot1 position [ 112, 15 ]
+final knot position [ 115, 16 ] 
+
+U 5
+Head [ 113, 20 ]
+knot1 position [ 113, 19 ]
+final knot position [ 115, 16 ] 
+
+R 10
+Head [ 123, 20 ]
+knot1 position [ 122, 20 ]
+final knot position [ 116, 17 ] 
+
+L 4
+Head [ 119, 20 ]
+knot1 position [ 120, 20 ]
+final knot position [ 116, 17 ] 
+
+D 5
+Head [ 119, 15 ]
+knot1 position [ 119, 16 ]
+final knot position [ 116, 17 ] 
+
+R 4
+Head [ 123, 15 ]
+knot1 position [ 122, 15 ]
+final knot position [ 116, 17 ] 
+
+D 2
+Head [ 123, 13 ]
+knot1 position [ 123, 14 ]
+final knot position [ 117, 17 ] 
+
+L 12
+Head [ 111, 13 ]
+knot1 position [ 112, 13 ]
+final knot position [ 117, 16 ] 
+
+R 8
+Head [ 119, 13 ]
+knot1 position [ 118, 13 ]
+final knot position [ 117, 16 ] 
+
+D 9
+Head [ 119, 4 ]
+knot1 position [ 119, 5 ]
+final knot position [ 119, 13 ] 
+
+R 5
+Head [ 124, 4 ]
+knot1 position [ 123, 4 ]
+final knot position [ 121, 11 ] 
+
+D 7
+Head [ 124, -3 ]
+knot1 position [ 124, -2 ]
+final knot position [ 124, 6 ] 
+
+U 5
+Head [ 124, 2 ]
+knot1 position [ 124, 1 ]
+final knot position [ 124, 6 ] 
+
+D 11
+Head [ 124, -9 ]
+knot1 position [ 124, -8 ]
+final knot position [ 124, 0 ] 
+
+L 13
+Head [ 111, -9 ]
+knot1 position [ 112, -9 ]
+final knot position [ 118, -6 ] 
+
+D 12
+Head [ 111, -21 ]
+knot1 position [ 111, -20 ]
+final knot position [ 112, -12 ] 
+
+R 2
+Head [ 113, -21 ]
+knot1 position [ 112, -21 ]
+final knot position [ 112, -13 ] 
+
+U 5
+Head [ 113, -16 ]
+knot1 position [ 113, -17 ]
+final knot position [ 112, -13 ] 
+
+L 1
+Head [ 112, -16 ]
+knot1 position [ 113, -17 ]
+final knot position [ 112, -13 ] 
+
+U 2
+Head [ 112, -14 ]
+knot1 position [ 112, -15 ]
+final knot position [ 112, -13 ] 
+
+L 6
+Head [ 106, -14 ]
+knot1 position [ 107, -14 ]
+final knot position [ 112, -13 ] 
+
+U 9
+Head [ 106, -5 ]
+knot1 position [ 106, -6 ]
+final knot position [ 110, -11 ] 
+
+D 10
+Head [ 106, -15 ]
+knot1 position [ 106, -14 ]
+final knot position [ 110, -11 ] 
+
+L 3
+Head [ 103, -15 ]
+knot1 position [ 104, -15 ]
+final knot position [ 109, -11 ] 
+
+D 8
+Head [ 103, -23 ]
+knot1 position [ 103, -22 ]
+final knot position [ 105, -15 ] 
+
+R 12
+Head [ 115, -23 ]
+knot1 position [ 114, -23 ]
+final knot position [ 109, -20 ] 
+
+U 9
+Head [ 115, -14 ]
+knot1 position [ 115, -15 ]
+final knot position [ 110, -19 ] 
+
+R 9
+Head [ 124, -14 ]
+knot1 position [ 123, -14 ]
+final knot position [ 115, -14 ] 
+
+U 9
+Head [ 124, -5 ]
+knot1 position [ 124, -6 ]
+final knot position [ 119, -10 ] 
+
+R 8
+Head [ 132, -5 ]
+knot1 position [ 131, -5 ]
+final knot position [ 123, -6 ] 
+
+U 6
+Head [ 132, 1 ]
+knot1 position [ 132, 0 ]
+final knot position [ 126, -3 ] 
+
+L 10
+Head [ 122, 1 ]
+knot1 position [ 123, 1 ]
+final knot position [ 126, -3 ] 
+
+U 5
+Head [ 122, 6 ]
+knot1 position [ 122, 5 ]
+final knot position [ 125, -1 ] 
+
+R 9
+Head [ 131, 6 ]
+knot1 position [ 130, 6 ]
+final knot position [ 126, 1 ] 
+
+D 2
+Head [ 131, 4 ]
+knot1 position [ 131, 5 ]
+final knot position [ 126, 1 ] 
+
+U 12
+Head [ 131, 16 ]
+knot1 position [ 131, 15 ]
+final knot position [ 131, 7 ] 
+
+D 3
+Head [ 131, 13 ]
+knot1 position [ 131, 14 ]
+final knot position [ 131, 7 ] 
+
+R 12
+Head [ 143, 13 ]
+knot1 position [ 142, 13 ]
+final knot position [ 135, 11 ] 
+
+L 10
+Head [ 133, 13 ]
+knot1 position [ 134, 13 ]
+final knot position [ 135, 11 ] 
+
+D 5
+Head [ 133, 8 ]
+knot1 position [ 133, 9 ]
+final knot position [ 135, 11 ] 
+
+L 7
+Head [ 126, 8 ]
+knot1 position [ 127, 8 ]
+final knot position [ 134, 10 ] 
+
+D 9
+Head [ 126, -1 ]
+knot1 position [ 126, 0 ]
+final knot position [ 130, 6 ] 
+
+L 5
+Head [ 121, -1 ]
+knot1 position [ 122, -1 ]
+final knot position [ 128, 4 ] 
+
+R 7
+Head [ 128, -1 ]
+knot1 position [ 127, -1 ]
+final knot position [ 128, 4 ] 
+
+D 8
+Head [ 128, -9 ]
+knot1 position [ 128, -8 ]
+final knot position [ 128, 0 ] 
+
+U 10
+Head [ 128, 1 ]
+knot1 position [ 128, 0 ]
+final knot position [ 128, 0 ] 
+
+L 11
+Head [ 117, 1 ]
+knot1 position [ 118, 1 ]
+final knot position [ 126, 1 ] 
+
+R 9
+Head [ 126, 1 ]
+knot1 position [ 125, 1 ]
+final knot position [ 126, 1 ] 
+
+L 13
+Head [ 113, 1 ]
+knot1 position [ 114, 1 ]
+final knot position [ 122, 1 ] 
+
+R 8
+Head [ 121, 1 ]
+knot1 position [ 120, 1 ]
+final knot position [ 122, 1 ] 
+
+U 9
+Head [ 121, 10 ]
+knot1 position [ 121, 9 ]
+final knot position [ 122, 1 ] 
+
+D 8
+Head [ 121, 2 ]
+knot1 position [ 121, 3 ]
+final knot position [ 122, 1 ] 
+
+U 9
+Head [ 121, 11 ]
+knot1 position [ 121, 10 ]
+final knot position [ 121, 2 ] 
+
+R 10
+Head [ 131, 11 ]
+knot1 position [ 130, 11 ]
+final knot position [ 126, 7 ] 
+
+L 4
+Head [ 127, 11 ]
+knot1 position [ 128, 11 ]
+final knot position [ 126, 7 ] 
+
+U 1
+Head [ 127, 12 ]
+knot1 position [ 128, 11 ]
+final knot position [ 126, 7 ] 
+
+D 10
+Head [ 127, 2 ]
+knot1 position [ 127, 3 ]
+final knot position [ 126, 7 ] 
+
+L 1
+Head [ 126, 2 ]
+knot1 position [ 127, 3 ]
+final knot position [ 126, 7 ] 
+
+D 4
+Head [ 126, -2 ]
+knot1 position [ 126, -1 ]
+final knot position [ 126, 7 ] 
+
+L 1
+Head [ 125, -2 ]
+knot1 position [ 126, -1 ]
+final knot position [ 126, 7 ] 
+
+U 13
+Head [ 125, 11 ]
+knot1 position [ 125, 10 ]
+final knot position [ 126, 7 ] 
+
+R 8
+Head [ 133, 11 ]
+knot1 position [ 132, 11 ]
+final knot position [ 127, 8 ] 
+
+L 3
+Head [ 130, 11 ]
+knot1 position [ 131, 11 ]
+final knot position [ 127, 8 ] 
+
+D 5
+Head [ 130, 6 ]
+knot1 position [ 130, 7 ]
+final knot position [ 127, 8 ] 
+
+R 5
+Head [ 135, 6 ]
+knot1 position [ 134, 6 ]
+final knot position [ 127, 8 ] 
+
+U 4
+Head [ 135, 10 ]
+knot1 position [ 135, 9 ]
+final knot position [ 128, 8 ] 
+
+R 5
+Head [ 140, 10 ]
+knot1 position [ 139, 10 ]
+final knot position [ 131, 10 ] 
+
+U 6
+Head [ 140, 16 ]
+knot1 position [ 140, 15 ]
+final knot position [ 134, 13 ] 
+
+L 14
+Head [ 126, 16 ]
+knot1 position [ 127, 16 ]
+final knot position [ 133, 14 ] 
+
+R 5
+Head [ 131, 16 ]
+knot1 position [ 130, 16 ]
+final knot position [ 133, 14 ] 
+
+U 8
+Head [ 131, 24 ]
+knot1 position [ 131, 23 ]
+final knot position [ 132, 15 ] 
+
+L 7
+Head [ 124, 24 ]
+knot1 position [ 125, 24 ]
+final knot position [ 129, 18 ] 
+
+D 7
+Head [ 124, 17 ]
+knot1 position [ 124, 18 ]
+final knot position [ 128, 19 ] 
+
+R 4
+Head [ 128, 17 ]
+knot1 position [ 127, 17 ]
+final knot position [ 128, 19 ] 
+
+U 4
+Head [ 128, 21 ]
+knot1 position [ 128, 20 ]
+final knot position [ 128, 19 ] 
+
+L 14
+Head [ 114, 21 ]
+knot1 position [ 115, 21 ]
+final knot position [ 123, 21 ] 
+
+U 7
+Head [ 114, 28 ]
+knot1 position [ 114, 27 ]
+final knot position [ 120, 24 ] 
+
+R 14
+Head [ 128, 28 ]
+knot1 position [ 127, 28 ]
+final knot position [ 121, 26 ] 
+
+D 3
+Head [ 128, 25 ]
+knot1 position [ 128, 26 ]
+final knot position [ 121, 26 ] 
+
+U 10
+Head [ 128, 35 ]
+knot1 position [ 128, 34 ]
+final knot position [ 124, 29 ] 
+
+L 7
+Head [ 121, 35 ]
+knot1 position [ 122, 35 ]
+final knot position [ 124, 29 ] 
+
+R 5
+Head [ 126, 35 ]
+knot1 position [ 125, 35 ]
+final knot position [ 124, 29 ] 
+
+L 5
+Head [ 121, 35 ]
+knot1 position [ 122, 35 ]
+final knot position [ 124, 29 ] 
+
+R 15
+Head [ 136, 35 ]
+knot1 position [ 135, 35 ]
+final knot position [ 128, 33 ] 
+
+L 3
+Head [ 133, 35 ]
+knot1 position [ 134, 35 ]
+final knot position [ 128, 33 ] 
+
+D 15
+Head [ 133, 20 ]
+knot1 position [ 133, 21 ]
+final knot position [ 133, 29 ] 
+
+L 6
+Head [ 127, 20 ]
+knot1 position [ 128, 20 ]
+final knot position [ 130, 26 ] 
+
+R 3
+Head [ 130, 20 ]
+knot1 position [ 129, 20 ]
+final knot position [ 130, 26 ] 
+
+L 10
+Head [ 120, 20 ]
+knot1 position [ 121, 20 ]
+final knot position [ 127, 23 ] 
+
+U 7
+Head [ 120, 27 ]
+knot1 position [ 120, 26 ]
+final knot position [ 126, 23 ] 
+
+L 2
+Head [ 118, 27 ]
+knot1 position [ 119, 27 ]
+final knot position [ 125, 24 ] 
+
+R 7
+Head [ 125, 27 ]
+knot1 position [ 124, 27 ]
+final knot position [ 125, 24 ] 
+
+L 1
+Head [ 124, 27 ]
+knot1 position [ 124, 27 ]
+final knot position [ 125, 24 ] 
+
+R 8
+Head [ 132, 27 ]
+knot1 position [ 131, 27 ]
+final knot position [ 125, 25 ] 
+
+U 12
+Head [ 132, 39 ]
+knot1 position [ 132, 38 ]
+final knot position [ 131, 31 ] 
+
+D 6
+Head [ 132, 33 ]
+knot1 position [ 132, 34 ]
+final knot position [ 131, 31 ] 
+
+U 11
+Head [ 132, 44 ]
+knot1 position [ 132, 43 ]
+final knot position [ 132, 35 ] 
+
+D 12
+Head [ 132, 32 ]
+knot1 position [ 132, 33 ]
+final knot position [ 132, 35 ] 
+
+U 9
+Head [ 132, 41 ]
+knot1 position [ 132, 40 ]
+final knot position [ 132, 35 ] 
+
+R 2
+Head [ 134, 41 ]
+knot1 position [ 133, 41 ]
+final knot position [ 132, 35 ] 
+
+D 14
+Head [ 134, 27 ]
+knot1 position [ 134, 28 ]
+final knot position [ 132, 35 ] 
+
+L 4
+Head [ 130, 27 ]
+knot1 position [ 131, 27 ]
+final knot position [ 132, 34 ] 
+
+U 9
+Head [ 130, 36 ]
+knot1 position [ 130, 35 ]
+final knot position [ 132, 34 ] 
+
+D 15
+Head [ 130, 21 ]
+knot1 position [ 130, 22 ]
+final knot position [ 130, 30 ] 
+
+R 8
+Head [ 138, 21 ]
+knot1 position [ 137, 21 ]
+final knot position [ 134, 26 ] 
+
+D 9
+Head [ 138, 12 ]
+knot1 position [ 138, 13 ]
+final knot position [ 138, 21 ] 
+
+L 9
+Head [ 129, 12 ]
+knot1 position [ 130, 12 ]
+final knot position [ 134, 17 ] 
+
+D 14
+Head [ 129, -2 ]
+knot1 position [ 129, -1 ]
+final knot position [ 129, 7 ] 
+
+U 5
+Head [ 129, 3 ]
+knot1 position [ 129, 2 ]
+final knot position [ 129, 7 ] 
+
+R 14
+Head [ 143, 3 ]
+knot1 position [ 142, 3 ]
+final knot position [ 134, 3 ] 
+
+D 15
+Head [ 143, -12 ]
+knot1 position [ 143, -11 ]
+final knot position [ 141, -4 ] 
+
+R 6
+Head [ 149, -12 ]
+knot1 position [ 148, -12 ]
+final knot position [ 144, -7 ] 
+
+L 3
+Head [ 146, -12 ]
+knot1 position [ 147, -12 ]
+final knot position [ 144, -7 ] 
+
+U 13
+Head [ 146, 1 ]
+knot1 position [ 146, 0 ]
+final knot position [ 144, -7 ] 
+
+R 13
+Head [ 159, 1 ]
+knot1 position [ 158, 1 ]
+final knot position [ 150, -1 ] 
+
+U 5
+Head [ 159, 6 ]
+knot1 position [ 159, 5 ]
+final knot position [ 152, 1 ] 
+
+D 14
+Head [ 159, -8 ]
+knot1 position [ 159, -7 ]
+final knot position [ 156, -1 ] 
+
+L 2
+Head [ 157, -8 ]
+knot1 position [ 158, -8 ]
+final knot position [ 156, -1 ] 
+
+D 12
+Head [ 157, -20 ]
+knot1 position [ 157, -19 ]
+final knot position [ 157, -11 ] 
+
+U 6
+Head [ 157, -14 ]
+knot1 position [ 157, -15 ]
+final knot position [ 157, -11 ] 
+
+R 5
+Head [ 162, -14 ]
+knot1 position [ 161, -14 ]
+final knot position [ 157, -11 ] 
+
+U 5
+Head [ 162, -9 ]
+knot1 position [ 162, -10 ]
+final knot position [ 157, -11 ] 
+
+L 6
+Head [ 156, -9 ]
+knot1 position [ 157, -9 ]
+final knot position [ 157, -11 ] 
+
+R 5
+Head [ 161, -9 ]
+knot1 position [ 160, -9 ]
+final knot position [ 157, -11 ] 
+
+D 12
+Head [ 161, -21 ]
+knot1 position [ 161, -20 ]
+final knot position [ 159, -13 ] 
+
+U 9
+Head [ 161, -12 ]
+knot1 position [ 161, -13 ]
+final knot position [ 159, -13 ] 
+
+L 7
+Head [ 154, -12 ]
+knot1 position [ 155, -12 ]
+final knot position [ 159, -13 ] 
+
+D 15
+Head [ 154, -27 ]
+knot1 position [ 154, -26 ]
+final knot position [ 154, -18 ] 
+
+R 5
+Head [ 159, -27 ]
+knot1 position [ 158, -27 ]
+final knot position [ 156, -20 ] 
+
+U 7
+Head [ 159, -20 ]
+knot1 position [ 159, -21 ]
+final knot position [ 156, -20 ] 
+
+D 1
+Head [ 159, -21 ]
+knot1 position [ 159, -21 ]
+final knot position [ 156, -20 ] 
+
+R 2
+Head [ 161, -21 ]
+knot1 position [ 160, -21 ]
+final knot position [ 156, -20 ] 
+
+L 11
+Head [ 150, -21 ]
+knot1 position [ 151, -21 ]
+final knot position [ 156, -20 ] 
+
+U 8
+Head [ 150, -13 ]
+knot1 position [ 150, -14 ]
+final knot position [ 154, -18 ] 
+
+R 3
+Head [ 153, -13 ]
+knot1 position [ 152, -13 ]
+final knot position [ 154, -18 ] 
+
+D 3
+Head [ 153, -16 ]
+knot1 position [ 153, -15 ]
+final knot position [ 154, -18 ] 
+
+U 6
+Head [ 153, -10 ]
+knot1 position [ 153, -11 ]
+final knot position [ 154, -18 ] 
+
+D 15
+Head [ 153, -25 ]
+knot1 position [ 153, -24 ]
+final knot position [ 154, -18 ] 
+
+U 2
+Head [ 153, -23 ]
+knot1 position [ 153, -24 ]
+final knot position [ 154, -18 ] 
+
+D 11
+Head [ 153, -34 ]
+knot1 position [ 153, -33 ]
+final knot position [ 153, -25 ] 
+
+R 6
+Head [ 159, -34 ]
+knot1 position [ 158, -34 ]
+final knot position [ 156, -28 ] 
+
+U 9
+Head [ 159, -25 ]
+knot1 position [ 159, -26 ]
+final knot position [ 156, -28 ] 
+
+D 7
+Head [ 159, -32 ]
+knot1 position [ 159, -31 ]
+final knot position [ 156, -28 ] 
+
+U 3
+Head [ 159, -29 ]
+knot1 position [ 159, -30 ]
+final knot position [ 156, -28 ] 
+
+L 13
+Head [ 146, -29 ]
+knot1 position [ 147, -29 ]
+final knot position [ 155, -29 ] 
+
+U 3
+Head [ 146, -26 ]
+knot1 position [ 146, -27 ]
+final knot position [ 154, -28 ] 
+
+L 15
+Head [ 131, -26 ]
+knot1 position [ 132, -26 ]
+final knot position [ 140, -26 ] 
+
+R 10
+Head [ 141, -26 ]
+knot1 position [ 140, -26 ]
+final knot position [ 140, -26 ] 
+
+L 6
+Head [ 135, -26 ]
+knot1 position [ 136, -26 ]
+final knot position [ 140, -26 ] 
+
+D 15
+Head [ 135, -41 ]
+knot1 position [ 135, -40 ]
+final knot position [ 135, -32 ] 
+
+L 3
+Head [ 132, -41 ]
+knot1 position [ 133, -41 ]
+final knot position [ 134, -33 ] 
+
+U 5
+Head [ 132, -36 ]
+knot1 position [ 132, -37 ]
+final knot position [ 134, -33 ] 
+
+R 13
+Head [ 145, -36 ]
+knot1 position [ 144, -36 ]
+final knot position [ 136, -35 ] 
+
+D 13
+Head [ 145, -49 ]
+knot1 position [ 145, -48 ]
+final knot position [ 142, -41 ] 
+
+L 5
+Head [ 140, -49 ]
+knot1 position [ 141, -49 ]
+final knot position [ 143, -42 ] 
+
+R 8
+Head [ 148, -49 ]
+knot1 position [ 147, -49 ]
+final knot position [ 144, -43 ] 
+
+D 2
+Head [ 148, -51 ]
+knot1 position [ 148, -50 ]
+final knot position [ 145, -44 ] 
+
+R 8
+Head [ 156, -51 ]
+knot1 position [ 155, -51 ]
+final knot position [ 149, -48 ] 
+
+L 9
+Head [ 147, -51 ]
+knot1 position [ 148, -51 ]
+final knot position [ 149, -48 ] 
+
+R 7
+Head [ 154, -51 ]
+knot1 position [ 153, -51 ]
+final knot position [ 149, -48 ] 
+
+L 5
+Head [ 149, -51 ]
+knot1 position [ 150, -51 ]
+final knot position [ 149, -48 ] 
+
+U 3
+Head [ 149, -48 ]
+knot1 position [ 149, -49 ]
+final knot position [ 149, -48 ] 
+
+D 11
+Head [ 149, -59 ]
+knot1 position [ 149, -58 ]
+final knot position [ 149, -50 ] 
+
+R 13
+Head [ 162, -59 ]
+knot1 position [ 161, -59 ]
+final knot position [ 155, -56 ] 
+
+U 15
+Head [ 162, -44 ]
+knot1 position [ 162, -45 ]
+final knot position [ 160, -52 ] 
+
+D 5
+Head [ 162, -49 ]
+knot1 position [ 162, -48 ]
+final knot position [ 160, -52 ] 
+
+R 4
+Head [ 166, -49 ]
+knot1 position [ 165, -49 ]
+final knot position [ 160, -52 ] 
+
+U 11
+Head [ 166, -38 ]
+knot1 position [ 166, -39 ]
+final knot position [ 165, -47 ] 
+
+R 14
+Head [ 180, -38 ]
+knot1 position [ 179, -38 ]
+final knot position [ 172, -40 ] 
+
+L 1
+Head [ 179, -38 ]
+knot1 position [ 179, -38 ]
+final knot position [ 172, -40 ] 
+
+U 6
+Head [ 179, -32 ]
+knot1 position [ 179, -33 ]
+final knot position [ 174, -38 ] 
+
+L 13
+Head [ 166, -32 ]
+knot1 position [ 167, -32 ]
+final knot position [ 173, -35 ] 
+
+R 14
+Head [ 180, -32 ]
+knot1 position [ 179, -32 ]
+final knot position [ 173, -35 ] 
+
+L 12
+Head [ 168, -32 ]
+knot1 position [ 169, -32 ]
+final knot position [ 173, -35 ] 
+
+D 5
+Head [ 168, -37 ]
+knot1 position [ 168, -36 ]
+final knot position [ 173, -35 ] 
+
+R 3
+Head [ 171, -37 ]
+knot1 position [ 170, -37 ]
+final knot position [ 173, -35 ] 
+
+D 4
+Head [ 171, -41 ]
+knot1 position [ 171, -40 ]
+final knot position [ 173, -35 ] 
+
+R 5
+Head [ 176, -41 ]
+knot1 position [ 175, -41 ]
+final knot position [ 173, -35 ] 
+
+U 8
+Head [ 176, -33 ]
+knot1 position [ 176, -34 ]
+final knot position [ 173, -35 ] 
+
+R 11
+Head [ 187, -33 ]
+knot1 position [ 186, -33 ]
+final knot position [ 178, -33 ] 
+
+D 8
+Head [ 187, -41 ]
+knot1 position [ 187, -40 ]
+final knot position [ 182, -37 ] 
+
+U 5
+Head [ 187, -36 ]
+knot1 position [ 187, -37 ]
+final knot position [ 182, -37 ] 
+
+R 9
+Head [ 196, -36 ]
+knot1 position [ 195, -36 ]
+final knot position [ 187, -36 ] 
+
+D 8
+Head [ 196, -44 ]
+knot1 position [ 196, -43 ]
+final knot position [ 191, -40 ] 
+
+R 4
+Head [ 200, -44 ]
+knot1 position [ 199, -44 ]
+final knot position [ 193, -42 ] 
+
+U 5
+Head [ 200, -39 ]
+knot1 position [ 200, -40 ]
+final knot position [ 193, -42 ] 
+
+L 7
+Head [ 193, -39 ]
+knot1 position [ 194, -39 ]
+final knot position [ 193, -42 ] 
+
+D 6
+Head [ 193, -45 ]
+knot1 position [ 193, -44 ]
+final knot position [ 193, -42 ] 
+
+U 4
+Head [ 193, -41 ]
+knot1 position [ 193, -42 ]
+final knot position [ 193, -42 ] 
+
+L 2
+Head [ 191, -41 ]
+knot1 position [ 192, -41 ]
+final knot position [ 193, -42 ] 
+
+D 15
+Head [ 191, -56 ]
+knot1 position [ 191, -55 ]
+final knot position [ 191, -47 ] 
+
+U 5
+Head [ 191, -51 ]
+knot1 position [ 191, -52 ]
+final knot position [ 191, -47 ] 
+
+R 16
+Head [ 207, -51 ]
+knot1 position [ 206, -51 ]
+final knot position [ 198, -51 ] 
+
+L 4
+Head [ 203, -51 ]
+knot1 position [ 204, -51 ]
+final knot position [ 198, -51 ] 
+
+R 1
+Head [ 204, -51 ]
+knot1 position [ 204, -51 ]
+final knot position [ 198, -51 ] 
+
+D 12
+Head [ 204, -63 ]
+knot1 position [ 204, -62 ]
+final knot position [ 202, -55 ] 
+
+L 2
+Head [ 202, -63 ]
+knot1 position [ 203, -63 ]
+final knot position [ 202, -55 ] 
+
+R 6
+Head [ 208, -63 ]
+knot1 position [ 207, -63 ]
+final knot position [ 204, -57 ] 
+
+D 6
+Head [ 208, -69 ]
+knot1 position [ 208, -68 ]
+final knot position [ 207, -60 ] 
+
+R 14
+Head [ 222, -69 ]
+knot1 position [ 221, -69 ]
+final knot position [ 214, -67 ] 
+
+U 6
+Head [ 222, -63 ]
+knot1 position [ 222, -64 ]
+final knot position [ 216, -66 ] 
+
+L 14
+Head [ 208, -63 ]
+knot1 position [ 209, -63 ]
+final knot position [ 215, -65 ] 
+
+R 12
+Head [ 220, -63 ]
+knot1 position [ 219, -63 ]
+final knot position [ 215, -65 ] 
+
+D 8
+Head [ 220, -71 ]
+knot1 position [ 220, -70 ]
+final knot position [ 216, -66 ] 
+
+R 1
+Head [ 221, -71 ]
+knot1 position [ 220, -70 ]
+final knot position [ 216, -66 ] 
+
+U 2
+Head [ 221, -69 ]
+knot1 position [ 220, -70 ]
+final knot position [ 216, -66 ] 
+
+R 3
+Head [ 224, -69 ]
+knot1 position [ 223, -69 ]
+final knot position [ 217, -67 ] 
+
+D 7
+Head [ 224, -76 ]
+knot1 position [ 224, -75 ]
+final knot position [ 220, -70 ] 
+
+R 4
+Head [ 228, -76 ]
+knot1 position [ 227, -76 ]
+final knot position [ 222, -72 ] 
+
+L 2
+Head [ 226, -76 ]
+knot1 position [ 227, -76 ]
+final knot position [ 222, -72 ] 
+
+U 6
+Head [ 226, -70 ]
+knot1 position [ 226, -71 ]
+final knot position [ 222, -72 ] 
+
+L 1
+Head [ 225, -70 ]
+knot1 position [ 226, -71 ]
+final knot position [ 222, -72 ] 
+
+U 7
+Head [ 225, -63 ]
+knot1 position [ 225, -64 ]
+final knot position [ 223, -71 ] 
+
+L 12
+Head [ 213, -63 ]
+knot1 position [ 214, -63 ]
+final knot position [ 219, -66 ] 
+
+R 11
+Head [ 224, -63 ]
+knot1 position [ 223, -63 ]
+final knot position [ 219, -66 ] 
+
+D 13
+Head [ 224, -76 ]
+knot1 position [ 224, -75 ]
+final knot position [ 222, -69 ] 
+
+U 16
+Head [ 224, -60 ]
+knot1 position [ 224, -61 ]
+final knot position [ 223, -68 ] 
+
+R 15
+Head [ 239, -60 ]
+knot1 position [ 238, -60 ]
+final knot position [ 230, -61 ] 
+
+D 14
+Head [ 239, -74 ]
+knot1 position [ 239, -73 ]
+final knot position [ 237, -67 ] 
+
+U 13
+Head [ 239, -61 ]
+knot1 position [ 239, -62 ]
+final knot position [ 237, -67 ] 
+
+D 15
+Head [ 239, -76 ]
+knot1 position [ 239, -75 ]
+final knot position [ 238, -68 ] 
+
+R 11
+Head [ 250, -76 ]
+knot1 position [ 249, -76 ]
+final knot position [ 243, -73 ] 
+
+U 12
+Head [ 250, -64 ]
+knot1 position [ 250, -65 ]
+final knot position [ 247, -70 ] 
+
+R 5
+Head [ 255, -64 ]
+knot1 position [ 254, -64 ]
+final knot position [ 249, -68 ] 
+
+D 8
+Head [ 255, -72 ]
+knot1 position [ 255, -71 ]
+final knot position [ 250, -68 ] 
+
+R 2
+Head [ 257, -72 ]
+knot1 position [ 256, -72 ]
+final knot position [ 251, -69 ] 
+
+L 14
+Head [ 243, -72 ]
+knot1 position [ 244, -72 ]
+final knot position [ 250, -70 ] 
+
+R 10
+Head [ 253, -72 ]
+knot1 position [ 252, -72 ]
+final knot position [ 250, -70 ] 
+
+L 16
+Head [ 237, -72 ]
+knot1 position [ 238, -72 ]
+final knot position [ 246, -72 ] 
+
+U 10
+Head [ 237, -62 ]
+knot1 position [ 237, -63 ]
+final knot position [ 241, -67 ] 
+
+D 13
+Head [ 237, -75 ]
+knot1 position [ 237, -74 ]
+final knot position [ 240, -68 ] 
+
+L 11
+Head [ 226, -75 ]
+knot1 position [ 227, -75 ]
+final knot position [ 235, -73 ] 
+
+U 10
+Head [ 226, -65 ]
+knot1 position [ 226, -66 ]
+final knot position [ 230, -70 ] 
+
+R 5
+Head [ 231, -65 ]
+knot1 position [ 230, -65 ]
+final knot position [ 230, -70 ] 
+
+D 7
+Head [ 231, -72 ]
+knot1 position [ 231, -71 ]
+final knot position [ 230, -70 ] 
+
+L 15
+Head [ 216, -72 ]
+knot1 position [ 217, -72 ]
+final knot position [ 225, -72 ] 
+
+D 12
+Head [ 216, -84 ]
+knot1 position [ 216, -83 ]
+final knot position [ 219, -78 ] 
+
+L 4
+Head [ 212, -84 ]
+knot1 position [ 213, -84 ]
+final knot position [ 217, -80 ] 
+
+R 16
+Head [ 228, -84 ]
+knot1 position [ 227, -84 ]
+final knot position [ 220, -83 ] 
+
+U 8
+Head [ 228, -76 ]
+knot1 position [ 228, -77 ]
+final knot position [ 223, -80 ] 
+
+R 8
+Head [ 236, -76 ]
+knot1 position [ 235, -76 ]
+final knot position [ 227, -76 ] 
+
+L 7
+Head [ 229, -76 ]
+knot1 position [ 230, -76 ]
+final knot position [ 227, -76 ] 
+
+U 9
+Head [ 229, -67 ]
+knot1 position [ 229, -68 ]
+final knot position [ 228, -75 ] 
+
+R 7
+Head [ 236, -67 ]
+knot1 position [ 235, -67 ]
+final knot position [ 231, -72 ] 
+
+U 16
+Head [ 236, -51 ]
+knot1 position [ 236, -52 ]
+final knot position [ 236, -60 ] 
+
+R 2
+Head [ 238, -51 ]
+knot1 position [ 237, -51 ]
+final knot position [ 237, -59 ] 
+
+U 5
+Head [ 238, -46 ]
+knot1 position [ 238, -47 ]
+final knot position [ 238, -55 ] 
+
+R 5
+Head [ 243, -46 ]
+knot1 position [ 242, -46 ]
+final knot position [ 240, -53 ] 
+
+D 4
+Head [ 243, -50 ]
+knot1 position [ 243, -49 ]
+final knot position [ 240, -53 ] 
+
+L 7
+Head [ 236, -50 ]
+knot1 position [ 237, -50 ]
+final knot position [ 240, -53 ] 
+
+D 5
+Head [ 236, -55 ]
+knot1 position [ 236, -54 ]
+final knot position [ 240, -53 ] 
+
+L 4
+Head [ 232, -55 ]
+knot1 position [ 233, -55 ]
+final knot position [ 240, -53 ] 
+
+U 13
+Head [ 232, -42 ]
+knot1 position [ 232, -43 ]
+final knot position [ 235, -49 ] 
+
+D 9
+Head [ 232, -51 ]
+knot1 position [ 232, -50 ]
+final knot position [ 235, -49 ] 
+
+R 2
+Head [ 234, -51 ]
+knot1 position [ 233, -51 ]
+final knot position [ 235, -49 ] 
+
+D 2
+Head [ 234, -53 ]
+knot1 position [ 234, -52 ]
+final knot position [ 235, -49 ] 
+
+U 5
+Head [ 234, -48 ]
+knot1 position [ 234, -49 ]
+final knot position [ 235, -49 ] 
+
+L 3
+Head [ 231, -48 ]
+knot1 position [ 232, -48 ]
+final knot position [ 235, -49 ] 
+
+D 16
+Head [ 231, -64 ]
+knot1 position [ 231, -63 ]
+final knot position [ 231, -55 ] 
+
+R 13
+Head [ 244, -64 ]
+knot1 position [ 243, -64 ]
+final knot position [ 237, -61 ] 
+
+L 10
+Head [ 234, -64 ]
+knot1 position [ 235, -64 ]
+final knot position [ 237, -61 ] 
+
+R 7
+Head [ 241, -64 ]
+knot1 position [ 240, -64 ]
+final knot position [ 237, -61 ] 
+
+L 9
+Head [ 232, -64 ]
+knot1 position [ 233, -64 ]
+final knot position [ 237, -61 ] 
+
+R 3
+Head [ 235, -64 ]
+knot1 position [ 234, -64 ]
+final knot position [ 237, -61 ] 
+
+L 5
+Head [ 230, -64 ]
+knot1 position [ 231, -64 ]
+final knot position [ 237, -61 ] 
+
+D 10
+Head [ 230, -74 ]
+knot1 position [ 230, -73 ]
+final knot position [ 232, -66 ] 
+
+L 10
+Head [ 220, -74 ]
+knot1 position [ 221, -74 ]
+final knot position [ 227, -71 ] 
+
+R 2
+Head [ 222, -74 ]
+knot1 position [ 221, -74 ]
+final knot position [ 227, -71 ] 
+
+L 13
+Head [ 209, -74 ]
+knot1 position [ 210, -74 ]
+final knot position [ 218, -74 ] 
+
+R 5
+Head [ 214, -74 ]
+knot1 position [ 213, -74 ]
+final knot position [ 218, -74 ] 
+
+L 11
+Head [ 203, -74 ]
+knot1 position [ 204, -74 ]
+final knot position [ 212, -74 ] 
+
+R 16
+Head [ 219, -74 ]
+knot1 position [ 218, -74 ]
+final knot position [ 212, -74 ] 
+
+U 12
+Head [ 219, -62 ]
+knot1 position [ 219, -63 ]
+final knot position [ 217, -69 ] 
+
+R 11
+Head [ 230, -62 ]
+knot1 position [ 229, -62 ]
+final knot position [ 222, -64 ] 
+
+D 12
+Head [ 230, -74 ]
+knot1 position [ 230, -73 ]
+final knot position [ 227, -68 ] 
+
+R 7
+Head [ 237, -74 ]
+knot1 position [ 236, -74 ]
+final knot position [ 230, -71 ] 
+
+L 2
+Head [ 235, -74 ]
+knot1 position [ 236, -74 ]
+final knot position [ 230, -71 ] 
+
+U 12
+Head [ 235, -62 ]
+knot1 position [ 235, -63 ]
+final knot position [ 233, -69 ] 
+
+D 11
+Head [ 235, -73 ]
+knot1 position [ 235, -72 ]
+final knot position [ 233, -69 ] 
+
+U 12
+Head [ 235, -61 ]
+knot1 position [ 235, -62 ]
+final knot position [ 233, -69 ] 
+
+L 1
+Head [ 234, -61 ]
+knot1 position [ 235, -62 ]
+final knot position [ 233, -69 ] 
+
+R 6
+Head [ 240, -61 ]
+knot1 position [ 239, -61 ]
+final knot position [ 235, -67 ] 
+
+U 3
+Head [ 240, -58 ]
+knot1 position [ 240, -59 ]
+final knot position [ 236, -66 ] 
+
+L 3
+Head [ 237, -58 ]
+knot1 position [ 238, -58 ]
+final knot position [ 237, -65 ] 
+
+D 1
+Head [ 237, -59 ]
+knot1 position [ 238, -58 ]
+final knot position [ 237, -65 ] 
+
+R 5
+Head [ 242, -59 ]
+knot1 position [ 241, -59 ]
+final knot position [ 237, -65 ] 
+
+U 6
+Head [ 242, -53 ]
+knot1 position [ 242, -54 ]
+final knot position [ 241, -61 ] 
+
+L 15
+Head [ 227, -53 ]
+knot1 position [ 228, -53 ]
+final knot position [ 235, -55 ] 
+
+R 8
+Head [ 235, -53 ]
+knot1 position [ 234, -53 ]
+final knot position [ 235, -55 ] 
+
+D 5
+Head [ 235, -58 ]
+knot1 position [ 235, -57 ]
+final knot position [ 235, -55 ] 
+
+L 16
+Head [ 219, -58 ]
+knot1 position [ 220, -58 ]
+final knot position [ 228, -58 ] 
+
+D 13
+Head [ 219, -71 ]
+knot1 position [ 219, -70 ]
+final knot position [ 222, -64 ] 
+
+R 15
+Head [ 234, -71 ]
+knot1 position [ 233, -71 ]
+final knot position [ 226, -69 ] 
+
+D 14
+Head [ 234, -85 ]
+knot1 position [ 234, -84 ]
+final knot position [ 233, -76 ] 
+
+R 4
+Head [ 238, -85 ]
+knot1 position [ 237, -85 ]
+final knot position [ 235, -78 ] 
+
+U 15
+Head [ 238, -70 ]
+knot1 position [ 238, -71 ]
+final knot position [ 236, -78 ] 
+
+R 5
+Head [ 243, -70 ]
+knot1 position [ 242, -70 ]
+final knot position [ 238, -76 ] 
+
+L 8
+Head [ 235, -70 ]
+knot1 position [ 236, -70 ]
+final knot position [ 238, -76 ] 
+
+D 12
+Head [ 235, -82 ]
+knot1 position [ 235, -81 ]
+final knot position [ 238, -76 ] 
+
+U 11
+Head [ 235, -71 ]
+knot1 position [ 235, -72 ]
+final knot position [ 238, -76 ] 
+
+D 13
+Head [ 235, -84 ]
+knot1 position [ 235, -83 ]
+final knot position [ 237, -77 ] 
+
+L 9
+Head [ 226, -84 ]
+knot1 position [ 227, -84 ]
+final knot position [ 233, -81 ] 
+
+D 13
+Head [ 226, -97 ]
+knot1 position [ 226, -96 ]
+final knot position [ 226, -88 ] 
+
+L 7
+Head [ 219, -97 ]
+knot1 position [ 220, -97 ]
+final knot position [ 223, -91 ] 
+
+U 9
+Head [ 219, -88 ]
+knot1 position [ 219, -89 ]
+final knot position [ 223, -91 ] 
+
+R 15
+Head [ 234, -88 ]
+knot1 position [ 233, -88 ]
+final knot position [ 225, -89 ] 
+
+U 13
+Head [ 234, -75 ]
+knot1 position [ 234, -76 ]
+final knot position [ 231, -83 ] 
+
+D 16
+Head [ 234, -91 ]
+knot1 position [ 234, -90 ]
+final knot position [ 232, -83 ] 
+
+R 6
+Head [ 240, -91 ]
+knot1 position [ 239, -91 ]
+final knot position [ 235, -86 ] 
+
+L 8
+Head [ 232, -91 ]
+knot1 position [ 233, -91 ]
+final knot position [ 235, -86 ] 
+
+R 7
+Head [ 239, -91 ]
+knot1 position [ 238, -91 ]
+final knot position [ 235, -86 ] 
+
+U 4
+Head [ 239, -87 ]
+knot1 position [ 239, -88 ]
+final knot position [ 235, -86 ] 
+
+R 10
+Head [ 249, -87 ]
+knot1 position [ 248, -87 ]
+final knot position [ 240, -87 ] 
+
+U 7
+Head [ 249, -80 ]
+knot1 position [ 249, -81 ]
+final knot position [ 243, -84 ] 
+
+D 10
+Head [ 249, -90 ]
+knot1 position [ 249, -89 ]
+final knot position [ 244, -85 ] 
+
+U 8
+Head [ 249, -82 ]
+knot1 position [ 249, -83 ]
+final knot position [ 244, -85 ] 
+
+D 7
+Head [ 249, -89 ]
+knot1 position [ 249, -88 ]
+final knot position [ 244, -85 ] 
+
+L 17
+Head [ 232, -89 ]
+knot1 position [ 233, -89 ]
+final knot position [ 241, -89 ] 
+
+R 7
+Head [ 239, -89 ]
+knot1 position [ 238, -89 ]
+final knot position [ 241, -89 ] 
+
+L 8
+Head [ 231, -89 ]
+knot1 position [ 232, -89 ]
+final knot position [ 240, -89 ] 
+
+D 5
+Head [ 231, -94 ]
+knot1 position [ 231, -93 ]
+final knot position [ 238, -91 ] 
+
+L 5
+Head [ 226, -94 ]
+knot1 position [ 227, -94 ]
+final knot position [ 235, -94 ] 
+
+U 15
+Head [ 226, -79 ]
+knot1 position [ 226, -80 ]
+final knot position [ 228, -87 ] 
+
+D 6
+Head [ 226, -85 ]
+knot1 position [ 226, -84 ]
+final knot position [ 228, -87 ] 
+
+L 1
+Head [ 225, -85 ]
+knot1 position [ 226, -84 ]
+final knot position [ 228, -87 ] 
+
+D 2
+Head [ 225, -87 ]
+knot1 position [ 225, -86 ]
+final knot position [ 228, -87 ] 
+
+R 17
+Head [ 242, -87 ]
+knot1 position [ 241, -87 ]
+final knot position [ 233, -87 ] 
+
+L 6
+Head [ 236, -87 ]
+knot1 position [ 237, -87 ]
+final knot position [ 233, -87 ] 
+
+D 15
+Head [ 236, -102 ]
+knot1 position [ 236, -101 ]
+final knot position [ 236, -93 ] 
+
+R 4
+Head [ 240, -102 ]
+knot1 position [ 239, -102 ]
+final knot position [ 238, -95 ] 
+
+L 2
+Head [ 238, -102 ]
+knot1 position [ 239, -102 ]
+final knot position [ 238, -95 ] 
+
+R 10
+Head [ 248, -102 ]
+knot1 position [ 247, -102 ]
+final knot position [ 242, -99 ] 
+
+D 4
+Head [ 248, -106 ]
+knot1 position [ 248, -105 ]
+final knot position [ 244, -101 ] 
+
+R 6
+Head [ 254, -106 ]
+knot1 position [ 253, -106 ]
+final knot position [ 247, -104 ] 
+
+D 11
+Head [ 254, -117 ]
+knot1 position [ 254, -116 ]
+final knot position [ 252, -109 ] 
+
+U 1
+Head [ 254, -116 ]
+knot1 position [ 254, -116 ]
+final knot position [ 252, -109 ] 
+
+L 17
+Head [ 237, -116 ]
+knot1 position [ 238, -116 ]
+final knot position [ 246, -116 ] 
+
+D 11
+Head [ 237, -127 ]
+knot1 position [ 237, -126 ]
+final knot position [ 241, -121 ] 
+
+U 6
+Head [ 237, -121 ]
+knot1 position [ 237, -122 ]
+final knot position [ 241, -121 ] 
+
+D 17
+Head [ 237, -138 ]
+knot1 position [ 237, -137 ]
+final knot position [ 237, -129 ] 
+
+R 15
+Head [ 252, -138 ]
+knot1 position [ 251, -138 ]
+final knot position [ 244, -136 ] 
+
+L 13
+Head [ 239, -138 ]
+knot1 position [ 240, -138 ]
+final knot position [ 244, -136 ] 
+
+D 9
+Head [ 239, -147 ]
+knot1 position [ 239, -146 ]
+final knot position [ 242, -139 ] 
+
+R 12
+Head [ 251, -147 ]
+knot1 position [ 250, -147 ]
+final knot position [ 245, -144 ] 
+
+U 13
+Head [ 251, -134 ]
+knot1 position [ 251, -135 ]
+final knot position [ 248, -141 ] 
+
+R 2
+Head [ 253, -134 ]
+knot1 position [ 252, -134 ]
+final knot position [ 249, -140 ] 
+
+L 12
+Head [ 241, -134 ]
+knot1 position [ 242, -134 ]
+final knot position [ 247, -137 ] 
+
+D 1
+Head [ 241, -135 ]
+knot1 position [ 242, -134 ]
+final knot position [ 247, -137 ] 
+
+R 17
+Head [ 258, -135 ]
+knot1 position [ 257, -135 ]
+final knot position [ 249, -135 ] 
+
+U 13
+Head [ 258, -122 ]
+knot1 position [ 258, -123 ]
+final knot position [ 255, -129 ] 
+
+D 15
+Head [ 258, -137 ]
+knot1 position [ 258, -136 ]
+final knot position [ 256, -130 ] 
+
+U 7
+Head [ 258, -130 ]
+knot1 position [ 258, -131 ]
+final knot position [ 256, -130 ] 
+
+R 8
+Head [ 266, -130 ]
+knot1 position [ 265, -130 ]
+final knot position [ 257, -130 ] 
+
+D 6
+Head [ 266, -136 ]
+knot1 position [ 266, -135 ]
+final knot position [ 260, -133 ] 
+
+R 8
+Head [ 274, -136 ]
+knot1 position [ 273, -136 ]
+final knot position [ 265, -136 ] 
+
+D 16
+Head [ 274, -152 ]
+knot1 position [ 274, -151 ]
+final knot position [ 273, -144 ] 
+
+U 16
+Head [ 274, -136 ]
+knot1 position [ 274, -137 ]
+final knot position [ 273, -144 ] 
+
+D 2
+Head [ 274, -138 ]
+knot1 position [ 274, -137 ]
+final knot position [ 273, -144 ] 
+
+U 1
+Head [ 274, -137 ]
+knot1 position [ 274, -137 ]
+final knot position [ 273, -144 ] 
+
+R 7
+Head [ 281, -137 ]
+knot1 position [ 280, -137 ]
+final knot position [ 276, -141 ] 
+
+U 15
+Head [ 281, -122 ]
+knot1 position [ 281, -123 ]
+final knot position [ 281, -131 ] 
+
+L 7
+Head [ 274, -122 ]
+knot1 position [ 275, -122 ]
+final knot position [ 278, -128 ] 
+
+R 12
+Head [ 286, -122 ]
+knot1 position [ 285, -122 ]
+final knot position [ 280, -126 ] 
+
+U 10
+Head [ 286, -112 ]
+knot1 position [ 286, -113 ]
+final knot position [ 285, -121 ] 
+
+D 4
+Head [ 286, -116 ]
+knot1 position [ 286, -115 ]
+final knot position [ 285, -121 ] 
+
+R 17
+Head [ 303, -116 ]
+knot1 position [ 302, -116 ]
+final knot position [ 294, -116 ] 
+
+D 11
+Head [ 303, -127 ]
+knot1 position [ 303, -126 ]
+final knot position [ 299, -121 ] 
+
+R 12
+Head [ 315, -127 ]
+knot1 position [ 314, -127 ]
+final knot position [ 306, -127 ] 
+
+D 8
+Head [ 315, -135 ]
+knot1 position [ 315, -134 ]
+final knot position [ 310, -131 ] 
+
+L 3
+Head [ 312, -135 ]
+knot1 position [ 313, -135 ]
+final knot position [ 310, -131 ] 
+
+R 3
+Head [ 315, -135 ]
+knot1 position [ 314, -135 ]
+final knot position [ 310, -131 ] 
+
+D 5
+Head [ 315, -140 ]
+knot1 position [ 315, -139 ]
+final knot position [ 312, -133 ] 
+
+R 17
+Head [ 332, -140 ]
+knot1 position [ 331, -140 ]
+final knot position [ 323, -140 ] 
+
+L 15
+Head [ 317, -140 ]
+knot1 position [ 318, -140 ]
+final knot position [ 323, -140 ] 
+
+U 11
+Head [ 317, -129 ]
+knot1 position [ 317, -130 ]
+final knot position [ 320, -137 ] 
+
+R 1
+Head [ 318, -129 ]
+knot1 position [ 317, -130 ]
+final knot position [ 320, -137 ] 
+
+L 4
+Head [ 314, -129 ]
+knot1 position [ 315, -129 ]
+final knot position [ 319, -136 ] 
+
+R 6
+Head [ 320, -129 ]
+knot1 position [ 319, -129 ]
+final knot position [ 319, -136 ] 
+
+D 6
+Head [ 320, -135 ]
+knot1 position [ 320, -134 ]
+final knot position [ 319, -136 ] 
+
+U 2
+Head [ 320, -133 ]
+knot1 position [ 320, -134 ]
+final knot position [ 319, -136 ] 
+
+L 1
+Head [ 319, -133 ]
+knot1 position [ 320, -134 ]
+final knot position [ 319, -136 ] 
+
+D 2
+Head [ 319, -135 ]
+knot1 position [ 320, -134 ]
+final knot position [ 319, -136 ] 
+
+U 1
+Head [ 319, -134 ]
+knot1 position [ 320, -134 ]
+final knot position [ 319, -136 ] 
+
+D 11
+Head [ 319, -145 ]
+knot1 position [ 319, -144 ]
+final knot position [ 319, -136 ] 
+
+L 1
+Head [ 318, -145 ]
+knot1 position [ 319, -144 ]
+final knot position [ 319, -136 ] 
+
+R 11
+Head [ 329, -145 ]
+knot1 position [ 328, -145 ]
+final knot position [ 324, -141 ] 
+
+D 7
+Head [ 329, -152 ]
+knot1 position [ 329, -151 ]
+final knot position [ 327, -144 ] 
+
+U 16
+Head [ 329, -136 ]
+knot1 position [ 329, -137 ]
+final knot position [ 327, -144 ] 
+
+L 14
+Head [ 315, -136 ]
+knot1 position [ 316, -136 ]
+final knot position [ 322, -138 ] 
+
+U 5
+Head [ 315, -131 ]
+knot1 position [ 315, -132 ]
+final knot position [ 320, -136 ] 
+
+R 13
+Head [ 328, -131 ]
+knot1 position [ 327, -131 ]
+final knot position [ 321, -134 ] 
+
+D 9
+Head [ 328, -140 ]
+knot1 position [ 328, -139 ]
+final knot position [ 323, -135 ] 
+
+U 17
+Head [ 328, -123 ]
+knot1 position [ 328, -124 ]
+final knot position [ 327, -131 ] 
+
+D 3
+Head [ 328, -126 ]
+knot1 position [ 328, -125 ]
+final knot position [ 327, -131 ] 
+
+R 12
+Head [ 340, -126 ]
+knot1 position [ 339, -126 ]
+final knot position [ 331, -127 ] 
+
+U 16
+Head [ 340, -110 ]
+knot1 position [ 340, -111 ]
+final knot position [ 339, -119 ] 
+
+R 10
+Head [ 350, -110 ]
+knot1 position [ 349, -110 ]
+final knot position [ 344, -114 ] 
+
+L 17
+Head [ 333, -110 ]
+knot1 position [ 334, -110 ]
+final knot position [ 342, -111 ] 
+
+D 5
+Head [ 333, -115 ]
+knot1 position [ 333, -114 ]
+final knot position [ 340, -112 ] 
+
+U 16
+Head [ 333, -99 ]
+knot1 position [ 333, -100 ]
+final knot position [ 335, -107 ] 
+
+D 12
+Head [ 333, -111 ]
+knot1 position [ 333, -110 ]
+final knot position [ 335, -107 ] 
+
+L 2
+Head [ 331, -111 ]
+knot1 position [ 332, -111 ]
+final knot position [ 335, -107 ] 
+
+R 16
+Head [ 347, -111 ]
+knot1 position [ 346, -111 ]
+final knot position [ 338, -110 ] 
+
+L 17
+Head [ 330, -111 ]
+knot1 position [ 331, -111 ]
+final knot position [ 338, -110 ] 
+
+U 4
+Head [ 330, -107 ]
+knot1 position [ 330, -108 ]
+final knot position [ 337, -109 ] 
+
+R 15
+Head [ 345, -107 ]
+knot1 position [ 344, -107 ]
+final knot position [ 337, -109 ] 
+
+D 4
+Head [ 345, -111 ]
+knot1 position [ 345, -110 ]
+final knot position [ 338, -109 ] 
+
+L 11
+Head [ 334, -111 ]
+knot1 position [ 335, -111 ]
+final knot position [ 338, -109 ] 
+
+U 3
+Head [ 334, -108 ]
+knot1 position [ 334, -109 ]
+final knot position [ 338, -109 ] 
+
+R 17
+Head [ 351, -108 ]
+knot1 position [ 350, -108 ]
+final knot position [ 342, -108 ] 
+
+D 8
+Head [ 351, -116 ]
+knot1 position [ 351, -115 ]
+final knot position [ 346, -112 ] 
+
+R 7
+Head [ 358, -116 ]
+knot1 position [ 357, -116 ]
+final knot position [ 349, -115 ] 
+
+D 15
+Head [ 358, -131 ]
+knot1 position [ 358, -130 ]
+final knot position [ 357, -123 ] 
+
+R 14
+Head [ 372, -131 ]
+knot1 position [ 371, -131 ]
+final knot position [ 364, -130 ] 
+
+D 6
+Head [ 372, -137 ]
+knot1 position [ 372, -136 ]
+final knot position [ 367, -133 ] 
+
+R 5
+Head [ 377, -137 ]
+knot1 position [ 376, -137 ]
+final knot position [ 369, -135 ] 
+
+L 1
+Head [ 376, -137 ]
+knot1 position [ 376, -137 ]
+final knot position [ 369, -135 ] 
+
+D 5
+Head [ 376, -142 ]
+knot1 position [ 376, -141 ]
+final knot position [ 371, -137 ] 
+
+L 11
+Head [ 365, -142 ]
+knot1 position [ 366, -142 ]
+final knot position [ 371, -138 ] 
+
+D 5
+Head [ 365, -147 ]
+knot1 position [ 365, -146 ]
+final knot position [ 369, -140 ] 
+
+U 13
+Head [ 365, -134 ]
+knot1 position [ 365, -135 ]
+final knot position [ 368, -140 ] 
+
+L 13
+Head [ 352, -134 ]
+knot1 position [ 353, -134 ]
+final knot position [ 361, -134 ] 
+
+U 8
+Head [ 352, -126 ]
+knot1 position [ 352, -127 ]
+final knot position [ 357, -130 ] 
+
+D 8
+Head [ 352, -134 ]
+knot1 position [ 352, -133 ]
+final knot position [ 357, -130 ] 
+
+L 13
+Head [ 339, -134 ]
+knot1 position [ 340, -134 ]
+final knot position [ 348, -134 ] 
+
+D 1
+Head [ 339, -135 ]
+knot1 position [ 340, -134 ]
+final knot position [ 348, -134 ] 
+
+L 10
+Head [ 329, -135 ]
+knot1 position [ 330, -135 ]
+final knot position [ 338, -135 ] 
+
+U 14
+Head [ 329, -121 ]
+knot1 position [ 329, -122 ]
+final knot position [ 331, -128 ] 
+
+R 7
+Head [ 336, -121 ]
+knot1 position [ 335, -121 ]
+final knot position [ 332, -127 ] 
+
+L 11
+Head [ 325, -121 ]
+knot1 position [ 326, -121 ]
+final knot position [ 330, -125 ] 
+
+D 4
+Head [ 325, -125 ]
+knot1 position [ 325, -124 ]
+final knot position [ 330, -125 ] 
+
+R 16
+Head [ 341, -125 ]
+knot1 position [ 340, -125 ]
+final knot position [ 332, -125 ] 
+
+D 3
+Head [ 341, -128 ]
+knot1 position [ 341, -127 ]
+final knot position [ 333, -126 ] 
+
+L 9
+Head [ 332, -128 ]
+knot1 position [ 333, -128 ]
+final knot position [ 333, -126 ] 
+
+R 3
+Head [ 335, -128 ]
+knot1 position [ 334, -128 ]
+final knot position [ 333, -126 ] 
+
+D 4
+Head [ 335, -132 ]
+knot1 position [ 335, -131 ]
+final knot position [ 333, -126 ] 
+
+L 4
+Head [ 331, -132 ]
+knot1 position [ 332, -132 ]
+final knot position [ 333, -126 ] 
+
+U 2
+Head [ 331, -130 ]
+knot1 position [ 331, -131 ]
+final knot position [ 333, -126 ] 
+
+R 13
+Head [ 344, -130 ]
+knot1 position [ 343, -130 ]
+final knot position [ 335, -128 ] 
+
+D 18
+Head [ 344, -148 ]
+knot1 position [ 344, -147 ]
+final knot position [ 344, -139 ] 
+
+U 15
+Head [ 344, -133 ]
+knot1 position [ 344, -134 ]
+final knot position [ 344, -139 ] 
+
+D 7
+Head [ 344, -140 ]
+knot1 position [ 344, -139 ]
+final knot position [ 344, -139 ] 
+
+L 18
+Head [ 326, -140 ]
+knot1 position [ 327, -140 ]
+final knot position [ 335, -140 ] 
+
+U 3
+Head [ 326, -137 ]
+knot1 position [ 326, -138 ]
+final knot position [ 334, -139 ] 
+
+D 17
+Head [ 326, -154 ]
+knot1 position [ 326, -153 ]
+final knot position [ 327, -146 ] 
+
+U 13
+Head [ 326, -141 ]
+knot1 position [ 326, -142 ]
+final knot position [ 327, -146 ] 
+
+R 9
+Head [ 335, -141 ]
+knot1 position [ 334, -141 ]
+final knot position [ 328, -145 ] 
+
+L 8
+Head [ 327, -141 ]
+knot1 position [ 328, -141 ]
+final knot position [ 328, -145 ] 
+
+R 9
+Head [ 336, -141 ]
+knot1 position [ 335, -141 ]
+final knot position [ 329, -144 ] 
+
+U 16
+Head [ 336, -125 ]
+knot1 position [ 336, -126 ]
+final knot position [ 336, -134 ] 
+
+R 14
+Head [ 350, -125 ]
+knot1 position [ 349, -125 ]
+final knot position [ 343, -127 ] 
+
+D 17
+Head [ 350, -142 ]
+knot1 position [ 350, -141 ]
+final knot position [ 349, -133 ] 
+
+L 16
+Head [ 334, -142 ]
+knot1 position [ 335, -142 ]
+final knot position [ 342, -141 ] 
+
+R 3
+Head [ 337, -142 ]
+knot1 position [ 336, -142 ]
+final knot position [ 342, -141 ] 
+
+U 4
+Head [ 337, -138 ]
+knot1 position [ 337, -139 ]
+final knot position [ 342, -141 ] 
+
+D 1
+Head [ 337, -139 ]
+knot1 position [ 337, -139 ]
+final knot position [ 342, -141 ] 
+
+R 8
+Head [ 345, -139 ]
+knot1 position [ 344, -139 ]
+final knot position [ 342, -141 ] 
+
+D 14
+Head [ 345, -153 ]
+knot1 position [ 345, -152 ]
+final knot position [ 345, -144 ] 
+
+L 14
+Head [ 331, -153 ]
+knot1 position [ 332, -153 ]
+final knot position [ 338, -151 ] 
+
+U 17
+Head [ 331, -136 ]
+knot1 position [ 331, -137 ]
+final knot position [ 332, -145 ] 
+
+L 16
+Head [ 315, -136 ]
+knot1 position [ 316, -136 ]
+final knot position [ 324, -137 ] 
+
+R 15
+Head [ 330, -136 ]
+knot1 position [ 329, -136 ]
+final knot position [ 324, -137 ] 
+
+D 9
+Head [ 330, -145 ]
+knot1 position [ 330, -144 ]
+final knot position [ 325, -138 ] 
+
+U 13
+Head [ 330, -132 ]
+knot1 position [ 330, -133 ]
+final knot position [ 327, -138 ] 
+
+R 14
+Head [ 344, -132 ]
+knot1 position [ 343, -132 ]
+final knot position [ 335, -132 ] 
+
+U 9
+Head [ 344, -123 ]
+knot1 position [ 344, -124 ]
+final knot position [ 339, -128 ] 
+
+D 13
+Head [ 344, -136 ]
+knot1 position [ 344, -135 ]
+final knot position [ 341, -130 ] 
+
+R 2
+Head [ 346, -136 ]
+knot1 position [ 345, -136 ]
+final knot position [ 342, -131 ] 
+
+L 3
+Head [ 343, -136 ]
+knot1 position [ 344, -136 ]
+final knot position [ 342, -131 ] 
+
+D 8
+Head [ 343, -144 ]
+knot1 position [ 343, -143 ]
+final knot position [ 343, -135 ] 
+
+U 5
+Head [ 343, -139 ]
+knot1 position [ 343, -140 ]
+final knot position [ 343, -135 ] 
+
+R 1
+Head [ 344, -139 ]
+knot1 position [ 343, -140 ]
+final knot position [ 343, -135 ] 
+
+L 5
+Head [ 339, -139 ]
+knot1 position [ 340, -139 ]
+final knot position [ 343, -135 ] 
+
+R 4
+Head [ 343, -139 ]
+knot1 position [ 342, -139 ]
+final knot position [ 343, -135 ] 
+
+U 8
+Head [ 343, -131 ]
+knot1 position [ 343, -132 ]
+final knot position [ 343, -135 ] 
+
+L 7
+Head [ 336, -131 ]
+knot1 position [ 337, -131 ]
+final knot position [ 343, -135 ] 
+
+U 5
+Head [ 336, -126 ]
+knot1 position [ 336, -127 ]
+final knot position [ 341, -133 ] 
+
+R 11
+Head [ 347, -126 ]
+knot1 position [ 346, -126 ]
+final knot position [ 341, -130 ] 
+
+D 17
+Head [ 347, -143 ]
+knot1 position [ 347, -142 ]
+final knot position [ 346, -134 ] 
+
+L 4
+Head [ 343, -143 ]
+knot1 position [ 344, -143 ]
+final knot position [ 345, -136 ] 
+
+U 3
+Head [ 343, -140 ]
+knot1 position [ 343, -141 ]
+final knot position [ 345, -136 ] 
+
+R 1
+Head [ 344, -140 ]
+knot1 position [ 343, -141 ]
+final knot position [ 345, -136 ] 
+
+U 18
+Head [ 344, -122 ]
+knot1 position [ 344, -123 ]
+final knot position [ 344, -131 ] 
+
+D 1
+Head [ 344, -123 ]
+knot1 position [ 344, -123 ]
+final knot position [ 344, -131 ] 
+
+U 6
+Head [ 344, -117 ]
+knot1 position [ 344, -118 ]
+final knot position [ 344, -126 ] 
+
+R 2
+Head [ 346, -117 ]
+knot1 position [ 345, -117 ]
+final knot position [ 345, -125 ] 
+
+D 16
+Head [ 346, -133 ]
+knot1 position [ 346, -132 ]
+final knot position [ 345, -125 ] 
+
+U 15
+Head [ 346, -118 ]
+knot1 position [ 346, -119 ]
+final knot position [ 345, -125 ] 
+
+D 8
+Head [ 346, -126 ]
+knot1 position [ 346, -125 ]
+final knot position [ 345, -125 ] 
+
+L 13
+Head [ 333, -126 ]
+knot1 position [ 334, -126 ]
+final knot position [ 342, -126 ] 
+
+R 2
+Head [ 335, -126 ]
+knot1 position [ 334, -126 ]
+final knot position [ 342, -126 ] 
+
+U 16
+Head [ 335, -110 ]
+knot1 position [ 335, -111 ]
+final knot position [ 335, -119 ] 
+
+L 9
+Head [ 326, -110 ]
+knot1 position [ 327, -110 ]
+final knot position [ 331, -115 ] 
+
+D 1
+Head [ 326, -111 ]
+knot1 position [ 327, -110 ]
+final knot position [ 331, -115 ] 
+
+U 9
+Head [ 326, -102 ]
+knot1 position [ 326, -103 ]
+final knot position [ 327, -111 ] 
+
+R 5
+Head [ 331, -102 ]
+knot1 position [ 330, -102 ]
+final knot position [ 328, -109 ] 
+
+L 16
+Head [ 315, -102 ]
+knot1 position [ 316, -102 ]
+final knot position [ 323, -104 ] 
+
+D 2
+Head [ 315, -104 ]
+knot1 position [ 315, -103 ]
+final knot position [ 323, -104 ] 
+
+L 2
+Head [ 313, -104 ]
+knot1 position [ 314, -104 ]
+final knot position [ 322, -104 ] 
+
+R 8
+Head [ 321, -104 ]
+knot1 position [ 320, -104 ]
+final knot position [ 322, -104 ] 
+
+D 17
+Head [ 321, -121 ]
+knot1 position [ 321, -120 ]
+final knot position [ 321, -112 ] 
+
+R 13
+Head [ 334, -121 ]
+knot1 position [ 333, -121 ]
+final knot position [ 327, -118 ] 
+
+U 5
+Head [ 334, -116 ]
+knot1 position [ 334, -117 ]
+final knot position [ 327, -118 ] 
+
+R 6
+Head [ 340, -116 ]
+knot1 position [ 339, -116 ]
+final knot position [ 331, -116 ] 
+
+U 2
+Head [ 340, -114 ]
+knot1 position [ 340, -115 ]
+final knot position [ 332, -115 ] 
+
+L 12
+Head [ 328, -114 ]
+knot1 position [ 329, -114 ]
+final knot position [ 332, -115 ] 
+
+R 2
+Head [ 330, -114 ]
+knot1 position [ 329, -114 ]
+final knot position [ 332, -115 ] 
+
+D 14
+Head [ 330, -128 ]
+knot1 position [ 330, -127 ]
+final knot position [ 330, -119 ] 
+
+R 14
+Head [ 344, -128 ]
+knot1 position [ 343, -128 ]
+final knot position [ 337, -126 ] 
+
+L 11
+Head [ 333, -128 ]
+knot1 position [ 334, -128 ]
+final knot position [ 337, -126 ] 
+
+R 1
+Head [ 334, -128 ]
+knot1 position [ 334, -128 ]
+final knot position [ 337, -126 ] 
+
+L 9
+Head [ 325, -128 ]
+knot1 position [ 326, -128 ]
+final knot position [ 334, -128 ] 
+
+D 18
+Head [ 325, -146 ]
+knot1 position [ 325, -145 ]
+final knot position [ 325, -137 ] 
+
+L 4
+Head [ 321, -146 ]
+knot1 position [ 322, -146 ]
+final knot position [ 323, -139 ] 
+
+U 4
+Head [ 321, -142 ]
+knot1 position [ 321, -143 ]
+final knot position [ 323, -139 ] 
+
+D 15
+Head [ 321, -157 ]
+knot1 position [ 321, -156 ]
+final knot position [ 321, -148 ] 
+
+L 14
+Head [ 307, -157 ]
+knot1 position [ 308, -157 ]
+final knot position [ 314, -155 ] 
+
+R 15
+Head [ 322, -157 ]
+knot1 position [ 321, -157 ]
+final knot position [ 314, -155 ] 
+
+U 6
+Head [ 322, -151 ]
+knot1 position [ 322, -152 ]
+final knot position [ 316, -154 ] 
+
+D 3
+Head [ 322, -154 ]
+knot1 position [ 322, -153 ]
+final knot position [ 316, -154 ] 
+
+R 15
+Head [ 337, -154 ]
+knot1 position [ 336, -154 ]
+final knot position [ 328, -154 ] 
+
+L 12
+Head [ 325, -154 ]
+knot1 position [ 326, -154 ]
+final knot position [ 328, -154 ] 
+
+U 3
+Head [ 325, -151 ]
+knot1 position [ 325, -152 ]
+final knot position [ 328, -154 ] 
+
+D 12
+Head [ 325, -163 ]
+knot1 position [ 325, -162 ]
+final knot position [ 327, -155 ] 
+
+U 13
+Head [ 325, -150 ]
+knot1 position [ 325, -151 ]
+final knot position [ 327, -155 ] 
+
+L 6
+Head [ 319, -150 ]
+knot1 position [ 320, -150 ]
+final knot position [ 325, -153 ] 
+
+U 17
+Head [ 319, -133 ]
+knot1 position [ 319, -134 ]
+final knot position [ 319, -142 ] 
+
+D 6
+Head [ 319, -139 ]
+knot1 position [ 319, -138 ]
+final knot position [ 319, -142 ] 
+
+L 10
+Head [ 309, -139 ]
+knot1 position [ 310, -139 ]
+final knot position [ 317, -140 ] 
+
+R 16
+Head [ 325, -139 ]
+knot1 position [ 324, -139 ]
+final knot position [ 317, -140 ] 
+
+L 7
+Head [ 318, -139 ]
+knot1 position [ 319, -139 ]
+final knot position [ 317, -140 ] 
+
+U 2
+Head [ 318, -137 ]
+knot1 position [ 318, -138 ]
+final knot position [ 317, -140 ] 
+
+D 1
+Head [ 318, -138 ]
+knot1 position [ 318, -138 ]
+final knot position [ 317, -140 ] 
+
+R 10
+Head [ 328, -138 ]
+knot1 position [ 327, -138 ]
+final knot position [ 319, -138 ] 
+
+U 11
+Head [ 328, -127 ]
+knot1 position [ 328, -128 ]
+final knot position [ 324, -133 ] 
+
+R 1
+Head [ 329, -127 ]
+knot1 position [ 328, -128 ]
+final knot position [ 324, -133 ] 
+
+U 19
+Head [ 329, -108 ]
+knot1 position [ 329, -109 ]
+final knot position [ 329, -117 ] 
+
+D 5
+Head [ 329, -113 ]
+knot1 position [ 329, -112 ]
+final knot position [ 329, -117 ] 
+
+L 11
+Head [ 318, -113 ]
+knot1 position [ 319, -113 ]
+final knot position [ 326, -114 ] 
+
+D 14
+Head [ 318, -127 ]
+knot1 position [ 318, -126 ]
+final knot position [ 320, -120 ] 
+
+L 17
+Head [ 301, -127 ]
+knot1 position [ 302, -127 ]
+final knot position [ 310, -127 ] 
+
+U 16
+Head [ 301, -111 ]
+knot1 position [ 301, -112 ]
+final knot position [ 302, -119 ] 
+
+L 13
+Head [ 288, -111 ]
+knot1 position [ 289, -111 ]
+final knot position [ 296, -113 ] 
+
+R 4
+Head [ 292, -111 ]
+knot1 position [ 291, -111 ]
+final knot position [ 296, -113 ] 
+
+L 16
+Head [ 276, -111 ]
+knot1 position [ 277, -111 ]
+final knot position [ 285, -111 ] 
+
+D 10
+Head [ 276, -121 ]
+knot1 position [ 276, -120 ]
+final knot position [ 280, -116 ] 
+
+L 4
+Head [ 272, -121 ]
+knot1 position [ 273, -121 ]
+final knot position [ 278, -118 ] 
+
+D 9
+Head [ 272, -130 ]
+knot1 position [ 272, -129 ]
+final knot position [ 274, -122 ] 
+
+R 19
+Head [ 291, -130 ]
+knot1 position [ 290, -130 ]
+final knot position [ 282, -130 ] 
+
+L 19
+Head [ 272, -130 ]
+knot1 position [ 273, -130 ]
+final knot position [ 281, -130 ] 
+
+R 12
+Head [ 284, -130 ]
+knot1 position [ 283, -130 ]
+final knot position [ 281, -130 ] 
+
+L 12
+Head [ 272, -130 ]
+knot1 position [ 273, -130 ]
+final knot position [ 281, -130 ] 
+
+D 8
+Head [ 272, -138 ]
+knot1 position [ 272, -137 ]
+final knot position [ 277, -134 ] 
+
+L 6
+Head [ 266, -138 ]
+knot1 position [ 267, -138 ]
+final knot position [ 274, -137 ] 
+
+D 14
+Head [ 266, -152 ]
+knot1 position [ 266, -151 ]
+final knot position [ 267, -144 ] 
+
+U 7
+Head [ 266, -145 ]
+knot1 position [ 266, -146 ]
+final knot position [ 267, -144 ] 
+
+D 13
+Head [ 266, -158 ]
+knot1 position [ 266, -157 ]
+final knot position [ 266, -149 ] 
+
+U 18
+Head [ 266, -140 ]
+knot1 position [ 266, -141 ]
+final knot position [ 266, -149 ] 
+
+D 13
+Head [ 266, -153 ]
+knot1 position [ 266, -152 ]
+final knot position [ 266, -149 ] 
+
+U 6
+Head [ 266, -147 ]
+knot1 position [ 266, -148 ]
+final knot position [ 266, -149 ] 
+
+D 6
+Head [ 266, -153 ]
+knot1 position [ 266, -152 ]
+final knot position [ 266, -149 ] 
+
+R 18
+Head [ 284, -153 ]
+knot1 position [ 283, -153 ]
+final knot position [ 275, -153 ] 
+
+U 18
+Head [ 284, -135 ]
+knot1 position [ 284, -136 ]
+final knot position [ 284, -144 ] 
+
+D 15
+Head [ 284, -150 ]
+knot1 position [ 284, -149 ]
+final knot position [ 284, -144 ] 
+
+L 14
+Head [ 270, -150 ]
+knot1 position [ 271, -150 ]
+final knot position [ 279, -149 ] 
+
+R 7
+Head [ 277, -150 ]
+knot1 position [ 276, -150 ]
+final knot position [ 279, -149 ] 
+
+D 11
+Head [ 277, -161 ]
+knot1 position [ 277, -160 ]
+final knot position [ 277, -152 ] 
+
+R 4
+Head [ 281, -161 ]
+knot1 position [ 280, -161 ]
+final knot position [ 279, -154 ] 
+
+L 14
+Head [ 267, -161 ]
+knot1 position [ 268, -161 ]
+final knot position [ 274, -159 ] 
+
+R 5
+Head [ 272, -161 ]
+knot1 position [ 271, -161 ]
+final knot position [ 274, -159 ] 
+
+D 4
+Head [ 272, -165 ]
+knot1 position [ 272, -164 ]
+final knot position [ 274, -159 ] 
+
+L 12
+Head [ 260, -165 ]
+knot1 position [ 261, -165 ]
+final knot position [ 269, -164 ] 
+
+D 16
+Head [ 260, -181 ]
+knot1 position [ 260, -180 ]
+final knot position [ 261, -172 ] 
+
+R 17
+Head [ 277, -181 ]
+knot1 position [ 276, -181 ]
+final knot position [ 268, -180 ] 
+
+U 15
+Head [ 277, -166 ]
+knot1 position [ 277, -167 ]
+final knot position [ 275, -174 ] 
+
+L 9
+Head [ 268, -166 ]
+knot1 position [ 269, -166 ]
+final knot position [ 273, -171 ] 
+
+U 10
+Head [ 268, -156 ]
+knot1 position [ 268, -157 ]
+final knot position [ 268, -165 ] 
+
+R 7
+Head [ 275, -156 ]
+knot1 position [ 274, -156 ]
+final knot position [ 271, -162 ] 
+
+D 10
+Head [ 275, -166 ]
+knot1 position [ 275, -165 ]
+final knot position [ 271, -162 ] 
+
+L 3
+Head [ 272, -166 ]
+knot1 position [ 273, -166 ]
+final knot position [ 271, -162 ] 
+
+U 15
+Head [ 272, -151 ]
+knot1 position [ 272, -152 ]
+final knot position [ 272, -160 ] 
+
+L 1
+Head [ 271, -151 ]
+knot1 position [ 272, -152 ]
+final knot position [ 272, -160 ] 
+
+D 15
+Head [ 271, -166 ]
+knot1 position [ 271, -165 ]
+final knot position [ 272, -160 ] 
+
+U 1
+Head [ 271, -165 ]
+knot1 position [ 271, -165 ]
+final knot position [ 272, -160 ] 
+
+D 12
+Head [ 271, -177 ]
+knot1 position [ 271, -176 ]
+final knot position [ 271, -168 ] 
+
+L 4
+Head [ 267, -177 ]
+knot1 position [ 268, -177 ]
+final knot position [ 269, -170 ] 
+
+D 10
+Head [ 267, -187 ]
+knot1 position [ 267, -186 ]
+final knot position [ 267, -178 ] 
+
+U 6
+Head [ 267, -181 ]
+knot1 position [ 267, -182 ]
+final knot position [ 267, -178 ] 
+
+R 6
+Head [ 273, -181 ]
+knot1 position [ 272, -181 ]
+final knot position [ 267, -178 ] 
+
+L 11
+Head [ 262, -181 ]
+knot1 position [ 263, -181 ]
+final knot position [ 267, -178 ] 
+
+D 5
+Head [ 262, -186 ]
+knot1 position [ 262, -185 ]
+final knot position [ 266, -179 ] 
+
+R 1
+Head [ 263, -186 ]
+knot1 position [ 262, -185 ]
+final knot position [ 266, -179 ] 
+
+D 11
+Head [ 263, -197 ]
+knot1 position [ 263, -196 ]
+final knot position [ 263, -188 ] 
+
+U 16
+Head [ 263, -181 ]
+knot1 position [ 263, -182 ]
+final knot position [ 263, -188 ] 
+
+L 16
+Head [ 247, -181 ]
+knot1 position [ 248, -181 ]
+final knot position [ 256, -181 ] 
+
+R 19
+Head [ 266, -181 ]
+knot1 position [ 265, -181 ]
+final knot position [ 257, -181 ] 
+
+U 8
+Head [ 266, -173 ]
+knot1 position [ 266, -174 ]
+final knot position [ 261, -177 ] 
+
+R 11
+Head [ 277, -173 ]
+knot1 position [ 276, -173 ]
+final knot position [ 268, -173 ] 
+
+D 17
+Head [ 277, -190 ]
+knot1 position [ 277, -189 ]
+final knot position [ 276, -181 ] 
+
+L 19
+Head [ 258, -190 ]
+knot1 position [ 259, -190 ]
+final knot position [ 267, -190 ] 
+
+R 6
+Head [ 264, -190 ]
+knot1 position [ 263, -190 ]
+final knot position [ 267, -190 ] 
+
+U 7
+Head [ 264, -183 ]
+knot1 position [ 264, -184 ]
+final knot position [ 267, -190 ] 
+
+R 2
+Head [ 266, -183 ]
+knot1 position [ 265, -183 ]
+final knot position [ 267, -190 ] 
+
+D 9
+Head [ 266, -192 ]
+knot1 position [ 266, -191 ]
+final knot position [ 267, -190 ] 
+
+R 11
+Head [ 277, -192 ]
+knot1 position [ 276, -192 ]
+final knot position [ 268, -191 ] 
+
+D 17
+Head [ 277, -209 ]
+knot1 position [ 277, -208 ]
+final knot position [ 277, -200 ] 
+
+U 17
+Head [ 277, -192 ]
+knot1 position [ 277, -193 ]
+final knot position [ 277, -200 ] 
+
+D 4
+Head [ 277, -196 ]
+knot1 position [ 277, -195 ]
+final knot position [ 277, -200 ] 
+
+R 8
+Head [ 285, -196 ]
+knot1 position [ 284, -196 ]
+final knot position [ 278, -199 ] 
+
+D 6
+Head [ 285, -202 ]
+knot1 position [ 285, -201 ]
+final knot position [ 279, -199 ] 
+
+U 10
+Head [ 285, -192 ]
+knot1 position [ 285, -193 ]
+final knot position [ 281, -197 ] 
+
+R 3
+Head [ 288, -192 ]
+knot1 position [ 287, -192 ]
+final knot position [ 282, -196 ] 
+
+L 17
+Head [ 271, -192 ]
+knot1 position [ 272, -192 ]
+final knot position [ 279, -193 ] 
+
+D 5
+Head [ 271, -197 ]
+knot1 position [ 271, -196 ]
+final knot position [ 278, -194 ] 
+
+R 19
+Head [ 290, -197 ]
+knot1 position [ 289, -197 ]
+final knot position [ 281, -197 ] 
+
+U 1
+Head [ 290, -196 ]
+knot1 position [ 289, -197 ]
+final knot position [ 281, -197 ] 
+
+L 5
+Head [ 285, -196 ]
+knot1 position [ 286, -196 ]
+final knot position [ 281, -197 ] 
+
+U 5
+Head [ 285, -191 ]
+knot1 position [ 285, -192 ]
+final knot position [ 281, -197 ] 
+
+D 6
+Head [ 285, -197 ]
+knot1 position [ 285, -196 ]
+final knot position [ 281, -197 ] 
+
+U 6
+Head [ 285, -191 ]
+knot1 position [ 285, -192 ]
+final knot position [ 281, -197 ] 
+
+L 18
+Head [ 267, -191 ]
+knot1 position [ 268, -191 ]
+final knot position [ 276, -191 ] 
+
+R 18
+Head [ 285, -191 ]
+knot1 position [ 284, -191 ]
+final knot position [ 276, -191 ] 
+
+L 4
+Head [ 281, -191 ]
+knot1 position [ 282, -191 ]
+final knot position [ 276, -191 ] 
+
+R 12
+Head [ 293, -191 ]
+knot1 position [ 292, -191 ]
+final knot position [ 284, -191 ] 
+
+D 14
+Head [ 293, -205 ]
+knot1 position [ 293, -204 ]
+final knot position [ 291, -198 ] 
+
+L 17
+Head [ 276, -205 ]
+knot1 position [ 277, -205 ]
+final knot position [ 285, -204 ] 
+
+R 8
+Head [ 284, -205 ]
+knot1 position [ 283, -205 ]
+final knot position [ 285, -204 ] 
+
+L 13
+Head [ 271, -205 ]
+knot1 position [ 272, -205 ]
+final knot position [ 280, -205 ] 
+
+R 6
+Head [ 277, -205 ]
+knot1 position [ 276, -205 ]
+final knot position [ 280, -205 ] 
+
+L 14
+Head [ 263, -205 ]
+knot1 position [ 264, -205 ]
+final knot position [ 272, -205 ] 
+
+D 3
+Head [ 263, -208 ]
+knot1 position [ 263, -207 ]
+final knot position [ 271, -206 ] 
+
+R 13
+Head [ 276, -208 ]
+knot1 position [ 275, -208 ]
+final knot position [ 271, -206 ] 
+
+L 16
+Head [ 260, -208 ]
+knot1 position [ 261, -208 ]
+final knot position [ 269, -208 ] 
+
+D 14
+Head [ 260, -222 ]
+knot1 position [ 260, -221 ]
+final knot position [ 262, -215 ] 
+
+U 6
+Head [ 260, -216 ]
+knot1 position [ 260, -217 ]
+final knot position [ 262, -215 ] 
+
+D 6
+Head [ 260, -222 ]
+knot1 position [ 260, -221 ]
+final knot position [ 262, -215 ] 
+
+count of unique 2303
