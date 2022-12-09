@@ -12,45 +12,72 @@ function formatTestInput(input) {
 let moves = formatTestInput(input);
 console.log("moves", moves);
 
-function trackPosition(movements) {
-	let [x, y] = [0, 0];
-	let [maxL, maxR, maxU, maxD] = [0, 0, 0, 0];
-	let max;
+function trackPositionOfHead(movements) {
+	let [xH, yH] = [0, 0];
+	let [xT, yT] = [0, 0];
+	// let [maxL, maxR, maxU, maxD] = [0, 0, 0, 0];
+	// let maxDim; // largest size of array
 
 	for (let i = 0; i < movements.length; i++) {
+		console.log(...movements[i]);
 		let direction = movements[i][0];
 		let steps = Number(movements[i][1]);
 
-		switch (direction) {
-			case "L":
-				x -= steps;
-				x < maxL ? (maxL = x) : "";
-				break;
-			case "R":
-				x += steps;
-				x > maxR ? (maxR = x) : "";
-				break;
-			case "U":
-				y += steps;
-				y > maxU ? (maxU = y) : "";
-				break;
-			case "D":
-				y -= steps;
-				y < maxD ? (maxD = y) : "";
-				break;
-			default:
-				throw Error("Unexpected directional input");
-				break;
+		for (let j = 0; j < steps; j++) {
+			switch (direction) {
+				case "L":
+					xH -= 1;
+					// xH < maxL ? (maxL = xH) : "";
+					break;
+				case "R":
+					xH += 1;
+					// xH > maxR ? (maxR = xH) : "";
+					break;
+				case "U":
+					yH += 1;
+					// yH > maxU ? (maxU = yH) : "";
+					break;
+				case "D":
+					yH -= 1;
+					// yH < maxD ? (maxD = yH) : "";
+					break;
+				default:
+					throw Error("Unexpected directional input");
+					break;
+			}
+			[xT, yT] = trackPositionOfTail(xH, yH, xT, yT);
 		}
+
 		// Math.abs(y) > max ? (max = y) : "";
-		max = Math.max(maxR - maxL, maxU - maxD);
-		console.log([x, y], max);
+		// maxDim = Math.max(maxR - maxL, maxU - maxD);
+		// console.log([xH, yH], "\n");
+		console.log("\n");
 	}
 
-	createBlankArray(max);
-	return [x, y];
+	// createBlankArray(maxDim);
+	return [xH, yH];
 }
 
-function createBlankArray(size) {}
+function trackPositionOfTail(xh, yh, xt, yt) {
+	//check if already adjacent
+	if (
+		(xh - 1 === xt || xh + 1 === xt || xh === xt) &&
+		(yh - 1 === yt || yh + 1 === yt || yh === yt)
+	) {
+		return [xt, yt];
+	}
+	//if vertically aligned
+	//follows it up or down wards
+	if (yh === yt) {
+		if (xh > xt) {
+			xt = xh - 1;
+		}
+	}
 
-trackPosition(moves);
+	console.log([xh, yh], [xt, yt]);
+	return [xt, yt];
+}
+
+// function createBlankArray(size) {}
+
+trackPositionOfHead(moves);
