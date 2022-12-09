@@ -1,6 +1,6 @@
 import fs from "node:fs";
 
-const input = fs.readFileSync("input.txt", "utf-8", (err, data) => {
+const input = fs.readFileSync("inputtest1.txt", "utf-8", (err, data) => {
 	if (err) throw err;
 });
 
@@ -200,7 +200,7 @@ function changeDirectory(code) {
 
 		currDir = currDir + ".dir." + `${newDir}`;
 	}
-	// console.log(`currDir after calling changeDirectory ${code}\n`, currDir);
+	console.log(`currDir after calling changeDirectory ${code}\n`, currDir);
 	return;
 }
 
