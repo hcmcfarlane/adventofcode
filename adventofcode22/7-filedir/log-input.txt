@@ -686,32 +686,51 @@
 }
 currDir after calling changeDirectory cd /
  inputFileStructure.home
+sumOfSmallDirs 0
+sumOfSmallDirs 0
 currDir after calling changeDirectory cd gbjh
  inputFileStructure.home.dir.gbjh
+sumOfSmallDirs 64971
 currDir after calling changeDirectory cd jtgbg
  inputFileStructure.home.dir.gbjh.dir.jtgbg
+sumOfSmallDirs 64971
+sumOfSmallDirs 64971
 currDir after calling changeDirectory cd hzjcc
  inputFileStructure.home.dir.gbjh.dir.jtgbg.dir.hzjcc
+sumOfSmallDirs 64971
+sumOfSmallDirs 64971
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.jtgbg
 currDir after calling changeDirectory cd jgpnm
  inputFileStructure.home.dir.gbjh.dir.jtgbg.dir.jgpnm
+sumOfSmallDirs 64971
+sumOfSmallDirs 64971
 currDir after calling changeDirectory cd php
  inputFileStructure.home.dir.gbjh.dir.jtgbg.dir.jgpnm.dir.php
+sumOfSmallDirs 64971
+sumOfSmallDirs 64971
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.jtgbg.dir.jgpnm
 currDir after calling changeDirectory cd rlp
  inputFileStructure.home.dir.gbjh.dir.jtgbg.dir.jgpnm.dir.rlp
+sumOfSmallDirs 64971
+sumOfSmallDirs 64971
 currDir after calling changeDirectory cd dhlspmh
  inputFileStructure.home.dir.gbjh.dir.jtgbg.dir.jgpnm.dir.rlp.dir.dhlspmh
+sumOfSmallDirs 64971
+sumOfSmallDirs 64971
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.jtgbg.dir.jgpnm.dir.rlp
 currDir after calling changeDirectory cd mlsqrz
  inputFileStructure.home.dir.gbjh.dir.jtgbg.dir.jgpnm.dir.rlp.dir.mlsqrz
+sumOfSmallDirs 96847
+sumOfSmallDirs 128723
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.jtgbg.dir.jgpnm.dir.rlp
 currDir after calling changeDirectory cd slwhsqw
  inputFileStructure.home.dir.gbjh.dir.jtgbg.dir.jgpnm.dir.rlp.dir.slwhsqw
+sumOfSmallDirs 131147
+sumOfSmallDirs 133571
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.jtgbg.dir.jgpnm.dir.rlp
 currDir after calling changeDirectory cd ..
@@ -720,36 +739,58 @@ currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.jtgbg
 currDir after calling changeDirectory cd smb
  inputFileStructure.home.dir.gbjh.dir.jtgbg.dir.smb
+sumOfSmallDirs 162695
+sumOfSmallDirs 191819
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.jtgbg
 currDir after calling changeDirectory cd vvhmmn
  inputFileStructure.home.dir.gbjh.dir.jtgbg.dir.vvhmmn
+sumOfSmallDirs 232274
+sumOfSmallDirs 272729
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.jtgbg
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh
 currDir after calling changeDirectory cd pzdn
  inputFileStructure.home.dir.gbjh.dir.pzdn
+sumOfSmallDirs 272729
+sumOfSmallDirs 272729
 currDir after calling changeDirectory cd bpdbclp
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.bpdbclp
+sumOfSmallDirs 337876
+sumOfSmallDirs 403023
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.pzdn
 currDir after calling changeDirectory cd gvvgncqh
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.gvvgncqh
+sumOfSmallDirs 455554
+sumOfSmallDirs 508085
 currDir after calling changeDirectory cd fdcdh
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.gvvgncqh.dir.fdcdh
+sumOfSmallDirs 508085
+sumOfSmallDirs 508085
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.gvvgncqh
 currDir after calling changeDirectory cd jnfhsqrl
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.gvvgncqh.dir.jnfhsqrl
+sumOfSmallDirs 508085
+sumOfSmallDirs 508085
 currDir after calling changeDirectory cd ddzqtsvf
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.gvvgncqh.dir.jnfhsqrl.dir.ddzqtsvf
+sumOfSmallDirs 508085
+sumOfSmallDirs 508085
 currDir after calling changeDirectory cd fdcdh
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.gvvgncqh.dir.jnfhsqrl.dir.ddzqtsvf.dir.fdcdh
+sumOfSmallDirs 508085
+sumOfSmallDirs 508085
 currDir after calling changeDirectory cd fhmpzq
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.gvvgncqh.dir.jnfhsqrl.dir.ddzqtsvf.dir.fdcdh.dir.fhmpzq
+sumOfSmallDirs 508085
+sumOfSmallDirs 508085
 currDir after calling changeDirectory cd ghzrhzs
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.gvvgncqh.dir.jnfhsqrl.dir.ddzqtsvf.dir.fdcdh.dir.fhmpzq.dir.ghzrhzs
+sumOfSmallDirs 591001
+sumOfSmallDirs 673917
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.gvvgncqh.dir.jnfhsqrl.dir.ddzqtsvf.dir.fdcdh.dir.fhmpzq
 currDir after calling changeDirectory cd ..
@@ -760,22 +801,32 @@ currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.gvvgncqh.dir.jnfhsqrl
 currDir after calling changeDirectory cd wwrrtc
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.gvvgncqh.dir.jnfhsqrl.dir.wwrrtc
+sumOfSmallDirs 673917
+sumOfSmallDirs 673917
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.gvvgncqh.dir.jnfhsqrl
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.gvvgncqh
 currDir after calling changeDirectory cd lprd
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.gvvgncqh.dir.lprd
+sumOfSmallDirs 673917
+sumOfSmallDirs 673917
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.gvvgncqh
 currDir after calling changeDirectory cd qzmcfrhq
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.gvvgncqh.dir.qzmcfrhq
+sumOfSmallDirs 673917
+sumOfSmallDirs 673917
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.gvvgncqh
 currDir after calling changeDirectory cd rmbmpjc
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.gvvgncqh.dir.rmbmpjc
+sumOfSmallDirs 673917
+sumOfSmallDirs 673917
 currDir after calling changeDirectory cd tshl
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.gvvgncqh.dir.rmbmpjc.dir.tshl
+sumOfSmallDirs 674509
+sumOfSmallDirs 675101
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.gvvgncqh.dir.rmbmpjc
 currDir after calling changeDirectory cd ..
@@ -784,34 +835,54 @@ currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.pzdn
 currDir after calling changeDirectory cd jfzw
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.jfzw
+sumOfSmallDirs 773484
+sumOfSmallDirs 871867
 currDir after calling changeDirectory cd fcwsrnjg
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.jfzw.dir.fcwsrnjg
+sumOfSmallDirs 953143
+sumOfSmallDirs 1034419
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.jfzw
 currDir after calling changeDirectory cd ftnlwhpn
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.jfzw.dir.ftnlwhpn
+sumOfSmallDirs 1112879
+sumOfSmallDirs 1191339
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.jfzw
 currDir after calling changeDirectory cd ghqt
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.jfzw.dir.ghqt
+sumOfSmallDirs 1191339
+sumOfSmallDirs 1191339
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.jfzw
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.pzdn
 currDir after calling changeDirectory cd nlwnv
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.nlwnv
+sumOfSmallDirs 1191339
+sumOfSmallDirs 1191339
 currDir after calling changeDirectory cd cvbq
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.nlwnv.dir.cvbq
+sumOfSmallDirs 1191339
+sumOfSmallDirs 1191339
 currDir after calling changeDirectory cd ndjlpwpw
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.nlwnv.dir.cvbq.dir.ndjlpwpw
+sumOfSmallDirs 1208722
+sumOfSmallDirs 1226105
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.nlwnv.dir.cvbq
 currDir after calling changeDirectory cd qmqlf
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.nlwnv.dir.cvbq.dir.qmqlf
+sumOfSmallDirs 1226105
+sumOfSmallDirs 1226105
 currDir after calling changeDirectory cd tsrgs
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.nlwnv.dir.cvbq.dir.qmqlf.dir.tsrgs
+sumOfSmallDirs 1226105
+sumOfSmallDirs 1226105
 currDir after calling changeDirectory cd fdcdh
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.nlwnv.dir.cvbq.dir.qmqlf.dir.tsrgs.dir.fdcdh
+sumOfSmallDirs 1226105
+sumOfSmallDirs 1226105
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.nlwnv.dir.cvbq.dir.qmqlf.dir.tsrgs
 currDir after calling changeDirectory cd ..
@@ -822,20 +893,32 @@ currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.nlwnv
 currDir after calling changeDirectory cd jgpnm
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.nlwnv.dir.jgpnm
+sumOfSmallDirs 1275593
+sumOfSmallDirs 1325081
 currDir after calling changeDirectory cd bgv
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.nlwnv.dir.jgpnm.dir.bgv
+sumOfSmallDirs 1325081
+sumOfSmallDirs 1325081
 currDir after calling changeDirectory cd fpvvw
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.nlwnv.dir.jgpnm.dir.bgv.dir.fpvvw
+sumOfSmallDirs 1325081
+sumOfSmallDirs 1325081
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.nlwnv.dir.jgpnm.dir.bgv
 currDir after calling changeDirectory cd wvdqjn
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.nlwnv.dir.jgpnm.dir.bgv.dir.wvdqjn
+sumOfSmallDirs 1325081
+sumOfSmallDirs 1325081
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.nlwnv.dir.jgpnm.dir.bgv
 currDir after calling changeDirectory cd zlwvlpw
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.nlwnv.dir.jgpnm.dir.bgv.dir.zlwvlpw
+sumOfSmallDirs 1325081
+sumOfSmallDirs 1325081
 currDir after calling changeDirectory cd slllz
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.nlwnv.dir.jgpnm.dir.bgv.dir.zlwvlpw.dir.slllz
+sumOfSmallDirs 1325081
+sumOfSmallDirs 1325081
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.nlwnv.dir.jgpnm.dir.bgv.dir.zlwvlpw
 currDir after calling changeDirectory cd ..
@@ -846,20 +929,30 @@ currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.nlwnv
 currDir after calling changeDirectory cd zmllsrzc
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.nlwnv.dir.zmllsrzc
+sumOfSmallDirs 1325081
+sumOfSmallDirs 1325081
 currDir after calling changeDirectory cd dgdgccc
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.nlwnv.dir.zmllsrzc.dir.dgdgccc
+sumOfSmallDirs 1325081
+sumOfSmallDirs 1325081
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.nlwnv.dir.zmllsrzc
 currDir after calling changeDirectory cd fqrcw
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.nlwnv.dir.zmllsrzc.dir.fqrcw
+sumOfSmallDirs 1325081
+sumOfSmallDirs 1325081
 currDir after calling changeDirectory cd fghsd
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.nlwnv.dir.zmllsrzc.dir.fqrcw.dir.fghsd
+sumOfSmallDirs 1325081
+sumOfSmallDirs 1325081
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.nlwnv.dir.zmllsrzc.dir.fqrcw
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.nlwnv.dir.zmllsrzc
 currDir after calling changeDirectory cd zmllsrzc
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.nlwnv.dir.zmllsrzc.dir.zmllsrzc
+sumOfSmallDirs 1383677
+sumOfSmallDirs 1442273
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.pzdn.dir.nlwnv.dir.zmllsrzc
 currDir after calling changeDirectory cd ..
@@ -870,8 +963,12 @@ currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh
 currDir after calling changeDirectory cd slwhsqw
  inputFileStructure.home.dir.gbjh.dir.slwhsqw
+sumOfSmallDirs 1442273
+sumOfSmallDirs 1442273
 currDir after calling changeDirectory cd jfp
  inputFileStructure.home.dir.gbjh.dir.slwhsqw.dir.jfp
+sumOfSmallDirs 1493972
+sumOfSmallDirs 1545671
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.gbjh.dir.slwhsqw
 currDir after calling changeDirectory cd ..
@@ -880,42 +977,65 @@ currDir after calling changeDirectory cd ..
  inputFileStructure.home
 currDir after calling changeDirectory cd hlpzbht
  inputFileStructure.home.dir.hlpzbht
+sumOfSmallDirs 1545671
+sumOfSmallDirs 1545671
 currDir after calling changeDirectory cd ..
  inputFileStructure.home
 currDir after calling changeDirectory cd phpmmtvc
  inputFileStructure.home.dir.phpmmtvc
+sumOfSmallDirs 1545671
 currDir after calling changeDirectory cd bqpslnv
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv
+sumOfSmallDirs 1545671
+sumOfSmallDirs 1545671
 currDir after calling changeDirectory cd cwbdcvgv
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.cwbdcvgv
+sumOfSmallDirs 1545671
+sumOfSmallDirs 1545671
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv
 currDir after calling changeDirectory cd dtbbbgw
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.dtbbbgw
+sumOfSmallDirs 1563554
+sumOfSmallDirs 1581437
 currDir after calling changeDirectory cd dptrzvz
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.dtbbbgw.dir.dptrzvz
+sumOfSmallDirs 1581437
+sumOfSmallDirs 1581437
 currDir after calling changeDirectory cd gfzfhjn
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.dtbbbgw.dir.dptrzvz.dir.gfzfhjn
+sumOfSmallDirs 1581437
+sumOfSmallDirs 1581437
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.dtbbbgw.dir.dptrzvz
 currDir after calling changeDirectory cd vssdlrp
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.dtbbbgw.dir.dptrzvz.dir.vssdlrp
+sumOfSmallDirs 1667742
+sumOfSmallDirs 1754047
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.dtbbbgw.dir.dptrzvz
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.dtbbbgw
 currDir after calling changeDirectory cd jgrdzbbh
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.dtbbbgw.dir.jgrdzbbh
+sumOfSmallDirs 1754047
+sumOfSmallDirs 1754047
 currDir after calling changeDirectory cd fdcdh
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.dtbbbgw.dir.jgrdzbbh.dir.fdcdh
+sumOfSmallDirs 1754047
+sumOfSmallDirs 1754047
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.dtbbbgw.dir.jgrdzbbh
 currDir after calling changeDirectory cd fttv
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.dtbbbgw.dir.jgrdzbbh.dir.fttv
+sumOfSmallDirs 1822044
+sumOfSmallDirs 1890041
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.dtbbbgw.dir.jgrdzbbh
 currDir after calling changeDirectory cd wzwndq
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.dtbbbgw.dir.jgrdzbbh.dir.wzwndq
+sumOfSmallDirs 1906351
+sumOfSmallDirs 1922661
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.dtbbbgw.dir.jgrdzbbh
 currDir after calling changeDirectory cd ..
@@ -924,22 +1044,34 @@ currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv
 currDir after calling changeDirectory cd jnfvpnm
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.jnfvpnm
+sumOfSmallDirs 1939768
+sumOfSmallDirs 1956875
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv
 currDir after calling changeDirectory cd lmqtmbh
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.lmqtmbh
+sumOfSmallDirs 1956875
+sumOfSmallDirs 1956875
 currDir after calling changeDirectory cd cpdt
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.lmqtmbh.dir.cpdt
+sumOfSmallDirs 1956875
+sumOfSmallDirs 1956875
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.lmqtmbh
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv
 currDir after calling changeDirectory cd lqb
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.lqb
+sumOfSmallDirs 1956875
+sumOfSmallDirs 1956875
 currDir after calling changeDirectory cd sbrzrb
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.lqb.dir.sbrzrb
+sumOfSmallDirs 1956875
+sumOfSmallDirs 1956875
 currDir after calling changeDirectory cd mglsdblq
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.lqb.dir.sbrzrb.dir.mglsdblq
+sumOfSmallDirs 1956875
+sumOfSmallDirs 1956875
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.lqb.dir.sbrzrb
 currDir after calling changeDirectory cd ..
@@ -948,36 +1080,56 @@ currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv
 currDir after calling changeDirectory cd srq
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.srq
+sumOfSmallDirs 1956875
+sumOfSmallDirs 1956875
 currDir after calling changeDirectory cd bqpslnv
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.srq.dir.bqpslnv
+sumOfSmallDirs 2023652
+sumOfSmallDirs 2090429
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.srq
 currDir after calling changeDirectory cd hmhbtnp
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.srq.dir.hmhbtnp
+sumOfSmallDirs 2090429
+sumOfSmallDirs 2090429
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.srq
 currDir after calling changeDirectory cd pcrmfr
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.srq.dir.pcrmfr
+sumOfSmallDirs 2185336
+sumOfSmallDirs 2280243
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.srq
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv
 currDir after calling changeDirectory cd vtnptsl
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.vtnptsl
+sumOfSmallDirs 2280243
+sumOfSmallDirs 2280243
 currDir after calling changeDirectory cd bwrbw
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.vtnptsl.dir.bwrbw
+sumOfSmallDirs 2280243
+sumOfSmallDirs 2280243
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.vtnptsl
 currDir after calling changeDirectory cd drhf
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.vtnptsl.dir.drhf
+sumOfSmallDirs 2280243
+sumOfSmallDirs 2280243
 currDir after calling changeDirectory cd rszprww
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.vtnptsl.dir.drhf.dir.rszprww
+sumOfSmallDirs 2280243
+sumOfSmallDirs 2280243
 currDir after calling changeDirectory cd bgsnrdqv
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.vtnptsl.dir.drhf.dir.rszprww.dir.bgsnrdqv
+sumOfSmallDirs 2336781
+sumOfSmallDirs 2393319
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.vtnptsl.dir.drhf.dir.rszprww
 currDir after calling changeDirectory cd grvmtw
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.vtnptsl.dir.drhf.dir.rszprww.dir.grvmtw
+sumOfSmallDirs 2461344
+sumOfSmallDirs 2529369
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.vtnptsl.dir.drhf.dir.rszprww
 currDir after calling changeDirectory cd ..
@@ -986,32 +1138,50 @@ currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.vtnptsl
 currDir after calling changeDirectory cd hjljrm
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.vtnptsl.dir.hjljrm
+sumOfSmallDirs 2529369
+sumOfSmallDirs 2529369
 currDir after calling changeDirectory cd dzjwf
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.vtnptsl.dir.hjljrm.dir.dzjwf
+sumOfSmallDirs 2529369
+sumOfSmallDirs 2529369
 currDir after calling changeDirectory cd jvd
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.vtnptsl.dir.hjljrm.dir.dzjwf.dir.jvd
+sumOfSmallDirs 2529369
+sumOfSmallDirs 2529369
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.vtnptsl.dir.hjljrm.dir.dzjwf
 currDir after calling changeDirectory cd nnwc
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.vtnptsl.dir.hjljrm.dir.dzjwf.dir.nnwc
+sumOfSmallDirs 2529369
+sumOfSmallDirs 2529369
 currDir after calling changeDirectory cd bffsm
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.vtnptsl.dir.hjljrm.dir.dzjwf.dir.nnwc.dir.bffsm
+sumOfSmallDirs 2529369
+sumOfSmallDirs 2529369
 currDir after calling changeDirectory cd dwgp
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.vtnptsl.dir.hjljrm.dir.dzjwf.dir.nnwc.dir.bffsm.dir.dwgp
+sumOfSmallDirs 2535028
+sumOfSmallDirs 2540687
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.vtnptsl.dir.hjljrm.dir.dzjwf.dir.nnwc.dir.bffsm
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.vtnptsl.dir.hjljrm.dir.dzjwf.dir.nnwc
 currDir after calling changeDirectory cd ttfh
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.vtnptsl.dir.hjljrm.dir.dzjwf.dir.nnwc.dir.ttfh
+sumOfSmallDirs 2540687
+sumOfSmallDirs 2540687
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.vtnptsl.dir.hjljrm.dir.dzjwf.dir.nnwc
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.vtnptsl.dir.hjljrm.dir.dzjwf
 currDir after calling changeDirectory cd zmllsrzc
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.vtnptsl.dir.hjljrm.dir.dzjwf.dir.zmllsrzc
+sumOfSmallDirs 2540687
+sumOfSmallDirs 2540687
 currDir after calling changeDirectory cd gzmjpctz
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.vtnptsl.dir.hjljrm.dir.dzjwf.dir.zmllsrzc.dir.gzmjpctz
+sumOfSmallDirs 2613543
+sumOfSmallDirs 2686399
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.vtnptsl.dir.hjljrm.dir.dzjwf.dir.zmllsrzc
 currDir after calling changeDirectory cd ..
@@ -1022,8 +1192,12 @@ currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.vtnptsl
 currDir after calling changeDirectory cd thjbhrzj
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.vtnptsl.dir.thjbhrzj
+sumOfSmallDirs 2686399
+sumOfSmallDirs 2686399
 currDir after calling changeDirectory cd fdcdh
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.vtnptsl.dir.thjbhrzj.dir.fdcdh
+sumOfSmallDirs 2686399
+sumOfSmallDirs 2686399
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.bqpslnv.dir.vtnptsl.dir.thjbhrzj
 currDir after calling changeDirectory cd ..
@@ -1034,38 +1208,60 @@ currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc
 currDir after calling changeDirectory cd dptzbgc
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc
+sumOfSmallDirs 2686399
+sumOfSmallDirs 2686399
 currDir after calling changeDirectory cd nmsdfhfc
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.nmsdfhfc
+sumOfSmallDirs 2686399
+sumOfSmallDirs 2686399
 currDir after calling changeDirectory cd crfw
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.nmsdfhfc.dir.crfw
+sumOfSmallDirs 2776992
+sumOfSmallDirs 2867585
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.nmsdfhfc
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc
 currDir after calling changeDirectory cd nmvpwnmh
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.nmvpwnmh
+sumOfSmallDirs 2867585
+sumOfSmallDirs 2867585
 currDir after calling changeDirectory cd fdcdh
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.nmvpwnmh.dir.fdcdh
+sumOfSmallDirs 2867585
+sumOfSmallDirs 2867585
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.nmvpwnmh
 currDir after calling changeDirectory cd hnttb
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.nmvpwnmh.dir.hnttb
+sumOfSmallDirs 2867585
+sumOfSmallDirs 2867585
 currDir after calling changeDirectory cd gbfvsg
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.nmvpwnmh.dir.hnttb.dir.gbfvsg
+sumOfSmallDirs 2867585
+sumOfSmallDirs 2867585
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.nmvpwnmh.dir.hnttb
 currDir after calling changeDirectory cd jngrjqm
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.nmvpwnmh.dir.hnttb.dir.jngrjqm
+sumOfSmallDirs 2867585
+sumOfSmallDirs 2867585
 currDir after calling changeDirectory cd bqpslnv
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.nmvpwnmh.dir.hnttb.dir.jngrjqm.dir.bqpslnv
+sumOfSmallDirs 2915558
+sumOfSmallDirs 2963531
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.nmvpwnmh.dir.hnttb.dir.jngrjqm
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.nmvpwnmh.dir.hnttb
 currDir after calling changeDirectory cd slwhsqw
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.nmvpwnmh.dir.hnttb.dir.slwhsqw
+sumOfSmallDirs 2963531
+sumOfSmallDirs 2963531
 currDir after calling changeDirectory cd tgpnwrn
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.nmvpwnmh.dir.hnttb.dir.slwhsqw.dir.tgpnwrn
+sumOfSmallDirs 2963531
+sumOfSmallDirs 2963531
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.nmvpwnmh.dir.hnttb.dir.slwhsqw
 currDir after calling changeDirectory cd ..
@@ -1074,52 +1270,78 @@ currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.nmvpwnmh
 currDir after calling changeDirectory cd jgpnm
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.nmvpwnmh.dir.jgpnm
+sumOfSmallDirs 2963531
+sumOfSmallDirs 2963531
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.nmvpwnmh
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc
 currDir after calling changeDirectory cd nsqv
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.nsqv
+sumOfSmallDirs 2963531
+sumOfSmallDirs 2963531
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc
 currDir after calling changeDirectory cd slwhsqw
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.slwhsqw
+sumOfSmallDirs 2963531
+sumOfSmallDirs 2963531
 currDir after calling changeDirectory cd nrt
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.slwhsqw.dir.nrt
+sumOfSmallDirs 2963531
+sumOfSmallDirs 2963531
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.slwhsqw
 currDir after calling changeDirectory cd spsjgzfr
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.slwhsqw.dir.spsjgzfr
+sumOfSmallDirs 2963531
+sumOfSmallDirs 2963531
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.slwhsqw
 currDir after calling changeDirectory cd zmllsrzc
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.slwhsqw.dir.zmllsrzc
+sumOfSmallDirs 2963531
+sumOfSmallDirs 2963531
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.slwhsqw
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc
 currDir after calling changeDirectory cd wmm
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.wmm
+sumOfSmallDirs 2963531
+sumOfSmallDirs 2963531
 currDir after calling changeDirectory cd bcndl
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.wmm.dir.bcndl
+sumOfSmallDirs 2963531
+sumOfSmallDirs 2963531
 currDir after calling changeDirectory cd cqgjzqt
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.wmm.dir.bcndl.dir.cqgjzqt
+sumOfSmallDirs 3055235
+sumOfSmallDirs 3146939
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.wmm.dir.bcndl
 currDir after calling changeDirectory cd hrsdjfv
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.wmm.dir.bcndl.dir.hrsdjfv
+sumOfSmallDirs 3146939
+sumOfSmallDirs 3146939
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.wmm.dir.bcndl
 currDir after calling changeDirectory cd zmllsrzc
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.wmm.dir.bcndl.dir.zmllsrzc
+sumOfSmallDirs 3146939
+sumOfSmallDirs 3146939
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.wmm.dir.bcndl
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.wmm
 currDir after calling changeDirectory cd cnlsb
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.wmm.dir.cnlsb
+sumOfSmallDirs 3146939
+sumOfSmallDirs 3146939
 currDir after calling changeDirectory cd vprqjr
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.wmm.dir.cnlsb.dir.vprqjr
+sumOfSmallDirs 3146939
+sumOfSmallDirs 3146939
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.dptzbgc.dir.wmm.dir.cnlsb
 currDir after calling changeDirectory cd ..
@@ -1130,28 +1352,44 @@ currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc
 currDir after calling changeDirectory cd ldcqq
  inputFileStructure.home.dir.phpmmtvc.dir.ldcqq
+sumOfSmallDirs 3146939
+sumOfSmallDirs 3146939
 currDir after calling changeDirectory cd nqmwqb
  inputFileStructure.home.dir.phpmmtvc.dir.ldcqq.dir.nqmwqb
+sumOfSmallDirs 3146939
+sumOfSmallDirs 3146939
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.ldcqq
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc
 currDir after calling changeDirectory cd nld
  inputFileStructure.home.dir.phpmmtvc.dir.nld
+sumOfSmallDirs 3146939
+sumOfSmallDirs 3146939
 currDir after calling changeDirectory cd bqpslnv
  inputFileStructure.home.dir.phpmmtvc.dir.nld.dir.bqpslnv
+sumOfSmallDirs 3146939
+sumOfSmallDirs 3146939
 currDir after calling changeDirectory cd tvsv
  inputFileStructure.home.dir.phpmmtvc.dir.nld.dir.bqpslnv.dir.tvsv
+sumOfSmallDirs 3146939
+sumOfSmallDirs 3146939
 currDir after calling changeDirectory cd fdcdh
  inputFileStructure.home.dir.phpmmtvc.dir.nld.dir.bqpslnv.dir.tvsv.dir.fdcdh
+sumOfSmallDirs 3146939
+sumOfSmallDirs 3146939
 currDir after calling changeDirectory cd jvcwgbfn
  inputFileStructure.home.dir.phpmmtvc.dir.nld.dir.bqpslnv.dir.tvsv.dir.fdcdh.dir.jvcwgbfn
+sumOfSmallDirs 3146939
+sumOfSmallDirs 3146939
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.nld.dir.bqpslnv.dir.tvsv.dir.fdcdh
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.nld.dir.bqpslnv.dir.tvsv
 currDir after calling changeDirectory cd jgpnm
  inputFileStructure.home.dir.phpmmtvc.dir.nld.dir.bqpslnv.dir.tvsv.dir.jgpnm
+sumOfSmallDirs 3213385
+sumOfSmallDirs 3279831
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.nld.dir.bqpslnv.dir.tvsv
 currDir after calling changeDirectory cd ..
@@ -1160,20 +1398,32 @@ currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.nld
 currDir after calling changeDirectory cd chw
  inputFileStructure.home.dir.phpmmtvc.dir.nld.dir.chw
+sumOfSmallDirs 3279831
+sumOfSmallDirs 3279831
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.nld
 currDir after calling changeDirectory cd twbt
  inputFileStructure.home.dir.phpmmtvc.dir.nld.dir.twbt
+sumOfSmallDirs 3279831
+sumOfSmallDirs 3279831
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.nld
 currDir after calling changeDirectory cd vmvj
  inputFileStructure.home.dir.phpmmtvc.dir.nld.dir.vmvj
+sumOfSmallDirs 3279831
+sumOfSmallDirs 3279831
 currDir after calling changeDirectory cd bqpslnv
  inputFileStructure.home.dir.phpmmtvc.dir.nld.dir.vmvj.dir.bqpslnv
+sumOfSmallDirs 3279831
+sumOfSmallDirs 3279831
 currDir after calling changeDirectory cd sgjszb
  inputFileStructure.home.dir.phpmmtvc.dir.nld.dir.vmvj.dir.bqpslnv.dir.sgjszb
+sumOfSmallDirs 3279831
+sumOfSmallDirs 3279831
 currDir after calling changeDirectory cd jlr
  inputFileStructure.home.dir.phpmmtvc.dir.nld.dir.vmvj.dir.bqpslnv.dir.sgjszb.dir.jlr
+sumOfSmallDirs 3279831
+sumOfSmallDirs 3279831
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.nld.dir.vmvj.dir.bqpslnv.dir.sgjszb
 currDir after calling changeDirectory cd ..
@@ -1182,16 +1432,24 @@ currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.nld.dir.vmvj
 currDir after calling changeDirectory cd lcjjc
  inputFileStructure.home.dir.phpmmtvc.dir.nld.dir.vmvj.dir.lcjjc
+sumOfSmallDirs 3279831
+sumOfSmallDirs 3279831
 currDir after calling changeDirectory cd cmwm
  inputFileStructure.home.dir.phpmmtvc.dir.nld.dir.vmvj.dir.lcjjc.dir.cmwm
+sumOfSmallDirs 3328396
+sumOfSmallDirs 3376961
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.nld.dir.vmvj.dir.lcjjc
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.nld.dir.vmvj
 currDir after calling changeDirectory cd wsw
  inputFileStructure.home.dir.phpmmtvc.dir.nld.dir.vmvj.dir.wsw
+sumOfSmallDirs 3376961
+sumOfSmallDirs 3376961
 currDir after calling changeDirectory cd nccwbcj
  inputFileStructure.home.dir.phpmmtvc.dir.nld.dir.vmvj.dir.wsw.dir.nccwbcj
+sumOfSmallDirs 3376961
+sumOfSmallDirs 3376961
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.nld.dir.vmvj.dir.wsw
 currDir after calling changeDirectory cd ..
@@ -1202,12 +1460,20 @@ currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc
 currDir after calling changeDirectory cd vnswqbm
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm
+sumOfSmallDirs 3376961
+sumOfSmallDirs 3376961
 currDir after calling changeDirectory cd bmsqrg
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.bmsqrg
+sumOfSmallDirs 3376961
+sumOfSmallDirs 3376961
 currDir after calling changeDirectory cd vvph
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.bmsqrg.dir.vvph
+sumOfSmallDirs 3376961
+sumOfSmallDirs 3376961
 currDir after calling changeDirectory cd rqpzdtwl
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.bmsqrg.dir.vvph.dir.rqpzdtwl
+sumOfSmallDirs 3376961
+sumOfSmallDirs 3376961
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.bmsqrg.dir.vvph
 currDir after calling changeDirectory cd ..
@@ -1216,10 +1482,16 @@ currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm
 currDir after calling changeDirectory cd bqpslnv
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.bqpslnv
+sumOfSmallDirs 3376961
+sumOfSmallDirs 3376961
 currDir after calling changeDirectory cd bsrgvwfd
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.bqpslnv.dir.bsrgvwfd
+sumOfSmallDirs 3376961
+sumOfSmallDirs 3376961
 currDir after calling changeDirectory cd tlrgw
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.bqpslnv.dir.bsrgvwfd.dir.tlrgw
+sumOfSmallDirs 3395693
+sumOfSmallDirs 3414425
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.bqpslnv.dir.bsrgvwfd
 currDir after calling changeDirectory cd ..
@@ -1228,30 +1500,48 @@ currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm
 currDir after calling changeDirectory cd glb
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.glb
+sumOfSmallDirs 3414425
+sumOfSmallDirs 3414425
 currDir after calling changeDirectory cd fdcdh
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.glb.dir.fdcdh
+sumOfSmallDirs 3512972
+sumOfSmallDirs 3611519
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.glb
 currDir after calling changeDirectory cd slwhsqw
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.glb.dir.slwhsqw
+sumOfSmallDirs 3611519
+sumOfSmallDirs 3611519
 currDir after calling changeDirectory cd hcqtzl
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.glb.dir.slwhsqw.dir.hcqtzl
+sumOfSmallDirs 3611519
+sumOfSmallDirs 3611519
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.glb.dir.slwhsqw
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.glb
 currDir after calling changeDirectory cd wmp
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.glb.dir.wmp
+sumOfSmallDirs 3611519
+sumOfSmallDirs 3611519
 currDir after calling changeDirectory cd hwwlqrh
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.glb.dir.wmp.dir.hwwlqrh
+sumOfSmallDirs 3611519
+sumOfSmallDirs 3611519
 currDir after calling changeDirectory cd bvfsgfm
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.glb.dir.wmp.dir.hwwlqrh.dir.bvfsgfm
+sumOfSmallDirs 3611519
+sumOfSmallDirs 3611519
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.glb.dir.wmp.dir.hwwlqrh
 currDir after calling changeDirectory cd jbttmc
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.glb.dir.wmp.dir.hwwlqrh.dir.jbttmc
+sumOfSmallDirs 3611519
+sumOfSmallDirs 3611519
 currDir after calling changeDirectory cd tpdnt
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.glb.dir.wmp.dir.hwwlqrh.dir.jbttmc.dir.tpdnt
+sumOfSmallDirs 3611519
+sumOfSmallDirs 3611519
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.glb.dir.wmp.dir.hwwlqrh.dir.jbttmc
 currDir after calling changeDirectory cd ..
@@ -1260,10 +1550,14 @@ currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.glb.dir.wmp
 currDir after calling changeDirectory cd nfbrq
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.glb.dir.wmp.dir.nfbrq
+sumOfSmallDirs 3611519
+sumOfSmallDirs 3611519
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.glb.dir.wmp
 currDir after calling changeDirectory cd slwhsqw
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.glb.dir.wmp.dir.slwhsqw
+sumOfSmallDirs 3668255
+sumOfSmallDirs 3724991
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.glb.dir.wmp
 currDir after calling changeDirectory cd ..
@@ -1272,50 +1566,78 @@ currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm
 currDir after calling changeDirectory cd pzrvbvcn
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.pzrvbvcn
+sumOfSmallDirs 3724991
+sumOfSmallDirs 3724991
 currDir after calling changeDirectory cd fdcdh
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.pzrvbvcn.dir.fdcdh
+sumOfSmallDirs 3803250
+sumOfSmallDirs 3881509
 currDir after calling changeDirectory cd wnvgtp
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.pzrvbvcn.dir.fdcdh.dir.wnvgtp
+sumOfSmallDirs 3890399
+sumOfSmallDirs 3899289
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.pzrvbvcn.dir.fdcdh
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.pzrvbvcn
 currDir after calling changeDirectory cd mzzgvjs
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.pzrvbvcn.dir.mzzgvjs
+sumOfSmallDirs 3899289
+sumOfSmallDirs 3899289
 currDir after calling changeDirectory cd mhr
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.pzrvbvcn.dir.mzzgvjs.dir.mhr
+sumOfSmallDirs 3899289
+sumOfSmallDirs 3899289
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.pzrvbvcn.dir.mzzgvjs
 currDir after calling changeDirectory cd pdjn
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.pzrvbvcn.dir.mzzgvjs.dir.pdjn
+sumOfSmallDirs 3899289
+sumOfSmallDirs 3899289
 currDir after calling changeDirectory cd gfhzg
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.pzrvbvcn.dir.mzzgvjs.dir.pdjn.dir.gfhzg
+sumOfSmallDirs 3899289
+sumOfSmallDirs 3899289
 currDir after calling changeDirectory cd bqpslnv
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.pzrvbvcn.dir.mzzgvjs.dir.pdjn.dir.gfhzg.dir.bqpslnv
+sumOfSmallDirs 3899289
+sumOfSmallDirs 3899289
 currDir after calling changeDirectory cd ztbmb
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.pzrvbvcn.dir.mzzgvjs.dir.pdjn.dir.gfhzg.dir.bqpslnv.dir.ztbmb
+sumOfSmallDirs 3899289
+sumOfSmallDirs 3899289
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.pzrvbvcn.dir.mzzgvjs.dir.pdjn.dir.gfhzg.dir.bqpslnv
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.pzrvbvcn.dir.mzzgvjs.dir.pdjn.dir.gfhzg
 currDir after calling changeDirectory cd pqrbn
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.pzrvbvcn.dir.mzzgvjs.dir.pdjn.dir.gfhzg.dir.pqrbn
+sumOfSmallDirs 3899289
+sumOfSmallDirs 3899289
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.pzrvbvcn.dir.mzzgvjs.dir.pdjn.dir.gfhzg
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.pzrvbvcn.dir.mzzgvjs.dir.pdjn
 currDir after calling changeDirectory cd mcpzqvgn
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.pzrvbvcn.dir.mzzgvjs.dir.pdjn.dir.mcpzqvgn
+sumOfSmallDirs 3899289
+sumOfSmallDirs 3899289
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.pzrvbvcn.dir.mzzgvjs.dir.pdjn
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.pzrvbvcn.dir.mzzgvjs
 currDir after calling changeDirectory cd scdlp
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.pzrvbvcn.dir.mzzgvjs.dir.scdlp
+sumOfSmallDirs 3936850
+sumOfSmallDirs 3974411
 currDir after calling changeDirectory cd mgqdbgm
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.pzrvbvcn.dir.mzzgvjs.dir.scdlp.dir.mgqdbgm
+sumOfSmallDirs 3974411
+sumOfSmallDirs 3974411
 currDir after calling changeDirectory cd fhnz
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.pzrvbvcn.dir.mzzgvjs.dir.scdlp.dir.mgqdbgm.dir.fhnz
+sumOfSmallDirs 3974411
+sumOfSmallDirs 3974411
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.pzrvbvcn.dir.mzzgvjs.dir.scdlp.dir.mgqdbgm
 currDir after calling changeDirectory cd ..
@@ -1326,36 +1648,56 @@ currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.pzrvbvcn
 currDir after calling changeDirectory cd qsdmzl
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.pzrvbvcn.dir.qsdmzl
+sumOfSmallDirs 3974411
+sumOfSmallDirs 3974411
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.pzrvbvcn
 currDir after calling changeDirectory cd sfhpt
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.pzrvbvcn.dir.sfhpt
+sumOfSmallDirs 3974411
+sumOfSmallDirs 3974411
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.pzrvbvcn
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm
 currDir after calling changeDirectory cd qjmtppt
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.qjmtppt
+sumOfSmallDirs 3974411
+sumOfSmallDirs 3974411
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm
 currDir after calling changeDirectory cd rtshvzr
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.rtshvzr
+sumOfSmallDirs 3974411
+sumOfSmallDirs 3974411
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm
 currDir after calling changeDirectory cd wtdq
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.wtdq
+sumOfSmallDirs 3974411
+sumOfSmallDirs 3974411
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm
 currDir after calling changeDirectory cd zmllsrzc
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.zmllsrzc
+sumOfSmallDirs 3974411
+sumOfSmallDirs 3974411
 currDir after calling changeDirectory cd bvqwrs
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.zmllsrzc.dir.bvqwrs
+sumOfSmallDirs 3974411
+sumOfSmallDirs 3974411
 currDir after calling changeDirectory cd rclm
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.zmllsrzc.dir.bvqwrs.dir.rclm
+sumOfSmallDirs 3974411
+sumOfSmallDirs 3974411
 currDir after calling changeDirectory cd nhflts
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.zmllsrzc.dir.bvqwrs.dir.rclm.dir.nhflts
+sumOfSmallDirs 3974411
+sumOfSmallDirs 3974411
 currDir after calling changeDirectory cd vmmbsfw
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.zmllsrzc.dir.bvqwrs.dir.rclm.dir.nhflts.dir.vmmbsfw
+sumOfSmallDirs 3996489
+sumOfSmallDirs 4018567
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.zmllsrzc.dir.bvqwrs.dir.rclm.dir.nhflts
 currDir after calling changeDirectory cd ..
@@ -1364,8 +1706,12 @@ currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.zmllsrzc.dir.bvqwrs
 currDir after calling changeDirectory cd zmllsrzc
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.zmllsrzc.dir.bvqwrs.dir.zmllsrzc
+sumOfSmallDirs 4018567
+sumOfSmallDirs 4018567
 currDir after calling changeDirectory cd gccwrq
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.zmllsrzc.dir.bvqwrs.dir.zmllsrzc.dir.gccwrq
+sumOfSmallDirs 4087151
+sumOfSmallDirs 4155735
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc.dir.vnswqbm.dir.zmllsrzc.dir.bvqwrs.dir.zmllsrzc
 currDir after calling changeDirectory cd ..
@@ -1378,32 +1724,47 @@ currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc
 currDir after calling changeDirectory cd zmllsrzc
  inputFileStructure.home.dir.phpmmtvc.dir.zmllsrzc
+sumOfSmallDirs 4155735
+sumOfSmallDirs 4155735
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.phpmmtvc
 currDir after calling changeDirectory cd ..
  inputFileStructure.home
 currDir after calling changeDirectory cd plbjmdl
  inputFileStructure.home.dir.plbjmdl
+sumOfSmallDirs 4155735
 currDir after calling changeDirectory cd bqpslnv
  inputFileStructure.home.dir.plbjmdl.dir.bqpslnv
+sumOfSmallDirs 4155735
+sumOfSmallDirs 4155735
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.plbjmdl
 currDir after calling changeDirectory cd gbs
  inputFileStructure.home.dir.plbjmdl.dir.gbs
+sumOfSmallDirs 4155735
+sumOfSmallDirs 4155735
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.plbjmdl
 currDir after calling changeDirectory cd qdbsj
  inputFileStructure.home.dir.plbjmdl.dir.qdbsj
+sumOfSmallDirs 4155735
+sumOfSmallDirs 4155735
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.plbjmdl
 currDir after calling changeDirectory cd tlptvz
  inputFileStructure.home.dir.plbjmdl.dir.tlptvz
+sumOfSmallDirs 4155735
+sumOfSmallDirs 4155735
 currDir after calling changeDirectory cd brssb
  inputFileStructure.home.dir.plbjmdl.dir.tlptvz.dir.brssb
+sumOfSmallDirs 4155735
+sumOfSmallDirs 4155735
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.plbjmdl.dir.tlptvz
 currDir after calling changeDirectory cd hhmq
  inputFileStructure.home.dir.plbjmdl.dir.tlptvz.dir.hhmq
+sumOfSmallDirs 4179335
+sumOfSmallDirs 4202935
 currDir after calling changeDirectory cd ..
  inputFileStructure.home.dir.plbjmdl.dir.tlptvz
 currDir after calling changeDirectory cd ..
@@ -1412,6 +1773,8 @@ currDir after calling changeDirectory cd ..
  inputFileStructure.home
 currDir after calling changeDirectory cd tggr
  inputFileStructure.home.dir.tggr
+sumOfSmallDirs 4202935
+sumOfSmallDirs 4202935
 currDir after calling changeDirectory cd ..
  inputFileStructure.home
 currDir after calling changeDirectory cd ..

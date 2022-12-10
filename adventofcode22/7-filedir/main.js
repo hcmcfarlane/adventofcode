@@ -1,6 +1,6 @@
 import fs from "node:fs";
 
-const input = fs.readFileSync("inputtest1.txt", "utf-8", (err, data) => {
+const input = fs.readFileSync("input.txt", "utf-8", (err, data) => {
 	if (err) throw err;
 });
 
@@ -255,7 +255,7 @@ function calcFileSize(directory, addToTotal) {
 		: sumOfSmallDirs;
 	// console.log("currFileSize", currFileSize);
 	// console.log("totalFileSize", totalFileSize);
-	// console.log("sumOfSmallDirs", sumOfSmallDirs);
+	console.log("sumOfSmallDirs", sumOfSmallDirs);
 
 	return [currFileSize, totalFileSize, sumOfSmallDirs];
 }
