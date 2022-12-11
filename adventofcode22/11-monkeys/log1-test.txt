@@ -1,0 +1,165 @@
+[
+  {
+    startItems: [ 79, 98 ],
+    operation: '*',
+    opNum: 19,
+    testOp: 'divisible',
+    testNum: 23,
+    trueMonkey: 2,
+    falseMonkey: 3
+  },
+  {
+    startItems: [ 54, 65, 75, 74 ],
+    operation: '+',
+    opNum: 6,
+    testOp: 'divisible',
+    testNum: 19,
+    trueMonkey: 2,
+    falseMonkey: 0
+  },
+  {
+    startItems: [ 79, 60, 97 ],
+    operation: '*',
+    opNum: 'old',
+    testOp: 'divisible',
+    testNum: 13,
+    trueMonkey: 1,
+    falseMonkey: 3
+  },
+  {
+    startItems: [ 74 ],
+    operation: '+',
+    opNum: 3,
+    testOp: 'divisible',
+    testNum: 17,
+    trueMonkey: 0,
+    falseMonkey: 1
+  }
+]
+
+Number of rounds: 20
+Round 1
+inspections [ 2, 4, 3, 5 ]
+monkey 0 items: 20,23,27,26
+monkey 1 items: 2080,25,167,207,401,1046
+monkey 2 items: 
+monkey 3 items: 
+Round 2
+inspections [ 6, 10, 4, 10 ]
+monkey 0 items: 695,10,71,135,350
+monkey 1 items: 43,49,58,55,362
+monkey 2 items: 
+monkey 3 items: 
+Round 3
+inspections [ 11, 15, 4, 15 ]
+monkey 0 items: 16,18,21,20,122
+monkey 1 items: 1468,22,150,286,739
+monkey 2 items: 
+monkey 3 items: 
+Round 4
+inspections [ 16, 20, 4, 20 ]
+monkey 0 items: 491,9,52,97,248,34
+monkey 1 items: 39,45,43,258
+monkey 2 items: 
+monkey 3 items: 
+Round 5
+inspections [ 22, 24, 4, 26 ]
+monkey 0 items: 15,17,16,88,1037
+monkey 1 items: 20,110,205,524,72
+monkey 2 items: 
+monkey 3 items: 
+Round 6
+inspections [ 27, 29, 5, 31 ]
+monkey 0 items: 8,70,176,26,34
+monkey 1 items: 481,32,36,186,2190
+monkey 2 items: 
+monkey 3 items: 
+Round 7
+inspections [ 32, 34, 5, 36 ]
+monkey 0 items: 162,12,14,64,732,17
+monkey 1 items: 148,372,55,72
+monkey 2 items: 
+monkey 3 items: 
+Round 8
+inspections [ 38, 38, 5, 42 ]
+monkey 0 items: 51,126,20,26,136
+monkey 1 items: 343,26,30,1546,36
+monkey 2 items: 
+monkey 3 items: 
+Round 9
+inspections [ 43, 43, 5, 47 ]
+monkey 0 items: 116,10,12,517,14
+monkey 1 items: 108,267,43,55,288
+monkey 2 items: 
+monkey 3 items: 
+Round 10
+inspections [ 48, 48, 6, 52 ]
+monkey 0 items: 91,16,20,98
+monkey 1 items: 481,245,22,26,1092,30
+monkey 2 items: 
+monkey 3 items: 
+Round 11
+inspections [ 52, 54, 6, 56 ]
+monkey 0 items: 162,83,9,10,366,12,34
+monkey 1 items: 193,43,207
+monkey 2 items: 
+monkey 3 items: 
+Round 12
+inspections [ 59, 57, 6, 63 ]
+monkey 0 items: 66,16,71
+monkey 1 items: 343,176,20,22,773,26,72
+monkey 2 items: 
+monkey 3 items: 
+Round 13
+inspections [ 62, 64, 6, 66 ]
+monkey 0 items: 116,60,8,9,259,10,26,34
+monkey 1 items: 140,150
+monkey 2 items: 
+monkey 3 items: 
+Round 14
+inspections [ 70, 66, 6, 74 ]
+monkey 0 items: 48,52,17
+monkey 1 items: 245,127,20,547,22,55,72
+monkey 2 items: 
+monkey 3 items: 
+Round 15
+inspections [ 73, 73, 6, 77 ]
+monkey 0 items: 83,44,8,184,9,20,26,102
+monkey 1 items: 110,36
+monkey 2 items: 
+monkey 3 items: 
+Round 16
+inspections [ 81, 75, 7, 85 ]
+monkey 0 items: 14,17
+monkey 1 items: 481,176,93,389,20,43,55,216
+monkey 2 items: 
+monkey 3 items: 
+Round 17
+inspections [ 83, 83, 7, 87 ]
+monkey 0 items: 162,60,33,131,8,16,20,74
+monkey 1 items: 30,36
+monkey 2 items: 
+monkey 3 items: 
+Round 18
+inspections [ 91, 85, 7, 95 ]
+monkey 0 items: 12,14,17,34
+monkey 1 items: 343,127,70,277,43,157
+monkey 2 items: 
+monkey 3 items: 
+Round 19
+inspections [ 95, 91, 7, 99 ]
+monkey 0 items: 116,44,25,94,16,54
+monkey 1 items: 26,30,36,72
+monkey 2 items: 
+monkey 3 items: 
+Round 20
+inspections [ 101, 95, 7, 105 ]
+monkey 0 items: 10,12,14,26,34
+monkey 1 items: 245,93,53,199,115
+monkey 2 items: 
+monkey 3 items: 
+final inspections [ 101, 95, 7, 105 ]
+
+MONKEY BUSINESS:  10605
+
+Running time: 14.208 milliseconds
