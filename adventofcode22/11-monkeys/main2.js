@@ -59,7 +59,7 @@ function simianShenanigans(obj, rounds) {
 	for (let i = 1; i <= rounds; i++) {
 		// for (let i = 1; i < 1; i++) {
 		//for each 🐒
-		log(`Round ${i}`);
+		// log(`\n***Round ${i}***`);
 		for (let m = 0; m < obj.length; m++) {
 			//for each item held by 🐒
 			let monkeyWorryOp = obj[m].operation;
@@ -72,11 +72,11 @@ function simianShenanigans(obj, rounds) {
 			// monkeyWorryOpNum = BigInt(obj[m].opNum);
 			let monkeyTestOp = obj[m].testOp;
 			let monkeyTestOpNum = BigInt(obj[m].testNum);
-			log(`\nmonkey ${m}`);
+			// log(`\nmonkey ${m}`);
 			for (let k = 0; k < obj[m].startItems.length; k++) {
 				//TODO: check that this does not happen if startItems is empty
 				//add an inspection for monkey m
-				log(`current item: ${obj[m].startItems[k]}`);
+				// log(`current item: ${obj[m].startItems[k]}`);
 				inspections[m]++;
 				//initialise worry level of item
 				worry = obj[m].startItems[k];
@@ -88,7 +88,7 @@ function simianShenanigans(obj, rounds) {
 					monkeyWorryOpNum,
 					worry
 				);
-				log("increase worry", worry);
+				// log("increase worry", worry);
 
 				//divide worry level by 3
 				// worry = Math.floor(worry / 3);
@@ -97,19 +97,25 @@ function simianShenanigans(obj, rounds) {
 				//check test against the worry level
 				//and fling item (which now has value `worry`) to new monkey
 				let flungItem = BigInt(worry);
+
+				// log(
+				// 	`Item: ${Number(worry)}; Div By: ${Number(
+				// 		monkeyTestOpNum
+				// 	)}; Remainder: ${Number(worry) % Number(monkeyTestOpNum)}`
+				// );
 				if (monkeyTestOp === "divisible") {
 					// console.log(
 					// 	`monkey (divisible) test op number is ${monkeyTestOpNum}`
 					// );
-					if (worry % monkeyTestOpNum === 0) {
-						log(
-							`send flung item ${flungItem} to true monkey ${obj[m].trueMonkey}`
-						);
+					if (worry % monkeyTestOpNum == 0) {
+						// log(
+						// 	`send flung item ${flungItem} to true monkey ${obj[m].trueMonkey}`
+						// );
 						obj[obj[m].trueMonkey].startItems.push(flungItem);
 					} else {
-						log(
-							`send flung item ${flungItem} to false monkey ${obj[m].falseMonkey}`
-						);
+						// log(
+						// 	`send flung item ${flungItem} to false monkey ${obj[m].falseMonkey}`
+						// );
 						obj[obj[m].falseMonkey].startItems.push(flungItem);
 					}
 				}
@@ -118,9 +124,9 @@ function simianShenanigans(obj, rounds) {
 			obj[m].startItems = [];
 		}
 		// log(`Round ${i}:`);
-		console.log("inspections", inspections);
+		// console.log("inspections", inspections);
 		for (let j = 0; j < obj.length; j++) {
-			console.log(`monkey ${j} items: ${obj[j].startItems}`);
+			// console.log(`monkey ${j} items: ${obj[j].startItems}`);
 		}
 	}
 
@@ -155,15 +161,15 @@ function monkeyBusiness(insp) {
 	return insp[0] * insp[1];
 }
 
-const numRounds = 20;
+const numRounds = 1000;
 let monkeyRules = formatTestInput(input);
-console.log(monkeyRules);
+// console.log(monkeyRules);
 const shenanigans = simianShenanigans(monkeyRules, numRounds);
 // console.dir(shenanigans, { MaxArrayLength: null, depth: null });
-console.log("final inspections", shenanigans.inspections);
 // for (let j = 0; j < shenanigans.obj.length; j++) {
-// 	console.log(`monkey ${j} items: ${shenanigans.obj[j].startItems}`);
+// 	console.log(`final monkey ${j} items: ${shenanigans.obj[j].startItems}`);
 // }
+console.log("final inspections", shenanigans.inspections);
 
 //calculate monkey business score
 let monkeyBusinessScore = monkeyBusiness(shenanigans.inspections);

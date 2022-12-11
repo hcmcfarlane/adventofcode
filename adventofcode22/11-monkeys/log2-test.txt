@@ -1,0 +1,7 @@
+Number of rounds: 1000
+
+final inspections [ 5204, 4792, 199, 5192 ]
+
+MONKEY BUSINESS:  27019168
+
+Running time: 1.1582e+6 milliseconds
