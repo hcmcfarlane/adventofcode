@@ -29,30 +29,76 @@ function runningUpThatHill(hills, S, E) {
 	const end = E;
 	let currLoc = S;
 	let minPath = 1e6;
+	let prevLocations = [];
+	let currPath = 0;
+	// let firstSteps = findNextSteps(S);
+	// log("first validSteps `x`:", firstSteps);
 
-	let x = findNextSteps(S, hills);
-	log("validSteps `x`:", x);
+	[S].forEach((s) => {
+		log("start new path");
+		findPath(s);
+		currPath = 0;
+		prevLocations = [];
+	});
 
-	for (let i = 0; i < x.length; i++) {
-		while (currLoc !== end) {
-			// 1. check available directions
-			// 2. loop over the 4 available directions:
-			// 2a. move to that direction
-			// 2b. increase current pathlength by 1
-			// 2c. if pathlength > current shortest pathlength, then abandon pathfinding and go to next available direction
-			// 2d. perform step 1
-			// 3. once current location reaches the end, save as new shortest pathlength `minPath`
-			currLoc = end;
+	function findPath(location) {
+		log("\nprev location", prevLocations);
+		log("location", location);
+		if (JSON.stringify(location) === JSON.stringify(end)) {
+			log("reached the end");
+			currPath <= minPath ? (minPath = currPath) : "";
+			log("final currPath", currPath);
+			return;
+		}
+		// let allNextSteps = findNextSteps(location);
+		let nextSteps = findNextSteps(location, prevLocations);
+		// log("allNextSteps", allNextSteps);
+		// let nextSteps = prevLocation.forEach((l) =>
+		// 	allNextSteps.filter((z) => JSON.stringify(z) !== JSON.stringify(l))
+		// );
+		// let nextSteps = avoidGoingToPreviousLocations(allNextSteps);
+		log("nextSteps", nextSteps);
+		if (nextSteps.length > 0) {
+			currPath++;
+			if (currPath > minPath) {
+				return;
+			}
+			prevLocations.push(location);
+			nextSteps.forEach((n) => findPath(n));
+		} else {
+			return;
 		}
 	}
+	console.log("End of all paths");
+	console.log("currLoc", currLoc);
+	console.log("minPath", minPath);
+	console.log("currPath", currPath);
+
+	// for (let i = 0; i < firstSteps.length; i++) {
+	// 	currLoc = firstSteps[i];
+
+	// 	findPath(currLoc);
+
+	// 	while (currLoc !== end) {
+	// 		let nextSteps = findNextSteps(currLoc);
+	// 		// 1. check available directions
+	// 		// 2. loop over the 0–4 available directions:
+	// 		// 2a. move to that direction
+	// 		// 2b. increase current pathlength by 1
+	// 		// 2c. if pathlength > current shortest pathlength, then abandon pathfinding and go to next available direction
+	// 		// 2d. perform step 1
+	// 		// 3. once current location reaches the end, save as new shortest pathlength `minPath`
+	// 		currLoc = end;
+	// 	}
+	// }
 
 	return minPath;
 }
 
-function findNextSteps(loc, hills) {
+function findNextSteps(loc, prevLocations) {
 	const x = loc[0];
 	const y = loc[1];
-	log(x, y);
+	// log(x, y);
 	// if (hills[x][y] === "S") {
 	// 	x = "a";
 	// 	y = "";
@@ -66,13 +112,6 @@ function findNextSteps(loc, hills) {
 	x + 1 < hills.length ? ([dX, dY] = [x + 1, y]) : "";
 	y - 1 >= 0 ? ([lX, lY] = [x, y - 1]) : "";
 	y + 1 < hills[0].length ? ([rX, rY] = [x, y + 1]) : "";
-
-	log("up", [uX, uY], "down", [dX, dY], "left", [lX, lY], "right", [rX, rY]);
-	// let [up, down, left, right] = [];
-	// x - 1 >= 0 ? (up = hills[x - 1][y]) : (up = ".");
-	// x + 1 < hills.length ? (down = hills[x + 1][y]) : (down = ".");
-	// y - 1 >= 0 ? (left = hills[x][y - 1]) : (left = ".");
-	// y + 1 < hills[0].length ? (right = hills[x][y + 1]) : (right = ".");
 
 	let validSteps = [];
 	uX !== undefined && uY !== undefined && isValidStep(x, y, uX, uY)
@@ -88,16 +127,25 @@ function findNextSteps(loc, hills) {
 		? validSteps.push([rX, rY])
 		: "";
 
+	for (let j = 0; j < prevLocations.length; j++) {
+		// log(prevLocations[j]);
+		validSteps = validSteps.filter(
+			(z) => JSON.stringify(z) !== JSON.stringify(prevLocations[j])
+		);
+		// log("filtered these steps", theseSteps);
+	}
+
 	return validSteps;
 }
 
 function isValidStep(x1, y1, x2, y2) {
-	log("is valid step running with:", x1, y1, x2, y2);
+	// log("is valid step running with:", x1, y1, x2, y2);
 	let initA = hills[x1][y1];
 	let nextA = hills[x2][y2];
-	log(initA, nextA);
+	// log(initA, nextA);
 	let isValid = true;
-	nextA >= initA && nextA.charCodeAt(0) - initA.charCodeAt(0) <= 1
+	// nextA >= initA &&
+	nextA.charCodeAt(0) - initA.charCodeAt(0) <= 1
 		? (isValid = true)
 		: (isValid = false);
 	return isValid;
@@ -113,28 +161,16 @@ console.log(
 	`\nRunning time: ${(endTime - startTime).toPrecision(5)} milliseconds`
 );
 
-// function findValidStep(x, u, d, l, r) {
-// 	console.log("x", x, "u", u, "d", d, "l", l, "r", r);
-// 	let validSteps = [];
-// 	u === "."
-// 		? ""
-// 		: u && u >= x && u.charCodeAt(0) - x.charCodeAt(0) <= 1
-// 		? validSteps.push(u)
-// 		: "";
-// 	d === "."
-// 		? ""
-// 		: d >= x && d.charCodeAt(0) - x.charCodeAt(0) <= 1
-// 		? validSteps.push(d)
-// 		: "";
-// 	l === "."
-// 		? ""
-// 		: l >= x && l.charCodeAt(0) - x.charCodeAt(0) <= 1
-// 		? validSteps.push(l)
-// 		: "";
-// 	r === "."
-// 		? ""
-// 		: r >= x && r.charCodeAt(0) - x.charCodeAt(0) <= 1
-// 		? validSteps.push(r)
-// 		: "";
-// 	return validSteps;
+// function avoidGoingToPreviousLocations(theseSteps) {
+// 	// log("these steps", theseSteps);
+// 	// let newSteps = theseSteps;
+// 	for (let j = 0; j < prevLocations.length; j++) {
+// 		// log(prevLocations[j]);
+// 		theseSteps = theseSteps.filter(
+// 			(z) =>
+// 				JSON.stringify(z) !== JSON.stringify(prevLocations[j])
+// 		);
+// 		// log("filtered these steps", theseSteps);
+// 	}
+// 	return theseSteps;
 // }
