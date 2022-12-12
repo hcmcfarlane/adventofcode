@@ -6,478 +6,208 @@ abdefghi
 S: [ 0, 0 ] and E: [ 2, 5 ]
 start new path
 
-prev location []
 location [ 0, 0 ]
+pathLength arg 0
+length of path at start 0
 nextSteps [ [ 1, 0 ], [ 0, 1 ] ]
 
-prev location [ [ 0, 0 ] ]
 location [ 1, 0 ]
+pathLength arg 1
+length of path at start 1
 nextSteps [ [ 2, 0 ], [ 1, 1 ] ]
 
-prev location [ [ 0, 0 ], [ 1, 0 ] ]
 location [ 2, 0 ]
+pathLength arg 2
+length of path at start 2
 nextSteps [ [ 3, 0 ] ]
 
-prev location [ [ 0, 0 ], [ 1, 0 ], [ 2, 0 ] ]
 location [ 3, 0 ]
+pathLength arg 3
+length of path at start 3
 nextSteps [ [ 4, 0 ] ]
 
-prev location [ [ 0, 0 ], [ 1, 0 ], [ 2, 0 ], [ 3, 0 ] ]
 location [ 4, 0 ]
+pathLength arg 4
+length of path at start 4
 nextSteps [ [ 4, 1 ] ]
 
-prev location [ [ 0, 0 ], [ 1, 0 ], [ 2, 0 ], [ 3, 0 ], [ 4, 0 ] ]
 location [ 4, 1 ]
+pathLength arg 5
+length of path at start 5
 nextSteps [ [ 3, 1 ] ]
 
-prev location [ [ 0, 0 ], [ 1, 0 ], [ 2, 0 ], [ 3, 0 ], [ 4, 0 ], [ 4, 1 ] ]
 location [ 3, 1 ]
+pathLength arg 6
+length of path at start 6
 nextSteps [ [ 2, 1 ], [ 3, 2 ] ]
 
-prev location [
-  [ 0, 0 ], [ 1, 0 ],
-  [ 2, 0 ], [ 3, 0 ],
-  [ 4, 0 ], [ 4, 1 ],
-  [ 3, 1 ]
-]
 location [ 2, 1 ]
+pathLength arg 7
+length of path at start 7
 nextSteps [ [ 1, 1 ], [ 2, 2 ] ]
 
-prev location [
-  [ 0, 0 ], [ 1, 0 ],
-  [ 2, 0 ], [ 3, 0 ],
-  [ 4, 0 ], [ 4, 1 ],
-  [ 3, 1 ], [ 2, 1 ]
-]
 location [ 1, 1 ]
+pathLength arg 8
+length of path at start 8
 nextSteps [ [ 0, 1 ], [ 1, 2 ] ]
 
-prev location [
-  [ 0, 0 ], [ 1, 0 ],
-  [ 2, 0 ], [ 3, 0 ],
-  [ 4, 0 ], [ 4, 1 ],
-  [ 3, 1 ], [ 2, 1 ],
-  [ 1, 1 ]
-]
 location [ 0, 1 ]
+pathLength arg 9
+length of path at start 9
 nextSteps [ [ 0, 2 ] ]
 
-prev location [
-  [ 0, 0 ], [ 1, 0 ],
-  [ 2, 0 ], [ 3, 0 ],
-  [ 4, 0 ], [ 4, 1 ],
-  [ 3, 1 ], [ 2, 1 ],
-  [ 1, 1 ], [ 0, 1 ]
-]
 location [ 0, 2 ]
+pathLength arg 10
+length of path at start 10
 nextSteps [ [ 1, 2 ] ]
 
-prev location [
-  [ 0, 0 ], [ 1, 0 ],
-  [ 2, 0 ], [ 3, 0 ],
-  [ 4, 0 ], [ 4, 1 ],
-  [ 3, 1 ], [ 2, 1 ],
-  [ 1, 1 ], [ 0, 1 ],
-  [ 0, 2 ]
-]
 location [ 1, 2 ]
+pathLength arg 11
+length of path at start 11
 nextSteps [ [ 2, 2 ] ]
 
-prev location [
-  [ 0, 0 ], [ 1, 0 ],
-  [ 2, 0 ], [ 3, 0 ],
-  [ 4, 0 ], [ 4, 1 ],
-  [ 3, 1 ], [ 2, 1 ],
-  [ 1, 1 ], [ 0, 1 ],
-  [ 0, 2 ], [ 1, 2 ]
-]
 location [ 2, 2 ]
+pathLength arg 12
+length of path at start 12
 nextSteps [ [ 3, 2 ] ]
 
-prev location [
-  [ 0, 0 ], [ 1, 0 ],
-  [ 2, 0 ], [ 3, 0 ],
-  [ 4, 0 ], [ 4, 1 ],
-  [ 3, 1 ], [ 2, 1 ],
-  [ 1, 1 ], [ 0, 1 ],
-  [ 0, 2 ], [ 1, 2 ],
-  [ 2, 2 ]
-]
 location [ 3, 2 ]
+pathLength arg 13
+length of path at start 13
 nextSteps [ [ 4, 2 ] ]
 
-prev location [
-  [ 0, 0 ], [ 1, 0 ],
-  [ 2, 0 ], [ 3, 0 ],
-  [ 4, 0 ], [ 4, 1 ],
-  [ 3, 1 ], [ 2, 1 ],
-  [ 1, 1 ], [ 0, 1 ],
-  [ 0, 2 ], [ 1, 2 ],
-  [ 2, 2 ], [ 3, 2 ]
-]
 location [ 4, 2 ]
+pathLength arg 14
+length of path at start 14
 nextSteps [ [ 4, 3 ] ]
 
-prev location [
-  [ 0, 0 ], [ 1, 0 ],
-  [ 2, 0 ], [ 3, 0 ],
-  [ 4, 0 ], [ 4, 1 ],
-  [ 3, 1 ], [ 2, 1 ],
-  [ 1, 1 ], [ 0, 1 ],
-  [ 0, 2 ], [ 1, 2 ],
-  [ 2, 2 ], [ 3, 2 ],
-  [ 4, 2 ]
-]
 location [ 4, 3 ]
+pathLength arg 15
+length of path at start 15
 nextSteps [ [ 4, 4 ] ]
 
-prev location [
-  [ 0, 0 ], [ 1, 0 ],
-  [ 2, 0 ], [ 3, 0 ],
-  [ 4, 0 ], [ 4, 1 ],
-  [ 3, 1 ], [ 2, 1 ],
-  [ 1, 1 ], [ 0, 1 ],
-  [ 0, 2 ], [ 1, 2 ],
-  [ 2, 2 ], [ 3, 2 ],
-  [ 4, 2 ], [ 4, 3 ]
-]
 location [ 4, 4 ]
+pathLength arg 16
+length of path at start 16
 nextSteps [ [ 4, 5 ] ]
 
-prev location [
-  [ 0, 0 ], [ 1, 0 ],
-  [ 2, 0 ], [ 3, 0 ],
-  [ 4, 0 ], [ 4, 1 ],
-  [ 3, 1 ], [ 2, 1 ],
-  [ 1, 1 ], [ 0, 1 ],
-  [ 0, 2 ], [ 1, 2 ],
-  [ 2, 2 ], [ 3, 2 ],
-  [ 4, 2 ], [ 4, 3 ],
-  [ 4, 4 ]
-]
 location [ 4, 5 ]
+pathLength arg 17
+length of path at start 17
 nextSteps [ [ 4, 6 ] ]
 
-prev location [
-  [ 0, 0 ], [ 1, 0 ], [ 2, 0 ],
-  [ 3, 0 ], [ 4, 0 ], [ 4, 1 ],
-  [ 3, 1 ], [ 2, 1 ], [ 1, 1 ],
-  [ 0, 1 ], [ 0, 2 ], [ 1, 2 ],
-  [ 2, 2 ], [ 3, 2 ], [ 4, 2 ],
-  [ 4, 3 ], [ 4, 4 ], [ 4, 5 ]
-]
 location [ 4, 6 ]
+pathLength arg 18
+length of path at start 18
 nextSteps [ [ 4, 7 ] ]
 
-prev location [
-  [ 0, 0 ], [ 1, 0 ], [ 2, 0 ],
-  [ 3, 0 ], [ 4, 0 ], [ 4, 1 ],
-  [ 3, 1 ], [ 2, 1 ], [ 1, 1 ],
-  [ 0, 1 ], [ 0, 2 ], [ 1, 2 ],
-  [ 2, 2 ], [ 3, 2 ], [ 4, 2 ],
-  [ 4, 3 ], [ 4, 4 ], [ 4, 5 ],
-  [ 4, 6 ]
-]
 location [ 4, 7 ]
+pathLength arg 19
+length of path at start 19
 nextSteps [ [ 3, 7 ] ]
 
-prev location [
-  [ 0, 0 ], [ 1, 0 ], [ 2, 0 ],
-  [ 3, 0 ], [ 4, 0 ], [ 4, 1 ],
-  [ 3, 1 ], [ 2, 1 ], [ 1, 1 ],
-  [ 0, 1 ], [ 0, 2 ], [ 1, 2 ],
-  [ 2, 2 ], [ 3, 2 ], [ 4, 2 ],
-  [ 4, 3 ], [ 4, 4 ], [ 4, 5 ],
-  [ 4, 6 ], [ 4, 7 ]
-]
 location [ 3, 7 ]
+pathLength arg 20
+length of path at start 20
 nextSteps [ [ 2, 7 ] ]
 
-prev location [
-  [ 0, 0 ], [ 1, 0 ], [ 2, 0 ],
-  [ 3, 0 ], [ 4, 0 ], [ 4, 1 ],
-  [ 3, 1 ], [ 2, 1 ], [ 1, 1 ],
-  [ 0, 1 ], [ 0, 2 ], [ 1, 2 ],
-  [ 2, 2 ], [ 3, 2 ], [ 4, 2 ],
-  [ 4, 3 ], [ 4, 4 ], [ 4, 5 ],
-  [ 4, 6 ], [ 4, 7 ], [ 3, 7 ]
-]
 location [ 2, 7 ]
+pathLength arg 21
+length of path at start 21
 nextSteps [ [ 1, 7 ] ]
 
-prev location [
-  [ 0, 0 ], [ 1, 0 ], [ 2, 0 ],
-  [ 3, 0 ], [ 4, 0 ], [ 4, 1 ],
-  [ 3, 1 ], [ 2, 1 ], [ 1, 1 ],
-  [ 0, 1 ], [ 0, 2 ], [ 1, 2 ],
-  [ 2, 2 ], [ 3, 2 ], [ 4, 2 ],
-  [ 4, 3 ], [ 4, 4 ], [ 4, 5 ],
-  [ 4, 6 ], [ 4, 7 ], [ 3, 7 ],
-  [ 2, 7 ]
-]
 location [ 1, 7 ]
+pathLength arg 22
+length of path at start 22
 nextSteps [ [ 0, 7 ] ]
 
-prev location [
-  [ 0, 0 ], [ 1, 0 ], [ 2, 0 ],
-  [ 3, 0 ], [ 4, 0 ], [ 4, 1 ],
-  [ 3, 1 ], [ 2, 1 ], [ 1, 1 ],
-  [ 0, 1 ], [ 0, 2 ], [ 1, 2 ],
-  [ 2, 2 ], [ 3, 2 ], [ 4, 2 ],
-  [ 4, 3 ], [ 4, 4 ], [ 4, 5 ],
-  [ 4, 6 ], [ 4, 7 ], [ 3, 7 ],
-  [ 2, 7 ], [ 1, 7 ]
-]
 location [ 0, 7 ]
+pathLength arg 23
+length of path at start 23
 nextSteps [ [ 0, 6 ] ]
 
-prev location [
-  [ 0, 0 ], [ 1, 0 ], [ 2, 0 ],
-  [ 3, 0 ], [ 4, 0 ], [ 4, 1 ],
-  [ 3, 1 ], [ 2, 1 ], [ 1, 1 ],
-  [ 0, 1 ], [ 0, 2 ], [ 1, 2 ],
-  [ 2, 2 ], [ 3, 2 ], [ 4, 2 ],
-  [ 4, 3 ], [ 4, 4 ], [ 4, 5 ],
-  [ 4, 6 ], [ 4, 7 ], [ 3, 7 ],
-  [ 2, 7 ], [ 1, 7 ], [ 0, 7 ]
-]
 location [ 0, 6 ]
+pathLength arg 24
+length of path at start 24
 nextSteps [ [ 0, 5 ] ]
 
-prev location [
-  [ 0, 0 ], [ 1, 0 ], [ 2, 0 ],
-  [ 3, 0 ], [ 4, 0 ], [ 4, 1 ],
-  [ 3, 1 ], [ 2, 1 ], [ 1, 1 ],
-  [ 0, 1 ], [ 0, 2 ], [ 1, 2 ],
-  [ 2, 2 ], [ 3, 2 ], [ 4, 2 ],
-  [ 4, 3 ], [ 4, 4 ], [ 4, 5 ],
-  [ 4, 6 ], [ 4, 7 ], [ 3, 7 ],
-  [ 2, 7 ], [ 1, 7 ], [ 0, 7 ],
-  [ 0, 6 ]
-]
 location [ 0, 5 ]
+pathLength arg 25
+length of path at start 25
 nextSteps [ [ 0, 4 ] ]
 
-prev location [
-  [ 0, 0 ], [ 1, 0 ], [ 2, 0 ],
-  [ 3, 0 ], [ 4, 0 ], [ 4, 1 ],
-  [ 3, 1 ], [ 2, 1 ], [ 1, 1 ],
-  [ 0, 1 ], [ 0, 2 ], [ 1, 2 ],
-  [ 2, 2 ], [ 3, 2 ], [ 4, 2 ],
-  [ 4, 3 ], [ 4, 4 ], [ 4, 5 ],
-  [ 4, 6 ], [ 4, 7 ], [ 3, 7 ],
-  [ 2, 7 ], [ 1, 7 ], [ 0, 7 ],
-  [ 0, 6 ], [ 0, 5 ]
-]
 location [ 0, 4 ]
+pathLength arg 26
+length of path at start 26
 nextSteps [ [ 0, 3 ] ]
 
-prev location [
-  [ 0, 0 ], [ 1, 0 ], [ 2, 0 ],
-  [ 3, 0 ], [ 4, 0 ], [ 4, 1 ],
-  [ 3, 1 ], [ 2, 1 ], [ 1, 1 ],
-  [ 0, 1 ], [ 0, 2 ], [ 1, 2 ],
-  [ 2, 2 ], [ 3, 2 ], [ 4, 2 ],
-  [ 4, 3 ], [ 4, 4 ], [ 4, 5 ],
-  [ 4, 6 ], [ 4, 7 ], [ 3, 7 ],
-  [ 2, 7 ], [ 1, 7 ], [ 0, 7 ],
-  [ 0, 6 ], [ 0, 5 ], [ 0, 4 ]
-]
 location [ 0, 3 ]
+pathLength arg 27
+length of path at start 27
 nextSteps [ [ 1, 3 ] ]
 
-prev location [
-  [ 0, 0 ], [ 1, 0 ], [ 2, 0 ],
-  [ 3, 0 ], [ 4, 0 ], [ 4, 1 ],
-  [ 3, 1 ], [ 2, 1 ], [ 1, 1 ],
-  [ 0, 1 ], [ 0, 2 ], [ 1, 2 ],
-  [ 2, 2 ], [ 3, 2 ], [ 4, 2 ],
-  [ 4, 3 ], [ 4, 4 ], [ 4, 5 ],
-  [ 4, 6 ], [ 4, 7 ], [ 3, 7 ],
-  [ 2, 7 ], [ 1, 7 ], [ 0, 7 ],
-  [ 0, 6 ], [ 0, 5 ], [ 0, 4 ],
-  [ 0, 3 ]
-]
 location [ 1, 3 ]
+pathLength arg 28
+length of path at start 28
 nextSteps [ [ 2, 3 ] ]
 
-prev location [
-  [ 0, 0 ], [ 1, 0 ], [ 2, 0 ],
-  [ 3, 0 ], [ 4, 0 ], [ 4, 1 ],
-  [ 3, 1 ], [ 2, 1 ], [ 1, 1 ],
-  [ 0, 1 ], [ 0, 2 ], [ 1, 2 ],
-  [ 2, 2 ], [ 3, 2 ], [ 4, 2 ],
-  [ 4, 3 ], [ 4, 4 ], [ 4, 5 ],
-  [ 4, 6 ], [ 4, 7 ], [ 3, 7 ],
-  [ 2, 7 ], [ 1, 7 ], [ 0, 7 ],
-  [ 0, 6 ], [ 0, 5 ], [ 0, 4 ],
-  [ 0, 3 ], [ 1, 3 ]
-]
 location [ 2, 3 ]
+pathLength arg 29
+length of path at start 29
 nextSteps [ [ 3, 3 ] ]
 
-prev location [
-  [ 0, 0 ], [ 1, 0 ], [ 2, 0 ],
-  [ 3, 0 ], [ 4, 0 ], [ 4, 1 ],
-  [ 3, 1 ], [ 2, 1 ], [ 1, 1 ],
-  [ 0, 1 ], [ 0, 2 ], [ 1, 2 ],
-  [ 2, 2 ], [ 3, 2 ], [ 4, 2 ],
-  [ 4, 3 ], [ 4, 4 ], [ 4, 5 ],
-  [ 4, 6 ], [ 4, 7 ], [ 3, 7 ],
-  [ 2, 7 ], [ 1, 7 ], [ 0, 7 ],
-  [ 0, 6 ], [ 0, 5 ], [ 0, 4 ],
-  [ 0, 3 ], [ 1, 3 ], [ 2, 3 ]
-]
 location [ 3, 3 ]
+pathLength arg 30
+length of path at start 30
 nextSteps [ [ 3, 4 ] ]
 
-prev location [
-  [ 0, 0 ], [ 1, 0 ], [ 2, 0 ],
-  [ 3, 0 ], [ 4, 0 ], [ 4, 1 ],
-  [ 3, 1 ], [ 2, 1 ], [ 1, 1 ],
-  [ 0, 1 ], [ 0, 2 ], [ 1, 2 ],
-  [ 2, 2 ], [ 3, 2 ], [ 4, 2 ],
-  [ 4, 3 ], [ 4, 4 ], [ 4, 5 ],
-  [ 4, 6 ], [ 4, 7 ], [ 3, 7 ],
-  [ 2, 7 ], [ 1, 7 ], [ 0, 7 ],
-  [ 0, 6 ], [ 0, 5 ], [ 0, 4 ],
-  [ 0, 3 ], [ 1, 3 ], [ 2, 3 ],
-  [ 3, 3 ]
-]
 location [ 3, 4 ]
+pathLength arg 31
+length of path at start 31
 nextSteps [ [ 3, 5 ] ]
 
-prev location [
-  [ 0, 0 ], [ 1, 0 ], [ 2, 0 ],
-  [ 3, 0 ], [ 4, 0 ], [ 4, 1 ],
-  [ 3, 1 ], [ 2, 1 ], [ 1, 1 ],
-  [ 0, 1 ], [ 0, 2 ], [ 1, 2 ],
-  [ 2, 2 ], [ 3, 2 ], [ 4, 2 ],
-  [ 4, 3 ], [ 4, 4 ], [ 4, 5 ],
-  [ 4, 6 ], [ 4, 7 ], [ 3, 7 ],
-  [ 2, 7 ], [ 1, 7 ], [ 0, 7 ],
-  [ 0, 6 ], [ 0, 5 ], [ 0, 4 ],
-  [ 0, 3 ], [ 1, 3 ], [ 2, 3 ],
-  [ 3, 3 ], [ 3, 4 ]
-]
 location [ 3, 5 ]
+pathLength arg 32
+length of path at start 32
 nextSteps [ [ 2, 5 ], [ 3, 6 ] ]
 
-prev location [
-  [ 0, 0 ], [ 1, 0 ], [ 2, 0 ],
-  [ 3, 0 ], [ 4, 0 ], [ 4, 1 ],
-  [ 3, 1 ], [ 2, 1 ], [ 1, 1 ],
-  [ 0, 1 ], [ 0, 2 ], [ 1, 2 ],
-  [ 2, 2 ], [ 3, 2 ], [ 4, 2 ],
-  [ 4, 3 ], [ 4, 4 ], [ 4, 5 ],
-  [ 4, 6 ], [ 4, 7 ], [ 3, 7 ],
-  [ 2, 7 ], [ 1, 7 ], [ 0, 7 ],
-  [ 0, 6 ], [ 0, 5 ], [ 0, 4 ],
-  [ 0, 3 ], [ 1, 3 ], [ 2, 3 ],
-  [ 3, 3 ], [ 3, 4 ], [ 3, 5 ]
-]
 location [ 2, 5 ]
-reached the end
-final currPath 33
+pathLength arg 33
+length of path at start 33
 
-prev location [
-  [ 0, 0 ], [ 1, 0 ], [ 2, 0 ],
-  [ 3, 0 ], [ 4, 0 ], [ 4, 1 ],
-  [ 3, 1 ], [ 2, 1 ], [ 1, 1 ],
-  [ 0, 1 ], [ 0, 2 ], [ 1, 2 ],
-  [ 2, 2 ], [ 3, 2 ], [ 4, 2 ],
-  [ 4, 3 ], [ 4, 4 ], [ 4, 5 ],
-  [ 4, 6 ], [ 4, 7 ], [ 3, 7 ],
-  [ 2, 7 ], [ 1, 7 ], [ 0, 7 ],
-  [ 0, 6 ], [ 0, 5 ], [ 0, 4 ],
-  [ 0, 3 ], [ 1, 3 ], [ 2, 3 ],
-  [ 3, 3 ], [ 3, 4 ], [ 3, 5 ]
-]
+*** Reached the end***
+final currMinPath 33
+
 location [ 3, 6 ]
-nextSteps [ [ 2, 6 ] ]
+pathLength arg 33
+length of path at start 33
+nextSteps [ [ 2, 6 ], [ 4, 6 ], [ 3, 5 ], [ 3, 7 ] ]
 
-prev location [
-  [ 0, 0 ], [ 1, 0 ], [ 2, 0 ],
-  [ 3, 0 ], [ 4, 0 ], [ 4, 1 ],
-  [ 3, 1 ], [ 2, 1 ], [ 1, 1 ],
-  [ 0, 1 ], [ 0, 2 ], [ 1, 2 ],
-  [ 2, 2 ], [ 3, 2 ], [ 4, 2 ],
-  [ 4, 3 ], [ 4, 4 ], [ 4, 5 ],
-  [ 4, 6 ], [ 4, 7 ], [ 3, 7 ],
-  [ 2, 7 ], [ 1, 7 ], [ 0, 7 ],
-  [ 0, 6 ], [ 0, 5 ], [ 0, 4 ],
-  [ 0, 3 ], [ 1, 3 ], [ 2, 3 ],
-  [ 3, 3 ], [ 3, 4 ], [ 3, 5 ]
-]
+location [ 2, 6 ]
+pathLength arg 34
+length of path at start 34
+Path stopped, > minPath
+
+location [ 4, 6 ]
+pathLength arg 34
+length of path at start 34
+Path stopped, > minPath
+
+location [ 3, 5 ]
+pathLength arg 34
+length of path at start 34
+Path stopped, > minPath
+
+location [ 3, 7 ]
+pathLength arg 34
+length of path at start 34
+Path stopped, > minPath
+
 location [ 1, 2 ]
-nextSteps []
+pathLength arg 9
+length of path at start 34
+Path stopped, > minPath
 
-prev location [
-  [ 0, 0 ], [ 1, 0 ], [ 2, 0 ],
-  [ 3, 0 ], [ 4, 0 ], [ 4, 1 ],
-  [ 3, 1 ], [ 2, 1 ], [ 1, 1 ],
-  [ 0, 1 ], [ 0, 2 ], [ 1, 2 ],
-  [ 2, 2 ], [ 3, 2 ], [ 4, 2 ],
-  [ 4, 3 ], [ 4, 4 ], [ 4, 5 ],
-  [ 4, 6 ], [ 4, 7 ], [ 3, 7 ],
-  [ 2, 7 ], [ 1, 7 ], [ 0, 7 ],
-  [ 0, 6 ], [ 0, 5 ], [ 0, 4 ],
-  [ 0, 3 ], [ 1, 3 ], [ 2, 3 ],
-  [ 3, 3 ], [ 3, 4 ], [ 3, 5 ]
-]
 location [ 2, 2 ]
-nextSteps []
-
-prev location [
-  [ 0, 0 ], [ 1, 0 ], [ 2, 0 ],
-  [ 3, 0 ], [ 4, 0 ], [ 4, 1 ],
-  [ 3, 1 ], [ 2, 1 ], [ 1, 1 ],
-  [ 0, 1 ], [ 0, 2 ], [ 1, 2 ],
-  [ 2, 2 ], [ 3, 2 ], [ 4, 2 ],
-  [ 4, 3 ], [ 4, 4 ], [ 4, 5 ],
-  [ 4, 6 ], [ 4, 7 ], [ 3, 7 ],
-  [ 2, 7 ], [ 1, 7 ], [ 0, 7 ],
-  [ 0, 6 ], [ 0, 5 ], [ 0, 4 ],
-  [ 0, 3 ], [ 1, 3 ], [ 2, 3 ],
-  [ 3, 3 ], [ 3, 4 ], [ 3, 5 ]
-]
-location [ 3, 2 ]
-nextSteps []
-
-prev location [
-  [ 0, 0 ], [ 1, 0 ], [ 2, 0 ],
-  [ 3, 0 ], [ 4, 0 ], [ 4, 1 ],
-  [ 3, 1 ], [ 2, 1 ], [ 1, 1 ],
-  [ 0, 1 ], [ 0, 2 ], [ 1, 2 ],
-  [ 2, 2 ], [ 3, 2 ], [ 4, 2 ],
-  [ 4, 3 ], [ 4, 4 ], [ 4, 5 ],
-  [ 4, 6 ], [ 4, 7 ], [ 3, 7 ],
-  [ 2, 7 ], [ 1, 7 ], [ 0, 7 ],
-  [ 0, 6 ], [ 0, 5 ], [ 0, 4 ],
-  [ 0, 3 ], [ 1, 3 ], [ 2, 3 ],
-  [ 3, 3 ], [ 3, 4 ], [ 3, 5 ]
-]
-location [ 1, 1 ]
-nextSteps []
-
-prev location [
-  [ 0, 0 ], [ 1, 0 ], [ 2, 0 ],
-  [ 3, 0 ], [ 4, 0 ], [ 4, 1 ],
-  [ 3, 1 ], [ 2, 1 ], [ 1, 1 ],
-  [ 0, 1 ], [ 0, 2 ], [ 1, 2 ],
-  [ 2, 2 ], [ 3, 2 ], [ 4, 2 ],
-  [ 4, 3 ], [ 4, 4 ], [ 4, 5 ],
-  [ 4, 6 ], [ 4, 7 ], [ 3, 7 ],
-  [ 2, 7 ], [ 1, 7 ], [ 0, 7 ],
-  [ 0, 6 ], [ 0, 5 ], [ 0, 4 ],
-  [ 0, 3 ], [ 1, 3 ], [ 2, 3 ],
-  [ 3, 3 ], [ 3, 4 ], [ 3, 5 ]
-]
-location [ 0, 1 ]
-nextSteps []
-End of all paths
-currLoc [ 0, 0 ]
-minPath 33
-currPath 0
-
-Running time: 24.982 milliseconds
+pathLength arg 8
+length of path at start 9

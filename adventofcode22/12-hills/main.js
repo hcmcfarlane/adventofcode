@@ -7,6 +7,7 @@ function formatTestInput(inputFile) {
 		if (err) throw err;
 	});
 	log(hillsText);
+	const maxPath = hillsText.length;
 	const arrInit = hillsText.split("\r\n");
 	const hills = arrInit.map((m) => m.split(""));
 
@@ -15,7 +16,7 @@ function formatTestInput(inputFile) {
 	let endE = findCoords(hillsText.indexOf("E"), width);
 	hills[startS[0]][startS[1]] = "a";
 
-	return [hills, startS, endE];
+	return [hills, startS, endE, maxPath];
 }
 
 function findCoords(location, width) {
@@ -30,54 +31,112 @@ function runningUpThatHill(hills, S, E) {
 	let currLoc = S;
 	let minPath = 1e6;
 	let prevLocations = [];
+	// log("inital prevL", prevL);
+	// let currMinPath = 0;
 	let currPath = 0;
 	// let firstSteps = findNextSteps(S);
 	// log("first validSteps `x`:", firstSteps);
+	let resetCurrPath = false;
 
 	[S].forEach((s) => {
 		log("start new path");
-		findPath(s);
 		currPath = 0;
-		prevLocations = [];
+		prevLocations = new Array(maxPath).fill([]);
+		findPath(s, currPath);
 	});
 
-	function findPath(location) {
-		log("\nprev location", prevLocations);
-		log("location", location);
+	function findPath(location, pathLength) {
+		// prevLocations[pathLength] = [];
+		// log("\nprev location as argument", prevLocations);
+		log("\nlocation", location);
+		log("pathLength arg", pathLength);
+		// log("prevLocations[0]", prevLocations[0]);
+		// log("prevLocations[pathLength]", prevLocations[pathLength]);
+		resetCurrPath ? (currPath = pathLength) : "";
+		log("length of path at start", currPath);
+
 		if (JSON.stringify(location) === JSON.stringify(end)) {
-			log("reached the end");
+			log("\n*** Reached the end***");
 			currPath <= minPath ? (minPath = currPath) : "";
-			log("final currPath", currPath);
+			currPath = pathLength;
+			// prevLocations = [];
+			// prevLocations.splice(0, prevLocations.length - pathLength);
+			// reset the previous locations array from the current pathLength up to the end of the array
+			for (let k = pathLength - 1; k < maxPath; k++) {
+				prevLocations[k] = [];
+			}
+			// log("prevLocations", prevLocations);
+			log("final currMinPath", minPath);
 			return;
 		}
-		// let allNextSteps = findNextSteps(location);
-		let nextSteps = findNextSteps(location, prevLocations);
-		// log("allNextSteps", allNextSteps);
-		// let nextSteps = prevLocation.forEach((l) =>
-		// 	allNextSteps.filter((z) => JSON.stringify(z) !== JSON.stringify(l))
-		// );
-		// let nextSteps = avoidGoingToPreviousLocations(allNextSteps);
+
+		if (currPath > minPath) {
+			log("Path stopped, > minPath");
+			currPath = pathLength;
+			resetCurrPath = false;
+			prevLocations = prevLocations.splice(
+				0,
+				prevLocations.length - pathLength
+			);
+			return;
+		}
+		resetCurrPath = true;
+		let nextSteps = findNextSteps(location, prevLocations[pathLength]);
+
 		log("nextSteps", nextSteps);
+		currPath++;
 		if (nextSteps.length > 0) {
-			currPath++;
-			if (currPath > minPath) {
-				return;
+			pathLength = currPath;
+
+			// log("length of path currently", currPath);
+			// // pathLength++;
+			// // if (!prevLocations[pathLength].includes(location)) {
+			// // 	prevLocations[pathLength].push(location);
+			// // }
+			// log(
+			// 	"prevLocations[pathLength]",
+			// 	prevLocations[pathLength],
+			// 	"location",
+			// 	location
+			// );
+			// log(
+			// 	"is in array",
+			// 	isArrayInArray(prevLocations[pathLength], location)
+			// );
+			if (!isArrayInArray(prevLocations[pathLength], location)) {
+				prevLocations[pathLength] = prevLocations[pathLength].concat([
+					location,
+				]);
+				prevLocations[pathLength] = prevLocations[pathLength].concat(
+					prevLocations[pathLength - 1]
+				);
 			}
-			prevLocations.push(location);
-			nextSteps.forEach((n) => findPath(n));
+			//then add any from previous that aren't in the current
+			// TODO: Idk why this isn't working
+			// for (let m = 0; m < prevLocations[pathLength - 1]; m++) {
+			// 	if (
+			// 		!isArrayInArray(
+			// 			prevLocations[pathLength],
+			// 			prevLocations[pathLength - 1][m]
+			// 		)
+			// 	) {
+			// 		prevLocations[pathLength] = prevLocations[
+			// 			pathLength
+			// 		].concat([prevLocations[pathLength - 1][m]]);
+			// 	}
+			// }
+
+			nextSteps.forEach((n) => findPath(n, pathLength));
+			// pathLength++;
 		} else {
+			pathLength = currPath;
 			return;
 		}
 	}
-	console.log("End of all paths");
+	console.log("\n***End of all paths***");
 	console.log("currLoc", currLoc);
 	console.log("minPath", minPath);
 	console.log("currPath", currPath);
-
-	// for (let i = 0; i < firstSteps.length; i++) {
-	// 	currLoc = firstSteps[i];
-
-	// 	findPath(currLoc);
 
 	// 	while (currLoc !== end) {
 	// 		let nextSteps = findNextSteps(currLoc);
@@ -88,21 +147,15 @@ function runningUpThatHill(hills, S, E) {
 	// 		// 2c. if pathlength > current shortest pathlength, then abandon pathfinding and go to next available direction
 	// 		// 2d. perform step 1
 	// 		// 3. once current location reaches the end, save as new shortest pathlength `minPath`
-	// 		currLoc = end;
-	// 	}
-	// }
+	//}
 
 	return minPath;
 }
 
-function findNextSteps(loc, prevLocations) {
+function findNextSteps(loc, prevArray) {
 	const x = loc[0];
 	const y = loc[1];
-	// log(x, y);
-	// if (hills[x][y] === "S") {
-	// 	x = "a";
-	// 	y = "";
-	// }
+
 	let [uX, uY] = [];
 	let [dX, dY] = [];
 	let [lX, lY] = [];
@@ -127,10 +180,10 @@ function findNextSteps(loc, prevLocations) {
 		? validSteps.push([rX, rY])
 		: "";
 
-	for (let j = 0; j < prevLocations.length; j++) {
+	for (let j = 0; j < prevArray.length; j++) {
 		// log(prevLocations[j]);
 		validSteps = validSteps.filter(
-			(z) => JSON.stringify(z) !== JSON.stringify(prevLocations[j])
+			(z) => JSON.stringify(z) !== JSON.stringify(prevArray[j])
 		);
 		// log("filtered these steps", theseSteps);
 	}
@@ -151,26 +204,22 @@ function isValidStep(x1, y1, x2, y2) {
 	return isValid;
 }
 
-let [hills, startS, endE] = formatTestInput("inputtest.txt");
+function isArrayInArray(arr, item) {
+	let itemStr = JSON.stringify(item);
+
+	var contains = arr.some(function (ele) {
+		return JSON.stringify(ele) === itemStr;
+	});
+	return contains;
+}
+
+let [hills, startS, endE, maxPath] = formatTestInput("inputtest.txt");
 // console.log(hills);
 log("S:", startS, "and E:", endE);
-runningUpThatHill(hills, startS, endE);
+let quickestPath = runningUpThatHill(hills, startS, endE);
+console.log("\nFASTEST PATH IS: ", quickestPath);
 
 let endTime = performance.now();
 console.log(
 	`\nRunning time: ${(endTime - startTime).toPrecision(5)} milliseconds`
 );
-
-// function avoidGoingToPreviousLocations(theseSteps) {
-// 	// log("these steps", theseSteps);
-// 	// let newSteps = theseSteps;
-// 	for (let j = 0; j < prevLocations.length; j++) {
-// 		// log(prevLocations[j]);
-// 		theseSteps = theseSteps.filter(
-// 			(z) =>
-// 				JSON.stringify(z) !== JSON.stringify(prevLocations[j])
-// 		);
-// 		// log("filtered these steps", theseSteps);
-// 	}
-// 	return theseSteps;
-// }
