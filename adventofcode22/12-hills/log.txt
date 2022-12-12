@@ -1,0 +1,15 @@
+Sabqponm
+abcryxxl
+accszExk
+acctuvwj
+abdefghi
+S: [ 0, 0 ] and E: [ 2, 5 ]
+0 0
+up [ undefined, undefined ] down [ 1, 0 ] left [ undefined, undefined ] right [ 0, 1 ]
+is valid step running with: 0 0 1 0
+a a
+is valid step running with: 0 0 0 1
+a a
+validSteps `x`: [ [ 1, 0 ], [ 0, 1 ] ]
+
+Running time: 7.1874 milliseconds
