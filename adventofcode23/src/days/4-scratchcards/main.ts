@@ -19,10 +19,6 @@ const input = fs.readFileSync(
 
 const isRN = true;
 const inputArray = formatSingleLineInput(input, isRN);
-// console.log(inputArray);
-
-// const inputTable = formatTableInput(input);
-// console.log(inputTable);
 
 // pull out card no.
 // split into two arrays of winning and received numbs
@@ -35,27 +31,31 @@ const getPoints = (numberOfWinners: number) => {
   return 2 ** (numberOfWinners - 1);
 };
 
+const splitOutNumbers = (string: string) => {
+  return string
+    .trim()
+    .replaceAll("  ", " ")
+    .split(" ")
+    .map((num) => Number(num));
+};
+
 type Card = {
   index: number;
-  winning: string[];
-  received: string[];
-  winners: string[];
+  winning: number[];
+  received: number[];
+  winners: number[];
 };
 type Cards = Card[];
 
 const cards = [] as Cards;
 
 inputArray.forEach((line) => {
-  //   const splitCard = card.split(":").split("|");
   const splitCard = line.split(/[:|]/);
-  //   console.log(splitCard);
   const cardNo = Number(
     splitCard[0].replaceAll("  ", " ").replace("Card ", "")
   );
-  const winningNos = splitCard[1].trim().replaceAll("  ", " ").split(" ");
-  // .map((num) => Number(num)); // UNCOMMENT THIS TO MAKE NUMBERS NOT STRINGS
-  const receivedNos = splitCard[2].trim().replaceAll("  ", " ").split(" ");
-  // .map((num) => Number(num)); // UNCOMMENT THIS TO MAKE NUMBERS NOT STRINGS
+  const winningNos = splitOutNumbers(splitCard[1]);
+  const receivedNos = splitOutNumbers(splitCard[2]);
 
   const card = {
     index: cardNo,
@@ -67,24 +67,27 @@ inputArray.forEach((line) => {
 });
 
 const points: number[] = [];
+const copies: number[] = new Array(cards.length).fill(1);
 
-cards.forEach((card) => {
-  //   console.log(`\n *** CARD ${card.index}`);
-  //   console.log(card.winning);
-  //   console.log(card.received);
+cards.forEach((card, idx) => {
+  //   console.log(`\n *** CARD ${card.index}, idx: ${idx}`);
   card.received.forEach((recNum) => {
     if (card.winning.includes(recNum)) {
       card.winners.push(recNum);
     }
-    // console.log(card.winners);
   });
-  const pointTotal = getPoints(card.winners.length);
-  points.push(pointTotal);
-
-  //   console.log("Winners length: ", card.winners.length);
-  //   console.log("Points: ", pointTotal);
+  const winningCards = card.winners.length;
+  //   console.log("Winning cards: ", winningCards);
+  for (let i = idx + 1; i <= idx + winningCards; i++) {
+    // console.log("i", i);
+    copies[i] = copies[i] + 1 * copies[idx];
+  }
+  //   console.log(copies);
+  // const pointTotal = getPoints(card.winners.length);
+  // points.push(pointTotal);
 });
 
-// console.log("points array", points);
+// console.log("TOTAL POINTS = ", addArray(points));
 
-console.log("TOTAL POINTS = ", addArray(points));
+const totalCopies = addArray(copies);
+console.log("TOTAL COPIES", totalCopies);
