@@ -24,17 +24,25 @@ const isRN = false;
 const inputArray = formatSingleLineInput(input, isRN);
 
 const timeArray = inputArray[0]
-  .replaceAll("  ", " ")
-  .replaceAll("  ", " ")
-  .replaceAll("  ", " ")
-  .replace("Time: ", "")
+  // FOR PART ONE
+  // .replaceAll("  ", " ")
+  // .replaceAll("  ", " ")
+  // .replaceAll("  ", " ")
+  // .replace("Time: ", "")
+  //FOR PART TWO
+  .replaceAll(" ", "")
+  .replace("Time:", "")
   .split(" ")
   .map((time) => parseInt(time));
 const distanceArray = inputArray[1]
-  .replaceAll("   ", " ")
-  .replaceAll("  ", " ")
-  .replaceAll("  ", " ")
-  .replace("Distance: ", "")
+  // FOR PART ONE
+  // .replaceAll("   ", " ")
+  // .replaceAll("  ", " ")
+  // .replaceAll("  ", " ")
+  // .replace("Distance: ", "")
+  //FOR PART TWO
+  .replaceAll(" ", "")
+  .replace("Distance:", "")
   .split(" ")
   .map((distance) => parseInt(distance));
 console.log("timeArray", timeArray);
@@ -84,4 +92,4 @@ const waysToWinArray = timeArray.map((time, idx) =>
 console.log("multiplyArray(waysToWinArray)", multiplyArray(waysToWinArray));
 
 timer.stop();
-console.log("timer.time()", timer.time());
+console.log("timer.time()", timer.time()); // 46ms for part 2
