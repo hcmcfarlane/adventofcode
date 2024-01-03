@@ -1,7 +1,9 @@
-const formatTableInput = (input: string) => {
+const formatTableInput = (input: string, isRN: boolean) => {
+  let delimiter = isRN ? "\r\n" : "\n";
+
   return input
     .trim()
-    .split("\r\n")
+    .split(delimiter)
     .map((elem) => elem.split(" "));
 };
 
