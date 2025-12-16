@@ -1,3 +1,9 @@
 node_modules
 .vscode/*
 .env
+
+# input files
+input.txt
+input-test.txt
+input-test-1.txt
+input-test-2.txt
