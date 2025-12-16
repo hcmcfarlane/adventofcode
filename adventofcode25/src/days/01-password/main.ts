@@ -80,6 +80,8 @@ const sumZeros = dialStops.filter((num) => num === 0).length;
 console.log("\r\n");
 console.log("***PART 2***");
 
+// NOTE: I was incorrectly counting the turns! So if you're on 90 and go R120, I assume that was one hit of zero, but it's actually 2, at t = 10 and t = 110. Not just 1 because it's 1xx. So if the dial number and the non-hundreds part of the dial turn is more than 100 then I add another 0
+
 let maxDialTurn = -Infinity;
 for (let i = 0; i < splitArray.length; i++) {
   if (splitArray[i][1] > maxDialTurn) {
@@ -100,8 +102,6 @@ const dialStopsPart2: number[] = [initialDial];
 
 let dialPart2: number = initialDial; // Use for tracking the final dial position at the end of each rotation
 let valPart2 = initialDial; // Use for tracking the intermediate dial value, before we do the modulo 100 operation
-let isOnZero: boolean = false;
-let hundredsDigit: number = 0;
 
 let countOfZeros = 0;
 
@@ -115,61 +115,60 @@ splitArray.forEach((arr, i) => {
   //   console.log("dialPart2", dialPart2);
   //   console.log("valPart2", valPart2);
 
-  isOnZero = dialPart2 === 0;
-  hundredsDigit = Math.floor(Math.abs(arr[1]) / 100);
+  const start = dialPart2;
+  const dist = arr[1];
 
-  //  f the dial turn is more than 200 it will go past 0 more than once
-  // One of those times is already counted (i.e. when it goes past 0 when the turn is between 0 and 199, counted in the L:past zero if/else part)
-  if (hundredsDigit > 1) {
-    countOfZeros = countOfZeros + hundredsDigit - 1;
-  }
+  let zerosDuring: number = 0;
+  let endpointZero = false;
 
   if (arr[0] === "L") {
-    valPart2 -= arr[1];
-    dialPart2 = normaliseVal(valPart2);
-    // console.log("after calc");
-    // console.log("dialPart2", dialPart2);
-    // console.log("valPart2", valPart2);
+    // Left: hits zero first at t = s (if d >= s), then every +100 clicks up to d
+    // Total zeros including endpoint (if d >= s): 1 + floor((d - s) / 100)
 
-    // If the final dial number and the intermediate val are NOT the same, then a modulo has happened, and the dial has gone past zero, but do not count zero twice, i.e. if dial = 99 and the rotation is R1, we end up on 0, which is already sent to the dialStops array so we do not need to increase countOfZeros
-    // If the amount we turn by is less than 100 and we started on 0, we can never hit zero again, so we skip the logic to count a turn past zero
-    if (isOnZero && arr[1] < 100) {
-      //   console.log("skipping countOfZeros");
-    } else {
-      if (valPart2 !== dialPart2 && dialPart2 !== 0) {
-        // console.log("L: past zero");
-        countOfZeros++;
-        // console.log("countOfZeros", countOfZeros);
-      }
-    }
+    zerosDuring =
+      dist >= start
+        ? Math.floor((dist - start) / 100) + (start > 0 ? 1 : 0)
+        : 0;
+
+    endpointZero = dist >= start && (dist - start) % 100 === 0;
+
+    // Advance the dial
+    valPart2 -= dist;
+    dialPart2 = normaliseVal(valPart2);
   } else {
-    valPart2 += arr[1];
+    // "R" case
+    // Right: hits zero whenever s + t reaches a multiple of 100 for t in [1..d]
+    // Total zeros including endpoint: floor((s + d) / 100)
+
+    zerosDuring = Math.floor((start + dist) / 100);
+    endpointZero = (start + dist) % 100 === 0;
+
+    // Advance dial
+    valPart2 += dist;
     dialPart2 = normaliseVal(valPart2);
-    // console.log("after calc");
-    // console.log("dialPart2", dialPart2);
-    // console.log("valPart2", valPart2);
-
-    if (isOnZero && arr[1] < 100) {
-      //   console.log("skipping countOfZeros");
-    } else {
-      if (valPart2 !== dialPart2 && dialPart2 !== 0) {
-        // console.log("R: past zero");
-        countOfZeros++;
-        // console.log("countOfZeros", countOfZeros);
-      }
-    }
   }
-  valPart2 = dialPart2;
 
-  //   console.log(
-  //     `Pushing to dialStopsPart2: dialPart2=${dialPart2}, valPart2=${valPart2}`
-  //   );
+  // Prevent double-counting the endpoint; counted via dialStopsPart2
+  if (endpointZero) zerosDuring -= 1;
+  countOfZeros += zerosDuring;
+
+  // DEBUG
+  // console.log(
+  //   `#${i + 1} ${
+  //     arr[0]
+  //   }${dist} | start=${start} end=${dialPart2} | endpointZero=${endpointZero} | zerosDuringAdded=${
+  //     endpointZero ? zerosDuring : zerosDuring
+  //   }`
+  // );
+
+  // Reset for next line
+  valPart2 = dialPart2;
   dialStopsPart2.push(dialPart2);
 });
 
 const sumZerosPart2 = dialStopsPart2.filter((num) => num === 0).length;
 
-console.log("dialStops:: ", dialStopsPart2);
+// console.log("dialStops:: ", dialStopsPart2);
 
 console.log("***SUM ZEROS STOPPED AT***");
 console.log(sumZerosPart2);
