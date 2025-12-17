@@ -1,4 +1,4 @@
-import addArray from "./addArray";
+import { addArray } from "./addArray";
 
 describe("addArray", () => {
   it("should add an array of numbers", () => {
