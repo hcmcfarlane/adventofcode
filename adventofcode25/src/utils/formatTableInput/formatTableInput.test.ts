@@ -1,4 +1,4 @@
-import formatTableInput from "./formatTableInput";
+import { formatTableInput } from "./formatTableInput";
 
 describe("formatInput", () => {
   it("should convert input to an array with returns and line breaks", () => {

@@ -1,4 +1,4 @@
-import formatSingleLineInput from "./formatSingleLineInput";
+import { formatSingleLineInput } from "./formatSingleLineInput";
 
 describe("formatInput", () => {
   it("should convert input with line breaks to an array", () => {
