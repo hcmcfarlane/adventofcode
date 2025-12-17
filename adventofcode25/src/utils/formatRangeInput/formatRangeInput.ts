@@ -1,10 +1,14 @@
 const delim1 = ",";
 const delim2 = "-";
 
-export const formatRangeInput = (
+export type TOutput = "number" | "string";
+export type TNumberRange = [number, number];
+export type TStringRange = [string, string];
+
+export function formatRangeInput<TOutputTypes extends TOutput>(
   input: string,
-  outputType?: "number" | "string"
-): string[][] | number[][] => {
+  outputType?: TOutputTypes
+): TOutputTypes extends "number" ? TNumberRange[] : TStringRange[] {
   const determinedOutputType = !outputType ? "string" : outputType;
 
   const toNumber = (s: string) => Number(s);
@@ -25,6 +29,6 @@ export const formatRangeInput = (
   };
 
   return determinedOutputType === "string"
-    ? formatToString(input)
-    : formatToNumber(input);
-};
+    ? (formatToString(input) as any)
+    : (formatToNumber(input) as any);
+}
