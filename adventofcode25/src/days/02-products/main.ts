@@ -9,7 +9,7 @@ import {
   type SolveMode,
 } from "../../utils";
 
-import { expandRange, isTwoEqualHalves } from "./helpers";
+import { expandRange, isRepeatedSubstring, isTwoEqualHalves } from "./helpers";
 
 // ***SETUP***
 
@@ -55,7 +55,13 @@ let invalidProductIds: number[] = [];
 allNumbers.forEach((num) => {
   // If the number has two equal halves then it is an invalid productID
   //   Push invalid IDs to array as a number
-  const isInvalidProductId = isTwoEqualHalves(num);
+  
+  // PART 1 check:
+  // const isInvalidProductId = isTwoEqualHalves(num);
+
+  // PART 2 check:
+  const isInvalidProductId = isRepeatedSubstring(num);
+  
   if (isInvalidProductId) {
     invalidProductIds.push(Number(num));
   }
