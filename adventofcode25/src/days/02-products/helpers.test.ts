@@ -1,3 +1,4 @@
+import { TNumberRange } from "@utils/index";
 import { isTwoEqualHalves, expandRange } from "./helpers";
 
 describe("finds if is two equal halves", () => {
@@ -18,6 +19,17 @@ describe("finds if is two equal halves", () => {
 });
 
 describe("expands ranges", () => {
-  //
-  // const expectedResults: []
+  
+  const expectedResults: [TNumberRange, number[]][] = [
+    [[1, 5], [1, 2, 3, 4, 5]],
+    [[10, 12], [10, 11, 12]],
+    [[3, 3], [3]],
+  ];
+
+  expectedResults.forEach((expectedResult) => {
+    const [inputValue, expected] = expectedResult;
+    it(`${inputValue} should return ${expected}`, () => {
+      expect(expandRange(inputValue)).toEqual(expected);
+    });
+  });
 });
