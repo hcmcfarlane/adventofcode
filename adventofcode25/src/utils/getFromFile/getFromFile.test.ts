@@ -1,4 +1,4 @@
-import getFromFile from "./getFromFile";
+import {getFromFile} from "./getFromFile";
 
 describe("getFromFile", () => {
   it("should correctly return data", () => {
