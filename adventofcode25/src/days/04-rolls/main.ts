@@ -34,8 +34,9 @@ console.log("INPUT FILE:: ", inputFile);
 export const rollChar = "@";
 const maxRollsSurrounding = 4;
 
-
-const rollsArray: string[][] = formatSingleLineInput(input, isRN).map((line) => line.split(""));
+const rollsArray: string[][] = formatSingleLineInput(input, isRN).map((line) =>
+  line.split("")
+);
 
 // console.log("rollsArray:: ", rollsArray);
 
@@ -43,22 +44,24 @@ let count = 0;
 let countOfLessThanMaxRolls = 0;
 
 rollsArray.forEach((row, y) => {
-    // console.log(`\n Row ${y}:: ${row.join("")}`);
+  // console.log(`\n Row ${y}:: ${row.join("")}`);
   row.forEach((item, x) => {
     // We only need to count surrounding "@" for items that are "@"
     if (item !== rollChar) return;
-    const surroundingAts = countSurroundingAts(x, y, rollsArray)
+    const surroundingAts = countSurroundingAts(x, y, rollsArray);
     // console.log(`Item at (${x}, ${y}) = ${item} has ${surroundingAts} surrounding "@" characters.`);
-    count++
+    count++;
     if (surroundingAts < maxRollsSurrounding) {
       countOfLessThanMaxRolls++;
-    //   console.log(`--> It has LESS than ${maxRollsSurrounding} surrounding "@" characters.`);
+      //   console.log(`--> It has LESS than ${maxRollsSurrounding} surrounding "@" characters.`);
     }
   });
 });
 
-console.log(`Number of '@' items with less than ${maxRollsSurrounding} surrounding '@': `, countOfLessThanMaxRolls);
-
+console.log(
+  `Number of '@' items with less than ${maxRollsSurrounding} surrounding '@': `,
+  countOfLessThanMaxRolls
+);
 
 timer.stop();
 console.log("timer.time()", timer.time());
