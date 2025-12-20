@@ -7,7 +7,7 @@ export type TStringRange = [string, string];
 
 export function formatRangeInput<TOutputTypes extends TOutput>(
   input: string,
-  outputType?: TOutputTypes
+  outputType?: TOutputTypes,
 ): TOutputTypes extends "number" ? TNumberRange[] : TStringRange[] {
   const determinedOutputType = !outputType ? "string" : outputType;
 

@@ -1,4 +1,4 @@
-import {getInputPath} from "./getInputPath";
+import { getInputPath } from "./getInputPath";
 
 describe("getInputPath", () => {
   it("should return the correct path for 'real' mode", () => {

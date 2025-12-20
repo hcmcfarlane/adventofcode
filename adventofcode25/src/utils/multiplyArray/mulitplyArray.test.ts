@@ -1,4 +1,4 @@
-import {multiplyArray} from "./multiplyArray";
+import { multiplyArray } from "./multiplyArray";
 
 describe("addArray", () => {
   it("should multiply an array of numbers", () => {
