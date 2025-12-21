@@ -5,3 +5,4 @@ export * from "./formatTableInput/formatTableInput";
 export * from "./getFromFile/getFromFile";
 export * from "./getInputPath/getInputPath";
 export * from "./multiplyArray/multiplyArray";
+export * from "./trimTableInput/trimTableInput";
