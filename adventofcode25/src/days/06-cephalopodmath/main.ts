@@ -7,7 +7,9 @@ import {
   type SolveMode,
   formatTableInput,
   trimTableInput,
+  addArray,
 } from "../../utils";
+import { doArithmetic } from "./helpers";
 
 // import { } from "./helpers";
 
@@ -32,28 +34,26 @@ timer.start();
 console.log("SOLVE MODE:: ", solveMode);
 console.log("INPUT FILE:: ", inputFile);
 
-console.log("input", input);
-
 const trimmedInput = trimTableInput(input);
-
-console.log("trimmedInput:: ", trimmedInput);
-
-// Remove all double, triple and quadruple spaces from the input and format the input into a 2D array (table). The additional spaces are used to align the columns in the input file, but they are not needed for processing the data.
 
 const mathWorksheetInput = formatTableInput(trimmedInput, isRN);
 
-console.log("mathWorksheetInput", mathWorksheetInput);
+// Transpose the array mathWorksheetInput
+const mathWorksheet = mathWorksheetInput[0].map((_, colIndex) =>
+  mathWorksheetInput.map((row) => row[colIndex])
+);
 
-// Invert the nested array mathWorksheetInput so that [
-//   [ '123', '328', '51', '64' ],
-//   [ '45', '64', '387', '23' ],
-//   [ '6', '98', '215', '314' ],
-//   [ '*', '+', '*', '+' ]
-// ]
-//  becomes
-// [['123', '45', '6', '*'] ...]
+const answers = mathWorksheet.map((row) => {
+  const digits = row.map((num) => Number(num)).slice(0, -1);
+  const operator = row[row.length - 1];
 
-// const mathWorksheet = ....something here TODO:
+  return doArithmetic(operator, digits);
+});
+
+console.log("answers:: ", answers);
+
+const grandTotalOfAnswers = addArray(answers);
+console.log("grandTotalOfAnswers:: ", grandTotalOfAnswers);
 
 timer.stop();
 console.log("timer.time()", timer.time());
